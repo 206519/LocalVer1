@@ -1,0 +1,126 @@
+	;notes
+	;tracks and wheels 30mm
+	;gun 30mm
+
+	("tank_heavy_tier1")
+
+	("shield_track" args "detail7" 25)
+	("shield" args "shieldl1" 5)
+	("shield" args "shieldl2" 5)
+	("shield" args "shieldl3" 5)
+	("shield" args "shieldl4" 5)
+	("shield" args "shieldl5" 5)
+	("shield" args "shieldr1" 5)
+	("shield" args "shieldr2" 5)
+	("shield" args "shieldr3" 5)
+	("shield" args "shieldr4" 5)
+	("shield" args "shieldr5" 5)
+
+	("tracks" repair(30) thickness(20))
+	("gun" repair(30) thickness(30))
+
+	("fuel" args "fuel1")
+	("fuel" args "fuel2")
+	("ammo" args "ammo1")
+	("ammo" args "ammo2")
+	("transmission" args "transmission")
+
+	{Volume "body1"		;// main body part
+		{thickness 76.2
+			{front 101.6}
+			{top 22}
+			{rear 51}
+			{bottom 25}
+		}
+		{CastSteel 0.8063}
+	}
+	{Volume "body2"		;// fan part
+		{thickness 76
+			{top 41.3}
+			{front 139.7}
+		}
+		{CastSteel 0.8063}
+	}
+	{Volume "body3"
+		{thickness 76.2}	;// MG port part
+		{CastSteel 0.8063}
+	}
+	{Volume "body4"		;// front hull round part
+		{thickness 76.2}
+		{CastSteel 0.8063}
+	}
+	{Volume "body5"		;//	front hull round part
+		{thickness 76.2}
+		{CastSteel 0.8063}
+	}
+	{volume "armor1"
+		{thickness 3}
+	}
+	{volume "armor2"
+		{thickness 3}
+	}
+	{volume "cupola"
+		{thickness 76
+			{top 22}
+		}
+	}
+	{Volume "turret1"
+		{thickness 76.2
+			{front 76.2}	;// the front part is this thick
+			{rear 63.5}
+			{top 25.4}
+		}
+		{CastSteel 0.8063}
+	}
+	{Volume "turret2"
+		{thickness 76.2
+			{front 76.2}
+			{top 25}
+		}
+		{CastSteel 0.8063}
+	}
+	{volume "turret3"
+		{thickness 76.2}
+		{CastSteel 0.8063}
+	}
+	{volume "turret4"	;// the gun mount part
+		{thickness 50.8		;// the flanges? are ~1" thick but the sides are much thicker
+			{front 88.9}
+		}
+		{CastSteel 0.8063}
+	}
+	{volume "turret5"
+		{thickness 76.2
+			{bottom 25}
+		}
+		{CastSteel 0.8063}
+	}
+	{Volume "mantlet"	;// this part is thinner than the glacis in real life
+		{tags "turret"}
+		{component "turret"}
+		{thickness 76.2
+			{front 101.6}
+		}	;// gunshield BL 503 m/s for 90mm M82 APC indicates maximum 3.5" but we gave 4"
+		{CastSteel 0.8063}
+	}
+	{Volume "engine1"
+		{thickness 63.5
+			{front 20}
+			{top 22}
+			{rear 50.8}
+			{bottom 12.7}
+		}
+		{CastSteel 0.8063}
+	}
+
+	{component "shieldl1" {tags "cut_part"}}
+	{component "shieldl2" {tags "cut_part"}}
+	{component "shieldl3" {tags "cut_part"}}
+	{component "shieldl4" {tags "cut_part"}}
+	{component "shieldl5" {tags "cut_part"}}
+	{component "shieldr1" {tags "cut_part"}}
+	{component "shieldr2" {tags "cut_part"}}
+	{component "shieldr3" {tags "cut_part"}}
+	{component "shieldr4" {tags "cut_part"}}
+	{component "shieldr5" {tags "cut_part"}}
+	{component "detail7" {tags "cut_part"}}

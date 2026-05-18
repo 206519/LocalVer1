@@ -1,0 +1,15 @@
+{from "pattern reactive_ammo"
+	{tag "bomb size3 he fg itemin2hands"}
+	{inventory
+		{size 8 2}
+		{weight 200}
+	}
+	{entity "sturmtiger_ammo"}
+	{mass 376}
+
+	{view "sturmtiger_ammo"
+		{tail "rocket_smoke_st" "tail"}
+	}
+	;// total weight 345 kg, fuel = 40 kg, filler 122.5 kg, motor is over 1/3rd volume, use 150 kg motor conservative estimate
+	("rocket_level_7" weight(205) filler(122.5))
+}

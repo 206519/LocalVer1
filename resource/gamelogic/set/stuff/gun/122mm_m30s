@@ -1,0 +1,25 @@
+;_________________________________________
+; USSR Heavy Infantry Support Gun
+;=========================================
+
+
+{from "pattern gun"			; L/22 "su-122"
+	{filling "bulletrus_122_l22"}
+	{fireSound "cannon/s4/d1/Shared/Cannon_105to130mm_LV/"}
+	{fireSoundclose "cannon/s3/1p/Shared/"}
+	{reloadSound "tank/1p/large/"}
+	;("range_190_howitzer")
+	("range_190")
+	{calibre 122}
+
+	("reload time" seconds(15))
+
+	("velocity m/s" ap(1) apcr(1) he(515) heat(341))
+	("armor health" damage(320))
+	("122_rus_slope_multipliers")
+
+	; BP-460A
+	("penetration_medium" shell(heat) range(160) a(160) b(160) c(160) d(160) e(160))
+
+	("accuracy_direct" r1(0.91) range_ap(190) range_he(190) range_heat(160))
+}

@@ -1,0 +1,31 @@
+{from "pattern at_rifle"
+	{tag "auto_eject"}
+	{filling "ammo atrifle_rus" 5}
+	{entity "ptrs"}
+	{fireSound "smallarms/s4/d1/RUS/PTR/"}
+	{fireSoundclose "smallarms/s4/3p/RUS/PTR/"}
+	{reloadSound "ptrd"}
+	{calibre 14.5}
+	{mass 17.3}
+
+	;// BS-32
+	("penetration" args 44 41 36 29 28)
+	
+	("fire rate" rpm(120))
+	("velocity" mps(1013))
+	("145")
+	
+	{parameters "ap2" ;// BS-41
+		("penetration" args 57 54 50 39 36)
+		("apcr_slope_multiplier")
+	}
+	
+	{FiringTimeout 1.0 0.25}
+	
+	{spreading
+		{BurstAccuracy 100 80 60 50 40}
+	}
+	
+	("reload time" seconds(6))
+	{AccuracyByMotionK 0.60}
+}

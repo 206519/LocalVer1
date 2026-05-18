@@ -1,0 +1,104 @@
+{game_entity
+	(include "/properties/tank_assaultgun.ext")
+	(include "/properties/selection/vehicle_elongated.inc" scale(1.15))
+	{props "td" "light" "-turret" "mantlet" "vision_lev04" "muzzle_75mm_76mm_sides" "shell_eject" "shield" "open_top" "detect_td_medium"}
+	{extension "marder3m.mdl"}
+	(include "marder3m.ext")
+	{targetclass "tank_medium"}
+	{targetSelector "tank_medium"}
+	{patherId "panzer38"}
+	{collider "tank.light"}
+
+	{extender "enumerator"
+		{digit_folder "ger"}
+	}
+
+	{sensor
+		{visor "main"
+			{vision "tank_range_Zfl3x8"}
+		}
+		{Visor "driver"
+			{vision "tank_driver_PzII"}
+		}
+		{visor "around"
+			{vision "vehicle_around"}		;// better vision than a in-closed turret 
+		}
+	}
+
+	{boarder
+		{anm "driver"
+			{forward {begin "board_t26_driver"} {end "pose_t26_driver"} {base "open_driver"}}
+			{reverse {end "board_t26_driver" -1} {base "open_driver" -1}}
+		}
+		{anm "left"
+			{forward {begin "board_tank_left"} {end "seat_armor"}}
+			{reverse {end "emit_tank_1"}}
+		}
+		{anm "right"
+			{forward {begin "board_tank_right"} {end "seat_armor"}}
+			{reverse {end "emit_tank_2_hold"}}
+		}
+	}
+
+	("crew_driver" door(emit0) door2(emit1) door3(emit2))
+	("crew_human_visible_anm"	place(commander) door(emit2) door2(emit2) visor(around) anm_left(right)	anm_right(right))
+	("crew_human_visible_anm"	place(gunner)	 door(emit1) door2(emit1) visor(main)	anm_left(left)	anm_right(left))
+	("crew_human_visible_anm"	place(charger)	 door(emit1) door2(emit1) visor(main)	anm_left(left)	anm_right(left))
+
+	{extender "shield" {on}}
+
+	{extender "inventory"
+		{box
+			{item "bulletger_75_l43 apcbche" 11} 	; 38 rounds
+			{item "bulletger_75_l43 he" 19}
+			{item "bulletger_75_l43 apcr" 2}
+			{item "bulletger_75_l43 heatc" 5}
+			{item "geballteladung_3kg" 1}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "75mm_pak40_2" filling "bulletger_75_l43 apcbche" 1}
+			{gunner "gunner"}
+			{charger "charger"}
+			("abm_dymamic_td"
+				zeroing(5.0)
+				dispersion(0.25)
+			)
+			{rotate}
+		}
+	}
+
+	{mass 11000}
+	{Chassis
+		("tank_trace" fx("tracks_sm2") step(0.2) len(0.55))
+		("mobility_spearhead"
+			speed(47.0)			;Max speed when fully accelerated on road, km/h.
+			reverse(6.8)		;Max speed in reverse on road, km/h.
+			mass(11)			;Mass, in metric tons.
+			power(150) 			;Engine Power
+			contact(2.62)		;Track-ground contact length, in m
+			wheelbase(1.77)		;Distance between center of left and right side roadwheels, in m
+			pressure(0.7)		;Ground pressure on road, in kg/cm^2
+			coeff_accel(5)		;Modifier for acceleration, (0,10]
+			coeff_steer_rate(5)		;Modifier for steering, (0,10]
+			coeff_steer_eff(4)		;Modifier for steering, (0,10]
+			fuel(218) 			;Fuel capacity in Litres.
+			type(fuel)			;Fuel type. (diesel OR fuel)
+			range(140) 			;Range in km, off-road.
+			maxslope(75)		;Max slope (tan(gradient in degrees) * 100)
+		)
+	}
+
+	{bone "gun_rot"
+		{limits -8 16}
+		{speed2 10}
+	}
+	{bone "turret"
+		{limits -25 25}
+		{speed2 8}
+	}
+}

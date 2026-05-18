@@ -1,0 +1,17 @@
+{game_entity
+	(include "m4a3_76w.inc")
+	
+	{extender "inventory"
+		{box
+			{item "ammo bulletusa_76x539 apcbche" 29}
+			{item "ammo bulletusa_76x539 apcbche2" 2}	;71 rounds
+			{item "ammo bulletusa_76x539 he" 34}
+			{item "ammo bulletusa_76x539 sm" 3}
+			{item "ammo bulletusa_76x539 hvap" 2}
+			{item "ammo hmgun_usa api" 500}			;600 rounds
+			{item "ammo mgun_usa belt" 5750}		;6250 rounds
+			{item "mortareng_50 sm" 18}		;2-inch smoke mortar
+			{item "satchel_charge_usa" 1}
+		}
+	}
+}

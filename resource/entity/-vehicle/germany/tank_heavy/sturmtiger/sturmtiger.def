@@ -1,0 +1,122 @@
+{game_entity
+	(include "/properties/tank_assaultgun.ext")
+	
+	(include "/properties/selection/vehicle_big.inc" scale(0.85))
+	{props "vehicle" "heavy" "-turret" "mantlet" "sturmtiger" "vision_lev05" "shield" "smoke" "nvw" "detect_td_heavy"}
+	{extension "sturmtiger.mdl"}
+	(include "sturmtiger.ext")
+	{collider "tank.heavy"}
+	{PatherId "sturmtiger"}
+	{targetclass "tank_heavy"}
+	{targetSelector "supergun"}
+	{extender "enumerator"
+		{digit_folder "ger"}
+	}
+
+	("crew_5_human")
+
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_tank_right"} {end "pose_mgun_pz6"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_left"} {end "pose_mgun_pz6"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_HighArmor"} {end "pose_seat_armor_1"}}
+			{reverse 	{end	"emit_tank_1"}}
+		}
+	}
+
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor))
+	("seat_human" place(seat3) bone(seat03) door(emit5)  animation(armor))
+	("seat_human" place(seat4) bone(seat04) door(emit6)  animation(armor))
+
+	{sensor
+		{visor "main"
+			{bone "turret"}
+		}
+	}
+
+	{extender "shield" {on}}
+
+	{extender "smokescreen"
+		{cooldown 5}
+		{itemTags "grenade nbks"}
+	}
+
+	{extender "inventory"
+		{box
+			{item "ammo 380mm_rw61" 13}			; 14 rounds
+			{item "ammo mgun_ger belt" 2400}	; 17 belts (150 rounds each)
+			{item "geballteladung_3kg" 1}
+			{item "nbks grenade" 6}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "weapon 380mm_rw61" filled}
+			{gunner "gunner"}
+			{charger "charger"}
+			("abm_dymamic"
+				zeroing(5)
+				dispersion(0.25)
+			)
+		}
+		{place "mgun1"
+			{type "hull"}
+			{weapon "mg34_tank" filled}
+			{foresight "foresight4"}
+			{gunner "gunner3"}
+			{charger "gunner3"}
+			("abm_mgun")
+			{rotate}
+			{basic}
+			{ai_in_manual}
+		}
+	}
+
+	{mass 65000}
+	{Chassis
+		("tank_trace" fx("tracks_big") step(0.47) len(0.82))
+		("mobility_spearhead"
+			speed(38)			;Max speed when fully accelerated on road, km/h.
+			reverse(10.1)			;Max speed in reverse on road, km/h.
+			mass(65)			;Mass, in metric tons.
+			power(600) 			;Engine Power
+			contact(3.605)		;Track-ground contact length, in m
+			wheelbase(2.822)		;Distance between center of left and right side roadwheels, in m
+			pressure(1.24)		;Ground pressure on road, in kg/cm^2
+			coeff_accel(6)		;Modifier for acceleration, (0,10]
+			coeff_steer_rate(7)	;Modifier for steering, (0,10]
+			coeff_steer_eff(8)	;Modifier for steering efficiency, (0,10]
+			fuel(540) 			;Fuel capacity in Litres.
+			type(fuel)			;Fuel type. (diesel OR fuel)
+			range(80) 			;Range in km, off-road.
+			maxslope(70)		;Max slope (tan(gradient in degrees) * 100)
+		)
+	}
+
+	{bone "gun_rot"
+		{limits 0 85}
+		{speed2 4}
+	}
+	{bone "turret"
+		{limits -10 10}
+		{speed2 4}
+	}
+
+	(mod "mp"
+		{brain
+			{properties
+				{fire_mode hold}
+			}
+		}
+	)
+}

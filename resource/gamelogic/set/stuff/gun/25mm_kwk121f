@@ -1,0 +1,25 @@
+;_________________________________________
+; early light AT german cannon
+;=========================================
+
+
+{from "pattern gun"			; L/72 "panhard"
+	{filling "bulletger_25"}
+	{fireSound "cannon/s1/d1/Shared/Autocannon_20to30mm/"}
+	{fireSoundclose "cannon/s1/1p/Shared/Autocannon_20to30mm/"}
+	{reloadSound "tank/1p/short/"}
+	("range_160")
+	{calibre 25}
+
+	("reload time" seconds(2.5))
+
+	("velocity m/s" ap(950) apcr(1) he(1) heat(1))
+	("armor health" damage(50))
+	("20_slope_multipliers")
+
+	; Pzgr.122 (f)
+	("penetration_medium" shell(ap) range(180) a(55) b(44.3) c(34) d(25.7) e(20))
+
+
+	("accuracy_direct" r1(0.86) range_ap(180) range_he(180) range_heat(190))
+}

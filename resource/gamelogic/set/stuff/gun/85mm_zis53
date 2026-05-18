@@ -1,0 +1,49 @@
+;_________________________________________
+;  USSR long-barreled Medium AT gun
+;=========================================
+
+
+{from "pattern gun"			; L/55 "t3485"
+	{filling "bulletrus_85"}
+	{fireSound "cannon/s4/d1/Shared/Cannon_85to100mm/"}
+	{fireSoundclose "cannon/s2/1p/Shared/"}
+	{reloadSound "tank/1p/medium_long/"}
+	("range_330")
+	{calibre 85}
+
+	("reload time" seconds(7))
+
+	("velocity m/s" ap(792) apcr(1050) he(785) heat(1))
+	("armor health" damage(255))
+	("armor health custom" shell(aphe) damage(250) filler(85))		;// total filler 50 grams A-IX-2
+	("armor health custom" shell(aphebc) damage(250) filler(164))	;// total filler 164 A-IX-2
+	("85_rus_slope_multipliers")
+
+	; BR-365K
+	;// line is ~= K2050
+	;("penetration_long" shell(aphe) range(330) a(144) b(131.7) c(113.5) d(98) e(84.5))
+	("penetration_long" shell(aphe) range(330) a(131) b(114) c(100) d(88) e(75))
+
+	; BR-365
+	;// this line is ~= K2100 verified
+	("penetration_long" shell(aphebc) range(330) a(142) b(135) c(124) d(115) e(106))
+	
+	;("penetration_long" shell(aphebc) range(220) a(132) b(123) c(113) d(103) e(95))
+	
+	
+	{parameters "aphebc"
+		("BR365")
+	}
+
+
+	; BR-365P
+	("penetration_long" shell(apcr) range(330) a(180) b(152) c(119.4) d(96) e(76))
+	
+	
+	{parameters "apcr"; BR-365P
+		("apcr_rus_slope_multiplier") ;// blunter APCR
+		("armor health" damage(200))	;// tiny core
+	}
+	("accuracy_direct_arrowhead" r1(0.67) range_ap(330) range_he(330) range_heat(220))
+	
+}

@@ -1,0 +1,23 @@
+{from "pattern rpg_weapon"
+	{tag "nokeep"}
+	{inventory {size 7 1}}
+	{filling "ammo faustpatrone30" 1}
+	{fillingVisible "faustrocket"}
+	{entity "faustpatrone_30"}
+	{fireSound "reactive/d1/GER/Panzerfaust/"}
+	{fireSoundClose "reactive/3p/GER/Panzerfaust/"}
+	{calibre 100}
+	{mass 6.8}
+
+	{ammoLocked}
+
+	("velocity" mps(28))
+
+	{spreading 1.25}
+
+	{range 28 28}
+	{projectileDamageTable {30 140} {32 0}}
+	("armor health" damage(150))
+	("human health" damage(150))
+	("standard_slope")
+}

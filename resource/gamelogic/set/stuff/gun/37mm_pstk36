@@ -1,0 +1,24 @@
+;_________________________________________
+; finnish light AT cannon
+;=========================================
+
+
+{from "pattern gun"			; L/45 "37mm_ptsk36"
+	{filling "bullet_37x257"}
+	{fireSound "cannon/s1/d1/Shared/Cannon_37to40mm/"}
+	{fireSoundclose "cannon/s1/3p/Shared/Cannon_37to40mm/"}
+	{reloadSound "utility/"}
+	("range_160")
+	{calibre 37}
+
+	("reload time" seconds(3))
+
+	("velocity m/s" ap(810) apcr(1) he(815) heat(1))
+	("armor health" damage(70))
+	("37_slope_multipliers_800ms")
+	
+	("accuracy_direct" r1(0.93) range_ap(170) range_he(170) range_heat(110))
+
+	; 37 psav-Vj4 K/36 pr
+	("penetration_medium" shell(ap) range(170) a(55) b(44) c(33) d(24) e(17))
+}

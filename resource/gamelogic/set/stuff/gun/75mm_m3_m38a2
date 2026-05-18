@@ -1,0 +1,19 @@
+;_________________________________________
+; US medium tank gun
+;=========================================
+
+
+{from "75mm_m3_m55"			; L/40
+	("range_170")
+	("accuracy_direct" r1(1.1) range_ap(220) range_he(265) range_heat(170)) ;M4A1 Periscope with 1.4x M38A2 Sight
+	
+	("penetration_medium" shell(ap) range(220) a(87) b(78) c(66) d(55) e(46))			; AP M72
+	("penetration_medium" shell(apcbc) range(220) a(88) b(81) c(73) d(65) e(59))		; APC M61, inert
+	
+	("penetration_medium" shell(apcbche) range(220) a(96) b(87.5) c(78.3) d(70) e(63))		; APC M61
+	
+	{parameters "he"
+		{range 265 265}
+	}
+	("zeroingP")
+}

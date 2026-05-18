@@ -1,0 +1,24 @@
+;_________________________________________
+; USSR long-barreled medium AT Gun
+;=========================================
+
+
+{from "76mm_f34"			; L/51.6 "ZIS3"
+	{fireSound "cannon/s3/d1/Shared/Cannon_75to76mm/"}
+	{fireSoundclose "cannon/s3/3p/Shared/Cannon_75to76mm/"}
+	{reloadSound "utility/"}
+
+	("reload time" seconds(4.8))
+
+	;// 3.7x sight for indirect fire
+	
+	("accuracy_dual" ; // Applies logic for accuracy of dual direct-indirect weapons
+		r1(0.80) 				; // Accuracy radius for direct-fire munitions
+		r1i(7) 					; // Accuracy radius for indirect fire
+		rmax(24) 				; // Accuracy radius for indirect fire at maximum range
+		range_ap(280) 			; // Range after which accuracy drops to prevent farshooting.
+		range_heat(190) 		; // Range after which accuracy drops to prevent farshooting.
+		range_he(280)			; // Range after which direct-fire accuracy drops to prevent farshooting.
+		range_hei(960)			; // Range after which indirect-fire accuracy drops to prevent farshooting.
+	)
+}

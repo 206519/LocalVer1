@@ -1,0 +1,256 @@
+
+(include "\set\blast.inc")
+
+(define "reload time"			;//reload time for magazine or shell
+	{rechargeTime %seconds}
+)
+
+(define "fire rate"				;// rate of fire in rounds per minute 
+	{recoveryTime (/ 60 %rpm)}
+)
+
+
+;// newly added
+(define "armor health"
+	{minimumDamageModifier (* 1.0 %damage)}
+)
+
+
+;/*--------------------------------------RANGES AND ACCURACY--------------------------------------*/
+
+
+(define "light_mortar_range"	;// can throw over hill
+	{spreading 
+		{radiusTable {0 15} {100 20} {119.99 25} {120 100}}
+	}
+
+	{aimRange 100}
+	{minRange 20}
+	{maxRange 100}
+	("reload time" seconds(3))
+
+	{parameters "he"
+		{projectileDamageTable {0 10}}
+		("armor health" damage(100))
+	}
+	{parameters "he2"
+		{projectileDamageTable {0 10}}
+		("armor health" damage(100))
+	}
+	{parameters "sm"
+		("reload time" seconds(3.0))
+	}
+	{parameters "wp"
+		("reload time" seconds(3.0))
+	}
+)
+
+(define "8_mortar_range"	;// 82mm mortar with 170 m/s MV
+	{spreading
+		{radiusTable {0 20} {120 25} {179.99 35} {180 100}}
+		;//new2 table
+		;{radiusTable {0 20} {120 25} {179.99 35} {180 100}}
+	}
+	;// the German 8cm has a range of 2.4 km irl
+	;// but US, Soviet mortars have ~3 km (mod ~170m)
+	
+	{aimRange 180}
+	{minRange 40}
+	{maxRange 180}
+	("reload time" seconds(3.7))
+
+	{parameters "he"
+		{projectileDamageTable {0 15}}
+		("armor health" damage(150))
+	}
+	{parameters "he2"
+		{projectileDamageTable {0 15}}
+		("armor health" damage(150))
+	}
+	{parameters "sm"
+		("reload time" seconds(4.2))
+	}
+	{parameters "wp"
+		("reload time" seconds(4.2))
+	}
+)
+
+(define "medium_mortar_range"	;// 82mm mortar with 170 m/s MV
+	{spreading
+		{radiusTable {0 20} {40 22} {120 28} {189.99 36} {190 100}}
+	}
+	
+	{aimRange 215}
+	{minRange 40}
+	{maxRange 215}
+	("reload time" seconds(4.2))
+
+	{parameters "he"
+		{projectileDamageTable {0 15}}
+		("armor health" damage(150))
+	}
+	{parameters "he2"
+		{projectileDamageTable {0 15}}
+		("armor health" damage(150))
+	}
+	{parameters "sm"
+		("reload time" seconds(4.2))
+	}
+	{parameters "wp"
+		("reload time" seconds(4.2))
+	}
+)
+
+(define "medium_heavy_mortar_range"
+	{spreading
+		;{radiusTable {0 5} {120 25} {179.99 30} {180 100}}
+		{radiusTable {0 15} {80 25} {140 30} {200 40} {210 45} {229.99 47} {250 100}}
+	}
+
+	{aimRange 210}
+	{minRange 70}
+	{maxRange 210}
+	("reload time" seconds(7))
+
+	{parameters "he"
+		{projectileDamageTable {0 25}}
+		("armor health" damage(350))
+	}
+	{parameters "he2"
+		{projectileDamageTable {0 25}}
+		("armor health" damage(350))
+	}
+	{parameters "sm"
+		("reload time" seconds(7))
+	}
+	{parameters "wp"
+		("reload time" seconds(7))
+	}
+)
+
+(define "heavy_mortar_range"	;// this refers to 120mm mortars with ~270 m/s muzzle velocity
+	{spreading
+		;// old
+		;{radiusTable {0 5} {120 25} {170 40} {229.99 50} {230 100}}
+		
+		;// new2
+		{radiusTable {0 15} {80 25} {140 30} {200 40} {230 45} {249.99 50} {250 100}}
+	}
+
+	{aimRange 250}
+	{minRange 80}
+	{maxRange 250}
+	("reload time" seconds(8))
+
+	{parameters "he"
+		{projectileDamageTable {0 30}}
+		("armor health" damage(500))
+	}
+	{parameters "he2"
+		{projectileDamageTable {0 30}}
+		("armor health" damage(500))
+	}
+	{parameters "sm"
+		("reload time" seconds(8))
+	}
+	{parameters "wp"
+		("reload time" seconds(8))
+	}
+)
+
+(define "30_mortar_range"
+	{spreading
+		{radiusTable {0 15} {140 30} {250 40} {314.99 50} {315 100}}
+	}
+
+	{aimRange 315}
+	{minRange 50}
+	{maxRange 315}
+	("reload time" seconds(60))
+
+	{parameters "he"
+		{projectileDamageTable {0 40}}
+	}
+	{parameters "he2"
+		{projectileDamageTable {0 40}}
+	}
+)
+
+(define "minenwerfer_range" ;// was "super_heavy_mortar_range"
+	{spreading 
+		{radiusTable {0 25} {149.99 20} {150 100}}
+	}
+
+	{aimRange 150}
+	{minRange 25}
+	{maxRange 150}
+	("reload time" seconds(10))
+
+	{parameters "he"
+		{projectileDamageTable {0 30}}
+	}
+	{parameters "he2"
+		{projectileDamageTable {0 30}}
+	}
+	{parameters "sm"
+		("reload time" seconds(3.5))
+	}
+	{parameters "wp"
+		("reload time" seconds(3.5))
+	}
+)
+
+(define "super_heavy_mortar_range"
+	{spreading 
+		{radiusTable {0 15} {140 30} {250 40} {314.99 50} {315 100}}
+	}
+
+	{aimRange 315}
+	{minRange 50}
+	{maxRange 315}
+	("reload time" seconds(30))
+
+	{parameters "he"
+		{projectileDamageTable {0 30}}
+	}
+	{parameters "he2"
+		{projectileDamageTable {0 30}}
+	}
+	{parameters "sm"
+		("reload time" seconds(3.5))
+	}
+	{parameters "wp"
+		("reload time" seconds(3.5))
+	}
+)
+
+
+;/*-------------------------------------- AMMUNITION SETTINGS-------------------------------------*/
+
+
+(define "minimum_range_short"
+	{possibleDamageRadius 20}
+)
+
+(define "minimum_range_medium"
+	{possibleDamageRadius 25}
+)
+
+(define "minimum_range_heavy"
+	{possibleDamageRadius 30}
+)
+
+(define "he_light"
+	{detonationThickness 0.5}
+	("minimum_range_short")
+)
+
+(define "he_medium"
+	{detonationThickness 1.0}
+	("minimum_range_medium")
+)
+
+(define "he_heavy"
+	{detonationThickness 2.5}
+	("minimum_range_medium")
+)

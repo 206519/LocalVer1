@@ -1,0 +1,7 @@
+{mod
+	{name "SH 0.0.396b Dev"}
+	{tags "Assets"}
+	{desc "0.0.396b Dev"}
+	{minGameVersion "1.060.0"}
+	{maxGameVersion "1.065.0"}
+}

@@ -1,0 +1,20 @@
+{from "pattern reactive_ammo"
+	{tag "big mortar fg itemin2hands"}
+
+	{inventory
+		{size 5 1}
+		{weight 100}
+	}
+	{entity "150mm_nebelwerfer"}
+	{mass 31.75}
+
+	{view "150mm_nebelwerfer"
+		{tail "rocket_smoke_nebel" "tail"}
+	}
+
+	;("rocket_level_3" weight(31.8) filler(2.5))
+	("rocket_level_2" weight(6.05) filler(2.0))
+	;is given 3.25 kg for the warhead casing
+
+	{possibleDamageRadius 30}
+}

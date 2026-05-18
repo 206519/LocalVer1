@@ -1,0 +1,42 @@
+;_________________________________________
+; US heavy tank Gun
+;=========================================
+
+
+{from "90mm_m3"				; L/53 "90mm M36 GMC"
+
+	; AP M77
+	("penetration_long" shell(ap) range(210) a(166) b(149) c(124) d(103) e(86))
+	{parameters "ap"
+		("t33_slmod")
+	}
+
+	; AP T33 (APBC), reheated M77 shot with ballistic cap
+	("penetration_long" shell(apbc) range(210) a(164) b(163) c(149) d(136) e(124))
+	{parameters "apbc"
+		("velocity" mps(853))
+		("t33_slmod")
+	}
+
+	; APC M82 (late)
+	("penetration_long" shell(apcbche) range(210) a(170) b(157) c(143) d(130) e(118.5))
+	{parameters "apcbche"
+		("velocity" mps(853))
+	}
+	
+	("penetration_long" shell(apcbche2) range(210) a(153) b(143) c(130) d(119) e(109))
+	{parameters "apcbche2"
+		("velocity" mps(813))
+		("armor health custom" shell(apcbche2) damage(270) filler(200))
+		("Cm62_slmod")
+	}
+	
+	; HVAP T30E16
+	("penetration_long" shell(hvap) range(220) a(296) b(283) c(262) d(242) e(224))
+
+
+	{fireSoundclose "cannon/s3/1p/Shared/"}
+	{reloadSound "tank/1p/large/"}	
+
+	("accuracy_direct" r1(0.70) range_ap(210) range_he(210) range_heat(210))
+}

@@ -1,0 +1,36 @@
+{game_entity
+	(include "m4a3_76w.inc")
+	
+	{extender "inventory"
+		{box
+			{item "ammo bulletusa_76x539 apcbche" 29}
+			{item "ammo bulletusa_76x539 apcbche2" 2}	;71 rounds
+			{item "ammo bulletusa_76x539 he" 34}
+			{item "ammo bulletusa_76x539 sm" 3}
+			{item "ammo bulletusa_76x539 hvap" 2}
+			{item "ammo hmgun_usa api" 500}			;600 rounds
+			{item "ammo mgun_usa belt" 5750}		;6250 rounds
+			{item "mortareng_50 sm" 18}		;2-inch smoke mortar
+			{item "satchel_charge_usa" 1}
+		}
+	}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.3) len(0.7))
+		("mobility_spearhead"
+			speed(42.59)		;Max speed when fully accelerated on road, km/h.
+			reverse(5.5)		;Max speed in reverse on road, km/h.
+			mass(33.3)			;Mass, in metric tons.
+			power(500) 			;Engine Power
+			contact(3.7338)		;Track-ground contact length, in m
+			wheelbase(2.11)		;Distance between center of left and right side roadwheels, in m
+			pressure(1.06)		;Ground pressure on road, in kg/cm^2
+			coeff_accel(5.5)		;Modifier for acceleration, (0,10]
+			coeff_steer_rate(3.5)	;Modifier for steering, (0,10]
+			coeff_steer_eff(6.5)	;Modifier for steering, (0,10]
+			fuel(635.95) 		;Fuel capacity in Litres.
+			type(fuel)			;Fuel type. (diesel OR fuel)
+			range(97) 			;Range in km, off-road.
+			maxslope(60)		;Max slope (tan(gradient in degrees) * 100)
+		)
+	}
+}

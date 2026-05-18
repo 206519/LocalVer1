@@ -1,0 +1,6 @@
+{bitmap
+    {frame "kubelwagen_00.tga"}
+    {frame "kubelwagen_01.tga"}
+    {frame "kubelwagen_02.tga"}
+    {frame "kubelwagen_03.tga"}
+}

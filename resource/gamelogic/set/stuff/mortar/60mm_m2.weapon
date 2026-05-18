@@ -1,0 +1,22 @@
+;_________________________________________
+; US light Mortar - 60mm 
+;=========================================
+
+
+{from "pattern mortar"
+	{filling "mortarusa_60"}
+	{fireSound "cannon/s1/d1/Shared/Mortar/"}
+	{fireSoundClose "cannon/s1/d1/Shared/Mortar/"}
+	{calibre 60}
+	("light_mortar_range")
+	
+	{spreading
+		{radiusTable {0 20} {120 25} {139.99 35} {140 100}}
+	}
+	{aimRange 120}
+	{minRange 20}
+	{maxRange 120}
+	
+	("reload time" seconds(3.2))
+	{speed 158}
+}

@@ -1,0 +1,33 @@
+{from "pattern bullet"
+	{tag "weapon rifle rifle_slap_melee bullet to_hand mountable shoot_walking_manual -shoot_walking"}
+	{inventory
+		{size 6 2}
+		{link_bone "gun_back"}
+		{weight 100}
+	}
+
+	{cursor "ironsights/rifle"}
+	{cursorReloading "carbine_reload"}
+
+	{curve "bullet"}
+
+	{foresight "foresight12"}
+	{RelaxationTime 0.5}
+	{SpreadTolerance 0.40}			;// AI needs to aim 5%
+	{aimingTolerance 2}			;// temp shoot on the move fix
+
+	("reload time" seconds(6))
+	("fire rate" rpm(29))
+	{FiringTimeout 2.5 0.5}
+
+	("penetration" args 6.5 5.6 3.6 1.8 1)
+	; was at 20, 100, 155, 250, 400
+	; now at 30 50 100 155 200
+	("armor health" damage(7))
+
+	("sway_rifle")
+	("accuracy_rifle")
+	
+	{thirdpersonparams inherit "human default"}
+	{SyncedProjectiles 1} 			;// visually syncs decal/crater spawn in multiplayer
+}

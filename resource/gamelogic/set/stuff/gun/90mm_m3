@@ -1,0 +1,53 @@
+;_________________________________________
+; US heavy tank Gun
+;=========================================
+
+
+{from "pattern gun"			; L/53 "90mm gmc"
+	{filling "bulletusa_90x600"}
+	{fireSound "cannon/s4/d1/Shared/Cannon_85to100mm/"}
+	{fireSoundclose "cannon/s3/1p/Shared/"}
+	{reloadSound "utility/"}
+	("range_210")
+	{calibre 90}
+
+	("reload time" seconds(7.0))
+
+	("velocity m/s" ap(813) apcr(1018) he(823) heat(1))
+	("armor health" damage(270))
+	
+	("armor health custom" shell(apcbche) damage(270) filler(140))
+	("90_slope_multipliers")
+
+	; AP M77
+	("penetration_long" shell(ap) range(220) a(166) b(149) c(124) d(103) e(86))
+	{parameters "ap"
+		("t33_slmod")
+	}
+
+	; AP T33 (APBC), reheated M77 shot with ballistic cap
+	("penetration_long" shell(apbc) range(225) a(164) b(163) c(149) d(136) e(124))
+	{parameters "apbc"
+		("velocity" mps(853))
+		("t33_slmod")
+	}
+
+	; APC M82 (late)
+	("penetration_long" shell(apcbche) range(225) a(164) b(153) c(140) d(128) e(117))
+	{parameters "apcbche"
+		("velocity" mps(853))
+	}
+	
+	("penetration_long" shell(apcbche2) range(225) a(153) b(143) c(130) d(119) e(109))
+	{parameters "apcbche2"
+		("velocity" mps(813))
+		("armor health custom" shell(apcbche2) damage(270) filler(200))
+		("Cm62_slmod")
+	}
+
+	; HVAP T30E16
+	("penetration_long" shell(hvap) range(230) a(296) b(283) c(262) d(242) e(224))
+	;// Attempt to normalize APCR pen hardness created noticeable overperformance
+
+	("accuracy_direct" r1(0.67) range_ap(225) range_he(220) range_heat(220))
+}

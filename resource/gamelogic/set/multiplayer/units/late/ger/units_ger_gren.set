@@ -1,0 +1,297 @@
+;SDL
+
+;////////////////// INSTRUCTIONS //////////////////
+;Buttons go as follows, displayed in-game in this order:
+
+; inf1       - infantry squads
+; inf2       - infantry single units
+; empl       - Emplacements, AA, AT, Mortars, Howitzers
+; vehicles   - vehicles, armoured cars, supplies
+; tanks      - main battle tanks, TDs, SPGs
+; doctrine   - specific doctrine setups
+
+; TEMP: Note all levels have been brought down to 1 to remove unit locks.
+; Squads currently have an MP cost of 0 - their cost is currently calculated as the sum of their soldiers cost, see inf_ger.set
+; Check ../settings.set for syntax instructions!!
+; unit limits per game are not defined here but in gamemode presets
+
+;user defined set tags that should be featured on units:
+;all artillery heavyart cannon mediumcan heavycan light medium heavy infantry supply
+;these tags allow player to disable certain sets for custom setups like "no heavy artillery" 
+;//////////////////////////////////////////////////
+
+;Defensive Doctrine: Grenadier/Volksgrenadier Divisions
+;Historical Example(s): Several Infantry Divisions such as 26th Volksgrenadier Division; independent tank destroyer battalion support is included
+;Gameplay (strong // average // weak): Artillery // Infantry, Vehicles // none
+
+;_________________________________________________
+;|             inf1                               |
+;|________________________________________________|
+
+;// german icons 100-199 (for sequence purchases)
+;// soviet icons 200-299 (for sequence purchases)
+;// finnish icons 300-399 (for sequence purchases)
+;// USA icons 400-499 (for sequence purchases)
+;//t1
+;===========================================
+("squad_with4types_doc" side(ger) name(squad_ersatz_late_gren) d(late_ger_gren) period(late) scf(1) cd(675) ci(0) g(squad_1) c1(ersatz_gren_sl:1) c2(ersatz_gren_sl_asst:1) c3(ersatz_gren_rifle_pzf2:1) c4(ersatz_gren_rifle:6) b(inf1) t())
+
+;===========================================
+;//t2
+;===========================================
+
+;Fusiliers
+("squad_with8types_doc" side(ger) name(squad_fusilier_late_gren) d(late_ger_gren) period(late) scf(1) cd(945) ci(0) g(squad_3) c1(fusilier_sl:1) c2(fusilier_sl_asst:1) c3(fusilier_smg:1) c4(fusilier_sa:2) c5(fusilier_rifle_grenadier:1) c6(fusilier_rifle_pzf:1) c7(fusilier_mg:1) c8(fusilier_mg_asst:1) b(inf1) t())
+
+;Pioniers
+("squad_with10types_doc" side(ger) name(squad_pio_late_gren) d(late_ger_gren) period(late) scf(1) cd(0) ci(0) g(squad_2) c1(pioneer_sl:1) c2(pioneer_sl_asst:1) c3(pioneer_sa:1) c4(pio_demo:1) c5(pioneer_pzf:1) c6(pio_miner_ap:1) c7(pio_miner_at:1) c8(pio_builder:1) c9(pioneer_mgun:1) c10(pioneer_mgun_asst:1) b(inf1) t())
+
+;Grenadiers
+("squad_with8types_doc" side(ger) name(squad_gren_late_gren) d(late_ger_gren) period(late) scf(1) cd(0) ci(0) g(squad_2) c1(gren_sl:1) c2(gren_sl_asst:1) c3(gren_rifle_grenadier:1) c4(gren_sa:1) c5(gren_rifle_pzf:1) c6(gren_rifle:2) c7(gren_mg:1) c8(gren_mg_asst:1)	b(inf1) t())
+("squad_with6types_doc" side(ger) name(squad_blau_late_gren) d(late_ger_gren) period(late) scf(1) cd(0) ci(0) g(squad_2) c1(blau_5:1) c2(blau_sl_asst:1) c3(blau_3:1) c4(blau_2:5) c5(blau_4:1) c6(blau_6:1) b(inf1) t())
+
+;Sturmgrenadiers
+("squad_with4types_doc_i" side(ger) name(squad_sturmgren_late_gren_1)   d(late_ger_gren) period(late) scf(1) cd(0) ci(0) g(squad_2_smg) c1(gren_sturm_sl:1) c2(gren_sturm_sl_asst:1) c3(gren_sturm_pzf:3) c4(gren_sturm_stg:4) b(inf1) i(150) t())
+("squad_with5types_doc_i" side(ger) name(squad_sturmgren_late_gren_2)   d(late_ger_gren) period(late) scf(1) cd(0) ci(0) g(squad_2_smg) c1(gren_sturm_sl:1) c2(gren_sturm_sl_asst:1) c3(gren_sturm_pzf:2) c4(gren_sturm_stg:4) c5(volksg_sa:1) b(inf1) i(150) t())
+("squad_with5types_doc_i" side(ger) name(squad_sturmgren_late_gren_3) 	d(late_ger_gren) period(late) scf(1) cd(0) ci(0) g(squad_2_smg) c1(gren_sturm_sl:1) c2(gren_sturm_sl_asst:1) c3(gren_sturm_pzf:3) c4(gren_sturm_mg:2) c5(gren_sturm_mg_asst:2) b(inf1) i(150) t())
+
+;Volksgrenadiers
+("squad_with7types_doc" side(ger) name(squad_volksgren_late_gren) d(late_ger_gren) period(late) scf(1) cd(945) ci(0) g(squad_2) c1(volksg_sl_smg:1) c2(volksg_sl_asst_smg:1) c3(volksg_rifle_grenadier:1) c4(volksg_rifle_pzf:1) c5(volksg_rifle:2) c6(volksg_mg:1) c7(volksg_mg_asst:1)	b(inf1) t())
+
+;Volksgrenadier Sturmzug
+("squad_with4types_doc_i" side(ger) name(squad_volksg_sturm_late_gren_1)    d(late_ger_gren) period(late) scf(1) cd(945) ci(0) g(squad_2_smg) c1(volksg_sl:1) c2(gren_sturm_sl_asst:1) c3(gren_sturm_pzf:3) c4(gren_sturm_stg:3) 					b(inf1) i(151) t())
+("squad_with5types_doc_i" side(ger) name(squad_volksg_sturm_late_gren_2)    d(late_ger_gren) period(late) scf(1) cd(945) ci(0) g(squad_2_smg) c1(volksg_sl:1) c2(gren_sturm_sl_asst:1) c3(gren_sturm_pzf:2) c4(gren_sturm_stg:3) c6(volksg_sa:1)	b(inf1) i(151) t())
+("squad_with5types_doc_i" side(ger) name(squad_volksg_sturm_late_gren_3)    d(late_ger_gren) period(late) scf(1) cd(945) ci(0) g(squad_2_smg) c1(volksg_sl:1) c2(gren_sturm_sl_asst:1) c3(gren_sturm_pzf:2) c4(volksg_mg:2) c5(volksg_mg_asst:2) 	b(inf1) i(151) t())
+
+
+;===========================================
+;//t3
+;===========================================
+;Begleitgrenadiers
+("squad_with7types_doc" side(ger) name(squad_begleitgren_late_gren) d(late_ger_gren) period(late) scf(1) cd(210) ci(210) g(squad_3) c1(begleitgren_sl:1) c2(begleitgren_sl_asst:1) c3(begleitgren_rifle_pzf:2) c4(begleitgren_rifle:2) c5(begleitgren_at:1) c6(begleitgren_mg:2) c7(begleitgren_mg_asst:2) b(inf1) t())
+("squad_with8types_doc" side(ger) name(squad_begleit_pio_late_gren) d(late_ger_gren) period(late) scf(1) cd(210) ci(210) g(squad_3) c1(begleitpio_sl_stg:1) c2(begleitpio_sl_asst_stg:1) c3(begleitpio_stg:1) c4(begleitpio_rifle_pzf:1) c5(begleitpio_rifle:5) c6(begleitpio_flame:1) c7(begleitpio_mg:1) c8(begleitpio_mg_asst:1) b(inf1) t())
+
+
+;_________________________________________________
+;|             inf2                               |
+;|________________________________________________|
+
+("squad_with1types_doc" side(ger) name(single_rifle_gren) 	d(late_ger_gren)	period(late) scf(1) cd(0)   ci(3)   g(single_1) 		c1(rifleman_1:1)					b(inf2) t())
+("squad_with2types_doc" side(ger) name(single_mg_gren)		d(late_ger_gren)	period(late) scf(1) cd(0)   ci(60)  g(single_mg) 		c1(mgun_1:1) c2(mgun_2:1)			b(inf2) t())
+("squad_with2types" 	side(ger) name(single_bazooker)							period(late) 		cd(0)   ci(0)   g(single_at) 		c1(antitank_1:1) c2(antitank_2:1)	b(inf2) t())
+("squad_with2types" 	side(ger) name(single_riflegrenade)						period(late) 		cd(0)   ci(60)  g(single_rifleg) 	c1(antitank_4:1) c2(antitank_5:1)	b(inf2) t())
+("squad_with1types" 	side(ger) name(single_ap_miner)							period(late) 		cd(0)   ci(60)  g(single_apmine) 	c1(miner-ap:2)						b(inf2) t(engineer))
+("squad_with1types" 	side(ger) name(single_at_miner)							period(late) 		cd(0)   ci(60)  g(single_atmine)	c1(miner-at:2)						b(inf2) t(engineer))
+("squad_with2types" 	side(ger) name(single_engineer)							period(late) 		cd(0)   ci(60)  g(single_eng) 		c1(engineer_1:1) c2(engineer_2:1)	b(inf2) t(engineer))
+("squad_with1types_doc" side(ger) name(single_flamer_gren)	d(late_ger_gren)	period(late) scf(1) cd(0)   ci(60)  g(single_flamer) 	c1(flamer:1) 						b(inf2)	t(flamer))
+("squad_with2types_doc" side(ger) name(single_tankman_gren)	d(late_ger_gren)	period(late) scf(1) cd(150) ci(150) g(single_crew) 		c1(tank_commander_stug:1) c2(tankman_stug:4)	b(inf2) t())
+("squad_with1types" 	side(ger) name(single_medic)							period(late) 		cd(0)   ci(0)   g(single_medic) 	c1(medic:1)							b(inf2) t(medic))
+("squad_with1types" 	side(ger) name(single_sniper)							period(late) 		cd(120) ci(180) g(single_sniper) 	c1(sniper:1) 						b(inf2) t(sniper))
+("squad_with1types_doc" side(ger) name(single_officer_gren) d(late_ger_gren)	period(late) scf(1) cd(120) ci(180) g(single_officer) 	c1(officer:1) 						b(inf2) t(officer))
+("squad_with1types_doc" side(ger) name(single_signaller_105_gren) d(late_ger_gren)	period(late) scf(1) cd(120) ci(180) g(single_signaller) c1(radio_105:1) b(inf2) t(signaller))
+
+;_________________________________________________
+;|                  Emplacements                  |
+;|________________________________________________|
+
+("squad_with1types_1vehicle_spearhead" side(ger) name(inf_crate_ger) 			d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(supplybox) 	vehicle1(inf_crate_ger) 							crew1(rifleman_1:2) 							b(empl) t())
+("squad_with2types_1vehicle_spearhead" side(ger) name(mg42_lafette) 			d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(empl0) 		vehicle1(mg42_lafette) 								crew1(mg_crew:1)		crew2(mg_crew_asst:1) 	b(empl) t())
+("squad_with1types_1vehicle_spearhead" side(ger) name(20mm_flak38) 				d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(empl1) 		vehicle1(20mm_flak38) 								crew1(artilleryman:2) 							b(empl) t())
+("squad_with2types_2vehicle_spearhead" side(ger) name(20mm_flakvierling38)		d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(empl2) 		vehicle1(blitz3_6) 	vehicle2(20mm_flakvierling38)	crew1(artilleryman:1)	crew2(artilleryman:3) 	b(empl) t())
+("squad_with1types_1vehicle_spearhead" side(ger) name(37mm_flak37) 				d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(empl3) 		vehicle1(37mm_flak37) 								crew1(artilleryman:3) 							b(empl) t())
+("squad_with1types_1vehicle_spearhead" side(ger) name(50mm_pak38_late) 			d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(empl4) 		vehicle1(50mm_pak38_late) 							crew1(artilleryman:4) 							b(empl) t())
+("squad_with2types_2vehicle_spearhead" side(ger) name(75mm_pak40) 				d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(empl5) 		vehicle1(blitz3_6) 	vehicle2(75mm_pak40)			crew1(artilleryman:1)	crew2(artilleryman:4) 	b(empl) t())
+("squad_with2types_2vehicle_spearhead" side(ger) name(88mm_pak4341) 			d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(empl6) 		vehicle1(sdkfz7) 	vehicle2(88mm_pak4341)			crew1(artilleryman:1)	crew2(artilleryman:4) 	b(empl) t())
+("squad_with2types_2vehicle_spearhead" side(ger) name(88mm_flak36) 				d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(empl7) 		vehicle1(sdkfz7) 	vehicle2(88mm_flak36)			crew1(artilleryman:1)	crew2(artilleryman:5) 	b(empl) t())
+;("squad_with1types_1vehicle_spearhead" side(ger) name(75mm_legebig18) 			d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(empl8) 		vehicle1(75mm_legebig18) 							crew1(artilleryman:4) 							b(empl) t())
+("squad_with1types_1vehicle_spearhead" side(ger) name(75mm_leig18) 				d(late_ger_gren) period(late) scf(1) cd(0)		ci(0) 	g(empl9) 		vehicle1(75mm_leig18_late) 							crew1(artilleryman:4) 							b(empl) t())
+("squad_with1types_1vehicle_spearhead" side(ger) name(150mm_sig33_late) 		d(late_ger_gren) period(late) scf(1) cd(0)		ci(0) 	g(empl10) 		vehicle1(150mm_sig33_late) 							crew1(artilleryman:4) 							b(empl) t())
+
+("squad_with1types_1vehicle_spearhead" side(ger) name(80mm_sgrw34) 				d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(empl11) 		vehicle1(80mm_sgrw34) 								crew1(rifleman_1:2) 							b(empl) t())
+("squad_with1types_1vehicle_spearhead" side(ger) name(120mm_sgrw42) 			d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(empl12) 		vehicle1(120mm_sgrw42) 								crew1(rifleman_1:2) 							b(empl) t())
+("squad_with1types_1vehicle_spearhead" side(ger) name(200mm_ldgw40) 			d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(empl13) 		vehicle1(200mm_ldgw40) 								crew1(artilleryman:2) 							b(empl) t())
+("squad_with2types_2vehicle_spearhead" side(ger) name(105mm_lefh18) 			d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(empl14) 		vehicle1(blitz3_6) 	vehicle2(105mm_lefh18)			crew1(artilleryman:1)	crew2(artilleryman:5) 	b(empl) t())
+("squad_with2types_2vehicle_spearhead" side(ger) name(105mm_sk18) 				d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(empl15) 		vehicle1(blitz3_6) 	vehicle2(105mm_sk18)			crew1(artilleryman:1)	crew2(artilleryman:5) 	b(empl) t())
+("squad_with2types_2vehicle_spearhead" side(ger) name(150mm_sfh18) 				d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(empl16) 		vehicle1(sdkfz7) 	vehicle2(150mm_sfh18)			crew1(artilleryman:1)	crew2(artilleryman:5) 	b(empl) t())
+("squad_with2types_2vehicle_spearhead" side(ger) name(170mm_k18) 				d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(empl17) 		vehicle1(sdkfz7) 	vehicle2(170mm_k18)				crew1(artilleryman:1)	crew2(artilleryman:5) 	b(empl) t())
+("squad_with2types_2vehicle_spearhead" side(ger) name(210mm_morser18) 			d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(empl18) 		vehicle1(sdkfz7) 	vehicle2(210mm_morser18)		crew1(artilleryman:1)	crew2(artilleryman:5) 	b(empl) t())
+
+("squad_with2types_2vehicle_spearhead" side(ger) name(150mm_nebelwerfer41) 		d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(empl19) 		vehicle1(blitz3_6) 	vehicle2(150mm_nebelwerfer41)	crew1(artilleryman:1)	crew2(artilleryman:4) 	b(empl) t())
+("squad_with2types_2vehicle_spearhead" side(ger) name(300mm_nebelwerfer42) 		d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(empl20) 		vehicle1(blitz3_6) 	vehicle2(300mm_nebelwerfer42)	crew1(artilleryman:1)	crew2(artilleryman:4) 	b(empl) t())
+("squad_with1types_1vehicle_spearhead" side(ger) name(600mm_thor) 				d(late_ger_gren) period(late) scf(1) cd(2510) 	ci(0) 	g(empl21) 		vehicle1(600mm_thor) 								crew1(artilleryman:5) 							b(empl) t())
+
+;_________________________________________________
+;|               Wheeled vehicles                 |
+;|________________________________________________|
+
+;;Motorcycle + cars
+("squad_with2types_1vehicle_spearhead" side(ger) name(bmw_r71) 					d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(wheel0) 		vehicle1(bmw_r71) 									crew1(rifleman_1:1)	crew2(mgun_2:1) 					b(vehicles) t())
+("squad_with1types_1vehicle_spearhead" side(ger) name(kubelwagen) 				d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(wheel1) 		vehicle1(kubelwagen) 								crew1(rifleman_1:1)						 				b(vehicles) t())
+("squad_with2types_1vehicle_spearhead" side(ger) name(kubelwagen_mg) 			d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(wheel2) 		vehicle1(kubelwagen_mg)								crew1(rifleman_1:1)	crew2(mgun_2:1) 					b(vehicles) t())
+("squad_with1types_1vehicle_spearhead" side(ger) name(schwimmwagen) 			d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(wheel3) 		vehicle1(schwimmwagen) 								crew1(rifleman_1:1)						 				b(vehicles) t())
+;("squad_with2types_1vehicle_spearhead" side(ger) name(kfz13) 					d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(wheel4) 		vehicle1(kfz13)										crew1(rifleman_1:1)	crew2(mgun_2:1) 					b(vehicles) t())
+;("squad_with1types_1vehicle_spearhead" side(ger) name(kfz14) 					d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(wheel5) 		vehicle1(kfz14) 									crew1(rifleman_1:1)						 				b(vehicles) t())
+("squad_with2types_1vehicle_spearhead" side(ger) name(kfz15) 					d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(wheel6) 		vehicle1(kfz15)										crew1(rifleman_1:1)	crew2(mgun_2:1) 					b(vehicles) t())
+
+;;Kettenkrad
+("squad_with1types_1vehicle_spearhead" side(ger) name(kettenkrad) 				d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(wheel7) 		vehicle1(kettenkrad) 								crew1(rifleman_1:1)						 				b(vehicles) t())
+("squad_with1types_1vehicle_spearhead" side(ger) name(kettenkrad_eng) 			d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(wheel8) 		vehicle1(kettenkrad_eng) 							crew1(engineer_1:1)						 				b(vehicles) t())
+
+;;Blitz 3.6t
+("squad_with1types_1vehicle_spearhead" side(ger) name(blitz3_6) 				d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(wheel9) 		vehicle1(blitz3_6) 									crew1(rifleman_1:1)						 				b(vehicles) t())
+("squad_with1types_1vehicle_spearhead" side(ger) name(blitz3_6_art_ammo) 		d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(supply1) 		vehicle1(blitz3_6_art_ammo) 						crew1(rifleman_1:1)						 				b(vehicles) t())
+("squad_with1types_1vehicle_spearhead" side(ger) name(blitz3_6_fuel) 			d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(supply2) 		vehicle1(blitz3_6_fuel) 							crew1(rifleman_1:1)						 				b(vehicles) t())
+("squad_with1types_1vehicle_spearhead" side(ger) name(blitz3_6_engineering) 	d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(supply3) 		vehicle1(blitz3_6_engineering) 						crew1(rifleman_1:1)						 				b(vehicles) t())
+("squad_with1types_1vehicle_spearhead" side(ger) name(opel_maultier) 			d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(wheel10) 		vehicle1(opel_maultier) 							crew1(rifleman_1:1)						 				b(vehicles) t())
+("squad_with2types_1vehicle_spearhead" side(ger) name(blitz3_6_flak30) 			d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(wheel11) 		vehicle1(blitz3_6_flak30)							crew1(tankman_stug:3)	crew2(tank_commander_stug:1) 	b(vehicles) t())
+
+;;Prime Movers
+("squad_with1types_1vehicle_spearhead" side(ger) name(kfz70) 					d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(wheel12) 		vehicle1(kfz70) 									crew1(rifleman_1:1)						 				b(vehicles) t())
+("squad_with1types_1vehicle_spearhead" side(ger) name(sdkfz6_cargo) 			d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(wheel13) 		vehicle1(sdkfz6_cargo) 								crew1(rifleman_1:1)						 				b(vehicles) t())
+("squad_with1types_1vehicle_spearhead" side(ger) name(sdkfz6_ammo)				d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(supply4) 		vehicle1(sdkfz6_ammo) 								crew1(rifleman_1:1)						 				b(vehicles) t())
+("squad_with1types_1vehicle_spearhead" side(ger) name(sdkfz7) 					d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(wheel14) 		vehicle1(sdkfz7) 									crew1(rifleman_1:1)						 				b(vehicles) t())
+("squad_with2types_1vehicle_spearhead" side(ger) name(sdkfz7_1) 				d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(wheel15) 		vehicle1(sdkfz7_1)									crew1(tankman_stug:3)	crew2(tank_commander_stug:1) 	b(vehicles) t())
+("squad_with2types_1vehicle_spearhead" side(ger) name(sdkfz7_2) 				d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(wheel16) 		vehicle1(sdkfz7_2)									crew1(tankman_stug:2)	crew2(tank_commander_stug:1) 	b(vehicles) t())
+;("squad_with2types_1vehicle_spearhead" side(ger) name(sdkfz8_flak18)			d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(wheel17) 		vehicle1(sdkfz8_flak18)								crew1(tankman_stug:4)	crew2(tank_commander_stug:1) 	b(vehicles) t())
+("squad_with1types_1vehicle_spearhead" side(ger) name(sdkfz10) 					d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(wheel18) 		vehicle1(sdkfz10) 									crew1(rifleman_1:1)						 				b(vehicles) t())
+;("squad_with2types_1vehicle_spearhead" side(ger) name(sdkfz10_4)				d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(wheel19) 		vehicle1(sdkfz10_4)									crew1(tankman_stug:3)	crew2(tank_commander_stug:1) 	b(vehicles) t())
+("squad_with2types_1vehicle_spearhead" side(ger) name(sdkfz10_pak38)			d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(wheel20) 		vehicle1(sdkfz10_pak38)								crew1(tankman_stug:3)	crew2(tank_commander_stug:1) 	b(vehicles) t())
+
+;;Sd.Kfz 250
+;("squad_with1types_1vehicle_spearhead" side(ger) name(sdkfz250a_1) 			d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(wheel21) 		vehicle1(sdkfz250a_1) 								crew1(rifleman_1:2)						 				b(vehicles) t())
+;("squad_with1types_1vehicle_spearhead" side(ger) name(sdkfz250a_3) 			d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(wheel22) 		vehicle1(sdkfz250a_3) 								crew1(rifleman_1:3)						 				b(vehicles) t())
+;("squad_with2types_1vehicle_spearhead" side(ger) name(sdkfz250a_9)				d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(wheel23) 		vehicle1(sdkfz250a_9)								crew1(tankman_scout:3)	crew2(tank_commander_scout:1) 	b(vehicles) t())
+;("squad_with2types_1vehicle_spearhead" side(ger) name(sdkfz250a_11)			d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(wheel24) 		vehicle1(sdkfz250a_11)								crew1(tankman_scout:3)	crew2(tank_commander_scout:1) 	b(vehicles) t())
+
+;;Sd.Kfz 251
+;("squad_with1types_1vehicle_spearhead" side(ger) name(sdkfz251d_1) 			d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(wheel23) 		vehicle1(sdkfz251d_1) 								crew1(rifleman_1:2)						 				b(vehicles) t())
+;("squad_with1types_1vehicle_spearhead" side(ger) name(sdkfz251c_2) 			d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(wheel24) 		vehicle1(sdkfz251c_2) 								crew1(rifleman_1:4)						 				b(vehicles) t())
+;("squad_with1types_1vehicle_spearhead" side(ger) name(sdkfz251d_16) 			d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(wheel25) 		vehicle1(sdkfz251d_16) 								crew1(pioneer_2:4)						 				b(vehicles) t())
+;("squad_with2types_1vehicle_spearhead" side(ger) name(sdkfz251d_17)			d(late_ger_gren) period(late) scf(1) cd(1215) 	ci(0) 	g(wheel26) 		vehicle1(sdkfz251d_17)								crew1(rifleman_1:3) 									b(vehicles) t())
+;("squad_with2types_1vehicle_spearhead" side(ger) name(sdkfz251d_21)			d(late_ger_gren) period(late) scf(1) cd(945) 	ci(0) 	g(wheel27) 		vehicle1(sdkfz251d_21)								crew1(rifleman_1:3) 									b(vehicles) t())
+;("squad_with2types_1vehicle_spearhead" side(ger) name(sdkfz251d_22)			d(late_ger_gren) period(late) scf(1) cd(1620) 	ci(0) 	g(wheel28) 		vehicle1(sdkfz251d_22)								crew1(tankman_pzjag:3)	crew2(tank_commander_pzjag:1) 	b(vehicles) t())
+;("squad_with1types_1vehicle_spearhead" side(ger) name(sdkfz251d_1_stuka)		d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(wheel29) 		vehicle1(sdkfz251d_1_stuka)							crew1(rifleman_1:3)								 		b(vehicles) t())
+
+("squad_with2types_1vehicle_spearhead" side(ger) name(panzerwerfer42)			d(late_ger_gren) period(late) scf(1) cd(535) 	ci(0) 	g(wheel30) 		vehicle1(panzerwerfer42)							crew1(tankman_stug:3)	crew2(tank_commander_stug:1) 	b(vehicles) t())
+
+;;Armored Cars
+;("squad_with2types_1vehicle_spearhead" side(ger) name(sdkfz221)				d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(wheel31) 		vehicle1(sdkfz221)									crew1(tankman_scout:1)	crew2(tank_commander_scout:1) 	b(vehicles) t())
+;("squad_with2types_1vehicle_spearhead" side(ger) name(sdkfz222a)				d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(wheel32) 		vehicle1(sdkfz222a)									crew1(tankman_scout:1)	crew2(tank_commander_scout:1) 	b(vehicles) t())
+;("squad_with2types_1vehicle_spearhead" side(ger) name(p204_f)					d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(wheel33) 		vehicle1(p204_f)									crew1(tankman_scout:2)	crew2(tank_commander_scout:1) 	b(vehicles) t())
+;("squad_with2types_1vehicle_spearhead" side(ger) name(sdkfz231)				d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(wheel34) 		vehicle1(sdkfz231)									crew1(tankman_scout:3)	crew2(tank_commander_scout:1) 	b(vehicles) t())
+;("squad_with2types_1vehicle_spearhead" side(ger) name(sdkfz234_1)				d(late_ger_gren) period(late) scf(1) cd(1075) 	ci(0) 	g(wheel35) 		vehicle1(sdkfz234_1)								crew1(tankman_scout:3)	crew2(tank_commander_scout:1) 	b(vehicles) t())
+;("squad_with2types_1vehicle_spearhead" side(ger) name(sdkfz234_2)				d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(wheel36) 		vehicle1(sdkfz234_2)								crew1(tankman_scout:3)	crew2(tank_commander_scout:1) 	b(vehicles) t())
+;("squad_with2types_1vehicle_spearhead" side(ger) name(sdkfz234_3)				d(late_ger_gren) period(late) scf(1) cd(1075) 	ci(0) 	g(wheel37) 		vehicle1(sdkfz234_3)								crew1(tankman_scout:3)	crew2(tank_commander_scout:1) 	b(vehicles) t())
+;("squad_with2types_1vehicle_spearhead" side(ger) name(sdkfz234_4)				d(late_ger_gren) period(late) scf(1) cd(2160) 	ci(0) 	g(wheel38) 		vehicle1(sdkfz234_4)								crew1(tankman_scout:3)	crew2(tank_commander_scout:1) 	b(vehicles) t())
+
+;_________________________________________________
+;|        		  Tanks and SPGs     		      |
+;|________________________________________________|
+
+;;Panzer II and 38(t)
+("squad_with2types_1vehicle_spearhead" side(ger) name(panzer2c)					d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(light0) 		vehicle1(panzer2c)									crew1(tankman:2)		crew2(tank_commander:1) 			b(tanks) t())
+("squad_with2types_1vehicle_spearhead" side(ger) name(panzer2f)					d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(light1) 		vehicle1(panzer2f)									crew1(tankman:2)		crew2(tank_commander:1) 			b(tanks) t())
+;("squad_with2types_1vehicle_spearhead" side(ger) name(panzer2l)				d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(light2) 		vehicle1(panzer2l)									crew1(tankman_scout:3)	crew2(tank_commander_scout:1) 		b(tanks) t())
+("squad_with2types_1vehicle_spearhead" side(ger) name(marder2)					d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(spg0) 		vehicle1(marder2)									crew1(tankman_pzjag:3)	crew2(tank_commander_pzjag:1) 		b(tanks) t())
+("squad_with2types_1vehicle_spearhead" side(ger) name(marder3m)					d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(spg1) 		vehicle1(marder3m)									crew1(tankman_pzjag:3)	crew2(tank_commander_pzjag:1) 		b(tanks) t())
+("squad_with2types_1vehicle_spearhead" side(ger) name(hetzer)					d(late_ger_gren) period(late) scf(1) cd(1075) 	ci(0) 	g(spg2) 		vehicle1(hetzer)									crew1(tankman_pzjag:3)	crew2(tank_commander_pzjag:1) 		b(tanks) t())
+;("squad_with2types_1vehicle_spearhead" side(ger) name(grille_k)				d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(spg3) 		vehicle1(grille_k)									crew1(tankman_stug:3)	crew2(tank_commander_stug:1) 		b(tanks) t())
+;("squad_with2types_1vehicle_spearhead" side(ger) name(wespe)					d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(spg4) 		vehicle1(wespe)										crew1(tankman_stug:3)	crew2(tank_commander_stug:1) 		b(tanks) t())
+
+;;Panzer III
+;("squad_with2types_1vehicle_spearhead" side(ger) name(panzer3h)				d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(medium0) 		vehicle1(panzer3h)									crew1(tankman:4)		crew2(tank_commander:1) 			b(tanks) t())
+;("squad_with2types_1vehicle_spearhead" side(ger) name(panzer3j)				d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(medium1) 		vehicle1(panzer3j)									crew1(tankman:4)		crew2(tank_commander:1) 			b(tanks) t())
+;("squad_with2types_1vehicle_spearhead" side(ger) name(panzer3j1)				d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(medium2) 		vehicle1(panzer3j1)									crew1(tankman:4)		crew2(tank_commander:1) 			b(tanks) t())
+;("squad_with2types_1vehicle_spearhead" side(ger) name(panzer3l)				d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(medium3) 		vehicle1(panzer3l)									crew1(tankman:4)		crew2(tank_commander:1) 			b(tanks) t())
+;("squad_with2types_1vehicle_spearhead" side(ger) name(panzer3m)				d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(medium4) 		vehicle1(panzer3m)									crew1(tankman:4)		crew2(tank_commander:1) 			b(tanks) t())
+;("squad_with2types_1vehicle_spearhead" side(ger) name(panzer3n)				d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(medium5) 		vehicle1(panzer3n)									crew1(tankman:4)		crew2(tank_commander:1) 			b(tanks) t())
+;("squad_with2types_1vehicle_spearhead" side(ger) name(panzer3_flamm)			d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(medium6) 		vehicle1(panzer3_flamm)								crew1(tankman:4)		crew2(tank_commander:1) 			b(tanks) t())
+("squad_with2types_1vehicle_spearhead" side(ger) name(stug3f)					d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(spg5) 		vehicle1(stug3f)									crew1(tankman_stug:3)	crew2(tank_commander_stug:1) 		b(tanks) t())
+("squad_with2types_1vehicle_spearhead" side(ger) name(stug3g)					d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(spg6) 		vehicle1(stug3g)									crew1(tankman_stug:3)	crew2(tank_commander_stug:1) 		b(tanks) t())
+("squad_with2types_1vehicle_spearhead" side(ger) name(stug3g_late)				d(late_ger_gren) period(late) scf(1) cd(1615) 		ci(0) 	g(spg7) 		vehicle1(stug3g_late)								crew1(tankman_stug:3)	crew2(tank_commander_stug:1) 		b(tanks) t())
+("squad_with2types_1vehicle_spearhead" side(ger) name(stuh42)					d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(spg8) 		vehicle1(stuh42)									crew1(tankman_stug:3)	crew2(tank_commander_stug:1) 		b(tanks) t())
+("squad_with2types_1vehicle_spearhead" side(ger) name(sig33b)					d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(spg9) 		vehicle1(sig33b)									crew1(tankman_stug:4)	crew2(tank_commander_stug:1) 		b(tanks) t())
+
+;;Panzer IV
+;("squad_with2types_1vehicle_spearhead" side(ger) name(panzer4f2)				d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(medium7) 		vehicle1(panzer4f2)									crew1(tankman:4)		crew2(tank_commander:1) 			b(tanks) t())
+;("squad_with2types_1vehicle_spearhead" side(ger) name(panzer4g)				d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(medium8) 		vehicle1(panzer4g)									crew1(tankman:4)		crew2(tank_commander:1) 			b(tanks) t())
+;("squad_with2types_1vehicle_spearhead" side(ger) name(panzer4h)				d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(medium9) 		vehicle1(panzer4h)									crew1(tankman:4)		crew2(tank_commander:1) 			b(tanks) t())
+;("squad_with2types_1vehicle_spearhead" side(ger) name(panzer4j)				d(late_ger_gren) period(late) scf(1) cd(355) 	ci(0) 	g(medium10) 	vehicle1(panzer4j)									crew1(tankman:4)		crew2(tank_commander:1) 			b(tanks) t())
+("squad_with2types_1vehicle_spearhead" side(ger) name(jagdpanzer4_l48_early)	d(late_ger_gren) period(late) scf(1) cd(895) 	ci(0) 	g(spg10) 		vehicle1(jagdpanzer4_l48_early)						crew1(tankman_pzjag:3)	crew2(tank_commander_pzjag:1) 		b(tanks) t())
+("squad_with2types_1vehicle_spearhead" side(ger) name(jagdpanzer4_l48)			d(late_ger_gren) period(late) scf(1) cd(975) 	ci(0) 	g(spg11) 		vehicle1(jagdpanzer4_l48)							crew1(tankman_pzjag:3)	crew2(tank_commander_pzjag:1) 		b(tanks) t())
+("squad_with2types_1vehicle_spearhead" side(ger) name(panzer4_70_v)				d(late_ger_gren) period(late) scf(1) cd(1485) 	ci(0) 	g(spg12) 		vehicle1(panzer4_70_v)								crew1(tankman_pzjag:3)	crew2(tank_commander_pzjag:1) 		b(tanks) t())
+("squad_with2types_1vehicle_spearhead" side(ger) name(nashorn)					d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(spg13) 		vehicle1(nashorn)									crew1(tankman_stug:4)	crew2(tank_commander_stug:1) 		b(tanks) t())
+;("squad_with2types_1vehicle_spearhead" side(ger) name(hummel)					d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(spg14) 		vehicle1(hummel)									crew1(tankman_stug:5)	crew2(tank_commander_stug:1) 		b(tanks) t())
+("squad_with2types_1vehicle_spearhead" side(ger) name(sturmpanzer4)				d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(spg15) 		vehicle1(sturmpanzer4)								crew1(tankman_stug:4)	crew2(tank_commander_stug:1) 		b(tanks) t())
+;("squad_with2types_1vehicle_spearhead" side(ger) name(wirbelwind)				d(late_ger_gren) period(late) scf(1) cd(1080) 	ci(0) 	g(medium11) 	vehicle1(wirbelwind)								crew1(tankman_stug:4)	crew2(tank_commander_stug:1) 		b(tanks) t())
+;("squad_with2types_1vehicle_spearhead" side(ger) name(ostwind)					d(late_ger_gren) period(late) scf(1) cd(1620) 	ci(0) 	g(medium12) 	vehicle1(ostwind)									crew1(tankman_stug:4)	crew2(tank_commander_stug:1) 		b(tanks) t())
+
+;;Beutepanzer
+("squad_with2types_1vehicle_spearhead" side(ger) name(panzerb2)					d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(heavy0) 		vehicle1(panzerb2)									crew1(tankman:3)		crew2(tank_commander:1) 			b(tanks) t())
+("squad_with2types_1vehicle_spearhead" side(ger) name(m4_75_late_ger)			d(late_ger_gren) period(late) scf(1) cd(1080) 	ci(0) 	g(medium13) 	vehicle1(m4_75_late_ger)							crew1(tankman:4)		crew2(tank_commander:1) 			b(tanks) t(limit2)) ; delay 1080 for Infantry, 1620 for Pzgren
+;("squad_with2types_1vehicle_spearhead" side(ger) name(t3476_43_ger)			d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(medium14) 	vehicle1(t3476_43_ger)								crew1(tankman:3)		crew2(tank_commander:1) 			b(tanks) t())
+;("squad_with2types_1vehicle_spearhead" side(ger) name(t3485_44_ger)			d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(medium15) 	vehicle1(t3485_44_ger)								crew1(tankman:4)		crew2(tank_commander:1) 			b(tanks) t())
+
+;;Panther
+;("squad_with2types_1vehicle_spearhead" side(ger) name(panzer5d)				d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(medium16) 	vehicle1(panzer5d)									crew1(tankman:4)		crew2(tank_commander:1) 			b(tanks) t())
+;{"panzer5a_1(late_ger_gren)" ("squad_with2types_1vehicle_sequence_spearhead" side(ger) name(panzer5a) 			d(late_ger_gren) period(late) scf(1) 	cd(1760) 	ci(0) 	g(medium17) 	vehicle1(panzer5a_1) 		crew1(tankman:4)	crew2(tank_commander:1)		b(tanks) t(medium)) {icon 168}}
+;{"panzer5a_2(late_ger_gren)" ("squad_with2types_1vehicle_sequence_spearhead" side(ger) name(panzer5a_armor) 	d(late_ger_gren) period(late) scf(1) 	cd(1760) 	ci(0) 	g(medium17) 	vehicle1(panzer5a_2) 		crew1(tankman:4)	crew2(tank_commander:1)		b(tanks) t(medium)) {icon 168}}
+;("squad_with2types_1vehicle_spearhead" side(ger) name(panzer5g)				d(late_ger_gren) period(late) scf(1) cd(1080) 	ci(0) 	g(medium18) 	vehicle1(panzer5g)									crew1(tankman:4)		crew2(tank_commander:1) 			b(tanks) t())
+("squad_with2types_1vehicle_spearhead" side(ger) name(jagdpanther)				d(late_ger_gren) period(late) scf(1) cd(805) 	ci(0) 	g(spg16) 		vehicle1(jagdpanther)								crew1(tankman_pzjag:4)	crew2(tank_commander_pzjag:1) 		b(tanks) t())
+
+;;Tiger I
+;("squad_with2types_1vehicle_spearhead" side(ger) name(tiger1h)					d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(heavy1) 	vehicle1(tiger1h)										crew1(tankman:4)		crew2(tank_commander:1) 			b(tanks) t())
+;("squad_with2types_1vehicle_spearhead" side(ger) name(tiger1e_mid)				d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(heavy2) 	vehicle1(tiger1e_mid)									crew1(tankman:4)		crew2(tank_commander:1) 			b(tanks) t())
+;("squad_with2types_1vehicle_spearhead" side(ger) name(tiger1e)					d(late_ger_gren) period(late) scf(1) cd(265) 	ci(0) 	g(heavy3) 	vehicle1(tiger1e)										crew1(tankman:4)		crew2(tank_commander:1) 			b(tanks) t())
+;("squad_with2types_1vehicle_spearhead" side(ger) name(tiger1hunt)				d(late_ger_gren) period(late) scf(1) cd(675) 	ci(0) 	g(heavy4) 	vehicle1(tiger1hunt)									crew1(tankman:4)		crew2(tank_commander:1) 			b(tanks) t())
+;("squad_with2types_1vehicle_spearhead" side(ger) name(sturmtiger)				d(late_ger_gren) period(late) scf(1) cd(1485) 	ci(0) 	g(spg17) 	vehicle1(sturmtiger)									crew1(tankman_stug:4)	crew2(tank_commander_stug:1) 		b(tanks) t())
+("squad_with2types_1vehicle_spearhead" side(ger) name(ferdinand)				d(late_ger_gren) period(late) scf(1) cd(0) 		ci(0) 	g(spg18) 	vehicle1(ferdinand)										crew1(tankman_pzjag:5)	crew2(tank_commander_pzjag:1) 		b(tanks) t())
+
+;Tiger II
+;("squad_with2types_1vehicle_spearhead" side(ger) name(tiger2p)					d(late_ger_gren) period(late) scf(1) cd(805) 	ci(0) 	g(heavy5) 	vehicle1(tiger2p)										crew1(tankman:4)		crew2(tank_commander:1) 			b(tanks) t())
+;("squad_with2types_1vehicle_spearhead" side(ger) name(tiger2h)					d(late_ger_gren) period(late) scf(1) cd(805) 	ci(0) 	g(heavy6) 	vehicle1(tiger2h)										crew1(tankman:4)		crew2(tank_commander:1) 			b(tanks) t())	;805 for Heer, 945 for Waffen
+("squad_with2types_1vehicle_spearhead" side(ger) name(jagdtiger)				d(late_ger_gren) period(late) scf(1) cd(1620) 	ci(0) 	g(spg19) 	vehicle1(jagdtiger)										crew1(tankman_pzjag:5)	crew2(tank_commander_pzjag:1) 		b(tanks) t())
+
+;_________________________________________________
+;|        DP Buys						          |
+;|________________________________________________|
+
+; ======Tier1======
+{"doctrine_mg_section(late_ger_gren)" ("squad_2_vehicle2_doctrine" side(ger) period(late) vehicle1(mg42_lafette) vehicle2(mg42_lafette) crew1(mg_crew:1) crew2(mg_crew_asst:1))
+	("doctrine_t1_spearhead" cd(60) ci(60) d(late_ger_gren) cost(5))}
+
+{"doctrine_squad_grenadier(late_ger_gren)" ("squad_with8types_doctrine" side(ger) period(late) c1(gren_sl:1) c2(gren_sl_asst:1) c3(gren_rifle_grenadier:1) c4(gren_sa:1) c5(gren_rifle_pzf:1) c6(gren_rifle:2) c7(gren_mg:1) c8(gren_mg_asst:1))
+	("doctrine_t1_spearhead" cd(60) ci(60) d(late_ger_gren) cost(10))}
+
+{"doctrine_company_hq(late_ger_gren)" ("squad_with5types_doctrine" side(ger) period(late) c1(officer:1) c2(gren_smg:2) c3(gren_rifle_grenadier:3) c4(medic:1) c5(gren_rifle:2))
+	("doctrine_t1_spearhead" cd(60) ci(60) d(late_ger_gren) cost(15)) {tags "officer"}}
+
+; ======Tier2======
+{"doctrine_75mm_pak40_towed(late_ger_gren)" ("towed_gun_doctrine" side(ger) period(late) vehicle(blitz3_6) cannon(75mm_pak40) crew_v(gren_rifle:2) crew_c(artilleryman:4))
+	("doctrine_t2_spearhead" cd(120) ci(60) d(late_ger_gren) cost(20))}
+
+{"doctrine_stug3g(late_ger_gren)" ("squad_vehicle2_doctrine" side(ger) period(late) vehicle(stug3g) crew1(tankman_stug:3) crew2(tank_commander_stug:1))
+	("doctrine_t2_spearhead" cd(120) ci(60) d(late_ger_gren) cost(40))}
+
+{"doctrine_88mm_pak4341_towed(late_ger_gren)" ("towed_gun_doctrine" side(ger) period(late) vehicle(sdkfz7) cannon(88mm_pak4341) crew_v(gren_rifle:2) crew_c(artilleryman:5))
+	("doctrine_t2_spearhead" cd(120) ci(60) d(late_ger_gren) cost(45))}
+
+; ======Tier3======
+{"doctrine_80mm_mortar_troop(late_ger_gren)" ("squad_3vehicle2_doctrine" side(ger) period(late) vehicle(80mm_sgrw34) crew1(artilleryman:1) crew2(artilleryman:1))
+	("doctrine_t3_spearhead" cd(180) ci(60) d(late_ger_gren) cost(45))}
+
+{"doctrine_signaller_105(late_ger_gren)" ("squad_with1types_doctrine" side(ger) period(late) c1(radio_105:1))
+	("doctrine_t3_spearhead" cd(180) ci(60) d(late_ger_gren) cost(50)) {tags "signaller"}}
+
+{"doctrine_signaller_150(late_ger_gren)" ("squad_with1types_doctrine" side(ger) period(late) c1(radio_150:1))
+	("doctrine_t3_spearhead" cd(180) ci(60) d(late_ger_gren) cost(60)) {tags "signaller_heavy"}}
+
+; ======Tier4======
+{"doctrine_begleitgren_section(late_ger_gren)" ("squad_2_vehicle5_3_doctrine" side(ger) period(late) vehicle1(stug3g) vehicle2(panzer2f) c1(tankman_stug:3) c2(tank_commander_stug:1) c3(begleitgren_smg:2) c4(begleitgren_mg:1) c5(begleitgren_mg_asst:1) c6(tankman_stug:2) c7(tank_commander_stug:1) c8(begleitgren_sl_asst:1) c9(begleitgren_rifle:2) c10(begleitgren_sa_pzf:1) c11(begleitgren_sl:1) c12(begleitgren_stg:2) c13(begleitgren_smg:1))
+	("doctrine_t4_spearhead" cd(240) ci(60) d(late_ger_gren) cost(70))}
+
+{"doctrine_jagdpanther(late_ger_gren)" ("squad_vehicle2_doctrine" side(ger) period(late) vehicle(jagdpanther) crew1(tankman_pzjag:4) crew2(tank_commander_pzjag:1))
+	("doctrine_t4_spearhead" cd(805) ci(60) d(late_ger_gren) cost(75))}
+
+{"doctrine_jagdtiger_veteran(late_ger_gren)" ("squad_vehicle2_doctrine" side(ger) period(late) vehicle(jagdtiger_vet) crew1(tankman_pzjag_vet:5) crew2(tank_commander_pzjag_vet:1))
+	("doctrine_t4_spearhead" cd(1620) ci(60) d(late_ger_gren) cost(115))}

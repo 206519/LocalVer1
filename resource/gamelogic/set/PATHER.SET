@@ -1,0 +1,653 @@
+{Pathers
+	; default profile must be first
+	; Terrain:
+	;   K <= 0	- move disabled
+	;   K >= 1	- move without penalties
+	;   0 < K < 1 - speed = maxSpeed * K
+	;   cost = 1 / K
+	; Height:
+	;   cost < 0 - move disabled
+	;   cost = 0 - move without penalties
+	;   cost > 0 - move with penalties
+	; pathCost = distance * (terrainCost + heightCost)
+
+	{Profile "nothing"
+		{Radius 0}
+		{Priority 0}
+		{Terrain
+			"ground"		1
+			"forest"		1
+			"slope"			1
+			"no_pass"		1
+			"shallow_water"	1
+			"water"			1
+			"deep_water"	1
+		}
+	}
+
+	(define "humanprofile"
+		{Network}
+		{Human}
+		{Priority 1}
+		{Radius 0.3}
+		{Terrain
+			"road"			1.00
+			"ground"		0.90
+			"snow"			0.90
+			"no_pass"		0.90
+			"no_pass_human"	0
+			"forest"		0.70
+			"slope"			0.50
+			"swamp"			0.40
+			"shallow_water"	0.40
+			"water"			0.30
+			"deep_water"	0.30
+		}
+		{Height
+			0  0  0  0  0 ;//  0...6..12..18..24..29
+			0  0  0  0 -1 ;// 30..36..42..48..54..59
+		   -1 -1 -1 -1 -1 ;// 60..66..72..78..84..90
+		}
+	)
+
+	{Profile "human"
+		("humanprofile")
+	}
+
+	{Profile "human_tpc"
+		("humanprofile")
+		{Radius 0.4}
+	}
+
+	{Profile "human_prone"
+		("humanprofile")
+	}
+
+	{Profile "human_flying"
+		{Priority 1}
+		{Radius 0.3}
+		{Human}
+		{Height
+			0  0  0  0  2 ;//  0...6..12..18..24..29
+			2  2 -1 -1 -1 ;// 30..36..42..48..54..59
+		   -1 -1 -1 -1 -1 ;// 60..66..72..78..84..90 
+		}
+	}
+
+	{Profile "animal"
+		{Priority 0}
+		{Radius 0.3}
+		{Terrain
+			"ground"		1
+			"snow"			0.75
+			"no_pass"		0
+			"no_pass_human"	0
+			"forest"		0.75
+			"slope"			0.5
+			"swamp"			0.5
+			"shallow_water"	0.5
+			"water"			0
+			"deep_water"	0
+		}
+		{Height
+			0  0  0  1  1 ;//  0...6..12..18..24..29
+			2  3 -1 -1 -1 ;// 30..36..42..48..54..59
+		   -1 -1 -1 -1 -1 ;// 60..66..72..78..84..90 
+		}
+	}
+
+(define "horse"
+	{Profile "%name"
+		{Priority 0}
+		{Radius %r}
+		{Terrain
+			"ground"		1
+			"no_pass"		0
+			"no_pass_human"	0
+			"forest"		0.5
+			"slope"			0.5
+			"swamp"			0
+			"shallow_water"	0
+			"water"			0
+			"deep_water"	0
+		}
+		{Height
+			0  0  0  1  1 ;//  0...6..12..18..24..29
+			1  1  1  1  1 ;// 30..36..42..48..54..59
+		   -1 -1 -1 -1 -1 ;// 60..66..72..78..84..90 
+		}
+	}
+)
+	("horse" name(horse) 		r(2))
+	("horse" name(horse_double) r(2.2))
+
+(define "heavy_tank"
+	{Profile "%name"
+		;{Radius %r}
+		{Radius %rn}
+		{Priority 6}
+		{BattleCrusher}
+		{Terrain
+			"road"			1.1
+			"ground"		%g
+			"snow"			%s
+			"no_pass"		0
+			"forest"		0.25
+			"slope"			0.3
+			"swamp"			%w
+			"shallow_water"	%w
+			"water"			0
+			"deep_water"	0
+		}
+		{Height
+			0  0  0  1  2 ;//  0...6..12..18..24..29
+		    3  4  5  6 900 ;// 30..36..42..48..54..59
+		   900 900 900 900 900 ;// 60..66..72..78..84..90
+		}
+	}
+)
+
+(define "medium_tank"
+	{Profile "%name"
+		;{Radius %r}
+		{Radius %rn}
+		{Priority 5}
+		{BattleCrusher}
+		{Terrain
+			"road"			1.1
+			"ground"		%g
+			"snow"			%s
+			"no_pass"		0
+			"forest"		0.35
+			"slope"			0.3
+			"swamp"			%w
+			"shallow_water"	%w
+			"water"			0
+			"deep_water"	0
+		}
+		{Height
+			0  0  0  1  2 ;//  0...6..12..18..24..29
+		    3  4  5  6 900 ;// 30..36..42..48..54..59
+		   900 900 900 900 900 ;// 60..66..72..78..84..90
+		}
+	}
+)
+
+(define "light_tank"
+	{Profile "%name"
+		;{Radius %r}
+		{Radius %rn}
+		{Priority 4}
+		{Terrain
+			"road"			1.1
+			"ground"		%g
+			"snow"			%s
+			"no_pass"		0
+			"forest"		0.5
+			"slope"			0.3
+			"swamp"			%w
+			"shallow_water"	%w
+			"water"			0
+			"deep_water"	0
+		}
+		{Height
+		   0  0  0  1  2 ;//  0...6..12..18..24..29
+		   3  4  5  6 900 ;// 30..36..42..48..54..59
+		   900 900 900 900 900 ;// 60..66..72..78..84..90
+		}
+	}
+)
+
+(define "armored"
+	{Profile "%name"
+		;{Radius %r}
+		{Radius %rn}
+		{Priority 3}
+		{Terrain
+			"road"			1.1 ; We use primarily Muddy/dirt roads
+			"ground"		%g
+			"snow"			%s
+			"no_pass"		0
+			"forest"		0.25
+			"slope"			0.3
+			"swamp"			%w
+			"shallow_water"	%w
+			"water"			0
+			"deep_water"	0
+		}
+		{Height
+			0  0  1  2  3 ;//  0...6..12..18..24..29
+		    4  5  6 900 900 ;// 30..36..42..48..54..59
+		   900 900 900 900 900 ;// 60..66..72..78..84..90
+		}
+	}
+)
+
+(define "armor_wheeled"
+	{Profile "%name"
+		;{Radius %r}
+		{Radius %rn}
+		{Priority 3}
+		{Terrain
+			"road"			1.25 ; We use primarily Muddy/dirt roads
+			"ground"		%g
+			"snow"			%s
+			"no_pass"		0
+			"forest"		0.25
+			"slope"			0.3
+			"swamp"			%w
+			"shallow_water"	%w
+			"water"			0
+			"deep_water"	0
+		}
+		{Height
+			0  0  1  2  3 ;//  0...6..12..18..24..29
+		    4  5  6 900 900 ;// 30..36..42..48..54..59
+		   900 900 900 900 900 ;// 60..66..72..78..84..90
+		}
+	}
+)
+
+(define "amphibious"
+	{Profile "%name"
+		;{Radius %r}
+		{Radius %rn}
+		{Priority 3}
+		{Terrain
+			"road"			1.1
+			"ground"		%g
+			"snow"			%s
+			"no_pass"		0
+			"forest"		0.25
+			"slope"			0.3
+			"swamp"			%w
+			"shallow_water"	%w
+			"water"			%dw
+			"deep_water"	%dw
+		}
+		{Height
+			0  0  0  1  2 ;//  0...6..12..18..24..29
+		    3  4  5  6 900 ;// 30..36..42..48..54..59
+		   900 900 900 900 900 ;// 60..66..72..78..84..90
+		}
+	}
+)
+
+(define "big_vehicle"
+	{Profile "%name"
+		{Radius 2}
+		{Priority 2}
+		{Terrain
+			"road"			1.4 ; We use primarily Muddy/dirt roads
+			"ground"		%g
+			"snow"			%s
+			"no_pass"		0
+			"forest"		0.25
+			"slope"			0.3
+			"swamp"			%w
+			"shallow_water"	%w
+			"water"			0
+			"deep_water"	0
+		}
+		{Height
+			0  1  1  2  3 ;//  0...6..12..18..24..29
+		    5  6 900 900 900 ;//  30..36..42..48..54..59
+		   900 900 900 900 900 ;// 60..66..72..78..84..90
+		}
+	}
+)
+
+(define "small_vehicle"
+	{Profile "%name"
+		{Radius 1.5}
+		{Priority 2}
+		{Terrain
+			"road"			1.1 ; We use primarily Muddy/dirt roads
+			"ground"		%g
+			"snow"			%s
+			"no_pass"		0
+			"forest"		0.25
+			"slope"			0.3
+			"swamp"			%w
+			"shallow_water"	%w
+			"water"			0
+			"deep_water"	0
+		}
+		{Height
+			0  1  1  2  3 ;//  0...6..12..18..24..29
+		    4  5  6 900 900 ;// 30..36..42..48..54..59
+		   900 900 900 900 900 ;// 60..66..72..78..84..90
+		}
+	}
+)
+
+(define "carried_cannon"
+	{Profile "%name"
+		{Radius %r}
+		{Priority 2}
+		{Terrain
+			"road"			1.0
+			"ground"		%g
+			"snow"			%s
+			"no_pass"		0
+			"forest"		0.75
+			"slope"			0.3
+			"swamp"			%w
+			"shallow_water"	%w
+			"water"			0
+			"deep_water"	0
+		}
+		{Height
+			0  0  0  0  0 ;//  0...6..12..18..24..29
+			1  2 900 900 900 ;// 30..36..42..48..54..59
+		   900 900 900 900 900 ;// 60..66..72..78..84..90
+		}
+	}
+)
+
+(define "small_cannon"
+	{Profile "%name"
+		{Radius %r}
+		{Priority 2}
+		{Terrain
+			"road"			1.0
+			"ground"		%g
+			"snow"			%s
+			"no_pass"		0
+			"forest"		0.25
+			"slope"			0.4
+			"swamp"			%w
+			"shallow_water"	%w
+			"water"			0
+			"deep_water"	0
+		}
+		{Height
+			0  0  0  0  0 ;//  0...6..12..18..24..29
+			1  2 900 900 900 ;// 30..36..42..48..54..59
+		   900 900 900 900 900 ;// 60..66..72..78..84..90
+		}
+	}
+)
+
+(define "large_cannon"
+	{Profile "%name"
+		{Radius %r}
+		{Priority 2}
+		{Terrain
+			"road"			1.0
+			"ground"		%g
+			"snow"			%s
+			"no_pass"		0
+			"forest"		0.25
+			"slope"			0.3
+			"swamp"			%w
+			"shallow_water"	%w
+			"water"			0
+			"deep_water"	0
+		}
+		{Height
+			0  1  1  1  2 ;//  0...6..12..18..24..29
+		   900 900 900 900 900 ;// 30..36..42..48..54..59
+		   900 900 900 900 900 ;// 60..66..72..78..84..90
+		}
+	}
+)
+
+	;"g" value for tank: (- (+ 0.775 (/ 0.135 % pressure)) (/ 0.135 %coeff_offroad))
+	;"w" value for tank: 0.7 * g
+	;"s" value for tank: g - (0.65 / coeff_offroad)
+
+	("medium_tank" name(tank)				r(2.75) 	rn(2.25)	g(0.800)	w(0.500)	s(0.700))	;// generic setting
+	
+	("medium_tank" name(sherman)	r(2.75)		rn(2.25)	g(0.550)	w(0.300)	s(0.550))	;// max speed 42 kph
+	("medium_tank" name(m4a3)		r(2.75)		rn(2.25)	g(0.550)	w(0.250)	s(0.550))	;// max speed 48 kph
+	("medium_tank" name(hvss)		r(2.75)		rn(2.25)	g(0.625)	w(0.300)	s(0.625))	;// max speed 48 kph
+	
+	("light_tank" name(tank.light)			r(2.5)		rn(2.25)	g(0.800)	w(0.500)	s(0.700))	;// generic setting
+	("amphibious" name(amphibia)			r(2.5)		rn(2.25)	g(0.700)	w(0.500)	s(0.650)	dw(0.350))	;// generic setting
+	("armored" name(armored)				r(2.25)		rn(2.25)	g(0.550)	w(0.250)	s(0.500))	;// generic setting
+	("big_vehicle" name(vehicle.large)								g(0.550)	w(0.300)	s(0.500))	;// generic setting
+	("small_vehicle" name(vehicle.small)							g(0.550)	w(0.300)	s(0.500))	;// generic setting
+	
+	;Light Tanks
+	("light_tank" name(ft)			r(2.2)		rn(1.80)	g(0.955)	w(0.669)	s(0.755))
+	("light_tank" name(bt5)			r(2.80)		rn(2.25)	g(0.938)	w(0.657)	s(0.738))
+	("light_tank" name(bt7)			r(2.80)		rn(2.25)	g(0.876)	w(0.613)	s(0.757))
+	("light_tank" name(t26)			r(2.4)		rn(2.00)	g(0.960)	w(0.672)	s(0.918))
+	("light_tank" name(t27)			r(1.35)		rn(1.35)	g(0.929)	w(0.650)	s(0.729))				;// max speed 40 kph
+	("light_tank" name(t20)			r(1.8)		rn(1.25)	g(0.955)	w(0.669)	s(0.755))				;// max speed 50 kph
+	("light_tank" name(zis30)		r(1.8)		rn(1.25)	g(0.929)	w(0.650)	s(0.735))				;// max speed 30 kph
+	("amphibious" name(t37)			r(2.0)		rn(1.80)	g(0.929)	w(0.650)	s(0.735)	dw(0.4))	;// max speed 35 kph
+	("amphibious" name(t40)			r(2.0)		rn(1.80)	g(0.929)	w(0.650)	s(0.735)	dw(0.3))	;// max speed 45 kph
+	("light_tank" name(t50)			r(2.4)		rn(2.25)	g(0.917)	w(0.596)	s(0.740))				;// max speed 60 kph
+	("light_tank" name(t60)			r(2.05)		rn(1.80)	g(0.923)	w(0.646)	s(0.600))
+	("light_tank" name(t70)			r(2.2)		rn(1.80)	g(0.923)	w(0.646)	s(0.723))
+	("light_tank" name(su76)		r(2.4)		rn(2.15)	g(0.975)	w(0.683)	s(0.775))
+	("light_tank" name(goliath)		r(0.9)		rn(0.9)		g(0.900)	w(0.630)	s(0.700))				;// max speed  kph
+	("light_tank" name(panzer1)		r(2.1)		rn(1.90)	g(0.990)	w(0.693)	s(0.790))				;// max speed 40 kph
+	("light_tank" name(panzer1f)	r(2.1)		rn(1.90)	g(0.845)	w(0.592)	s(0.707))				;//
+	("light_tank" name(panzer2)		r(2.25)		rn(2.00)	g(0.935)	w(0.655)	s(0.735))				;// max speed 40 kph
+	("light_tank" name(panzer2l)	r(2.25)		rn(2.00)	g(0.905)	w(0.634)	s(0.767))				;// max speed 60 kph
+	("light_tank" name(panzer38)	r(2.2)		rn(2.00)	g(0.941)	w(0.659)	s(0.741))
+	("light_tank" name(hetzer)		r(2.2)		rn(2.00)	g(0.889)	w(0.622)	s(0.566))
+	("amphibious" name(lvt4)		r(2.0)		rn(2.25)	g(0.900)	w(0.630)	s(0.700)	dw(0.3))	;// Need data
+	("light_tank" name(universal)	r(1.9)		rn(1.90)	g(0.900)	w(0.630)	s(0.790))				;// max speed 48 kph Need data
+	("light_tank" name(m3_stuart)	r(2.4)		rn(2.25)	g(0.912)	w(0.638)	s(0.718))				;// max speed 58 kph
+	("light_tank" name(m5_stuart)	r(2.4)		rn(2.25)	g(0.880)	w(0.616)	s(0.680))				;// max speed 58 kph
+	("light_tank" name(thor)		r(4.00) 	rn(2.25)	g(0.900)	w(0.700)	s(0.900))	;// max speed 6 kph
+	("light_tank" name(stuart)		r(2.4)		rn(2.25)	g(0.650)	w(0.200)	s(0.650))	;// max speed 58 kph
+	("light_tank" name(locust)		r(2.4)		rn(2.25)	g(0.750)	w(0.214)	s(0.750))	;// max speed 56 kph
+	("light_tank" name(m18)			r(2.75)		rn(2.25)	g(0.882)	w(0.617)	s(0.682))				;// max speed 80 kph
+	("light_tank" name(m18_gmc)		r(2.75)		rn(2.25)	g(0.600)	w(0.150)	s(0.600))	;// max speed 80 kph
+	("light_tank" name(matilda1)	r(2.2)		rn(1.80)	g(0.550)	w(0.500)	s(0.550))	;// max speed 13 kph
+	("light_tank" name(mk6b)		r(2.2)		rn(1.80)	g(0.710)	w(0.214)	s(0.710))	;// max speed 56 kph
+	("light_tank" name(m24)			r(2.75)		rn(2.25)	g(0.901)	w(0.631)	s(0.701))				;// max speed 56 kph
+	("light_tank" name(cruiser)		r(2.2)		rn(2.25)	g(0.600)	w(0.300)	s(0.600))	;// max speed 40 kph
+	("light_tank" name(cruiser2)	r(2.2)		rn(2.25)	g(0.600)	w(0.450)	s(0.600))	;// max speed 26 kph
+	("light_tank" name(cruiser3)	r(2.2)		rn(2.25)	g(0.750)	w(0.300)	s(0.750))	;// max speed 48 kph
+	
+	;Medium Tanks
+	("medium_tank" name(t28)		r(4.00) 	rn(2.25)	g(0.935)	w(0.655)	s(0.735))				;// max speed 40 kph
+	("medium_tank" name(t34_1941)	r(3.00) 	rn(2.25)	g(0.927)	w(0.643)	s(0.853))				;// max speed 55 kph, pressure 0.68
+	("medium_tank" name(t34_1942)	r(3.00) 	rn(2.25)	g(0.836)	w(0.631)	s(0.686))				;// max speed 55 kph, pressure 0.8
+	("medium_tank" name(t34-85)		r(3.00) 	rn(2.25)	g(0.787)	w(0.551)	s(0.605))				;// max speed 55 kph, pressure 0.83
+	("medium_tank" name(panzer3e)	r(2.75)		rn(2.25)	g(0.751)	w(0.526)	s(0.548))				;// max speed 40 kph, pressure 0.9
+	("medium_tank" name(panzer3j)	r(2.75)		rn(2.25)	g(0.718)	w(0.503)	s(0.499))				;// max speed 40 kph, pressure 0.94
+	("medium_tank" name(panzer3m)	r(2.75)		rn(2.25)	g(0.614)	w(0.430)	s(0.359))				;// max speed 40 kph, pressure 0.95
+	("medium_tank" name(stug3g)		r(2.75)		rn(2.25)	g(0.636)	w(0.445)	s(0.387))				;// max speed 40 kph, pressure 1.04
+	("medium_tank" name(panzer4d)	r(2.75)		rn(2.25)	g(0.809)	w(0.566)	s(0.641))				;// max speed 42 kph, pressure 0.83
+	("medium_tank" name(panzer4e)	r(2.75)		rn(2.25)	g(0.757)	w(0.530)	s(0.557))				;// max speed 42 kph, pressure 0.91
+	("medium_tank" name(panzer4h)	r(2.75)		rn(2.25)	g(0.655)	w(0.459)	s(0.411))				;// max speed 38 kph, pressure 0.89 [is 0.97]
+	("medium_tank" name(sturmpz4)	r(2.75)		rn(2.25)	g(0.649)	w(0.454)	s(0.403))				;// max speed 38 kph, pressure 0.98
+	("medium_tank" name(panther)	r(3.25)		rn(2.25)	g(0.769)	w(0.538)	s(0.576))				;// max speed 46 kph, pressure 0.88
+	("medium_tank" name(m3)			r(2.75) 	rn(2.25)	g(0.882)	w(0.617)	s(0.682))				;//
+	("medium_tank" name(m4_75_vvss)	r(2.75) 	rn(2.25)	g(0.689)	w(0.482)	s(0.457))				;//
+	("medium_tank" name(m4_76_vvss)	r(2.75) 	rn(2.25)	g(0.638)	w(0.447)	s(0.389))				;//
+	("medium_tank" name(m4_hvss)	r(2.75) 	rn(2.25)	g(0.849)	w(0.594)	s(0.709))				;//
+	("medium_tank" name(m4_jumbo)	r(2.75) 	rn(2.25)	g(0.633)	w(0.443)	s(0.383))				;//
+	("amphibious" name(shermandd)	r(2.75) 	rn(2.25)	g(0.633)	w(0.443)	s(0.383)	dw(0.3))	;// max speed 38 kph
+	
+	("medium_tank" name(m10_gmc)	r(2.75)		rn(2.25)	g(0.550)	w(0.250)	s(0.550))	;// max speed 48 kph
+	("medium_tank" name(comet)		r(2.75)		rn(2.25)	g(0.460)	w(0.250)	s(0.460))	;// max speed 52 kph
+	
+	("medium_tank" name(cromwell)	r(2.75)		rn(2.25)	g(0.636)	w(0.445)	s(0.387))	;// max speed 52 kph
+	
+	("medium_tank" name(comet)		r(2.75)		rn(2.25)	g(0.460)	w(0.250)	s(0.460))	;// max speed 52 kph
+	("medium_tank" name(valentine)	r(2.6)		rn(2.25)	g(0.903)	w(0.632)	s(0.686))				;// max speed 24 kph
+	("medium_tank" name(matilda2)	r(2.6)		rn(2.25)	g(0.625)	w(0.500)	s(0.625))	;// max speed 24 kph
+	("medium_tank" name(crusader)	r(2.75)		rn(2.25)	g(0.600)	w(0.300)	s(0.600))	;// max speed 43 kph
+	
+	;Heavy Tanks
+	("heavy_tank" name(bis)			r(3.05) 	rn(2.25)	g(0.889)	w(0.622)	s(0.689))					;// max speed 28 kph, pressure 0.85
+	("heavy_tank" name(churchill)	r(3.35) 	rn(2.25)	g(0.717)	w(0.502)	s(0.497))				;// max speed 20 kph, pressure 0.92
+	("heavy_tank" name(kv1)			r(3.35) 	rn(2.25)	g(0.760)	w(0.532)	s(0.562))				;// max speed 34 kph, pressure 0.8
+	("heavy_tank" name(kv1s)		r(3.35) 	rn(2.25)	g(0.896)	w(0.627)	s(0.794))				;// max speed 40 kph, pressure 0.74
+	("heavy_tank" name(kv2)			r(3.25) 	rn(2.25)	g(0.888)	w(0.622)	s(0.738))				;// max speed 34 kph, pressure 0.92
+	("heavy_tank" name(churchillvii)r(3.35) 	rn(2.25)	g(0.620)	w(0.571)	s(0.620))	;// max speed 21 kph
+	("heavy_tank" name(is)			r(3.25) 	rn(2.25)	g(0.811)	w(0.568)	s(0.644))				;// 
+	("heavy_tank" name(smk)			r(4.00) 	rn(2.25)	g(0.888)	w(0.622)	s(0.65))				;// max speed 34 kph, pressure 0.92
+	("heavy_tank" name(su100y)		r(4.25) 	rn(2.25)	g(0.888)	w(0.622)	s(0.65))				;// max speed 32 kph
+	("heavy_tank" name(ferdinand)	r(3.50) 	rn(2.25)	g(0.478)	w(0.335)	s(0.212))				;// max speed 30 kph, pressure 1.23
+	("heavy_tank" name(tiger)		r(2.95) 	rn(2.25)	g(0.606)	w(0.424)	s(0.349))				;// max speed 38 kph, pressure 1.09
+	("heavy_tank" name(sturmtiger)	r(2.95) 	rn(2.25)	g(0.487)	w(0.341)	s(0.221))				;// max speed 38 kph, pressure 1.24
+	("heavy_tank" name(tiger_b)		r(3.50) 	rn(2.25)	g(0.655)	w(0.459)	s(0.411))				;// max speed 35 kph, pressure 1.03
+	("heavy_tank" name(jagdtiger)	r(3.50) 	rn(2.25)	g(0.596)	w(0.417)	s(0.337))				;// max speed 35 kph, pressure 1.11
+	("heavy_tank" name(m26)			r(3.05) 	rn(2.25)	g(0.768)	w(0.538)	s(0.574))				;// 
+	("heavy_tank" name(t26e4)		r(3.05) 	rn(2.25)	g(0.628)	w(0.440)	s(0.376))				;// 
+
+	;Special
+	("medium_tank" name(roller.medium) r(2.75)	rn(2.25)	g(0.850)	w(0.595)	s(0.765))				;// max speed 10 kph
+
+	("heavy_tank" name(thor)		r(4.00) 	rn(2.25)	g(0.823)	w(0.576)	s(0.703))				;// max speed 6 kph
+
+	;Unladen Cars and Trucks
+	("small_cannon" 	name(bicycle)		r(0.9)				g(0.750)	w(0.120)	s(0.383))				;// Used for Bicycles
+	("small_vehicle"	name(moto)								g(0.575)	w(0.130)	s(0.383))				;// Used for RWD Motorcycles
+	("small_vehicle"	name(car_4x2)							g(0.550)	w(0.155)	s(0.412))				;// Used for 4x2 cars such as Kubelwagen
+	("amphibious"		name(car_4x2_amph)	r(1.5)	rn(1.50)	g(0.550)	w(0.155)	s(0.412) 	dw(0.4))	;// Used for Amphibious 4x2 cars such as Schwimmwagen
+	("small_vehicle"	name(car_4x4)							g(0.600)	w(0.175)	s(0.429))				;// Used for 4x2 cars such as Willys MB Jeep, Gaz-67
+	("amphibious"		name(car_4x4_amph)	r(1.5)	rn(1.50)	g(0.600)	w(0.175)	s(0.429) 	dw(0.4))	;// Used for Amphibious 4x4 cars such as Ford GPA
+	("big_vehicle" 		name(truck_4x2)							g(0.525)	w(0.150)	s(0.383))				;// Used for 4x2 trucks such as Blitz 3.6t, ZiS5
+	("big_vehicle" 		name(truck_4x4)							g(0.575)	w(0.170)	s(0.417))				;// Used for 4x4 trucks such as WC-51
+	("big_vehicle" 		name(truck_6x4)							g(0.615)	w(0.180)	s(0.446))				;// Used for 6x4 trucks such as RWD CCKW
+	("big_vehicle" 		name(truck_6x4_light)					g(0.625)	w(0.205)	s(0.480))				;// Used for lightweight 6x4 trucks such as Gaz AAA
+	("big_vehicle" 		name(truck_6x6)							g(0.630)	w(0.190)	s(0.459))				;// Used for 6x6 trucks such as CCKW
+	
+	;Loaded Trucks (~0.8x multiplier)
+	("big_vehicle" 		name(truck_4x2_loaded)					g(0.420)	w(0.120)	s(0.306))				;// Used for 4x2 trucks such as Blitz 3.6t, ZiS5
+	("big_vehicle" 		name(truck_4x4_loaded)					g(0.460)	w(0.140)	s(0.336))				;// Used for 4x4 trucks such as WC-51
+	("big_vehicle" 		name(truck_6x4_loaded)					g(0.490)	w(0.150)	s(0.361))				;// Used for 6x4 trucks such as RWD CCKW
+	("big_vehicle" 		name(truck_6x4_light_loaded)			g(0.500)	w(0.165)	s(0.383))				;// Used for lightweight 6x4 trucks such as Gaz AAA
+	("big_vehicle" 		name(truck_6x6_loaded)					g(0.505)	w(0.155)	s(0.366))				;// Used for 6x6 trucks such as CCKW
+	
+	;Armored Cars
+	("armor_wheeled" name(arm_car_4x2)		r(2.25)		rn(2.25)	g(0.500)	w(0.145)	s(0.366))			;// 4x2 Armored Cars such as BA-6
+	("armor_wheeled" name(arm_car_4x4)		r(2.25)		rn(2.25)	g(0.550)	w(0.160)	s(0.395))			;// 4x4 Armored Cars such as Sd.Kfz 222, M3 Scout Car
+	("armor_wheeled" name(arm_car_6x4)		r(2.25)		rn(2.25)	g(0.585)	w(0.170)	s(0.425))			;// 6x4 Armored Cars such as BA-10, M8 Greyhound
+	("armor_wheeled" name(arm_car_6x6)		r(2.25)		rn(2.25)	g(0.600)	w(0.180)	s(0.438))			;// 6x6 Armored Cars such as Sd.Kfz 231 6-Rad
+	("armor_wheeled" name(arm_car_8x8)		r(2.25)		rn(2.25)	g(0.610)	w(0.190)	s(0.446))			;// 8x8 Armored Cars such as Sd.Kfz 234
+	
+	;Halftracks
+	("small_vehicle"	name(ketten)								g(0.775)	w(0.385)	s(0.629))			;// Kettenkrad specific define
+	("big_vehicle" 	name(halftrack)									g(0.750)	w(0.370)	s(0.608))			;// Used for unarmored RWD halftracks such as Opel Maultier
+	("big_vehicle" 	name(halftrack_diff)							g(0.800)	w(0.405)	s(0.646))			;// Used for unarmored halftracks with differential steering such as Sd.Kfz 10
+	("armored" 		name(halftrack_diff_l)		 r(2.5)	 rn(2.25)	g(0.800)	w(0.405)	s(0.646))			;// Used for Large unarmored halftracks with differential steering such as Sd.Kfz 6
+	("armored" 		name(halftrack_diff_xl)		 r(3.0)	 rn(2.25)	g(0.800)	w(0.400)	s(0.646))			;// Used for Large unarmored halftracks with differential steering such as Sd.Kfz 7
+	("armored"		name(halftrack_armored)		 r(2.75) rn(2.25)	g(0.740)	w(0.365)	s(0.599))			;// Used for armored RWD halftracks such as M3
+	("armored"		name(halftrack_armored_diff) r(2.75) rn(2.25)	g(0.790)	w(0.400)	s(0.638))			;// Used for armored halftracks with differential steering such as Sd.Kfz 251
+	("armored" name(m3halftrack)	r(2.75)		rn(2.25)	g(0.550)	w(0.147)	s(0.550))	;// max speed 72 kph
+	
+	;Loaded Halftracks (0.9x multiplier)
+	("big_vehicle" 	name(halftrack_loaded)							g(0.675)	w(0.335)	s(0.548))			;// Used for unarmored RWD halftracks such as Opel Maultier
+	("big_vehicle" 	name(halftrack_diff_loaded)						g(0.720)	w(0.365)	s(0.582))			;// Used for unarmored halftracks with differential steering such as Sd.Kfz 10
+	("armored" 		name(halftrack_diff_l_loaded) r(2.5) rn(2.25)	g(0.720)	w(0.365)	s(0.582))			;// Used for Large unarmored halftracks with differential steering such as Sd.Kfz 6
+	("armored" 		name(halftrack_diff_xl_loaded) r(3.0) rn(2.25)	g(0.720)	w(0.360)	s(0.582))			;// Used for Large unarmored halftracks with differential steering such as Sd.Kfz 7
+	
+	;Special
+	("armor_wheeled" name(nkl)				r(2.25)		rn(2.25)	g(0.300)	w(0.200)	s(1.000))			;// Aerosled
+	("carried_cannon" name(cannon.strecher)		r(0.4)				g(0.80)		w(0.6)		s(0.75))
+	
+	("armored" name(sdkfz251)		r(2.75)		rn(2.25)	g(0.550)	w(0.226)	s(0.550))	;// max speed 53 kph
+	("armored" name(sdkfz6_cargo)	r(2.5)		rn(2.25)	g(0.250)	w(0.100)	s(0.250))	;// max speed 20 kph
+	("armored" name(sdkfz7)			r(3.0)		rn(2.25)	g(0.550)	w(0.235)	s(0.550))	;// max speed 51 kph
+	("armored" name(sdkfz8)			r(3.5)		rn(2.25)	g(0.550)	w(0.235)	s(0.550))	;// max speed 51 kph
+
+	("armor_wheeled" name(sdkfz222)	r(2.25)		rn(2.25)	g(0.550)	w(0.171)	s(0.500))	;// max speed 70 kph
+	("armor_wheeled" name(sdkfz232)	r(2.25)		rn(2.25)	g(0.550)	w(0.141)	s(0.500))	;// max speed 85 kph
+	("armor_wheeled" name(nkl)		r(2.25)		rn(2.25)	g(0.550)	w(0.750)	s(1.000))	;// max speed 70 kph
+	("armor_wheeled" name(m3scout)	r(2.45)		rn(2.25)	g(0.550)	w(0.171)	s(0.500))	;// max speed 80 kph
+	("armor_wheeled" name(ba10)		r(2.45)		rn(2.25)	g(0.550)	w(0.226)	s(0.500))	;// max speed 53 kph
+	("armor_wheeled" name(ba20)		r(2.25)		rn(2.25)	g(0.550)	w(0.150)	s(0.500))	;// max speed 90 kph
+	("armor_wheeled" name(ba64)		r(2.25)		rn(2.25)	g(0.550)	w(0.150)	s(0.500))	;// max speed 80 kph
+	("big_vehicle" name(blitz36)							g(0.550)	w(0.150)	s(0.500))	;// max speed 80 kph
+	("big_vehicle" name(maultier)							g(0.550)	w(0.300)	s(0.550))	;// max speed 40 kph
+	("big_vehicle" name(gazaaa)								g(0.550)	w(0.185)	s(0.500))	;// max speed 65 kph
+	("big_vehicle" name(kfz15)								g(0.550)	w(0.150)	s(0.500))	;// max speed 80 kph
+	("big_vehicle" name(cckw)								g(0.550)	w(0.167)	s(0.500))	;// max speed 72 kph
+
+	("small_vehicle" name(kubel)							g(0.550)	w(0.150)	s(0.500))	;// max speed 80 kph
+	("small_vehicle" name(wc51)								g(0.550)	w(0.150)	s(0.500))	;// max speed 80 kph
+	("small_vehicle" name(willys)							g(0.550)	w(0.130)	s(0.500))	;// max speed 95 kph
+	("amphibious"	 name(schwimm)	r(1.5)		rn(1.50)	g(0.550)	w(0.20)		s(0.500) 	dw(0.5))	;// max speed 80 kph
+	("small_vehicle" name(ketten)							g(0.550)	w(0.171)	s(0.500))	;// max speed 70 kph
+	("small_vehicle" name(moto)								g(0.550)	w(0.141)	s(0.500))	;// max speed 95 kph
+	("small_cannon"  name(bicycle)	r(0.9)					g(0.750)	w(0.300)	s(0.500))	;// max speed 40 kph
+	;Cannons
+	("carried_cannon" name(cannon.strecher)	r(0.4)			g(0.80)		w(0.6)		s(0.80))
+	("carried_cannon" name(cannon.carried)		r(0.7)				g(0.80)		w(0.6)		s(0.65))
+	("carried_cannon" name(cannon.carry.ski)	r(0.7)				g(0.80)		w(0.6)		s(1.00))
+	("small_cannon"   name(cannon.micro)		r(0.9)				g(0.85)		w(0.6)		s(0.65))
+
+	("small_cannon"   name(cannon.small)		r(1.1)				g(0.85)		w(0.5)		s(0.65))
+	("large_cannon"   name(cannon.medium)		r(1.3)				g(0.80)		w(0.5)		s(0.6))
+	("large_cannon"   name(cannon.large)		r(2.0)				g(0.80)		w(0.4)		s(0.5))
+
+(define "airborne"
+	{Profile "%name"
+		{SkipImpregnable}
+		{Radius %r}
+		{Priority 2}
+		{Terrain
+			"undef"  		1
+			"ground"		1
+			"snow"			1
+			"no_pass"		1
+			"forest"		1
+			"slope"			1
+			"swamp"			1
+			"shallow_water"	1
+			"water"			1
+			"deep_water"	1
+		}
+	}
+)
+	("airborne" name(bf109)	r(5.5))
+	("airborne" name(bf110)	r(9))
+	("airborne" name(blenheim) r(9))
+	("airborne" name(fi156)	r(7.5))
+	("airborne" name(il2)	r(8))
+	("airborne" name(ju87)	r(7.5))
+	("airborne" name(po2)	r(6.5))
+	("airborne" name(yak1)	r(5.5))
+	("airborne" name(p47)	r(6))
+
+	{Profile "railway"
+		{LinearPath}
+		{Radius 1.5}
+		{Priority 7}
+		{Terrain
+			"undef"  		1
+			"ground"		1
+			"snow"			1
+			"no_pass"		1
+			"forest"		1
+			"slope"			1
+			"swamp"			1
+			"shallow_water"	1
+			"water"			1
+			"deep_water"	1
+		}
+	}
+
+(define "water"
+	{Profile "%name"
+		{Radius %r}
+		{Priority %p}
+		{Terrain
+			"ground"		0
+			"no_pass"		0
+			"forest"		0
+			"slope"			0	
+			"shallow_water"	%sw
+			"water"			%w
+			"deep_water"	1
+		}
+	}
+)
+
+	("water" name(shallow_water)	r(2.0) p(5) sw(1) w(1))
+	("water" name(shallow_water_0)	r(5.0) p(5) sw(1) w(1))		;// lcvp
+	("water" name(water)			r(3.5) p(6) sw(0) w(1))
+	("water" name(deep_water)		r(7.0) p(7) sw(0) w(0))
+	("water" name(deep_water_0)		r(14)  p(7) sw(0) w(0))		;// armor barge
+}

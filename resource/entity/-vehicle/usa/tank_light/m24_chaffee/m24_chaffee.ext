@@ -1,0 +1,81 @@
+;SDL
+	
+	; armor notes
+	; tracks and wheels 15mm
+	; gun 15mm
+	; spare tracks 15mm
+	; 25mm & 15mm plates were add to the hull, superstructure and turret.
+
+	("tank_light_tier2")
+
+	("shield" args "shieldL1" 5)
+	("shield" args "shieldL2" 5)
+	("shield" args "shieldL3" 5)
+	("shield" args "shieldL4" 5)
+	("shield" args "shieldR1" 5)
+	("shield" args "shieldR2" 5)
+	("shield" args "shieldR3" 5)
+	("shield" args "shieldR4" 5)
+
+	("tracks" repair(30) thickness(15))
+	("gun" repair(30) thickness(25))
+
+	("ammo" args "ammo1")
+	("fuel" args "fuel1")
+	("fuel" args "fuel2")
+	("transmission" args "transmission")
+
+	{volume "body1"			; Hull
+		{thickness 25.4
+			{front 25.4}
+			{top 12.7}		; upper slopes
+			{rear 9.5}
+			{bottom 12.7}
+		}
+	}
+	{volume "engine1"		; Hull
+		{thickness 19
+			{front 8}
+			{top 13}
+			{bottom 9.5}
+		}
+	}
+	{volume "turret1"		; main part
+		{thickness 25
+			{front 38}		
+			{top 13}
+			{bottom 12.7}
+		}
+	}
+	{volume "turret2"		; lower part
+		{thickness 25
+			{front 38}
+		}
+	}
+	{volume "turret3"		; front1
+		{thickness 38}
+	}
+	{volume "turret4"		; front2
+		{thickness 38}
+	}
+	{volume "turret5"		; front3
+		{thickness 38}
+	}
+	{volume "mantlet"
+		{tags "turret"}
+		{component "turret"}
+		{thickness 38}
+	}
+	{volume "cupola"
+		{thickness 38
+			{top 12}
+		}
+	}
+	{volume "basket"
+		{thickness 5}
+		{tags "armor"}
+	}
+
+	{perks
+		{blastwave_modifier 8.0}
+	}

@@ -1,0 +1,18 @@
+;_________________________________________
+;  USSR long-barreled Medium AT gun
+;=========================================
+
+
+{from "85mm_zis53"			; L/52 "kv85"
+	("velocity m/s" ap(792) apcr(1050) he(805) heat(1))
+	
+	("penetration_long" shell(aphe) range(310) a(140) b(126.5) c(107) d(94) e(80))
+	("penetration_long" shell(apcr) range(310) a(180) b(152) c(119.4) d(96) e(76))
+	;// penetration with standard APHE drag coefficient
+	
+	("range_200")
+	("accuracy_direct" r1(0.72) range_ap(310) range_he(310) range_heat(190))
+	{parameters "he"
+		{range 310 310}
+	}
+}

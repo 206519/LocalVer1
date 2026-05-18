@@ -1,0 +1,17 @@
+;_________________________________________
+; US medium tank gun
+;=========================================
+
+
+{from "75mm_m3"			; L/39 "M24 chaffee"
+	("accuracy_direct" r1(0.78) range_ap(200) range_he(200) range_heat(200))
+	("reload time" seconds(6.7))	;// chaffee has 0 ready rounds
+	
+	("penetration_medium" shell(apcbche) range(200) a(90) b(82) c(73.6) d(65.9) e(59))		; APC M61
+	
+	;// has lower quality 5x sight
+	
+	{parameters "he"
+		{range 200 200}
+	}
+}

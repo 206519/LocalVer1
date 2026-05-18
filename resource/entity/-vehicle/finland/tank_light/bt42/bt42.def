@@ -1,0 +1,95 @@
+{game_entity
+	(include "/properties/tank.ext")
+	
+	(include "/properties/selection/vehicle.inc" scale(1.2))
+	{props "light" "turret_rotator" "vision_lev03" "muzzle_122mm_128mm" "diesel" "detect_tank_light"}
+	{extension "bt42.mdl"}
+	(include "bt42.ext")
+	{targetclass "tank_light"}
+	{targetSelector "tank_light"}
+	{patherId "bt7"}
+	{collider "tank.light"}
+
+	("crew_3_human_2_extended")
+
+	{boarder
+		{anm "driver"
+			{forward {begin "board_t26_driver"} {end "pose_t26_driver"} {base "open_driver"}}
+			{reverse {end "board_t26_driver" -1} {base "open_driver" -1}}
+		}
+		{anm "left"
+			{forward {begin "board_kv"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward {begin "board_tank_right"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "armor"
+			{forward {begin "board_MiddleArmor"} {end "pose_seat_armor_1"}}
+			{reverse {end "emit_tank_1"}}
+		}
+		{anm "armor1"
+			{forward {begin "board_MiddleArmor"} {end "pose_seat_armor_2"}}
+			{reverse {end "emit_body"}}
+		}
+	}
+
+	("seat_human" place(seat1) bone(seat01) door(emit4) animation(armor))
+	("seat_human" place(seat2) bone(seat02) door(emit6) animation(armor1))
+	("seat_human" place(seat3) bone(seat03) door(emit5) animation(armor))
+	("seat_human" place(seat4) bone(seat04) door(emit7) animation(armor))
+	("seat_human" place(seat5) bone(seat05) door(emit3) animation(armor))
+	("seat_human" place(seat6) bone(seat06) door(emit8) animation(armor1))
+
+	{extender "inventory"
+		{box
+			{item "bullet_114x86 fin he" 43}
+			{item "bullet_114x86 fin heat" 6}
+			{item "satchel_charge_rus" 1}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "114mm_psvh18" filling "bullet_114x86 fin he" 1}
+			{gunner "gunner"}
+			{charger "gunner"}
+			("abm_dymamic"
+				zeroing(4.5)
+				dispersion(0.25)
+			)
+		}
+	}
+
+	{mass 15000}
+	{Chassis
+		("tank_trace" fx("tracks_sm") step(0.3) len(1.15))
+		("mobility_spearhead"
+			speed(56.64)		;Max speed when fully accelerated on road, km/h.
+			reverse(11.14)		;Max speed in reverse on road, km/h.
+			mass(15.0)			;Mass, in metric tons.
+			power(450) 			;Engine Power
+			contact(3.6)		;Track-ground contact length, in m
+			wheelbase(1.96)		;Distance between center of left and right side roadwheels, in m
+			pressure(0.78)		;Ground pressure on road, in kg/cm^2
+			coeff_accel(8)		;Modifier for acceleration, (0,10]
+			coeff_steer_rate(6)	;Modifier for steering, (0,10]
+			coeff_steer_eff(5)	;Modifier for steering, (0,10]
+			fuel(650) 			;Fuel capacity in Litres.
+			type(diesel)		;Fuel type. (diesel OR fuel)
+			range(280) 			;Range in km, off-road.
+			maxslope(90)		;Max slope (tan(gradient in degrees) * 100)
+		)
+	}
+
+	{bone "gun_rot"
+		{limits -5 45}
+		{speed2 6}
+	}
+	{bone "turret"
+		("turret_medium" power_traverse(0)) ;// manual
+	}
+}

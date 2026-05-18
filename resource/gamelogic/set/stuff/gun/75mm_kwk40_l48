@@ -1,0 +1,14 @@
+;_________________________________________
+; Long barreled german medium AT gun
+;=========================================
+
+
+{from "75mm_pak39"			; L/48 "panzer4h"
+	("reload time" seconds(6.7))
+	
+	("penetration_medium" shell(apcbche) range(200) a(131) b(123) c(111) d(100) e(90))
+
+	("penetration_medium" shell(apcr) range(200) a(176) b(154) c(130) d(109) e(92))
+	
+	("accuracy_direct" r1(0.75) range_ap(200) range_he(190) range_heat(165))
+}

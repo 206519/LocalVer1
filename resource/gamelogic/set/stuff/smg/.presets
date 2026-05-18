@@ -1,0 +1,173 @@
+(include "\set\small_firearms_accuracy.inc")
+
+(define "burst_short_slow"
+	{burst
+		{short 4 1}
+		{long 6 2}
+		{rangeKoef 0.4}
+	}
+	{FiringTimeoutDistanceFactor
+		{0.25 0.55}	;20m, 1.1s
+		{0.7 0.85}	;56m, 1.7s
+		{1.0 0.95}	;80m, 1.9s
+	}
+)
+
+(define "burst_short"
+	{burst
+		{short 3 1}
+		{long 8 2}
+		{rangeKoef 0.6}
+	}
+	{FiringTimeout 0.5 0.2}
+	{FiringTimeoutDistanceFactor
+        {0.25 1.0}    ;20m,
+        {0.6 1.0}    ;56m,
+        {1.0 0.5}    ;80m,
+    }
+)
+
+(define "burst_medium"
+	{burst
+		{short 6 2}
+		{long 9 2}
+		{rangeKoef 0.6}
+	}
+	{FiringTimeout 0.7 0.2}
+	{FiringTimeoutDistanceFactor
+        {0.25 0.5}    ;20m,
+        {0.7 0.85}    ;56m,
+        {1.0 1.00}    ;80m,
+    }
+)
+
+(define "burst_long"
+	{burst
+		{short 7 2}
+		{long 12 2}
+		{rangeKoef 0.6}
+	}
+	{FiringTimeout 0.9 0.2}
+	{FiringTimeoutDistanceFactor
+        {0.25 0.5}    ;20m,
+        {0.7 0.85}    ;56m,
+        {1.0 1.00}    ;80m,
+    }
+)
+
+(define "burst_ppsh"	;// SMG when used as SAW
+	{burst
+		{short 11 3}
+		{long 12 3}
+		{rangeKoef 0.6}
+	}
+	{FiringTimeout 0.9 0.2}
+	{FiringTimeoutDistanceFactor
+        {0.25 0.5}    ;20m,
+        {0.7 0.85}    ;56m,
+        {1.0 1.00}    ;80m,
+    }
+)
+
+
+;// 7.62x25 Tokarev
+(define "Tokarev"
+	("human health" damage(53))
+	("accuracy_Tokarev")
+	("velocity" mps(488))
+	{range 80 80}
+	;// around 5.5 grams weight to 488-500 m/s
+)
+(define "Parabellum"
+	("human health" damage(50))
+	("accuracy_Para")
+	("velocity" mps(395))
+	{range 70 70}
+	;// PP08 M.e round with around 6.35 grams weight to 395 m/s
+)
+(define "45ACP"
+	("human health" damage(62))
+	("accuracy_45acp")
+	("velocity" mps(270))
+	{range 60 60}
+	;// slow round, strong up close, but undermined by larger dispersion at range
+)
+
+
+;// H SMG's main trait; larger and heavier than AK, have mediocre accuracy by motion
+(define "h_smg"
+	{AccuracyByMotionK 1.10}
+)
+
+
+(define "stick_reload"
+	("reload time" seconds(3.00))
+)
+
+;// SMG's shoot a lot in the mod, but they simply can't deal the damage
+
+(define "spreading_mounted"
+	{spreading
+		;{BurstAccuracy 100 95 91 87 83 80 77 75}	;-5, -4, -4, -4, -3, -3, -2
+		;{BurstAccuracy 100 95 90 85 81 77 74 71 68}	;-5, -5, -5, -4, -4, -3, -3
+		{BurstAccuracy 100 98 96 94 92 90 88 86 84 82 80}
+	}
+)
+(define "spreading_low"
+	{spreading
+		;{BurstAccuracy 100 95 90 86 82 79 76 73}	;-5, -5, -4, -4, -3, -3, -3
+		;{BurstAccuracy 100 94 88 83 78 74 71 68}	;-6, -6, -5, -5, -4, -3, -3
+		{BurstAccuracy 100 97 94 92 90 88 86 84 82 80}
+	}
+)
+(define "spreading_medium"
+	{spreading
+		;{BurstAccuracy 100 94 89 84 80 77 74 71}	;-6, -5, -5, -4, -3, -3, -3
+		;{BurstAccuracy 100 94 88 82 77 72 68 65}	;-6, -6, -6, -5, -5, -4, -3
+		{BurstAccuracy 100 96 92 88	84 80 77 75}
+	}
+)
+(define "spreading_high"
+	{spreading 
+		;{BurstAccuracy 100 93 87 80 74 69 64 60}	;-7, -7, -6, -6, -5, -5, -4
+		{BurstAccuracy 100 95 90 86	82 78 75 72 70}
+	}
+)
+
+
+
+;// the burst accuracy is strong on SMGs
+(define "spreading_ppsh"
+	{spreading 
+		;{BurstAccuracy 100 96 92 89 86 83 79 74 67 60}	;-4, -4, -3, -3, -3, -4, -5, -7, -7 	crosses MP 40 after 6th shot
+		;{BurstAccuracy 100 98 95 92 89 86 83 80 77 74 71 68 65 63 60} 
+		{BurstAccuracy 100 99 98 97 95 92 89 86 83 80 77 74 71 68 65} 
+		
+		;// laze
+		;{BurstAccuracy 100 97 94 92 90 88 86 84 82 80 78 76 74 72 70}
+	}
+)
+(define "spreading_mp40"
+	{spreading 
+		;{BurstAccuracy 100 95 91 87 84 81 78 75}	;-5, -4, -4, -3, -3, -3, -3
+		;{BurstAccuracy 100 94 89 84 79 75 72}	;-6, -5, -5, -5, -4, -3
+		
+		;// lazzeerrrr
+		;{BurstAccuracy 100 97 94 91 88 86 84}	;-3, -3, -3, -3, -2, -2
+	}
+)
+(define "spreading_pps"
+	{spreading 
+		{BurstAccuracy 100 97 94 92 90 88 86 84 82 80}	;-3, -3, -3, -3, -2, -2
+	}
+)
+
+
+
+(define "penetration"
+	{projectileDamageTable 	{30 %0} {100 1} {105 0}}
+)
+
+(define "armor health"
+	{minimumDamageModifier (* 1.0 %damage)}
+)

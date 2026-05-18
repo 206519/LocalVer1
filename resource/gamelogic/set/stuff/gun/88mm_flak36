@@ -1,0 +1,54 @@
+;_________________________________________
+; German Heavy AA/AT gun
+;=========================================
+
+
+{from "pattern gun"		; L/56 "flak36a"
+	{filling "bulletger_88_l56"}
+	{fireSound "cannon/s4/d1/Shared/Cannon_85to100mm/"}
+	{fireSoundclose "cannon/s4/3p/Shared/Cannon_85to100mm/"}
+	{reloadSound "utility/"}
+	("range_210")
+	{calibre 88}
+	("heavy_aa")
+	
+	;// this gun uses 4x sight with 17 deg fov
+
+	("reload time" seconds(6))
+
+	("velocity m/s" ap(780) apcr(930) he(820) heat(600))
+	("armor health" damage(240))
+	("armor health custom" shell(apcbche) damage(240) filler(102))
+	("armor health custom" shell(apcbche2) damage(240) filler(215))
+	("88_ger_slope_multipliers")
+
+	; Pzgr.39 ;late war Flak ammo used after mid 1942
+	("penetration_long" shell(apcbche) range(220) a(162) b(153) c(140) d(128) e(101))
+	
+	;// on paper or in reality?
+	;//	Not just; https://community.battlefront.com/topic/41299-accuracy-data-for-88mm-flak/
+	;// but also that it isn't listed on the panzerwar. I decided to just make the flak shell post pen better.
+	
+	;// for some reason it also is claimed to have a large dispersion???
+
+	; Pzgr. ;early war Flak ammo through mid 1942
+	("penetration_long" shell(apcbche2) range(220) a(144) b(133) c(122) d(111) e(106))
+	
+	;// using the Soviet for the 105APBC I estimated the table with K2100 instead of BAAG estimates, since German 30* criteria will be very harsh on this shell
+
+	; Pzgr.40
+	("penetration_long" shell(apcr) range(220) a(211) b(192) c(172) d(153) e(137))
+	{parameters "apcr"
+		("large_apcr_slope_multiplier")
+	}
+	; Gr.39 Hl
+	("penetration_long" shell(heat) range(200) a(110) b(110) c(110) d(110) e(110))
+
+	("accuracy_direct" r1(0.72) range_ap(220) range_he(220) range_heat(200))
+	;// accuracy at 0.75 might be best for all flak in the future
+
+	{parameters "he"										; SPgGr.
+		(mod "mp" {unlimitedRangeTPC 1})	;// unrestricts range in TPC/FPC for shooting at aircraft
+		{FalloffStrength 0}
+	}
+}

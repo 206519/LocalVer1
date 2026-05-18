@@ -1,0 +1,88 @@
+{game_entity
+	(include "is2_45.inc")
+	{extender "inventory"
+		{box
+			{item "bulletrus_122_l48 aphebc" 9}		;28 rounds
+			{item "bulletrus_122_l48 he" 18}
+			{item "ammo mgun_rus dt" 3276}			;55 drums
+			{item "ammo hmgun_rus ap" 750}		;15 drum boxes
+			{item "satchel_charge_rus" 1}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "122mm_d25" filling "bulletrus_122_l48 aphebc" 1}
+			{gunner "gunner"}
+			{charger "charger"}
+			("abm_dymamic_td"
+				zeroing(5.0)
+				dispersion(0.25)
+			)
+		}
+		{place "mgun2"
+			{type "coaxial"}
+			{weapon "dt" filling "ammo mgun_rus dt" 63}
+			{foresight "foresight5"}
+			{gunner "gunner"}
+			{charger "charger"}
+			("abm_mgun")
+			{basic}
+		}
+		{place "mgun3"
+			{type "rear"}
+			{weapon "dt" filling "ammo mgun_rus dt" 63}
+			{foresight "foresight6"}
+			{gunner "charger"}
+			{charger "charger"}
+			("abm_mgun")
+			{basic}
+			{ai_in_manual}
+		}
+		{place "mgun"
+			{type "aa"}
+			{weapon "dshk" filled}
+			{gunner "commander"}
+			{charger "commander"}
+			{LinkBone "mgun_bone"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+			{basic}
+			{ai_in_manual}
+		}
+	}
+
+	{mass 47600}
+	{Chassis
+		("tank_trace" fx("tracks_big") step(0.47) len(0.98))
+		("mobility_spearhead"
+			speed(37.7)			;Max speed when fully accelerated on road, km/h.
+			reverse(17.96)		;Max speed in reverse on road, km/h.
+			mass(47.6)			;Mass, in metric tons.
+			power(520) 			;Engine Power
+			contact(4.36)		;Track-ground contact length, in m
+			wheelbase(2.41)		;Distance between center of left and right side roadwheels, in m
+			pressure(0.83)		;Ground pressure on road, in kg/cm^2
+			coeff_accel(6)		;Modifier for acceleration, (0,10]
+			coeff_steer_rate(5)	;Modifier for steering rate, (0,10]
+			coeff_steer_eff(5)	;Modifier for steering efficiency, (0,10]
+			fuel(790) 			;Fuel capacity in Litres.
+			type(diesel)		;Fuel type. (diesel OR fuel)
+			range(160) 			;Range in km, off-road.
+			maxslope(73)		;Max slope (tan(gradient in degrees) * 100)
+		)
+	}
+
+	{bone "gun_rot"
+		{limits -3 20}
+		{speed2 4}
+	}
+	{bone "turret"
+		("turret_heavy" power_traverse(12))
+	}
+	{bone "turret_mgun_aa"
+		{speed2 50}
+	}
+}

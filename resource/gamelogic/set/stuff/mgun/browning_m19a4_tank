@@ -1,0 +1,5 @@
+{from "browning_m19a4" ;// US tank coax MG
+	("tank_timeout")
+	("spreading_mounted_low")
+	;// US tank has no range markings for the coax
+}

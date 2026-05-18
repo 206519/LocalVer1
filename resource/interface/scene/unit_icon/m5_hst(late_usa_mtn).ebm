@@ -1,0 +1,6 @@
+{bitmap
+    {frame "m5_hst_00.tga"}
+    {frame "m5_hst_01.tga"}
+    {frame "m5_hst_02.tga"}
+    {frame "m5_hst_03.tga"}
+}

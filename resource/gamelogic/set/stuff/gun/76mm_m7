@@ -1,0 +1,17 @@
+;_________________________________________
+; US medium tank gun
+;=========================================
+
+
+{from "76mm_m5"			; L/45 "M10 wolverine"
+	{fireSoundclose "cannon/s2/3p/Shared/"}
+	{reloadSound "utility/"}
+
+	("reload time" seconds(6.0))
+	
+	("penetration_medium" shell(ap) range(200) a(122) b(109) c(91) d(76) e(64))		; M79 AP
+	("penetration_medium" shell(apcbche) range(200) a(125) b(116) c(105) d(95) e(86))	; M62 APC
+	("penetration_medium" shell(hvap) range(200) a(238) b(218) c(196) d(176) e(158))	; T-4/M93
+	
+	("accuracy_direct" r1(0.75) range_ap(200) range_he(200) range_heat(200))
+}

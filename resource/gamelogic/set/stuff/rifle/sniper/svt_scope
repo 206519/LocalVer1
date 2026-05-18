@@ -1,0 +1,22 @@
+{from "pattern semi_sniper_rifle"
+	{filling "ammo rifle_rus" 10}
+	{entity "svt40"}
+	{fireSound "smallarms/s3/d1/RUS/SVT40/"}
+	{fireSoundclose "smallarms/s3/d1/RUS/SVT40/"}
+	{reloadSound "svt"}
+	{calibre 7.62}
+	{mass 4.4}
+
+	("velocity" mps(830))
+	("zeroing_boost")
+
+	{parameters "clip"
+		("reload time" seconds(5))
+	}
+	{spreading	0.9
+		{SpreadPower 1.2} 
+		{SpreadXYRatio 1.8} ;// historically this rifle had unbalanced spread axis
+	}
+
+	("scopeview" scope(zoom_vignette_scope_rus_pe))
+}

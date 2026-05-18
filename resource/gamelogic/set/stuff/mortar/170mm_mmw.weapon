@@ -1,0 +1,20 @@
+;_________________________________________
+; German Heavy Mine Thrower - 17cm minenwerfer
+;=========================================
+
+
+{from "pattern mortar"
+	{filling "mortarfin_170"}
+	{fireSound "cannon/s3/d1/Shared/Mortar/"}
+	{fireSoundClose "cannon/s3/d1/Shared/Mortar/"}
+	{calibre 170}
+
+	("minenwerfer_range")
+	("reload time" seconds(30))
+	;// the rate of fire is up to 35 rounds per hour so this is around 4x as fast
+
+	{parameters "he"
+		{projectileDamageTable {0 30}}
+	}
+	{speed 200}
+}

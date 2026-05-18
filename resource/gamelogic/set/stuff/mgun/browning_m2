@@ -1,0 +1,35 @@
+{from "pattern hmgun"
+	{inventory {size 7 3}}
+	{filling "hmgun_usa" 100}
+	{entity "browning_m2"}
+	{fireSound "smallarms/s4/d1/USA/M2HB/"}
+	{fireSoundclose "smallarms/s4/d1/USA/M2HB/"}
+	{reloadSound "dt"}
+	{calibre 12.7}
+	{mass 38}
+
+	("fire rate" rpm(550))
+	("velocity" mps(894))
+
+	("reload_belt")
+
+	;// M2 ball 
+	{projectileDamageTable {35 12.61} {110 9.15} {175 6.13} {230 4.1} {285 2.75}}
+	;// limit, 0.5 inch at MV
+
+	{parameters "ap" ;// M2 AP
+		{projectileDamageTable {35 23} {110 16.3} {175 10.6} {230 6.9} {285 4.5}}
+		
+		;// was 20, 100, 155, 205, 250
+	}
+	{parameters "api" ;// M8 API
+		{projectileDamageTable {35 23} {110 16.3} {175 10.6} {230 6.9} {285 4.5}}
+		
+
+		
+		;// was 20, 100, 155, 205, 250
+	}
+
+	("burst_long")
+	("spreading_medium")
+}

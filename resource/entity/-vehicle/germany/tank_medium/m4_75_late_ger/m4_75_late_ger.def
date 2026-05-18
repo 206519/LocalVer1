@@ -1,0 +1,153 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.1))
+	{props "m4_75_late" "medium" "vision_lev04" "muzzle_75mm_76mm" "muzzle_hmg_m2hb"}
+	{extension "m4_75_late.mdl"}
+	(include  "m4_75_late.ext")
+	{PatherId "m4_75_vvss"}
+	{targetclass "tank_medium"}
+	{targetSelector "tank_medium"}
+
+	("crew_5_human_extended2")
+	("gunner_visible2")
+
+	{sensor
+		{visor "main"
+			{vision "tank_range_M55"}
+		}
+		{Visor "driver"
+			{vision "tank_driver_Sherman"}
+		}
+		{visor "around"
+			{vision "tank_cupola_Sherman_split"}
+		}
+	}
+
+	{boarder
+		{anm "driver"
+			{forward {begin "board_m4_driver"} {end "seat_m4_gunner"} {base "open_driver"}}
+			{reverse {end "emit_tank_1_hold"} {base "open_driver"}}
+		}
+		{anm "co_driver"
+			{forward {begin "board_m4_crew"} {end "seat_m4_gunner"} {base "open_co_driver"}}
+			{reverse {end "emit_tank_1_hold"} {base "open_co_driver"}}
+		}
+		{anm "left"
+			{forward {begin "board_m4_crew"} {end "seat_m4_gunner"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward {begin "board_m4_crew"} {end "seat_m4_gunner"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "armor1"
+			{forward {begin "board_HighArmor"} {end "pose_seat_armor_1"}}
+			{reverse {end "emit_tank_2"}}
+		}
+		{anm "armor2"
+			{forward {begin "board_HighArmor"} {end "pose_seat_armor_1"}}
+			{reverse {end "emit_tank_2"}}
+		}
+	}
+
+	("seat_human" place(seat1) bone(seat01) door(emit4) animation(armor1))
+	("seat_human" place(seat2) bone(seat02) door(emit5) animation(armor1))
+	("seat_human" place(seat3) bone(seat03) door(emit6) animation(armor1))
+	("seat_human" place(seat4) bone(seat04) door(emit7) animation(armor2))
+
+	{extender "inventory"
+		{box
+			{item "bulletusa_75x350 apcbche" 26}		;97 rounds
+			{item "bulletusa_75x350 he" 60}
+			{item "bulletusa_75x350 wp" 10}
+			{item "ammo hmgun_usa" 200}			;300 rounds
+			{item "ammo mgun_usa belt" 4000}			;4750 rounds
+			{item "satchel_charge_usa" 1}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "75mm_m3" filling "ammo bulletusa_75x350 apcbche" 1}
+			{gunner "gunner"}
+			{charger "charger"}
+			("abm_dymamic_stabilised"
+				zeroing(3)
+				dispersion(0.3)
+			)
+		}
+		{place "mgun2"
+			{type "coaxial"}
+			{weapon "browning_m19a4" filled}
+			{foresight "foresight5"}
+			{gunner "gunner"}
+			{charger "charger"}
+			("abm_mgun")
+			{basic}
+		}
+		{place "mgun1"
+			{type "hull"}
+			{weapon "browning_m19a4" filled}
+			{foresight "foresight4"}
+			{gunner "gunner3"}
+			{charger "gunner3"}
+			("abm_mgun")
+			{basic}
+			{ai_in_manual}
+		}
+		{place "mgun"
+			{type "aa"}
+			{weapon "browning_m2" filled}
+			{gunner "commander"}
+			{charger "commander"}
+			{LinkBone "mgun"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+			{basic}
+			{ai_in_manual}
+		}
+	}
+
+	{mass 30300}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.52) len(1.0))
+		("mobility_spearhead"
+			speed(39.3)			;Max speed when fully accelerated on road, km/h.
+			reverse(5.08)		;Max speed in reverse on road, km/h.
+			mass(30.345)		;Mass, in metric tons.
+			power(400) 			;Engine Power
+			contact(3.7338)		;Track-ground contact length, in m
+			wheelbase(2.11)		;Distance between center of left and right side roadwheels, in m
+			pressure(0.96)		;Ground pressure on road, in kg/cm^2
+			coeff_accel(5)		;Modifier for acceleration, (0,10]
+			coeff_steer_rate(3)	;Modifier for steering, (0,10]
+			coeff_steer_eff(6)	;Modifier for steering, (0,10]
+			fuel(662.45) 		;Fuel capacity in Litres.
+			type(fuel)			;Fuel type. (diesel OR fuel)
+			range(115) 			;Range in km, off-road.
+			maxslope(60)		;Max slope (tan(gradient in degrees) * 100)
+		)
+	}
+
+	{bone "gun_rot"
+		{limits -10 25}
+		{speed2 6}
+	}
+	{bone "turret"
+		("turret_medium" power_traverse(24))
+	}
+	{bone "cupola_ring"
+		{speed2 50}
+	}
+	{bone "mgun_a_rot1"
+		{limits -10 10}
+		{speed2 60}
+	}
+	{bone "mgun_a_rot2"
+		{limits -10 65}
+		{speed2 60}
+	}
+	{texmod "ger"}
+}

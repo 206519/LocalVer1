@@ -1,0 +1,21 @@
+;_________________________________________
+; USSR long-barreled early medium Gun
+;=========================================
+
+{from "76mm_f22"			; L/50.3 "m1933"
+	("velocity m/s" ap(710) apcr(1020) he(706) heat(1))
+
+	("reload time" seconds(5.0))
+
+	; BR-350A
+	("penetration_medium" shell(aphebc) range(200) a(89) b(84) c(76) d(68) e(62))  ;RHA
+
+	; BR-350B
+	("penetration_medium" shell(aphebc2) range(200) a(95) b(89) c(79) d(70) e(63))  ;RHA
+
+	; BR-350P  ; only issued to ZiS-5 & F-34 guns; theoretical performance
+	("penetration_medium" shell(apcr) range(200) a(143) b(121) c(94) d(72) e(56))	; issued in Oct. '43. 8 rounds per vehicle where the Germans were expected to attack. Spring '44 all vehicles had at least 4 rounds.
+
+
+	("accuracy_direct_arrowhead" r1(0.78) range_ap(200) range_he(200) range_heat(170))
+}

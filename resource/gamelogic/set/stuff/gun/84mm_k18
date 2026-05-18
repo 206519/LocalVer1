@@ -1,0 +1,37 @@
+;_________________________________________
+; ARTY Finnish(british) light field gun
+;=========================================
+
+
+{from "pattern gun"			; L/29.4 "84mm_k18"
+	{filling "bullet_84x294"}
+	{fireSound "cannon/s4/d1/Shared/Cannon_85to100mm/"}
+	{fireSoundclose "cannon/s4/d1/Shared/Cannon_85to100mm/"}
+	{reloadSound "utility/"}
+	("range_210_howitzer")
+	{calibre 84}
+	
+	;// range 6-8.5 km, or 10 km with streamlined shell
+	
+	("reload time" seconds(7))
+
+	("velocity m/s" ap(583) apcr(1) he(492) heat(1)) ; HE real speed 492
+	("armor health" damage(230))
+	("90_slope_multipliers")
+	
+	("penetration_medium" shell(ap) range(190) a(83) b(74) c(62) d(52) e(43)) ;// 1942
+
+	;("accuracy_spg" r1(1.90) range_ap(190) range_he(190) range_heat(200))
+	
+	("accuracy_dual" ; // Applies logic for accuracy of dual direct-indirect weapons
+		r1(1.50) 				; // Accuracy radius for direct-fire munitions
+		r1i(7) 					; // Accuracy radius for indirect fire
+		rmax(12) 				; // Accuracy radius for indirect fire at maximum range
+		range_ap(190) 			; // Range after which accuracy drops to prevent farshooting.
+		range_heat(170) 		; // Range after which accuracy drops to prevent farshooting.
+		range_he(200)			; // Range after which direct-fire accuracy drops to prevent farshooting.
+		range_hei(330)			; // Range after which indirect-fire accuracy drops to prevent farshooting.
+		
+		;// although by formula its 215 I decided to arbitrarily cut short the ranges for now
+	)
+}

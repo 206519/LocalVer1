@@ -1,0 +1,31 @@
+;_________________________________________
+; French cannon in German service
+;=========================================
+
+
+{from "pattern gun"			; L/17 "panzerb2"
+
+	{filling "bullet_75x241"}
+	{fireSound "cannon/s3/d1/Shared/Cannon_75to76mm_LV/"}
+	{fireSoundclose "cannon/s2/1p/Shared/"}
+	{reloadSound "tank/1p/large/"}
+	("range_150")
+	{calibre 75}
+	("reload time" seconds(6))
+
+	("velocity m/s" ap(470) apcr(1) he(470) heat(1))
+	("armor health" damage(200))
+	("armor health custom" shell(aphe) damage(200) filler(90))
+	("76_slope_multipliers")
+
+	; Obus de rupture Mle1910M (APHE)
+	("penetration_medium" shell(aphe) range(180) a(54) b(45) c(37) d(31) e(27))
+
+	{parameters "he"
+		{range 180 180}
+	}
+
+	("accuracy_spg" r1(1.50) range_ap(180) range_he(180) range_heat(170))
+
+	{aimingTolerance 1.5}								;// Measure in degrees of IK error when AI is allowed to shoot
+}

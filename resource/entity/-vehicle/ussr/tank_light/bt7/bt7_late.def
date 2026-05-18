@@ -1,0 +1,14 @@
+{game_entity
+	(include "bt7.inc")
+
+	{extender "inventory"
+		{box
+			{item "bulletrus_45 aphebc" 41}		;146 rounds
+			{item "bulletrus_45 apcr" 8}
+			{item "bulletrus_45 he" 40}
+			{item "bulletrus_45 he2" 57}
+			{item "ammo mgun_rus dt api" 3024}		;49 drums
+			{item "satchel_charge_rus" 1}
+		}
+	}
+}

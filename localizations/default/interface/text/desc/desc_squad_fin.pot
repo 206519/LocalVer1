@@ -1,0 +1,1726 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell Finnish Squads\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.4.2\n"
+
+msgctxt "desc/squad/conquest_blenheim"
+msgid "Blenheim 250kg Bomb"
+msgstr ""
+
+msgctxt "desc/squad/conquest_blenheim_light"
+msgid "Blenheim 50kg Bomb"
+msgstr ""
+
+msgctxt "desc/squad/conquest_blenheim_recon"
+msgid "Blenheim Recon"
+msgstr ""
+
+msgctxt "desc/squad/fin_captured_v"
+msgid "Captured Vehicles"
+msgstr ""
+
+msgctxt "desc/squad/fin_captured_v_bt5"
+msgid "Captured Vehicles"
+msgstr ""
+
+msgctxt "desc/squad/fin_captured_v_t26"
+msgid "Captured Vehicles"
+msgstr ""
+
+msgctxt "desc/squad/fin_captured_v_t26_late"
+msgid "Captured Vehicles"
+msgstr ""
+
+msgctxt "desc/squad/fin_captured_v_t37a"
+msgid "Captured Vehicles"
+msgstr ""
+
+msgctxt "desc/squad/fin_captured_v_t3476_mid"
+msgid "Captured Vehicles"
+msgstr ""
+
+msgctxt "desc/squad/fin_captured_v_t3476"
+msgid "Captured Vehicles"
+msgstr ""
+
+msgctxt "desc/squad/fin_captured_v_t3485"
+msgid "Captured Vehicles"
+msgstr ""
+
+msgctxt "desc/squad/single_ap_miner(fin)"
+msgid "AP Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at(fin)"
+msgid "AT Detachment"
+msgstr ""
+
+msgctxt "desc/squad/single_at_miner(fin)"
+msgid "AT Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at_pzs_late_con(fin)"
+msgid "Panzerschreck Team"
+msgstr ""
+
+msgctxt "desc/squad/single_auxiliary(fin)"
+msgid "Auxiliary Detachment"
+msgstr ""
+
+msgctxt "desc/squad/single_bazooker(fin)"
+msgid "AT Detachment"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer(fin)"
+msgid "Field Engineers"
+msgstr ""
+
+msgctxt "desc/squad/single_flamer(fin)"
+msgid "Flamethrower"
+msgstr ""
+
+msgctxt "desc/squad/single_medic(fin)"
+msgid "Medic"
+msgstr ""
+
+msgctxt "desc/squad/single_mg2(fin)"
+msgid "Reserve LMG Detachment"
+msgstr ""
+
+msgctxt "desc/squad/single_mg(fin)"
+msgid "LMG Detachment"
+msgstr ""
+
+msgctxt "desc/squad/single_officer(fin)"
+msgid "Officer"
+msgstr ""
+
+msgctxt "desc/squad/single_sniper(fin)"
+msgid "Sniper"
+msgstr ""
+
+msgctxt "desc/squad/single_tankman(fin)"
+msgid "Tank crew"
+msgstr ""
+
+msgctxt "desc/squad/squad_antitank_late(fin)"
+msgid "<c(A5A095)>(2)</c> AT Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_assault(fin)"
+msgid "<c(A5A095)>(2)</c> Assault Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_assault_mid_con(fin)"
+msgid "<c(A5A095)>(3)</c> Assault Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_late_con(fin)"
+msgid "Anti-Tank Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_border_guard_early_con(fin)"
+msgid "<c(A5A095)>(3)</c> Border Guard Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_border_jag_late(fin)"
+msgid "<c(A5A095)>(4)</c> Border Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_border_jag_mid(fin)"
+msgid "<c(A5A095)>(4)</c> Border Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_border_jag_mid_con(fin)"
+msgid "<c(A5A095)>(4)</c> Border Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_early(fin)"
+msgid "<c(A5A095)>(3)</c> Cavalry Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late(fin)"
+msgid "<c(A5A095)>(3)</c> Cavalry Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_mid(fin)"
+msgid "<c(A5A095)>(3)</c> Cavalry Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_civil_guard_early(fin)"
+msgid "<c(A5A095)>(1)</c> Civil Guard Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_civil_guard_early_con(fin)"
+msgid "<c(A5A095)>(1)</c> Civil Guard Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_engineer_mid_con(fin)"
+msgid "Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_heavy_engineer_mid_con(fin)"
+msgid "Heavy Engineers"
+msgstr ""
+
+msgctxt "desc/squad/squad_jaeger_early(fin)"
+msgid "<c(A5A095)>(4)</c> Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jaeger_lmg_early(fin)"
+msgid "<c(A5A095)>(4)</c> Jaeger LMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_antitank_late(fin)"
+msgid "<c(A5A095)>(4)</c> Jäger AT Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_late(fin)"
+msgid "<c(A5A095)>(4)</c> Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_mid(fin)"
+msgid "<c(A5A095)>(4)</c> Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_mid_con(fin)"
+msgid "<c(A5A095)>(4)</c> Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marksmen(fin)"
+msgid "<c(A5A095)>(3)</c> Marksmen"
+msgstr ""
+
+msgctxt "desc/squad/squad_officer_con(fin)"
+msgid "Command Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_reserves_late(fin)"
+msgid "<c(A5A095)>(1)</c> Reserve Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_reserves_mid(fin)"
+msgid "<c(A5A095)>(1)</c> Reserve Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_reserves_mid_con(fin)"
+msgid "<c(A5A095)>(1)</c> Reserve Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_early(fin)"
+msgid "<c(A5A095)>(2)</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_early_con(fin)"
+msgid "<c(A5A095)>(2)</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late(fin)"
+msgid "<c(A5A095)>(2)</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_lmg_early(fin)"
+msgid "<c(A5A095)>(2)</c> LMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_lmg_early_con(fin)"
+msgid "<c(A5A095)>(2)</c> LMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid(fin)"
+msgid "<c(A5A095)>(2)</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_con(fin)"
+msgid "<c(A5A095)>(2)</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_scout_early(fin)"
+msgid "<c(A5A095)>(2)</c> Scout Section"
+msgstr ""
+
+msgctxt "desc/squad/squad_scout_late(fin)"
+msgid "<c(A5A095)>(2)</c> Scout Section"
+msgstr ""
+
+msgctxt "desc/squad/squad_scout_mid(fin)"
+msgid "<c(A5A095)>(2)</c> Scout Section"
+msgstr ""
+
+msgctxt "desc/squad/squad_scout_mid_con(fin)"
+msgid "<c(A5A095)>(2)</c> Scout Section"
+msgstr ""
+
+msgctxt "desc/squad/squad_sissi_mid_con(fin)"
+msgid "<c(A5A095)>(4)</c> Sissi Commandos"
+msgstr ""
+
+msgctxt "desc/squad/team_officer_con(fin)"
+msgid "Command Team"
+msgstr ""
+
+msgctxt "desc/squad/white_death_con(fin)"
+msgid "<c(A5A095)>(4)</c> Elite Sniper"
+msgstr ""
+
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell Squads\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgctxt "desc/squad/single_rifle(fin)"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/squad/single_smg(fin)"
+msgid "SMG Soldier"
+msgstr ""
+
+msgctxt "desc/squad/single_sa(fin)"
+msgid "Semi-Auto Rifleman"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_early_all(fin)"
+msgid "<c(A5A095)>(2)</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mg_early_all(fin)"
+msgid "<c(A5A095)>(2)</c> LMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_early_all(fin)"
+msgid "<c(A5A095)>(3)</c> Cavalry Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_mg_early_all(fin)"
+msgid "<c(A5A095)>(3)</c> Cavalry LMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_early_all(fin)"
+msgid "<c(A5A095)>(4)</c> Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_mg_early_all(fin)"
+msgid "<c(A5A095)>(4)</c> Jäger LMG Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_rifle_early_def(fin)"
+msgid "<c(A5A095)>(2)</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mg_early_def(fin)"
+msgid "<c(A5A095)>(2)</c> LMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_eng_early_def(fin)"
+msgid "<c(A5A095)>(2)</c> Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_border_guard_early_def(fin)"
+msgid "<c(A5A095)>(3)</c> Border Guards Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_early_def(fin)"
+msgid "<c(A5A095)>(4)</c> Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_mg_early_def(fin)"
+msgid "<c(A5A095)>(4)</c> Jäger LMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pio_early(fin)"
+msgid "<c(A5A095)>(3)</c> Heavy Pioneer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_early_irr(fin)"
+msgid "<c(A5A095)>(2)</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mg_early_irr(fin)"
+msgid "<c(A5A095)>(2)</c> LMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_early_irr(fin)"
+msgid "<c(A5A095)>(3)</c> Cavalry Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_early_off(fin)"
+msgid "<c(A5A095)>(3)</c> Cavalry Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_mg_early_irr(fin)"
+msgid "<c(A5A095)>(3)</c> Cavalry LMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_scout_irr(fin)"
+msgid "<c(A5A095)>(4)</c> Jäger Scout Section"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_scout_mid(fin)"
+msgid "<c(A5A095)>(4)</c> Jäger Scout Section"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_scout_late(fin)"
+msgid "<c(A5A095)>(4)</c> Jäger Scout Section"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_early_off(fin)"
+msgid "<c(A5A095)>(2)</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mg_early_off(fin)"
+msgid "<c(A5A095)>(2)</c> LMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marksmen_rifle_early_off(fin)"
+msgid "<c(A5A095)>(2+)</c> Marksmen Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_early_off(fin)"
+msgid "<c(A5A095)>(4)</c> Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_mg_early_off(fin)"
+msgid "<c(A5A095)>(4)</c> Jäger LMG Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_rifle_mid_all(fin)"
+msgid "<c(A5A095)>(2)</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_mid_all(fin)"
+msgid "<c(A5A095)>(2+)</c> Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_border_jag_mid_all(fin)"
+msgid "<c(A5A095)>(4)</c> Border Jäger Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_rifle_mid_def(fin)"
+msgid "<c(A5A095)>(2)</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_eng_mid_def(fin)"
+msgid "<c(A5A095)>(2)</c> Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_eng_flame_mid_def(fin)"
+msgid "<c(A5A095)>(2)</c> Engineer Flamer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pio_mid(fin)"
+msgid "<c(A5A095)>(3)</c> Heavy Pioneer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_mid_def(fin)"
+msgid "<c(A5A095)>(2+)</c> Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_rifle_mid_def(fin)"
+msgid "<c(A5A095)>(3+)</c> Elite Rifle Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_rifle_mid_irr(fin)"
+msgid "<c(A5A095)>(2)</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_scout_irr(fin)"
+msgid "<c(A5A095)>(2+)</c> Veteran Scout Section"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_mid_irr(fin)"
+msgid "<c(A5A095)>(3)</c> Cavalry Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_mid_off(fin)"
+msgid "<c(A5A095)>(3)</c> Cavalry Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_cav_mid_irr(fin)"
+msgid "<c(A5A095)>(3+)</c> Veteran Cavalry Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_cav_mid_off(fin)"
+msgid "<c(A5A095)>(3+)</c> Veteran Cavalry Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_len(fin)"
+msgid "<c(A5A095)>(2)</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marksmen_rifle_mid_len(fin)"
+msgid "<c(A5A095)>(2+)</c> Marksmen Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_mid_len(fin)"
+msgid "<c(A5A095)>(4)</c> Jäger Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_rifle_late_all(fin)"
+msgid "<c(A5A095)>(2)</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_antitank_late_all(fin)"
+msgid "<c(A5A095)>(2)</c> Anti-Tank Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pio_late(fin)"
+msgid "<c(A5A095)>(3)</c> Heavy Pioneer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_late_all(fin)"
+msgid "<c(A5A095)>(2+)</c> Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_border_jag_late_all(fin)"
+msgid "<c(A5A095)>(4)</c> Border Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_border_jag_at_late_all(fin)"
+msgid "<c(A5A095)>(4)</c> Border Jäger AT Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_rifle_late_def(fin)"
+msgid "<c(A5A095)>(2)</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_eng_late_def(fin)"
+msgid "<c(A5A095)>(2)</c> Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_antitank_late_def(fin)"
+msgid "<c(A5A095)>(2)</c> Anti-Tank Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_late_def(fin)"
+msgid "<c(A5A095)>(2+)</c> Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_rifle_late_def(fin)"
+msgid "<c(A5A095)>(3+)</c> Elite Rifle Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_rifle_late_irr(fin)"
+msgid "<c(A5A095)>(2)</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_antitank_late_irr(fin)"
+msgid "<c(A5A095)>(2)</c> Anti-Tank Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_irr(fin)"
+msgid "<c(A5A095)>(3)</c> Cavalry Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_off(fin)"
+msgid "<c(A5A095)>(3)</c> Cavalry Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_cav_late_irr(fin)"
+msgid "<c(A5A095)>(3+)</c> Veteran Cavalry Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_len(fin)"
+msgid "<c(A5A095)>(2)</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_antitank_late_len(fin)"
+msgid "<c(A5A095)>(2)</c> Anti-Tank Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marksmen_rifle_late_len(fin)"
+msgid "<c(A5A095)>(2+)</c> Marksmen Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_late_len(fin)"
+msgid "<c(A5A095)>(4)</c> Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_antitank_late_len(fin)"
+msgid "<c(A5A095)>(4)</c> Jäger AT Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_mid_vet(fin)"
+msgid "<c(A5A095)>(4+)</c> Veteran Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_late_vet(fin)"
+msgid "<c(A5A095)>(4+)</c> Veteran Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/maxim_m32_33_early"
+msgid "Maxim M/32-33"
+msgstr ""
+
+msgctxt "desc/squad/maxim_m32_33_early_off"
+msgid "Maxim M/32-33"
+msgstr ""
+
+msgctxt "desc/squad/maxim_m32_33_mid"
+msgid "Maxim M/32-33"
+msgstr ""
+
+msgctxt "desc/squad/maxim_m32_33_late"
+msgid "Maxim M/32-33"
+msgstr ""
+
+msgctxt "desc/squad/maxim_m1910_30_early"
+msgid "Maxim M/09-09"
+msgstr ""
+
+msgctxt "desc/squad/maxim_m1910_30_mid"
+msgid "Maxim M/09-09"
+msgstr ""
+
+msgctxt "desc/squad/maxim_m1910_30_late"
+msgid "Maxim M/09-09"
+msgstr ""
+
+msgctxt "desc/squad/ds39_stand_fin_early"
+msgid "DS-39/VKT Stand"
+msgstr ""
+
+msgctxt "desc/squad/ds39_stand_fin_mid"
+msgid "DS-39/VKT Stand"
+msgstr ""
+
+msgctxt "desc/squad/ds39_stand_fin_late"
+msgid "DS-39/VKT Stand"
+msgstr ""
+
+msgctxt "desc/squad/mg08_fin_mid"
+msgid "Maxim MG 08"
+msgstr ""
+
+msgctxt "desc/squad/mg08_fin_late"
+msgid "Maxim MG 08"
+msgstr ""
+
+msgctxt "desc/squad/squad_civil_guard_early_all(fin)"
+msgid "<c(A5A095)>(1)</c> Civil Guard Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fortress_rifle_early_def(fin)"
+msgid "<c(A5A095)>(1)</c> Fortress Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_military_police_early_irr(fin)"
+msgid "<c(A5A095)>(1)</c> Military Police Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_civil_guard_early_off(fin)"
+msgid "<c(A5A095)>(1)</c> Civil Guard Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_hrr_cav_rifle_early_all(fin)"
+msgid "<c(A5A095)>(4)</c> Häme Cavalry Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_hrr_cav_mg_early_all(fin)"
+msgid "<c(A5A095)>(4)</c> Häme Cavalry LMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_urr_cav_rifle_early_all(fin)"
+msgid "<c(A5A095)>(4+)</c> Uusimaa Cavalry Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_urr_cav_mg_early_all(fin)"
+msgid "<c(A5A095)>(4+)</c> Uusimaa Cavalry LMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marksmen_rifle_early_irr(fin)"
+msgid "<c(A5A095)>(2+)</c> Marksmen Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_swe_recon_early_irr(fin)"
+msgid "<c(A5A095)>(3)</c> Swedish Recon Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_swe_rifle_early_irr(fin)"
+msgid "<c(A5A095)>(3)</c> Swedish Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_swe_jag_early_irr(fin)"
+msgid "<c(A5A095)>(4)</c> Swedish Jägar Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_light_scout_rifle_early_off(fin)"
+msgid "<c(A5A095)>(3)</c> Light Scout Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_light_scout_mg_early_off(fin)"
+msgid "<c(A5A095)>(3)</c> Light Scout LMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_assault_early_1_off(fin)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>1.</c> Assault Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_assault_early_2_off(fin)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>2.</c> Assault Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_scout_off(fin)"
+msgid "<c(A5A095)>(4)</c> Jäger Scout Section"
+msgstr ""
+
+msgctxt "desc/squad/squad_reserves_mid_all(fin)"
+msgid "<c(A5A095)>(1)</c> Reserve Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fortress_rifle_mid_def(fin)"
+msgid "<c(A5A095)>(1)</c> Fortress Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_military_police_mid_irr(fin)"
+msgid "<c(A5A095)>(1)</c> Military Police Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_reserves_mid_len(fin)"
+msgid "<c(A5A095)>(1)</c> Reserve Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_scout_all(fin)"
+msgid "<c(A5A095)>(2+)</c> Veteran Scout Section"
+msgstr ""
+
+msgctxt "desc/squad/squad_light_scout_mid_all(fin)"
+msgid "<c(A5A095)>(3)</c> Light Scout Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_assault_mid_all(fin)"
+msgid "<c(A5A095)>(3)</c> Assault Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_rifle_mid_all(fin)"
+msgid "<c(A5A095)>(3+)</c> Elite Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_hq_lr_pio_mid_def(fin)"
+msgid "<c(A5A095)>(3)</c> HQ Long-Range Pioneer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_border_jag_mid_def(fin)"
+msgid "<c(A5A095)>(4)</c> Border Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_hq_lr_recon_mid_def(fin)"
+msgid "<c(A5A095)>(4)</c> HQ Long-Range Recon Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_hq_lr_mid_def(fin)"
+msgid "<c(A5A095)>(4)</c> HQ Long-Range Patrol Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_hq_lr_jag_mid_def(fin)"
+msgid "<c(A5A095)>(4+)</c> HQ Long-Range Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_penal_mid_irr(fin)"
+msgid "<c(A5A095)>(2)</c> Penal 'Black Arrow' Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marksmen_rifle_mid_irr(fin)"
+msgid "<c(A5A095)>(2+)</c> Marksmen Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_hrr_cav_mid_irr(fin)"
+msgid "<c(A5A095)>(4)</c> Häme Cavalry Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_urr_cav_mid_irr(fin)"
+msgid "<c(A5A095)>(4+)</c> Uusimaa Cavalry Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_mid_len(fin)"
+msgid "<c(A5A095)>(2+)</c> Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_swe_mid_len(fin)"
+msgid "<c(A5A095)>(3+)</c> Swedish Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_strike_mid_len(fin)"
+msgid "<c(A5A095)>(4+)</c> Jäger Strike Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fortress_rifle_late_def(fin)"
+msgid "<c(A5A095)>(1)</c> Fortress Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_military_police_late_irr(fin)"
+msgid "<c(A5A095)>(1)</c> Military Police Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_reserves_late_len(fin)"
+msgid "<c(A5A095)>(1)</c> Reserve Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_assault_late_all(fin)"
+msgid "<c(A5A095)>(3)</c> Assault Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_arm_pio_late_all(fin)"
+msgid "<c(A5A095)>(3)</c> Armor Div. Pioneer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_arm_pio_late_mot_all(fin)"
+msgid "<c(A5A095)>(3)</c> Motorized Armor Div. Pioneer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_rifle_late_all(fin)"
+msgid "<c(A5A095)>(3+)</c> Elite Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_arm_jag_late_all(fin)"
+msgid "<c(A5A095)>(4)</c> Armor Div. Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_arm_jag_late_mot_all(fin)"
+msgid "<c(A5A095)>(4)</c> Motorized Armor Div. Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_hq_lr_pio_late_def(fin)"
+msgid "<c(A5A095)>(3)</c> HQ Long-Range Pioneer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_border_jag_late_def(fin)"
+msgid "<c(A5A095)>(4)</c> Border Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_border_jag_at_late_def(fin)"
+msgid "<c(A5A095)>(4)</c> Border Jäger AT Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_hq_lr_recon_late_def(fin)"
+msgid "<c(A5A095)>(4)</c> HQ Long-Range Recon Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_hq_lr_late_def(fin)"
+msgid "<c(A5A095)>(4)</c> HQ Long-Range Patrol Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_hq_lr_jag_late_def(fin)"
+msgid "<c(A5A095)>(4+)</c> HQ Long-Range Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_penal_late_irr(fin)"
+msgid "<c(A5A095)>(2)</c> Penal 'Black Arrow' Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marksmen_rifle_late_irr(fin)"
+msgid "<c(A5A095)>(2+)</c> Marksmen Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_hrr_cav_late_irr(fin)"
+msgid "<c(A5A095)>(4)</c> Häme Cavalry Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_urr_cav_late_irr(fin)"
+msgid "<c(A5A095)>(4+)</c> Uusimaa Cavalry Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_late_len(fin)"
+msgid "<c(A5A095)>(2+)</c> Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_swe_late_len(fin)"
+msgid "<c(A5A095)>(3+)</c> Swedish Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_strike_late_len(fin)"
+msgid "<c(A5A095)>(4+)</c> Jäger Strike Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_military_police_early_con(fin)"
+msgid "<c(A5A095)>(1)</c> Military Police Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fortress_rifle_early_con(fin)"
+msgid "<c(A5A095)>(1)</c> Fortress Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_penal_mid_con(fin)"
+msgid "<c(A5A095)>(2)</c> Penal 'Black Arrow' Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_swe_recon_early_con(fin)"
+msgid "<c(A5A095)>(3)</c> Swedish Recon Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_swe_rifle_early_con(fin)"
+msgid "<c(A5A095)>(3)</c> Swedish Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_swe_jag_early_con(fin)"
+msgid "<c(A5A095)>(4)</c> Swedish Jägar Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_light_scout_mid_con(fin)"
+msgid "<c(A5A095)>(3)</c> Light Scout Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_hq_lr_pio_mid_con(fin)"
+msgid "<c(A5A095)>(3)</c> HQ Long-Range Pioneer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_hq_lr_pio_late_con(fin)"
+msgid "<c(A5A095)>(3)</c> HQ Long-Range Pioneer Squad [Late]"
+msgstr ""
+
+msgctxt "desc/squad/squad_arm_pio_late_mot_con(fin)"
+msgid "<c(A5A095)>(3)</c> Motorized Armor Div. Pioneer Squad [Late]"
+msgstr ""
+
+msgctxt "desc/squad/squad_swe_mid_con(fin)"
+msgid "<c(A5A095)>(3+)</c> Swedish Rifle Squad [Mid]"
+msgstr ""
+
+msgctxt "desc/squad/squad_swe_late_con(fin)"
+msgid "<c(A5A095)>(3+)</c> Swedish Rifle Squad [Late]"
+msgstr ""
+
+msgctxt "desc/squad/squad_arm_jag_late_mot_con(fin)"
+msgid "<c(A5A095)>(4)</c> Motorized Armor Div. Jäger Squad [Late]"
+msgstr ""
+
+msgctxt "desc/squad/squad_hrr_cav_mid_con(fin)"
+msgid "<c(A5A095)>(4)</c> Häme Cavalry Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_hrr_cav_late_con(fin)"
+msgid "<c(A5A095)>(4)</c> Häme Cavalry Rifle Squad [Late]"
+msgstr ""
+
+msgctxt "desc/squad/squad_hq_lr_mid_con(fin)"
+msgid "<c(A5A095)>(4)</c> HQ Long-Range Patrol Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_hq_lr_recon_mid_con(fin)"
+msgid "<c(A5A095)>(4)</c> HQ Long-Range Recon Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_hq_lr_late_con(fin)"
+msgid "<c(A5A095)>(4)</c> HQ Long-Range Patrol Squad [Late]"
+msgstr ""
+
+msgctxt "desc/squad/squad_hq_lr_recon_late_con(fin)"
+msgid "<c(A5A095)>(4)</c> HQ Long-Range Recon Squad [Late]"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_strike_mid_con(fin)"
+msgid "<c(A5A095)>(4+)</c> Jäger Strike Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_strike_late_con(fin)"
+msgid "<c(A5A095)>(4+)</c> Jäger Strike Squad [Late]"
+msgstr ""
+
+msgctxt "desc/squad/squad_urr_cav_mid_con(fin)"
+msgid "<c(A5A095)>(4+)</c> Uusimaa Cavalry Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_urr_cav_late_con(fin)"
+msgid "<c(A5A095)>(4+)</c> Uusimaa Cavalry Rifle Squad [Late]"
+msgstr ""
+
+msgctxt "desc/squad/squad_hq_lr_jag_mid_con(fin)"
+msgid "<c(A5A095)>(4+)</c> HQ Long-Range Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_hq_lr_jag_late_con(fin)"
+msgid "<c(A5A095)>(4+)</c> HQ Long-Range Jäger Squad [Late]"
+msgstr ""
+
+msgctxt "desc/squad/squad_reserves_late_jalk(fin)"
+msgid "<c(A5A095)>(1)</c> Reserve Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fortress_rifle_late_jalk(fin)"
+msgid "<c(A5A095)>(1)</c> Fortress Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_scout_late_jalk(fin)"
+msgid "<c(A5A095)>(1)</c> Scout Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_penal_late_jalk(fin)"
+msgid "<c(A5A095)>(2)</c> Penal 'Black Arrow' Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_jalk_1(fin)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_jalk_2(fin)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_jalk_3(fin)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_antitank_late_jalk(fin)"
+msgid "<c(A5A095)>(2)</c> AT Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_eng_late_jalk(fin)"
+msgid "<c(A5A095)>(2)</c> Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_late_jalk_1(fin)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>1.</c> Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_late_jalk_2(fin)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>2.</c> Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marksmen_rifle_late_jalk(fin)"
+msgid "<c(A5A095)>(2+)</c> Marksman Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pio_late_jalk(fin)"
+msgid "<c(A5A095)>(3)</c> Pioneer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_jalk(fin)"
+msgid "<c(A5A095)>(3)</c> Cavalry Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_assault_late_jalk(fin)"
+msgid "<c(A5A095)>(3)</c> Assault Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_hq_lr_pio_late_jalk(fin)"
+msgid "<c(A5A095)>(3)</c> HQ Long-Range Pioneer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_rifle_late_jalk(fin)"
+msgid "<c(A5A095)>(3+)</c> Elite Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_cav_late_jalk(fin)"
+msgid "<c(A5A095)>(3+)</c> Veteran Cavalry Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_swe_late_jalk(fin)"
+msgid "<c(A5A095)>(3+)</c> Swedish Rifle Squad [Late]"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_scout_late_jalk(fin)"
+msgid "<c(A5A095)>(4)</c> Jäger Scout Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_border_jag_late_jalk(fin)"
+msgid "<c(A5A095)>(4)</c> Jäger Border Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_border_jag_at_late_jalk(fin)"
+msgid "<c(A5A095)>(4)</c> Jäger Border AT Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_late_jalk(fin)"
+msgid "<c(A5A095)>(4)</c> Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_antitank_late_jalk(fin)"
+msgid "<c(A5A095)>(4)</c> Jäger AT Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_hq_lr_recon_late_jalk(fin)"
+msgid "<c(A5A095)>(4)</c> HQ Long-Range Recon Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_hq_lr_late_jalk(fin)"
+msgid "<c(A5A095)>(4)</c> HQ Long-Range Patrol Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_hrr_cav_late_jalk(fin)"
+msgid "<c(A5A095)>(4)</c> Häme Cavalry Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_late_vet_jalk(fin)"
+msgid "<c(A5A095)>(4+)</c> Veteran Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_strike_late_jalk(fin)"
+msgid "<c(A5A095)>(4+)</c> Jäger Strike Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_hq_lr_jag_late_jalk(fin)"
+msgid "<c(A5A095)>(4+)</c> HQ Long-Range Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_urr_cav_late_jalk(fin)"
+msgid "<c(A5A095)>(4+)</c> Uusimaa Cavalry Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/inf_crate_fin(late_fin_jalk)"
+msgid "Ammo Crate"
+msgstr ""
+
+msgctxt "desc/squad/mg08_fin(late_fin_jalk)"
+msgid "Maxim MG 08"
+msgstr ""
+
+msgctxt "desc/squad/maxim_m1910_30(late_fin_jalk)"
+msgid "Maxim"
+msgstr ""
+
+msgctxt "desc/squad/maxim_m32_33(late_fin_jalk)"
+msgid "Maxim M/32-33"
+msgstr ""
+
+msgctxt "desc/squad/maxim_m32_33_late(late_fin_jalk)"
+msgid "Maxim M/32-33"
+msgstr ""
+
+msgctxt "desc/squad/ds39_stand_fin(late_fin_jalk)"
+msgid "DS-39"
+msgstr ""
+
+msgctxt "desc/squad/ds39_stand_fin_late(late_fin_jalk)"
+msgid "DS-39"
+msgstr ""
+
+msgctxt "desc/squad/panzernest_krab(late_fin_jalk)"
+msgid "Panzernest Krab"
+msgstr ""
+
+msgctxt "desc/squad/20mm_itk35(late_fin_jalk)"
+msgid "20 ItK/35 Breda"
+msgstr ""
+
+msgctxt "desc/squad/20mm_itk40(late_fin_jalk)"
+msgid "20 ItK/40 VKT"
+msgstr ""
+
+msgctxt "desc/squad/40mm_itk38b(late_fin_jalk)"
+msgid "40 ItK/38b"
+msgstr ""
+
+msgctxt "desc/squad/75mm_itk37(late_fin_jalk)"
+msgid "75 ItK/37"
+msgstr ""
+
+msgctxt "desc/squad/76mm_itk31(late_fin_jalk)"
+msgid "76 ItK/31"
+msgstr ""
+
+msgctxt "desc/squad/20mm_l39(late_fin_jalk)"
+msgid "20 Pst Kiv/39"
+msgstr ""
+
+msgctxt "desc/squad/37mm_pstk36(late_fin_jalk)"
+msgid "37 PstK/36"
+msgstr ""
+
+msgctxt "desc/squad/45mm_pstk32(late_fin_jalk)"
+msgid "45 PstK/32"
+msgstr ""
+
+msgctxt "desc/squad/45mm_pstk32_mid(late_fin_jalk)"
+msgid "45 PstK/32"
+msgstr ""
+
+msgctxt "desc/squad/47mm_pstk39(late_fin_jalk)"
+msgid "47 PstK/39"
+msgstr ""
+
+msgctxt "desc/squad/50mm_pstk38_late(late_fin_jalk)"
+msgid "50 PstK/38 (Towed)"
+msgstr ""
+
+msgctxt "desc/squad/75mm_pstk9738(late_fin_jalk)"
+msgid "75 PstK/97-38"
+msgstr ""
+
+msgctxt "desc/squad/75mm_k40(late_fin_jalk)"
+msgid "75 K/40 (Towed)"
+msgstr ""
+
+msgctxt "desc/squad/75mm_k44(late_fin_jalk)"
+msgid "75 K/44 (Towed)"
+msgstr ""
+
+msgctxt "desc/squad/76mm_k36(late_fin_jalk)"
+msgid "76 K/36"
+msgstr ""
+
+msgctxt "desc/squad/50mm_krh38(late_fin_jalk)"
+msgid "50 Krh/38"
+msgstr ""
+
+msgctxt "desc/squad/81mm_krh36(late_fin_jalk)"
+msgid "81 Krh/36"
+msgstr ""
+
+msgctxt "desc/squad/120mm_krh40(late_fin_jalk)"
+msgid "120 Krh/40"
+msgstr ""
+
+msgctxt "desc/squad/300mm_krh42(late_fin_jalk)"
+msgid "300 Krh/42"
+msgstr ""
+
+msgctxt "desc/squad/76mm_k02(late_fin_jalk)"
+msgid "76 K/02"
+msgstr ""
+
+msgctxt "desc/squad/76mm_k02_30_40(late_fin_jalk)"
+msgid "76 K/02-30/40"
+msgstr ""
+
+msgctxt "desc/squad/76mm_rk27_39(late_fin_jalk)"
+msgid "76 RK/27-39"
+msgstr ""
+
+msgctxt "desc/squad/76mm_m1927_fin(late_fin_jalk)"
+msgid "76 RK/27"
+msgstr ""
+
+msgctxt "desc/squad/84mm_k18_late(late_fin_jalk)"
+msgid "84 K/18"
+msgstr ""
+
+msgctxt "desc/squad/105mm_k13(late_fin_jalk)"
+msgid "105 K/13"
+msgstr ""
+
+msgctxt "desc/squad/105mm_k34(late_fin_jalk)"
+msgid "105 K/34"
+msgstr ""
+
+msgctxt "desc/squad/105mm_h33(late_fin_jalk)"
+msgid "105 H/33"
+msgstr ""
+
+msgctxt "desc/squad/107mm_k10(late_fin_jalk)"
+msgid "107 K/10"
+msgstr ""
+
+msgctxt "desc/squad/114mm_h18_how_late(late_fin_jalk)"
+msgid "114 H/18 (Late)"
+msgstr ""
+
+msgctxt "desc/squad/120mm_k78_31(late_fin_jalk)"
+msgid "120 K/78-31"
+msgstr ""
+
+msgctxt "desc/squad/122mm_m1910_fin(late_fin_jalk)"
+msgid "122 H/10-30"
+msgstr ""
+
+msgctxt "desc/squad/150mm_h40(late_fin_jalk)"
+msgid "150 H/40"
+msgstr ""
+
+msgctxt "desc/squad/155mm_h17(late_fin_jalk)"
+msgid "155 H/17"
+msgstr ""
+
+msgctxt "desc/squad/155mm_K17(late_fin_jalk)"
+msgid "155 K/17"
+msgstr ""
+
+msgctxt "desc/squad/203mm_h17(late_fin_jalk)"
+msgid "203 H/17"
+msgstr ""
+
+msgctxt "desc/squad/210mm_h17(late_fin_jalk)"
+msgid "210 H/17"
+msgstr ""
+
+msgctxt "desc/squad/150mm_rkh41(late_fin_jalk)"
+msgid "150 Rkh/41"
+msgstr ""
+
+msgctxt "desc/squad/m42_truppenfahrrad(late_fin_jalk)"
+msgid "M42 Truppenfahrrad"
+msgstr ""
+
+msgctxt "desc/squad/latil_m2tl6(late_fin_jalk)"
+msgid "Latil M2 TL6"
+msgstr ""
+
+msgctxt "desc/squad/volvo_127d(late_fin_jalk)"
+msgid "Volvo LV 127D"
+msgstr ""
+
+msgctxt "desc/squad/volvo_127d_itk40(late_fin_jalk)"
+msgid "Volvo LV 127D (20 ItK/40)"
+msgstr ""
+
+msgctxt "desc/squad/ford_v3000(late_fin_jalk)"
+msgid "Ford V3000S (Transport)"
+msgstr ""
+
+msgctxt "desc/squad/ford_v3000_ammo(late_fin_jalk)"
+msgid "Ford V3000S (Ammo)"
+msgstr ""
+
+msgctxt "desc/squad/ford_v3000_fuel(late_fin_jalk)"
+msgid "Ford V3000S (Fuel)"
+msgstr ""
+
+msgctxt "desc/squad/ford_v3000_eng(late_fin_jalk)"
+msgid "Ford V3000S (Engineer)"
+msgstr ""
+
+msgctxt "desc/squad/t20_fin(late_fin_jalk)"
+msgid "T-20"
+msgstr ""
+
+msgctxt "desc/squad/l182(late_fin_jalk)"
+msgid "Landsverk 182"
+msgstr ""
+
+msgctxt "desc/squad/ba6_fin(late_fin_jalk)"
+msgid "BAF B"
+msgstr ""
+
+msgctxt "desc/squad/t26c(late_fin_jalk)"
+msgid "T-26C"
+msgstr ""
+
+msgctxt "desc/squad/t26e(late_fin_jalk)"
+msgid "T-26E"
+msgstr ""
+
+msgctxt "desc/squad/t26e_mid(late_fin_jalk)"
+msgid "T-26E (Mid)"
+msgstr ""
+
+msgctxt "desc/squad/t26_33_fin(late_fin_jalk)"
+msgid "T-26B"
+msgstr ""
+
+msgctxt "desc/squad/t26_33_fin_mid(late_fin_jalk)"
+msgid "T-26B (Mid)"
+msgstr ""
+
+msgctxt "desc/squad/bt42(late_fin_jalk)"
+msgid "BT-42"
+msgstr ""
+
+msgctxt "desc/squad/single_signaller_105_jalk(fin)"
+msgid "Artillery Signaller (105 mm)"
+msgstr ""
+
+msgctxt "desc/squad/squad_reserves_pans(fin)"
+msgid "<c(A5A095)>(1)</c> Reserve Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_scout_late_pans(fin)"
+msgid "<c(A5A095)>(1)</c> Scout Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_pans_1(fin)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_pans_2(fin)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_pans_3(fin)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_antitank_late_pans(fin)"
+msgid "<c(A5A095)>(2)</c> AT Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_eng_late_pans(fin)"
+msgid "<c(A5A095)>(2)</c> Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_late_pans_1(fin)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>1.</c> Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_late_pans_2(fin)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>2.</c> Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marksmen_rifle_late_pans(fin)"
+msgid "<c(A5A095)>(2+)</c> Marksman Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pio_late_pans(fin)"
+msgid "<c(A5A095)>(3)</c> Pioneer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_pans(fin)"
+msgid "<c(A5A095)>(3)</c> Cavalry Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_arm_pio_late_pans(fin)"
+msgid "<c(A5A095)>(3)</c> Armor Div. Pioneer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_arm_pio_late_mot_pans(fin)"
+msgid "<c(A5A095)>(3)</c> Motorized Armor Div. Pioneer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_rifle_late_pans(fin)"
+msgid "<c(A5A095)>(4)</c> Elite Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_cav_late_pans(fin)"
+msgid "<c(A5A095)>(4)</c> Veteran Cavalry Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_scout_late_pans(fin)"
+msgid "<c(A5A095)>(4)</c> Jäger Scout Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_border_jag_late_pans(fin)"
+msgid "<c(A5A095)>(4)</c> Jäger Border Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_border_jag_at_late_pans(fin)"
+msgid "<c(A5A095)>(4)</c> Jäger Border AT Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_late_pans(fin)"
+msgid "<c(A5A095)>(4)</c> Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_antitank_late_pans(fin)"
+msgid "<c(A5A095)>(4)</c> Jäger AT Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jag_late_vet_pans(fin)"
+msgid "<c(A5A095)>(4+)</c> Veteran Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_arm_jag_late_pans(fin)"
+msgid "<c(A5A095)>(4)</c> Armor Div. Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_arm_jag_late_mot_pans(fin)"
+msgid "<c(A5A095)>(4)</c> Motorized Armor Div. Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/inf_crate_fin(late_fin_pans)"
+msgid "Ammo Crate"
+msgstr ""
+
+msgctxt "desc/squad/mg08_fin_late(late_fin_pans)"
+msgid "Maxim MG 08"
+msgstr ""
+
+msgctxt "desc/squad/maxim_m1910_30(late_fin_pans)"
+msgid "Maxim"
+msgstr ""
+
+msgctxt "desc/squad/maxim_m32_33(late_fin_pans)"
+msgid "Maxim M/32-33"
+msgstr ""
+
+msgctxt "desc/squad/maxim_m32_33_late(late_fin_pans)"
+msgid "Maxim M/32-33"
+msgstr ""
+
+msgctxt "desc/squad/ds39_stand_fin(late_fin_pans)"
+msgid "DS-39"
+msgstr ""
+
+msgctxt "desc/squad/ds39_stand_fin_late(late_fin_pans)"
+msgid "DS-39"
+msgstr ""
+
+msgctxt "desc/squad/panzernest_krab(late_fin_pans)"
+msgid "Panzernest Krab"
+msgstr ""
+
+msgctxt "desc/squad/20mm_itk35(late_fin_pans)"
+msgid "20 ItK/35 Breda"
+msgstr ""
+
+msgctxt "desc/squad/20mm_itk40(late_fin_pans)"
+msgid "20 ItK/40 VKT"
+msgstr ""
+
+msgctxt "desc/squad/40mm_itk38b(late_fin_pans)"
+msgid "40 ItK/38b"
+msgstr ""
+
+msgctxt "desc/squad/75mm_itk37(late_fin_pans)"
+msgid "75 ItK/37"
+msgstr ""
+
+msgctxt "desc/squad/20mm_l39(late_fin_pans)"
+msgid "20 Pst Kiv/39"
+msgstr ""
+
+msgctxt "desc/squad/37mm_pstk36(late_fin_pans)"
+msgid "37 PstK/36"
+msgstr ""
+
+msgctxt "desc/squad/45mm_pstk32(late_fin_pans)"
+msgid "45 PstK/32"
+msgstr ""
+
+msgctxt "desc/squad/47mm_pstk39(late_fin_pans)"
+msgid "47 PstK/39"
+msgstr ""
+
+msgctxt "desc/squad/50mm_pstk38_late(late_fin_pans)"
+msgid "50 PstK/38 (Towed)"
+msgstr ""
+
+msgctxt "desc/squad/75mm_pstk9738(late_fin_pans)"
+msgid "75 PstK/97-38"
+msgstr ""
+
+msgctxt "desc/squad/75mm_k40(late_fin_pans)"
+msgid "75 K/40 (Towed)"
+msgstr ""
+
+msgctxt "desc/squad/75mm_k44(late_fin_pans)"
+msgid "75 K/44 (Towed)"
+msgstr ""
+
+msgctxt "desc/squad/76mm_k36(late_fin_pans)"
+msgid "76 K/36"
+msgstr ""
+
+msgctxt "desc/squad/50mm_krh38(late_fin_pans)"
+msgid "50 Krh/38"
+msgstr ""
+
+msgctxt "desc/squad/81mm_krh36(late_fin_pans)"
+msgid "81 Krh/36"
+msgstr ""
+
+msgctxt "desc/squad/120mm_krh40(late_fin_pans)"
+msgid "120 Krh/40"
+msgstr ""
+
+msgctxt "desc/squad/76mm_k02(late_fin_pans)"
+msgid "76 K/02"
+msgstr ""
+
+msgctxt "desc/squad/76mm_k02_30_40(late_fin_pans)"
+msgid "76 K/02-30/40"
+msgstr ""
+
+msgctxt "desc/squad/76mm_m1927_fin(late_fin_pans)"
+msgid "76 RK/27"
+msgstr ""
+
+msgctxt "desc/squad/84mm_k18_late(late_fin_pans)"
+msgid "84 K/18"
+msgstr ""
+
+msgctxt "desc/squad/105mm_k13(late_fin_pans)"
+msgid "105 K/13"
+msgstr ""
+
+msgctxt "desc/squad/105mm_k34(late_fin_pans)"
+msgid "105 K/34"
+msgstr ""
+
+msgctxt "desc/squad/105mm_h33(late_fin_pans)"
+msgid "105 H/33"
+msgstr ""
+
+msgctxt "desc/squad/107mm_k10(late_fin_pans)"
+msgid "107 K/10"
+msgstr ""
+
+msgctxt "desc/squad/120mm_k78_31(late_fin_pans)"
+msgid "120 K/78-31"
+msgstr ""
+
+msgctxt "desc/squad/122mm_m1910_fin(late_fin_pans)"
+msgid "122 H/10-30"
+msgstr ""
+
+msgctxt "desc/squad/150mm_h40(late_fin_pans)"
+msgid "150 H/40"
+msgstr ""
+
+msgctxt "desc/squad/155mm_h17(late_fin_pans)"
+msgid "155 H/17"
+msgstr ""
+
+msgctxt "desc/squad/203mm_h17(late_fin_pans)"
+msgid "203 H/17"
+msgstr ""
+
+msgctxt "desc/squad/150mm_rkh41(late_fin_pans)"
+msgid "150 Rkh/41"
+msgstr ""
+
+msgctxt "desc/squad/m42_truppenfahrrad(late_fin_pans)"
+msgid "M42 Bicycle"
+
+msgctxt "desc/squad/latil_m2tl6(late_fin_pans)"
+msgid "Latil M2 TL6"
+msgstr ""
+
+msgctxt "desc/squad/volvo_127d(late_fin_pans)"
+msgid "Volvo LV 127D"
+msgstr ""
+
+msgctxt "desc/squad/volvo_127d_itk40(late_fin_pans)"
+msgid "Volvo LV 127D (20 ItK/40)"
+msgstr ""
+
+msgctxt "desc/squad/ford_v3000(late_fin_pans)"
+msgid "Ford V3000S (Transport)"
+msgstr ""
+
+msgctxt "desc/squad/ford_v3000_ammo(late_fin_pans)"
+msgid "Ford V3000S (Ammo)"
+msgstr ""
+
+msgctxt "desc/squad/ford_v3000_fuel(late_fin_pans)"
+msgid "Ford V3000S (Fuel)"
+msgstr ""
+
+msgctxt "desc/squad/ford_v3000_eng(late_fin_pans)"
+msgid "Ford V3000S (Engineer)"
+msgstr ""
+
+msgctxt "desc/squad/ford_3ton_breda(late_fin_pans)"
+msgid "Ford 3-Ton (20 ItK/35)"
+msgstr ""
+
+msgctxt "desc/squad/t20_fin(late_fin_pans)"
+msgid "T-20"
+msgstr ""
+
+msgctxt "desc/squad/l182(late_fin_pans)"
+msgid "Landsverk 182"
+msgstr ""
+
+msgctxt "desc/squad/ba6_fin(late_fin_pans)"
+msgid "BAF B"
+msgstr ""
+
+msgctxt "desc/squad/ba10_fin(late_fin_pans)"
+msgid "BAF C"
+msgstr ""
+
+msgctxt "desc/squad/ba10m_fin(late_fin_pans)"
+msgid "BAF C (Late)"
+msgstr ""
+
+msgctxt "desc/squad/ft17_mg_fin(late_fin_pans)"
+msgid "FT (MG)"
+msgstr ""
+
+msgctxt "desc/squad/ft17_fin(late_fin_pans)"
+msgid "FT"
+msgstr ""
+
+msgctxt "desc/squad/t26c(late_fin_pans)"
+msgid "T-26C"
+msgstr ""
+
+msgctxt "desc/squad/t26e(late_fin_pans)"
+msgid "T-26E"
+msgstr ""
+
+msgctxt "desc/squad/t26e_mid(late_fin_pans)"
+msgid "T-26E (Mid)"
+msgstr ""
+
+msgctxt "desc/squad/t26_33_fin(late_fin_pans)"
+msgid "T-26B"
+msgstr ""
+
+msgctxt "desc/squad/t26_33_fin_mid(late_fin_pans)"
+msgid "T-26B (Mid)"
+msgstr ""
+
+msgctxt "desc/squad/bt42(late_fin_pans)"
+msgid "BT-42"
+msgstr ""
+
+msgctxt "desc/squad/l62(late_fin_pans)"
+msgid "L-62"
+msgstr ""
+
+msgctxt "desc/squad/t28e_fin_late(late_fin_pans)"
+msgid "T-28E (Late)"
+msgstr ""
+
+msgctxt "desc/squad/stug3g_fin_early(late_fin_pans)"
+msgid "Stu 40 G"
+msgstr ""
+
+msgctxt "desc/squad/stug3g_fin(late_fin_pans)"
+msgid "Stu 40 G"
+msgstr ""
+
+msgctxt "desc/squad/panzer4j_fin(late_fin_pans)"
+msgid "PzKw IVJ"
+msgstr ""
+
+msgctxt "desc/squad/t3476_41_fin(late_fin_pans)"
+msgid "T-34B"
+msgstr ""
+
+msgctxt "desc/squad/t3476_41_fin_late(late_fin_pans)"
+msgid "T-34B (Late)"
+msgstr ""
+
+msgctxt "desc/squad/t3485_44_fin(late_fin_pans)"
+msgid "T-34/85 (1944)"
+msgstr ""
+
+msgctxt "desc/squad/kv1_40e_fin(late_fin_pans)"
+msgid "KV-1B"
+msgstr ""
+
+msgctxt "desc/squad/kv1_40e_fin_late(late_fin_pans)"
+msgid "KV-1B (Late)"
+msgstr ""
+
+msgctxt "desc/squad/kv1_42_fin(late_fin_pans)"
+msgid "KV-1A"
+msgstr ""
+
+msgctxt "desc/squad/kv1_42_fin_late(late_fin_pans)"
+msgid "KV-1A"
+msgstr ""
+
+msgctxt "desc/squad/kv1_42_fin(late_fin_pans)"
+msgid "KV-1A (Late)"
+msgstr ""
+
+msgctxt "desc/squad/single_signaller_105_pans(fin)"
+msgid "Artillery Signaller (105 mm)"
+msgstr ""

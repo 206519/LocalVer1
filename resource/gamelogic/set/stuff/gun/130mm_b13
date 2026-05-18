@@ -1,0 +1,30 @@
+;_________________________________________
+; ARTY - Russian heavy SPG gun
+;=========================================
+
+
+{from "pattern gun"			; L/50 "SU100y"
+	{filling "bulletrus_130"}
+	{fireSound "cannon/s4/d1/Shared/Cannon_105to130mm/"}
+	{fireSoundclose "cannon/s3/1p/Shared/"}
+	{reloadSound "tank/1p/large/"}
+	("range_200")
+	{calibre 130}
+
+	("reload time" seconds(12))
+	
+	;For one, the gun had a mechanical rammer, which increased the rate of fire to 7-8 RPM. The mass of the shell was much lesser (33.5 kg vs 49 kg), but the penetration was almost the same.
+
+	("velocity m/s" ap(870) apcr(1) he(870) heat(1))
+	("armor health" damage(510))
+	("armor health custom" shell(apcbche) damage(510) filler(2350))
+	("128_slope_multipliers")
+
+	; BR-540
+	("penetration_long" shell(apcbche) range(210) a(274) b(268) c(254) d(242) e(229)) ;// this gun is actually as powerful as Pak44.
+	{parameters "apcbche"
+		{cursorReloading "gun_saphe"}
+	}
+
+	("accuracy_spg" r1(0.65) range_ap(210) range_he(210) range_heat(210))
+}

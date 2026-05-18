@@ -1,0 +1,38 @@
+;_________________________________________
+; US medium AA gun
+;=========================================
+
+
+{from "pattern gun"			; "40mm_m1 bofors"
+	{filling "bullet_40x331_auto" 4}
+	{fireSound "cannon/s1/d1/Shared/Autocannon_37to40mm/"}
+	{fireSoundclose "cannon/s1/3p/Shared/Autocannon_37to40mm/"}
+	{reloadSound "tank/reload_small"}
+	("range_autocannon_37-40")
+	{cursor "ironsights/aa"}
+	{calibre 40}
+	("medium_aa")
+
+	("fire rate" rpm(120))
+	("reload time" seconds(1.5))
+
+	("velocity" mps(881))
+	("armor health" damage(80))
+	("40_slope_multipliers")
+
+	; 40mm AP M81A1
+	("penetration_medium" shell(apbc) range(180) a(67) b(55) c(43) d(34) e(27))
+	
+	;// the real performance is Panther rear at ~300m, which is useless as usual.
+
+	{parameters "apbc"
+		("Cm62_slmod")
+	}
+
+	("accuracy_direct_auto" r1(0.65) range_ap(180) range_he(180) range_heat(160))
+
+	{parameters "he"
+		(mod "mp" {unlimitedRangeTPC 1})	;// unrestricts range in TPC/FPC for shooting at aircraft
+		{FalloffStrength 0}
+	}
+}

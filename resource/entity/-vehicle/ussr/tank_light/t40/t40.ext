@@ -1,0 +1,67 @@
+;SDL
+
+	; armor notes
+	; tracks and wheels 10mm
+	; barrel 20mm
+
+	("tank_light_tier1")
+
+	("fuel" args "fuel1")
+	("fuel" args "fuel2")
+	("transmission" args "transmission")
+	("tracks" repair(30) thickness(20))
+
+	{volume "body1"			; Hull
+		{thickness 13
+			{top 9}			; Glacis
+			{bottom 6}
+		}
+		{able {holed}}
+	}
+	;// https://www.tankarchives.ca/2016/06/t-40-roof-armour.html
+	;// ???
+	{volume "body2"			; Superstructure
+		{thickness 15
+			{front 20}
+			{top 6}
+			{bottom 6}
+		}
+	}
+	{volume "body3"			; Engine Exhaust Box
+		{thickness 13
+			{top 6}
+			{bottom 6}
+		}
+	}
+	{volume "engine"		; Internal Engine Volume
+		{thickness 10}
+		{able {NoWoundDecal}}
+	}
+	{volume "turret1"		; Turret
+		{thickness 15
+			{top 5}
+			{bottom 5}
+		}
+	}
+	{volume "turret2"		; Turret Front
+		{thickness 20
+			{top 5}
+			{bottom 5}
+		}
+	}
+	{volume "turret3"		; Turret Front Sides
+		{thickness 15
+			{top 5}
+			{bottom 5}
+		}
+	}
+	{volume "mantlet"		; Mantlet
+		{thickness 20}
+	}
+	{volume "cover2"		; Turret Hatch
+		{thickness 6}
+	}
+	
+	{perks
+		{blastwave_modifier 8.0}
+	}

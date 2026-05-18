@@ -1,0 +1,40 @@
+;_________________________________________
+; short barreled USSR infantry support gun
+;=========================================
+
+
+{from "76mm_kt26"			; L/16.5 "M1943"
+	{fireSoundclose "cannon/s3/3p/Shared/Cannon_75to76mm_LV/"}
+	{reloadSound "utility/"}
+	("reload time" seconds(6))
+	("range_160_howitzer")
+	("velocity m/s" ap(387) apcr(1) he(262) heat(311))
+	("armor health" damage(200))
+	("armor health custom" shell(aphebc) damage(200) filler(155))
+
+	; BR-350A
+	("penetration_medium" shell(aphebc) range(170) a(44) b(40) c(36) d(33) e(30))
+
+	; BP-350M
+	("penetration_medium" shell(heat) range(160) a(75) b(75) c(75) d(75) e(75))	; issued sometime in '43
+
+	{parameters "he"
+		{range 170 170}
+	}
+
+	;("accuracy_spg" r1(1.80) range_ap(170) range_he(170) range_heat(160))
+	
+	("accuracy_dual" ; // Applies logic for accuracy of dual direct-indirect weapons
+		r1(1.90) 				; // Accuracy radius for direct-fire munitions
+		r1i(6) 					; // Accuracy radius for indirect fire
+		rmax(10) 				; // Accuracy radius for indirect fire at maximum range
+		range_ap(170) 			; // Range after which accuracy drops to prevent farshooting.
+		range_heat(160) 		; // Range after which accuracy drops to prevent farshooting.
+		range_he(170)			; // Range after which direct-fire accuracy drops to prevent farshooting.
+		range_hei(210)			; // Range after which indirect-fire accuracy drops to prevent farshooting.
+		
+		;// although by formula its 215 I decided to arbitrarily cut short the ranges for now
+	)
+	
+    {unlimitedRangeTPC 0}   ;// restrict range in TPC/FPC
+}

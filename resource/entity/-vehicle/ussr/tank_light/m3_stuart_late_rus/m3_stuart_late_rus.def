@@ -1,0 +1,158 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc" scale(0.9))
+	{props "m3_stuart_late" "light" "vision_lev03" "muzzle_37mm_47mm" "detect_tank_light"}
+	{extension "m3_stuart_late_rus.mdl"}
+	(include "m3_stuart_late.ext")
+	{targetclass "tank_light"}
+	{targetSelector "tank_light"}
+	{patherId "m3_stuart"}
+	{collider "tank.light"}
+
+	{extender "enumerator"
+		{digit_folder "ru1"}
+	}
+
+	("crew_4_human_2_extended")
+	("gunner_open" place(gunner2) bone(gunner2) visorbone(mgun_rot) door(emit3) door2(emit4) anm_left(gunner2) anm_right(gunner2) group(passenger))
+
+	{sensor
+		{visor "main"
+			{vision "tank_range_M40"}
+		}
+		{Visor "driver"
+			{vision "tank_driver_Stuart"}
+		}
+	}
+
+	{boarder
+		{anm "driver"
+			{forward {begin "board_t26_driver"} {end "pose_t26_driver"} {base "open_driver"}}
+			{reverse {end "board_t26_driver" -1} {base "open_driver" -1}}
+		}
+		{anm "left"
+			{forward {begin "board_tank_left"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward {begin "board_tank_right"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "gunner2"
+			{forward {begin "board_HighArmor"} {end "pose_m5a1_gunner"}}
+			{reverse {end "emit_tank_1"}}
+		}
+		{anm "armor1"
+			{forward {begin "board_HighArmor"} {end "pose_seat_armor_1"}}
+			{reverse {end "emit_tank_1"}}
+		}
+	}
+
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor1))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor1))
+	("seat_human" place(seat3) bone(seat03) door(emit5)  animation(armor1))
+	("seat_human" place(seat4) bone(seat04) door(emit6)  animation(armor1))
+
+	{extender "inventory"
+		{weapon "mgun" {mask "mountable"}}
+		{box
+			;{item "bulletusa_37 ap" 41}			; 103 rounds ;40/60% AP/HE
+			;{item "bulletusa_37 he" 61}
+			{item "bulletusa_37 ap" 102}				; AP shells only
+			{item "ammo mgun_usa belt" 7270}	; 33 belts (250 rounds each)
+			{item "satchel_charge_rus" 1}
+			{item "browning_m19a4" filling "ammo mgun_usa belt" 250 {user "mgun"}}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "37mm_m6" filling "bulletusa_37 ap" 1}
+			{gunner "gunner"}
+			{charger "commander"}
+			("abm_dymamic"
+				zeroing(5.0)
+				dispersion(0.20)
+			)
+		}
+		{place "mgun2"
+			{type "coaxial"}
+			{weapon "browning_m19a4_tank" filled}
+			{foresight "foresight5"}
+			{gunner "gunner"}
+			{charger "commander"}
+			("abm_mgun")
+			{basic}
+		}
+		{place "mgun1"
+			{type "hull"}
+			{weapon "browning_m19a4_tank" filled}
+			{foresight "foresight4"}
+			{gunner "gunner3"}
+			{charger "gunner3"}
+			("abm_mgun")
+			{basic}
+			{ai_in_manual}
+		}
+		{place "mgun3"
+			{Barrels 2}
+			{type "hull"}
+			{weapon "browning_m19a4_x2" filled}
+			{foresight "foresight6"}
+			{gunner "driver"}
+			{charger "driver"}
+			("abm_mgun")
+			{basic}
+			{ai_in_manual}
+		}
+		{place "mgun"
+			{type "aa"}
+			{gunner "gunner2"}
+			{charger "gunner2"}
+			{LinkBone "mgun"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+			{basic}
+			{ai_in_manual}
+		}
+	}
+
+	{mass 12700}
+	{Chassis
+		("tank_trace" fx("tracks_sm2") step(0.2) len(0.47))
+		("mobility_spearhead"
+			speed(58.0)			;Max speed when fully accelerated on road, km/h.
+			reverse(7.5)		;Max speed in reverse on road, km/h.
+			mass(12.70)			;Mass, in metric tons.
+			power(262) 			;Engine Power
+			contact(2.97)		;Track-ground contact length, in m
+			wheelbase(1.85)		;Distance between center of left and right side roadwheels, in m
+			pressure(0.72)		;Ground pressure on road, in kg/cm^2
+			coeff_accel(5)		;Modifier for acceleration, (0,10]
+			coeff_steer_rate(5)	;Modifier for steering, (0,10]
+			coeff_steer_eff(5)	;Modifier for steering, (0,10]
+			fuel(393.683) 			;Fuel capacity in Litres.
+			type(fuel)			;Fuel type. (diesel OR fuel)
+			range(130) 			;Range in km, off-road.
+			maxslope(30)		;Max slope (tan(gradient in degrees) * 100)
+		)
+	}
+
+	{bone "gun_rot"
+		{limits -10 20}
+		{speed2 8}
+	}
+	{bone "turret"
+		("turret_light" power_traverse(0)) ;// manual
+	}
+	{bone "mgun_a_rot1"
+		{limits -25 45}
+		{speed2 60}
+	}
+	{bone "mgun_a_rot2"
+		{limits -14 60}
+		{speed2 60}
+	}
+}

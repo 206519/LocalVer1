@@ -1,0 +1,41 @@
+;_________________________________________
+; german medium AT gun
+;=========================================
+
+
+{from "pattern gun"			; L/36 "pak9738"
+	{filling "bulletger_75_l43"}
+	{fireSound "cannon/s3/d1/Shared/Cannon_75to76mm/"}
+	{fireSoundclose "cannon/s3/3p/Shared/Cannon_75to76mm/"}
+	{reloadSound "utility/"}
+	("range_190")
+	{calibre 75}
+
+	("reload time" seconds(5.2))
+
+	("velocity m/s" ap(640) apcr(1) he(550) heat(450))
+	("armor health" damage(200))
+	("armor health custom" shell(apcbche) damage(200) filler(29))
+	("75_ger_slope_multipliers")
+
+	; K.Gr.rot.Pz.
+	("penetration_medium" shell(apcbche) range(200) a(97) b(82) c(66) d(53) e(43))
+	{parameters "apcbche"; old round
+		("apc_88_ger_slope_multiplier") ; // mostly same characteristics
+	}
+
+	; Gr.38/97 Hl
+	("penetration_medium" shell(heat) range(160) a(52) b(52) c(52) d(52) e(52))
+	; Gr.38/97 Hl/A
+	("penetration_medium" shell(heata) range(165) a(81) b(81) c(81) d(81) e(81))
+	; Gr.38/97 Hl/B
+	("penetration_medium" shell(heatb) range(165) a(87) b(87) c(87) d(87) e(87))
+	; Gr.38/97 Hl/C
+	("penetration_medium" shell(heatc) range(165) a(105) b(105) c(105) d(105) e(105))
+
+	{parameters "he"
+		{range 190 190}
+	}
+
+	("accuracy_direct" r1(0.86) range_ap(200) range_he(190) range_heat(165))
+}

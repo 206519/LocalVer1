@@ -1,0 +1,27 @@
+;_________________________________________
+; US medium tank gun
+;=========================================
+
+
+{from "pattern gun"			; L/36 "M3 GMC"
+	{filling "bulletusa_75x350"}
+	{fireSound "cannon/s3/d1/Shared/Cannon_75to76mm/"}
+	{fireSoundclose "cannon/s2/3p/Shared/"}
+	{reloadSound "utility/"}
+	("range_190")
+	{calibre 75}
+
+	("reload time" seconds(5))
+
+	("velocity m/s" ap(610) apcr(1) he(603) heat(1))
+	("armor health" damage(200))
+	("armor health custom" shell(apcbche) damage(200) filler(62))
+	("75_slope_multipliers")
+
+	("penetration_medium" shell(ap) range(190) a(87) b(78) c(66) d(55) e(46))		; AP M72
+	("penetration_medium" shell(apcbc) range(200) a(86) b(79) c(71) d(64) e(58))		; APC M61, inert
+	("penetration_medium" shell(apcbche) range(200) a(90) b(82) c(73.6) d(65.9) e(59))		; APC M61
+
+	("accuracy_direct" r1(0.86) range_ap(200) range_he(200) range_heat(210))
+	;// on the AT gun this gun has no direct fire sight
+}

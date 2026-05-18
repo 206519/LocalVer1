@@ -1,0 +1,18 @@
+{from "pattern anti-personnel"
+	{tag "size1"}		; Explosive filling - 0.085kg of TNT
+	{inventory {size 2 1}}
+	{entity "rgd33"}
+	{mass 0.75}
+
+	{damage add blastwave
+		{energy 0.85}
+		{area 6 12}	;// with jacket, out to 15 meters, the fragmentation sleeve is about 3.5mm
+		{ground_interaction_radius 0} ;// value is multiplied by 2nd value of area to determine is blast is close enough to ground to trigger terrain fx
+	}
+	
+	;// this grenade has a 6 layer fragmentation sleeve lol
+	
+	{special
+		{PrepareTime 3.6}
+	}
+}

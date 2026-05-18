@@ -1,0 +1,377 @@
+;SDL
+
+;===================================
+;        INSTRUCTIONS    
+;===================================
+
+; In this file onee configures the humans which are spawned in vehicles or squads
+; The humans have a CP and cost associated with them which collectively add up for the final squad value
+; Check ../settings_inf.set for the global defines for CP, capture weight (CW), score, etc.
+
+;===================================
+;        PRICING CHART	       
+;===================================
+
+; // Standard prices below are for tier2 infantry
+;Unarmed				= 7
+;Sidearm				= 8
+;Shotgun				= 9
+
+;Bolt-Action Rifles:
+;K98					= 9
+;Enfield (10-rd)		= 10
+;M1903					= 9
+;Mosin					= 9
+;sniper					= 50
+
+;Submachineguns:
+;MP 38/40				= 11
+;Sten					= 10
+;M1/M1A1 (20-rd)		= 10
+;M1/M1A1 (30-rd)		= 11
+;M1928 (50-rd)			= 13
+;M3/M3A1				= 10
+;PPD-40/PPSH-41	(35-rd)	= 12
+;PPD-40/PPSH-41 (71-rd)	= 14
+;PPS-43					= 11
+
+;Self-Loading Rifles
+;G 41					= 13
+;G 43/K 43				= 14
+;Mkb 42					= 14
+;MP 43/StG 44			= 15
+;FG 42					= 19
+;Bren					= 19
+;M1 Carbine				= 12
+;M1 Garand				= 14
+;BAR					= 19
+;SVT-40					= 14
+;AVT-40					= 14
+;sniper					= 55
+
+;Machineguns
+;MG 26(t) (20-rd)		= 19
+;MG 13 (75-rd)			= 23
+;MG 34 (50-rd)			= 22
+;MG 34 (100-rd)			= 23
+;MG 42 (50-rd)			= 22
+;MG 42 (100-rd)			= 23
+;Lewis (47-rd)			= 22
+;Vickers K (60-rd)		= 22
+;M1919A6 (100-rd)		= 23
+;DP-27/28				= 22
+;MG Ammo Carrier		= +1
+
+;Anti-Tank Weapons
+;Anti-tank Grenade		= +1
+;PzB 39					= 20
+;% Panzerfaust 30		= +1
+;Panzerfaust 30			= 2
+;% Panzerfaust 60		= +2
+;Panzerfaust 60			= 4
+;% Panzerfaust 100		= +3
+;Panzerfaust 100		= 6
+;RPzB 54				= 55
+;Boys AT Rifle			= 15
+;Bazooka M1				= 40
+;Bazooka M9				= 44
+;PTRD					= 15
+;PTRS					= 25
+;AT Ammo Carrier		= +2
+
+;Special
+;Rifle Grenade			= +12
+;Recon					= +2 (increased view range)
+;Flamethrower			= 40
+;Engineer				= 40
+;Minelayer				= 40
+;Tank Crew (pistol)		= 10/15/20	(standard/veteran/ace)
+;Tank Crew (SMG)		= 12/17/22
+;Tank Commander	(SMG)	= 15/20/25
+;Body Armor				= +10
+;Mine Detector			= +3
+;Builder				= +15
+
+
+; // price modifiers (If not tier2)
+;tier 0 		= -6
+;tier 1 		= -3
+;tier 1 vet 	= 0
+;tier 2 vet		= +3
+;tier 3 		= +6
+;tier 3 vet 	= +9
+;tier 4 		= +13
+;tier 4 vet 	= +16
+
+;===================================
+;        BREED DECLARATIONS       
+;===================================
+
+; // Specials
+
+{"mp/rus/late/signaller"					("inf_signaller" side(rus) period(late) cost(200.0))}
+{"mp/rus/late/radio_76"						("inf_signaller" side(rus) period(late) cost(375.0))}
+{"mp/rus/late/radio_122"					("inf_signaller" side(rus) period(late) cost(625.0))}
+{"mp/rus/late/radio_152"					("inf_signaller" side(rus) period(late) cost(750.0))}
+{"mp/rus/late/radio_203"					("inf_signaller" side(rus) period(late) cost(1000.0))}
+
+{"mp/rus/late/artilleryman"					("inf_tankman" side(rus) period(late) cost(10.0))} ; mosin
+{"mp/rus/late/pilot"						("inf_tankman" side(rus) period(late) cost(0.0))} ; pistol
+{"mp/rus/late/medic"						("inf_medic" side(rus) period(late) cost(40.0))}
+
+{"mp/rus/late/sniper"						("inf_sniper" side(rus) period(late) cost(50.0))}
+
+{"mp/rus/late/tankman"						("inf_tankman" side(rus) period(late) cost(10.0))} ; TT33
+{"mp/rus/late/tankman_vet"					("inf_tankman" side(rus) period(late) cost(15.0))} ; TT33
+{"mp/rus/late/tankman_ace"					("inf_tankman" side(rus) period(late) cost(20.0))} ; TT33
+
+{"mp/rus/late/tank_commander"				("inf_tankman" side(rus) period(late) cost(15.0))} ; pps43
+{"mp/rus/late/tank_commander_vet"			("inf_tankman" side(rus) period(late) cost(20.0))} ; pps43
+{"mp/rus/late/tank_commander_ace"			("inf_tankman" side(rus) period(late) cost(25.0))} ; pps43
+
+{"mp/rus/late/tank_commander_m1928"			("inf_tankman" side(rus) period(late) cost(15.0))} ; m1928a1
+{"mp/rus/late/tank_commander_m1928_vet"		("inf_tankman" side(rus) period(late) cost(20.0))} ; m1928a1
+{"mp/rus/late/tank_commander_m1928_ace"		("inf_tankman" side(rus) period(late) cost(25.0))} ; m1928a1
+
+{"mp/rus/late/officer_tank"					("inf_officer" side(rus) period(late) cost(125.0))}
+{"mp/rus/late/commisar"						("inf_officer" side(rus) period(late) cost(125.0))}
+{"mp/rus/late/commisar2"					("inf_officer" side(rus) period(late) cost(150.0))}
+
+
+; // tier 1 
+
+{"mp/rus/late/nkvd_2"						("inf_tier1" side(rus) period(late) cost(6.0))} ; mosin
+{"mp/rus/late/nkvd_3"						("inf_tier1" side(rus) period(late) cost(6.0))} ; mosin
+{"mp/rus/late/nkvd_4"						("inf_tier1" side(rus) period(late) cost(6.0))} ; mosin
+
+{"mp/rus/late/partisan_1"					("inf_tier1" side(rus) period(late) cost(6.0))} ; mosin
+{"mp/rus/late/partisan_2"					("inf_tier1" side(rus) period(late) cost(6.0))} ; mosin
+{"mp/rus/late/partisan_3"					("inf_tier1" side(rus) period(late) cost(8.0))} ; pps43
+{"mp/rus/late/partisan_4"					("inf_tier1" side(rus) period(late) cost(6.0))} ; shotgun
+{"mp/rus/late/partisan_5"					("inf_tier1" side(rus) period(late) cost(8.0))} ; mp40
+{"mp/rus/late/partisan_6"					("inf_tier1" side(rus) period(late) cost(19.0))} ; mg34
+{"mp/rus/late/partisan_dp"					("inf_tier1" side(rus) period(late) cost(19.0))} ; dp27
+{"mp/rus/late/partisan_drum"				("inf_tier1" side(rus) period(late) cost(11.0))} ; ppsh41 drum
+{"mp/rus/late/partisan_stick"				("inf_tier1" side(rus) period(late) cost(8.0))} ; ppsh41 stick
+
+{"mp/rus/late/conscript_mgun_1"				("inf_tier1" side(rus) period(late) cost(19.0))} ; DP
+{"mp/rus/late/conscript_mgun_2"				("inf_tier1" side(rus) period(late) cost(7.0))} ; mosin + mg ammo
+{"mp/rus/late/conscript_nco"				("inf_tier1" side(rus) period(late) cost(11.0))} ; ppsh41 drum
+{"mp/rus/late/conscript_nco_pps43"			("inf_tier1" side(rus) period(late) cost(8.0))} ; pps43
+{"mp/rus/late/conscript_rifle"				("inf_tier1" side(rus) period(late) cost(6.0))} ; mosin
+{"mp/rus/late/conscript_sa"					("inf_tier1" side(rus) period(late) cost(11.0))} ; SVT40
+{"mp/rus/late/conscript_stick"				("inf_tier1" side(rus) period(late) cost(8.0))} ; ppsh41 stick
+
+; // tier 1 vet
+
+{"mp/rus/late/vet_partisan_dp"				("inf_tier1" side(rus) period(late) cost(22.0))} ; dp27
+{"mp/rus/late/vet_partisan_drum"			("inf_tier1" side(rus) period(late) cost(14.0))} ; ppsh41 drum
+{"mp/rus/late/vet_partisan_drum_pzf"		("inf_tier1" side(rus) period(late) cost(16.0))} ; ppsh41 drum + % pzfaust 60
+{"mp/rus/late/vet_partisan_k98"				("inf_tier1" side(rus) period(late) cost(9.0))} ; k98
+{"mp/rus/late/vet_partisan_mg34"			("inf_tier1" side(rus) period(late) cost(22.0))} ; mg34 belt
+{"mp/rus/late/vet_partisan_mg42"			("inf_tier1" side(rus) period(late) cost(22.0))} ; mg42 belt
+{"mp/rus/late/vet_partisan_mosin"			("inf_tier1" side(rus) period(late) cost(9.0))} ; mosin
+{"mp/rus/late/vet_partisan_mosin_pzf"		("inf_tier1" side(rus) period(late) cost(10.0))} ; mosin + % pzfaust 30
+{"mp/rus/late/vet_partisan_mp40"			("inf_tier1" side(rus) period(late) cost(11.0))} ; mp40
+{"mp/rus/late/vet_partisan_mp40_pzf"		("inf_tier1" side(rus) period(late) cost(12.0))} ; mp40 + % pzfaust 60
+{"mp/rus/late/vet_partisan_pps43"			("inf_tier1" side(rus) period(late) cost(11.0))} ; mp40
+{"mp/rus/late/vet_partisan_stick"			("inf_tier1" side(rus) period(late) cost(12.0))} ; ppsh41 stick
+{"mp/rus/late/vet_partisan_svt40"			("inf_tier1" side(rus) period(late) cost(14.0))} ; svt40
+
+; // tier 2 lite
+
+{"mp/rus/late/mg_crew"						("inf_tankman" side(rus) period(late) cost(10.0))} ; tt pistol
+{"mp/rus/late/mg_crew_asst"					("inf_tankman" side(rus) period(late) cost(10.0))} ; mosin
+
+{"mp/rus/late/rifleman_1"					("inf_tier2_lite" side(rus) period(late) cost(9.0))} ; mosin
+{"mp/rus/late/rifleman_2"					("inf_tier2_lite" side(rus) period(late) cost(9.0))} ; mosin
+
+{"mp/rus/late/recon_rifle"					("inf_tier2_lite" side(rus) period(late) cost(9.0))} ; mosin
+
+; // tier 2
+
+{"mp/rus/late/mgun_1"						("inf_tier2" side(rus) period(late) cost(22.0))} ; dp27
+{"mp/rus/late/mgun_2"						("inf_tier2" side(rus) period(late) cost(10.0))} ; mosin + mg ammo
+{"mp/rus/late/mgun_3"						("inf_tier2" side(rus) period(late) cost(14.0))} ; ppsh41 drum
+
+{"mp/rus/late/recon_nco"					("inf_tier2" side(rus) period(late) cost(14.0))} ; ppsh41 drum
+{"mp/rus/late/recon_sa"						("inf_tier2" side(rus) period(late) cost(14.0))} ; svt40
+{"mp/rus/late/recon_smg"					("inf_tier2" side(rus) period(late) cost(14.0))} ; ppsh41 drum
+{"mp/rus/late/recon_smg2"					("inf_tier2" side(rus) period(late) cost(11.0))} ; pps43
+{"mp/rus/late/recon_mgun_1"					("inf_tier2" side(rus) period(late) cost(22.0))} ; DP
+{"mp/rus/late/recon_mgun_2"					("inf_tier2" side(rus) period(late) cost(10.0))} ; mosin + mg ammo
+
+{"mp/rus/late/smg_1"						("inf_tier2" side(rus) period(late) cost(14.0))} ; ppsh41 drum
+{"mp/rus/late/smg_2"						("inf_tier2" side(rus) period(late) cost(11.0))} ; pps43
+{"mp/rus/late/smg_3"						("inf_tier2" side(rus) period(late) cost(14.0))} ; ppsh41 drum
+{"mp/rus/late/smg_stick"					("inf_tier2" side(rus) period(late) cost(12.0))} ; ppsh41 stick
+
+{"mp/rus/late/rifleman_3"					("inf_tier2" side(rus) period(late) cost(14.0))} ; svt40
+{"mp/rus/late/senior_rifle"					("inf_tier2" side(rus) period(late) cost(9.0))} ; mosin
+{"mp/rus/late/senior_sa"					("inf_tier2" side(rus) period(late) cost(14.0))} ; svt40
+{"mp/rus/late/senior_smg"					("inf_tier2" side(rus) period(late) cost(14.0))} ; ppsh41 drum
+{"mp/rus/late/senior_smg_pps43"				("inf_tier2" side(rus) period(late) cost(11.0))} ; pps43
+{"mp/rus/late/senior_smg_stick"				("inf_tier2" side(rus) period(late) cost(12.0))} ; ppsh41 stick
+
+{"mp/rus/late/sapper_builder"				("inf_tier2" side(rus) period(late) cost(24.0))} ; mosin + builder
+{"mp/rus/late/sapper_miner_ap"				("inf_tier2" side(rus) period(late) cost(20.0))} ; mosin
+{"mp/rus/late/sapper_miner_at"				("inf_tier2" side(rus) period(late) cost(20.0))} ; mosin
+{"mp/rus/late/sapper_flamer"				("inf_tier2" side(rus) period(late) cost(20.0))} ; flamer
+{"mp/rus/late/sapper_rifle"					("inf_tier2" side(rus) period(late) cost(9.0))} ; mosin
+{"mp/rus/late/sapper_senior"				("inf_tier2" side(rus) period(late) cost(9.0))} ; mosin
+{"mp/rus/late/sapper_smg_pps43"				("inf_tier2" side(rus) period(late) cost(11.0))} ; pps43
+{"mp/rus/late/sapper_smg_stick"				("inf_tier2" side(rus) period(late) cost(12.0))} ; ppsh41 stick
+
+{"mp/rus/late/antitank_1"					("inf_tier2" side(rus) period(late) cost(40.0))} ; pps43 + bazooka m1a1
+{"mp/rus/late/antitank_2"					("inf_tier2" side(rus) period(late) cost(14.0))} ; ptrd bolt
+{"mp/rus/late/antitank_3"					("inf_tier2" side(rus) period(late) cost(18.0))} ; svt40 + pzfaust 60
+{"mp/rus/late/antitank_4"					("inf_tier2" side(rus) period(late) cost(16.0))} ; pps43 + pzfaust 60
+{"mp/rus/late/antitank_5"					("inf_tier2" side(rus) period(late) cost(55.0))} ; Panzershreck
+{"mp/rus/late/antitank_ptrs"				("inf_tier2" side(rus) period(late) cost(24.0))} ; ptrs semi
+{"mp/rus/late/antitank_asst"				("inf_tier2" side(rus) period(late) cost(11.0))} ; pps43 + AT rifle ammo
+{"mp/rus/late/antitank_asst2"				("inf_tier2" side(rus) period(late) cost(11.0))} ; pps43 + Pzschreck ammo
+
+{"mp/rus/late/engineer_1"					("inf_tier2" side(rus) period(late) cost(30.0))}
+{"mp/rus/late/engineer_2"					("inf_tier2" side(rus) period(late) cost(30.0))}
+
+{"mp/rus/late/flamer"						("inf_tier2" side(rus) period(late) cost(40.0))}
+
+{"mp/rus/late/miner-ap"						("inf_tier2" side(rus) period(late) cost(30.0))}
+{"mp/rus/late/miner-at"						("inf_tier2" side(rus) period(late) cost(30.0))}
+
+{"mp/rus/late/nco"							("inf_tier2" side(rus) period(late) cost(14.0))} ; ppsh41 drum
+{"mp/rus/late/nco_pps43"					("inf_tier2" side(rus) period(late) cost(11.0))} ; pps43
+{"mp/rus/late/nco_sa"						("inf_tier2" side(rus) period(late) cost(14.0))} ; SVT
+{"mp/rus/late/nco_stick"					("inf_tier2" side(rus) period(late) cost(12.0))} ; ppsh41 stick
+{"mp/rus/late/nkvd_1"						("inf_tier2" side(rus) period(late) cost(14.0))} ; ppsh41 drum
+
+; // tier 2 vet
+
+{"mp/rus/late/vet_nco"						("inf_tier2" side(rus) period(late) cost(17.0))} ; ppsh41 drum
+{"mp/rus/late/vet_nco_pps43"				("inf_tier2" side(rus) period(late) cost(14.0))} ; pps43
+{"mp/rus/late/vet_nco_stick"				("inf_tier2" side(rus) period(late) cost(15.0))} ; ppsh41 stick
+
+{"mp/rus/late/guards_antitank_2"			("inf_tier2" side(rus) period(late) cost(18.0))} ; ptrd bolt
+{"mp/rus/late/guards_antitank_asst"			("inf_tier2" side(rus) period(late) cost(16.0))} ; pps43 + at ammo
+{"mp/rus/late/guards_antitank_ptrs"			("inf_tier2" side(rus) period(late) cost(28.0))} ; ptrs
+{"mp/rus/late/guards_mgun_1"				("inf_tier2" side(rus) period(late) cost(25.0))} ; dp27
+{"mp/rus/late/guards_mgun_2"				("inf_tier2" side(rus) period(late) cost(13.0))} ; mosin + mg ammo
+{"mp/rus/late/guards_mgun_3"				("inf_tier2" side(rus) period(late) cost(17.0))} ; ppsh41 drum
+{"mp/rus/late/guards_nco"					("inf_tier2" side(rus) period(late) cost(17.0))} ; ppsh41 drum
+{"mp/rus/late/guards_nco_pps43"				("inf_tier2" side(rus) period(late) cost(14.0))} ; pps43
+{"mp/rus/late/guards_nco_stick"				("inf_tier2" side(rus) period(late) cost(15.0))} ; ppsh41 stick
+{"mp/rus/late/guards_rifleman_1"			("inf_tier2" side(rus) period(late) cost(12.0))} ; mosin
+{"mp/rus/late/guards_rifleman_2"			("inf_tier2" side(rus) period(late) cost(12.0))} ; mosin
+{"mp/rus/late/guards_rifleman_3"			("inf_tier2" side(rus) period(late) cost(17.0))} ; svt40
+{"mp/rus/late/guards_smg_1"					("inf_tier2" side(rus) period(late) cost(17.0))} ; ppsh41 drum
+{"mp/rus/late/guards_smg_2"					("inf_tier2" side(rus) period(late) cost(14.0))} ; pps43
+{"mp/rus/late/guards_smg_3"					("inf_tier2" side(rus) period(late) cost(17.0))} ; ppsh41 drum
+{"mp/rus/late/guards_senior_rifle"			("inf_tier2" side(rus) period(late) cost(12.0))} ; mosin
+{"mp/rus/late/guards_senior_sa"				("inf_tier2" side(rus) period(late) cost(17.0))} ; svt40
+{"mp/rus/late/guards_senior_smg"			("inf_tier2" side(rus) period(late) cost(17.0))} ; ppsh41 drum
+{"mp/rus/late/guards_senior_smg_pps43"		("inf_tier2" side(rus) period(late) cost(14.0))} ; pps43
+{"mp/rus/late/guards_senior_smg_stick"		("inf_tier2" side(rus) period(late) cost(15.0))} ; ppsh41 stick
+{"mp/rus/late/guards_smg_stick"				("inf_tier2" side(rus) period(late) cost(15.0))} ; ppsh41 stick
+
+; // tier 3
+
+{"mp/rus/late/cav_mg"						("inf_tier3" side(rus) period(late) cost(28.0))} ; dp27
+{"mp/rus/late/cav_mg_asst"					("inf_tier3" side(rus) period(late) cost(16.0))} ; mosin + mg ammo
+{"mp/rus/late/cav_mg_asst_smg"				("inf_tier3" side(rus) period(late) cost(21.0))} ; ppsh41 drum + mg ammo
+{"mp/rus/late/cav_nco"						("inf_tier3" side(rus) period(late) cost(20.0))} ; ppsh41 drum
+{"mp/rus/late/cav_nco_pps43"				("inf_tier3" side(rus) period(late) cost(17.0))} ; pps43
+{"mp/rus/late/cav_nco_stick"				("inf_tier3" side(rus) period(late) cost(18.0))} ; ppsh41 stick
+{"mp/rus/late/cav_rifle"					("inf_tier3" side(rus) period(late) cost(15.0))} ; mosin
+{"mp/rus/late/cav_sa"						("inf_tier3" side(rus) period(late) cost(20.0))} ; svt40
+{"mp/rus/late/cav_senior_rifle"				("inf_tier3" side(rus) period(late) cost(15.0))} ; mosin
+{"mp/rus/late/cav_senior_sa"				("inf_tier3" side(rus) period(late) cost(20.0))} ; svt40
+{"mp/rus/late/cav_senior_smg"				("inf_tier3" side(rus) period(late) cost(20.0))} ; ppsh41 drum
+{"mp/rus/late/cav_senior_smg_pps43"			("inf_tier3" side(rus) period(late) cost(17.0))} ; pps43
+{"mp/rus/late/cav_senior_smg_stick"			("inf_tier3" side(rus) period(late) cost(18.0))} ; ppsh41 stick
+{"mp/rus/late/cav_smg_drum"					("inf_tier3" side(rus) period(late) cost(20.0))} ; ppsh41 drum
+{"mp/rus/late/cav_smg_pps43"				("inf_tier3" side(rus) period(late) cost(17.0))} ; pps43
+{"mp/rus/late/cav_smg_stick"				("inf_tier3" side(rus) period(late) cost(18.0))} ; ppsh41 stick
+
+{"mp/rus/late/marine_1"						("inf_tier3" side(rus) period(late) cost(20.0))} ; svt40
+{"mp/rus/late/marine_2"						("inf_tier3" side(rus) period(late) cost(20.0))} ; ppsh41 drum
+{"mp/rus/late/marine_3"						("inf_tier3" side(rus) period(late) cost(28.0))} ; dp27
+{"mp/rus/late/marine_4"						("inf_tier3" side(rus) period(late) cost(20.0))} ; svt40
+{"mp/rus/late/marine_5"						("inf_tier3" side(rus) period(late) cost(15.0))} ; mosin
+{"mp/rus/late/marine_mg_asst"				("inf_tier3" side(rus) period(late) cost(16.0))} ; mosin + mg ammo
+{"mp/rus/late/marine_nco"					("inf_tier3" side(rus) period(late) cost(20.0))} ; ppsh41 drum
+{"mp/rus/late/marine_nco_pps43"				("inf_tier3" side(rus) period(late) cost(17.0))} ; pps43
+{"mp/rus/late/marine_nco_stick"				("inf_tier3" side(rus) period(late) cost(18.0))} ; ppsh41 stick
+{"mp/rus/late/marine_senior"				("inf_tier3" side(rus) period(late) cost(18.0))} ; ppsh41 drum
+{"mp/rus/late/marine_senior_pps43"			("inf_tier3" side(rus) period(late) cost(17.0))} ; pps43
+{"mp/rus/late/marine_senior_stick"			("inf_tier3" side(rus) period(late) cost(18.0))} ; ppsh41 stick
+
+; // tier 3 vet
+
+{"mp/rus/late/guards_cav_mg"				("inf_tier3" side(rus) period(late) cost(31.0))} ; dp27
+{"mp/rus/late/guards_cav_mg_asst"			("inf_tier3" side(rus) period(late) cost(19.0))} ; mosin + mg ammo
+{"mp/rus/late/guards_cav_mg_asst_smg"		("inf_tier3" side(rus) period(late) cost(24.0))} ; ppsh41 drum + mg ammo
+{"mp/rus/late/guards_cav_nco"				("inf_tier3" side(rus) period(late) cost(23.0))} ; ppsh41 drum
+{"mp/rus/late/guards_cav_nco_pps43"			("inf_tier3" side(rus) period(late) cost(20.0))} ; pps43
+{"mp/rus/late/guards_cav_nco_stick"			("inf_tier3" side(rus) period(late) cost(21.0))} ; ppsh41 stick
+{"mp/rus/late/guards_cav_rifle"				("inf_tier3" side(rus) period(late) cost(18.0))} ; mosin
+{"mp/rus/late/guards_cav_sa"				("inf_tier3" side(rus) period(late) cost(23.0))} ; svt40
+{"mp/rus/late/guards_cav_senior_rifle"		("inf_tier3" side(rus) period(late) cost(18.0))} ; mosin
+{"mp/rus/late/guards_cav_senior_sa"			("inf_tier3" side(rus) period(late) cost(23.0))} ; svt40
+{"mp/rus/late/guards_cav_senior_smg"		("inf_tier3" side(rus) period(late) cost(23.0))} ; ppsh41 drum
+{"mp/rus/late/guards_cav_senior_smg_pps43"	("inf_tier3" side(rus) period(late) cost(20.0))} ; pps43
+{"mp/rus/late/guards_cav_senior_smg_stick"	("inf_tier3" side(rus) period(late) cost(21.0))} ; ppsh41 stick
+{"mp/rus/late/guards_cav_smg_drum"			("inf_tier3" side(rus) period(late) cost(21.0))} ; ppsh41 drum
+{"mp/rus/late/guards_cav_smg_pps43"			("inf_tier3" side(rus) period(late) cost(20.0))} ; pps43
+{"mp/rus/late/guards_cav_smg_stick"			("inf_tier3" side(rus) period(late) cost(21.0))} ; ppsh41 stick
+
+{"mp/rus/late/guards_marine_mg"				("inf_tier3" side(rus) period(late) cost(31.0))} ; dp27
+{"mp/rus/late/guards_marine_mg_asst"		("inf_tier3" side(rus) period(late) cost(19.0))} ; mosin + mg ammo
+{"mp/rus/late/guards_marine_nco"			("inf_tier3" side(rus) period(late) cost(20.0))} ; pps43
+{"mp/rus/late/guards_marine_rifle"			("inf_tier3" side(rus) period(late) cost(18.0))} ; mosin
+{"mp/rus/late/guards_marine_sa"				("inf_tier3" side(rus) period(late) cost(23.0))} ; svt40
+{"mp/rus/late/guards_marine_sa_pzf"			("inf_tier3" side(rus) period(late) cost(27.0))} ; svt40 + pzfaust 60
+{"mp/rus/late/guards_marine_smg"			("inf_tier3" side(rus) period(late) cost(23.0))} ; ppsh41 drum
+{"mp/rus/late/guards_marine_senior"			("inf_tier3" side(rus) period(late) cost(23.0))} ; ppsh41 drum
+
+{"mp/rus/late/elite_guards_mg"				("inf_tier3" side(rus) period(late) cost(31.0))} ; dp27
+{"mp/rus/late/elite_guards_mg_asst"			("inf_tier3" side(rus) period(late) cost(19.0))} ; mosin + mg ammo
+{"mp/rus/late/elite_guards_mg_asst_smg"		("inf_tier3" side(rus) period(late) cost(24.0))} ; ppsh41 drum + mg ammo
+{"mp/rus/late/elite_guards_nco"				("inf_tier3" side(rus) period(late) cost(23.0))} ; ppsh41 drum
+{"mp/rus/late/elite_guards_nco_pps43"		("inf_tier3" side(rus) period(late) cost(20.0))} ; pps43
+{"mp/rus/late/elite_guards_nco_stick"		("inf_tier3" side(rus) period(late) cost(21.0))} ; ppsh41 stick
+{"mp/rus/late/elite_guards_rifle"			("inf_tier3" side(rus) period(late) cost(18.0))} ; mosin
+{"mp/rus/late/elite_guards_sa"				("inf_tier3" side(rus) period(late) cost(23.0))} ; svt40
+{"mp/rus/late/elite_guards_senior_rifle"	("inf_tier3" side(rus) period(late) cost(18.0))} ; mosin
+{"mp/rus/late/elite_guards_senior_sa"		("inf_tier3" side(rus) period(late) cost(23.0))} ; svt40
+{"mp/rus/late/elite_guards_senior_smg"		("inf_tier3" side(rus) period(late) cost(23.0))} ; ppsh41 drum
+{"mp/rus/late/elite_guards_senior_smg_pps43"("inf_tier3" side(rus) period(late) cost(20.0))} ; pps43
+{"mp/rus/late/elite_guards_senior_smg_stick"("inf_tier3" side(rus) period(late) cost(21.0))} ; ppsh41 stick
+{"mp/rus/late/elite_guards_smg_drum"		("inf_tier3" side(rus) period(late) cost(23.0))} ; ppsh41 drum
+{"mp/rus/late/elite_guards_smg_pps43"		("inf_tier3" side(rus) period(late) cost(20.0))} ; pps43
+{"mp/rus/late/elite_guards_smg_stick"		("inf_tier3" side(rus) period(late) cost(21.0))} ; ppsh41 stick
+
+; // tier 4
+
+{"mp/rus/late/assault-sap_1"				("inf_tier4" side(rus) period(late) cost(37.0))} ; ppsh41 drum + armor
+{"mp/rus/late/assault-sap_2"				("inf_tier4" side(rus) period(late) cost(36.0))} ; pps43 + % pzfaust 60 + armor
+{"mp/rus/late/assault-sap_3"				("inf_tier4" side(rus) period(late) cost(37.0))} ; ppsh41 drum + armor
+{"mp/rus/late/assault-sap_4"				("inf_tier4" side(rus) period(late) cost(63.0))} ; flamer + armor
+{"mp/rus/late/assault-sap_at"				("inf_tier4" side(rus) period(late) cost(45.0))} ; ppsh41 drum + pzfaust 60 (2x) + armor
+{"mp/rus/late/assault-sap_atr"				("inf_tier4" side(rus) period(late) cost(48.0))} ; PTRS + armor
+{"mp/rus/late/assault-sap_sl"				("inf_tier4" side(rus) period(late) cost(34.0))} ; pps43 + armor
+{"mp/rus/late/assault-sap_sl_asst"			("inf_tier4" side(rus) period(late) cost(36.0))} ; pps43 + % pzfaust 60 + armor
+{"mp/rus/late/assault-sap_sl_asst_mg"		("inf_tier4" side(rus) period(late) cost(45.0))} ; dp27 + armor
+
+{"mp/rus/late/mountain_cav_mg"				("inf_tier4" side(rus) period(late) cost(35.0))} ; dp27
+{"mp/rus/late/mountain_cav_mg_asst"			("inf_tier4" side(rus) period(late) cost(23.0))} ; mosin + mg ammo
+{"mp/rus/late/mountain_cav_nco"				("inf_tier4" side(rus) period(late) cost(27.0))} ; ppsh41 drum
+{"mp/rus/late/mountain_cav_rifle"			("inf_tier4" side(rus) period(late) cost(22.0))} ; mosin
+{"mp/rus/late/mountain_cav_sa"				("inf_tier4" side(rus) period(late) cost(27.0))} ; svt40
+{"mp/rus/late/mountain_cav_senior"			("inf_tier4" side(rus) period(late) cost(27.0))} ; ppsh41 drum
+{"mp/rus/late/mountain_cav_smg"				("inf_tier4" side(rus) period(late) cost(27.0))} ; ppsh41 drum
+
+{"mp/rus/late/spetsnaz_1"					("inf_tier4" side(rus) period(late) cost(24.0))} ; pps43
+{"mp/rus/late/spetsnaz_2"					("inf_tier4" side(rus) period(late) cost(27.0))} ; ppsh41 drum
+{"mp/rus/late/spetsnaz_3"					("inf_tier4" side(rus) period(late) cost(24.0))} ; pps43
+{"mp/rus/late/spetsnaz_4"					("inf_tier4" side(rus) period(late) cost(35.0))} ; dp27
+{"mp/rus/late/spetsnaz_5"					("inf_tier4" side(rus) period(late) cost(53.0))} ; bazooka m1a1 + pps43

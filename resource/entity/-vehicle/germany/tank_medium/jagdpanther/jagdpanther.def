@@ -1,0 +1,120 @@
+{game_entity
+	(include "/properties/tank_assaultgun.ext")
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{props "td" "heavy" "-turret" "mantlet" "vision_lev04" "muzzle_85mm_93mm_sides" "shield" "smoke" "nvw" "detect_td_heavy"}
+	{extension "jagdpanther.mdl"}
+	(include "jagdpanther.ext")
+	{PatherId "panther"}
+	{targetclass "tank_heavy"}
+	{targetSelector "tank_heavy"}
+
+	{extender "enumerator"
+		{digit_folder "ger"}
+	}
+
+	{sensor
+		{visor "main"
+			{vision "tank_range_220"}
+			{bone "visor1"}
+		}
+		{visor "around"
+			{vision "Varound_poor"}
+			{bone "visor"}
+		}
+	}
+
+	("crew_5_human")
+
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_tank_right"} {end "pose_mgun_pz6"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_left"} {end "pose_mgun_pz6"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_HighArmor"} 	{end "pose_seat_armor_1"}}
+			{reverse 	{end	"emit_tank_1"}}
+		}
+	}
+
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor))
+	("seat_human" place(seat3) bone(seat03) door(emit5)  animation(armor))
+	("seat_human" place(seat4) bone(seat04) door(emit6)  animation(armor))
+
+	{extender "shield" {on}}
+
+	{extender "smokescreen"
+		{cooldown 5}
+		{itemTags "grenade nbks"}
+	}
+
+	{extender "inventory"
+		{box
+			{item "bulletger_88_l71 apcbche" 29} 	; 60 rounds
+			{item "bulletger_88_l71 he" 30}
+			{item "ammo mgun_ger belt" 2400}		; 17 belts (150 rounds each)
+			{item "mg42_belt" 1}
+			{item "geballteladung_3kg" 1}
+			{item "nbks grenade" 6}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "88mm_kwk43" filling "bulletger_88_l71 apcbche" 1}
+			{gunner "gunner"}
+			{charger "charger commander" minWorkers 1}
+			("abm_dymamic_td"
+				zeroing(5.0)
+				dispersion(0.20)
+			)
+		}
+		{place "mgun1"
+			{type "hull"}
+			{weapon "mg34_tank" filled}
+			{foresight "foresight4"}
+			{gunner "gunner3"}
+			{charger "gunner3"}
+			("abm_mgun")
+			{rotate}
+			{basic}
+			{ai_in_manual}
+		}
+	}
+
+	{mass 45600}
+	{Chassis
+		("tank_trace" fx("tracks_big") step(0.47) len(0.78))
+		("mobility_spearhead"
+			speed(45.8)			;Max speed when fully accelerated on road, km/h.
+			reverse(3.3)		;Max speed in reverse on road, km/h.
+			mass(45.6)			;Mass, in metric tons.
+			power(600) 			;Engine Power
+			contact(3.92)		;Track-ground contact length, in m
+			wheelbase(2.61)		;Distance between center of left and right side roadwheels, in m
+			pressure(0.88)		;Ground pressure on road, in kg/cm^2
+			coeff_accel(5)		;Modifier for acceleration, (0,10]
+			coeff_steer_rate(6)	;Modifier for steering, (0,10]
+			coeff_steer_eff(7)	;Modifier for steering, (0,10]
+			fuel(700) 			;Fuel capacity in Litres.
+			type(fuel)			;Fuel type. (diesel OR fuel)
+			range(100) 			;Range in km, off-road.
+			maxslope(70)		;Max slope (tan(gradient in degrees) * 100)
+		)
+	}
+
+	{bone "gun_rot"
+		{limits -8 14}
+		{speed2 5}
+	}	
+	{bone "turret"
+		{limits -12 12}
+		{speed2 5}
+	}
+}

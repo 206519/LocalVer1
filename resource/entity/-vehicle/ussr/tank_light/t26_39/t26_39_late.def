@@ -1,0 +1,13 @@
+{game_entity ;sept 44
+	(include "t26_39.inc")
+
+	{extender "inventory"
+		{box
+			{item "bulletrus_45 aphebc" 41}		;165 rounds
+			{item "bulletrus_45 apcr" 8}
+			{item "bulletrus_45 he2" 116}
+			{item "ammo mgun_rus dt" 3024}		;49 drums
+			{item "satchel_charge_rus" 1}
+		}
+	}
+}

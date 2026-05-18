@@ -1,0 +1,70 @@
+;_________________________________________
+; US medium AT gun
+;=========================================
+
+;// temporarily copied over the cope file for compatibility
+
+{from "pattern gun"		; L/50 "M1"
+	{filling "bullet_57x441"}
+	{fireSound "cannon/s2/d1/Shared/Cannon_50to57mm_HV/"}	
+	{fireSoundClose "cannon/s2/3p/Shared/Cannon_50to57mm_HV/"}
+	{reloadSound "utility/"}
+	("range_300")
+	{calibre 57}
+
+	("reload time" seconds(4.1))
+
+	("velocity m/s" ap(892) apcr(1219) he(820) heat(1))
+	("armor health" damage(140))
+	("armor health custom" shell(apcbche) damage(140) filler(32))
+
+	{parameters "he"
+		("velocity" mps(823))
+	}
+
+	; AP shot M70
+	("penetration_medium" shell(ap) range(290) a(117) b(99) c(77) d(57) e(43))  ;RHA
+	{parameters "ap"
+		("ap_57_slope_multiplier")
+		("velocity" mps(900))
+	}
+	("57_eng_slope_multipliers")
+
+		
+	; APC shell M86
+	("penetration_medium" shell(apcbche) range(300) a(110) b(98) c(85) d(73) e(64)) ;RHA
+	{parameters "apcbche"
+		("velocity" mps(823))
+		("Cm62_slmod")
+	}
+	
+	;// this shell isn't able to pierce the Tiger side at any distance.
+
+
+
+	;// all british ammo
+	; APC shot Mk.VIIIT ;Sept 1942
+	("penetration_medium" shell(apc) range(300) a(111) b(91) c(71) d(55) e(43)) ;RHA
+ ;//("penetration_medium" shell(apc) range(190) a(116) b(101) c(83) d(69) e(58)) ;FHA
+	{parameters "apc"
+		("velocity" mps(884))
+	}
+
+	; APCBC shot Mk.IXT ;Jan 1943
+	("penetration_medium" shell(apcbc) range(300) a(114) b(105) c(95) d(86) e(78)) ;RHA
+ ;//("penetration_medium" shell(apcbc) range(190) a(119) b(109) c(97) d(86) e(77)) ;FHA
+	{parameters "apcbc"
+		("velocity" mps(831))
+	}
+
+	; APCR shot Mk.IT ;Oct 1943
+	("penetration_medium" shell(apcr) range(300) a(152) b(132) c(110) d(92) e(77))
+	{parameters "apcr"
+		("velocity" mps(1082))
+	}
+
+	; APDS shot Mk.IT ;March 1944
+	("penetration_medium" shell(apds) range(300) a(182) b(163) c(141) d(123) e(106))
+
+	("accuracy_direct" r1(0.80) range_ap(300) range_he(300) range_heat(190))
+}

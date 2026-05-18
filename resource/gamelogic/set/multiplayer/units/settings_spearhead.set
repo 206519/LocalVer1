@@ -1,0 +1,236 @@
+;SDL
+;//////////////////////// INSTRUCTIONS ///////////////////////////////
+; In this file are templates for the composition of squads, soldiers
+
+
+; "vs(...)" corresponds to a define found in the settings down this file
+; v() If squad is motorised, this is the vehicle that carries the men.
+; cd() corresponds to countdown delay to spawn the unit once battle begins
+; ci() corresponds to cooldown to buy unit once again
+; side() corresponds to side (faction)
+; n() corresponds to number of crew in the unit, the type of crew is defined in the "vs"
+; g() corresponds to group, which is for classification and collective cooldowns
+; sc() corresponds to the score given to the player upon killing this unit
+; b() corresponds to the button where this unit is located in the menus
+; i() corresponds to icon order
+; cw() corresponds to capture weight for flags
+; cp() corresponds to CP, that is, the value that units have that fill up how many troops can be fielded
+; {cost -} corresponds to MP cost of the unit
+; {level 6} Corresponds to player XP progress in player profile from steam
+; {research_stage 4} corresponds to research stage of dynamic campaign
+; {squad_cost_factor 1} - adds the cost of the crew / the cost of the squad members with this factor
+; scf() - adds the cost of the crew / the cost of the squad members with this factor
+; {score_factor 0.05} - when the unit is killed, it will have an impact on the MP score of 0.05*Cost. This only works if {squad_cost_factor 1}. With a fixed cost for the squad such (= scf 0), you need to adjust the scores of the individual units manually
+; {score 20} - when the unit is killed, it will have an impact on the MP score of 20
+; {round_multiple 5.0} - the cost of the unit is rounded up or down to this multiple
+
+; vehicle with one type of crew, crew does NOT add to MP
+(define "vehicle_spearhead"
+	("single_unit" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp) cost(%cost))
+	{content "* ( mp/%side/%period/%crew )"}
+	{squad_cost_factor 0}
+	{round_multiple 1.0}
+)
+
+; vehicle with 2 types of crew, crew does NOT add to MP
+(define "vehicle2_spearhead"
+	("single_unit" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp) cost(%cost))
+	{content "* ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 )"}
+	{squad_cost_factor 0}
+	{round_multiple 1.0}
+)
+
+; vehicle with 3 types of crew, crew does NOT add to MP
+(define "vehicle3_spearhead"
+	("single_unit" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp) cost(%cost))
+	{content "* ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 )"}
+	{squad_cost_factor 0}
+	{round_multiple 1.0}
+)
+
+; vehicle with 4 types of crew, crew does NOT add to MP
+(define "vehicle4_spearhead"
+	("single_unit" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp) cost(%cost))
+	{content "* ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 mp/%side/%period/%crew4 )"}
+	{squad_cost_factor 0}
+	{round_multiple 1.0}
+)
+
+; vehicle with 5 types of crew, crew does NOT add to MP
+(define "vehicle5_spearhead"
+	("single_unit" cd(%cd) ci(%ci) t(%t %side %period) g(%g) b(%b) cw(%cw) cp(%cp) cost(%cost))
+	{content "* ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 mp/%side/%period/%crew4 mp/%side/%period/%crew5 )"}
+	{squad_cost_factor 0}
+	{round_multiple 1.0}
+)
+
+(define "squad_with2types_1vehicle_sequence_spearhead"
+	{charge 
+		{delay %cd}
+		{interval %ci}
+	}
+	{content "%vehicle1 ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 )"}
+	{tags "all %side %t %period"}
+	{group "%g"}
+	{button "%b"}
+	{doctrine %d}
+	{level 1}
+	{squad_cost_factor %scf}
+	{round_multiple 5}
+)
+
+;1 vehicle, 1 crew type
+(define "squad_with1types_1vehicle_spearhead"
+	{"%name(%d)"
+		{charge 
+			{delay %cd}
+			{interval %ci}
+		}
+		{content "%vehicle1 ( mp/%side/%period/%crew1 )"}
+		{tags "all %side %t %period"}
+		{group "%g"}
+		{button "%b"}
+		{doctrine %d}
+		{level 1}
+		{squad_cost_factor %scf}
+		{round_multiple 5}
+	}
+)
+
+;1 vehicle, 2 crew types
+(define "squad_with2types_1vehicle_spearhead"
+	{"%name(%d)"
+		{charge 
+			{delay %cd}
+			{interval %ci}
+		}
+		{content "%vehicle1 ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 )"}
+		{tags "all %side %t %period"}
+		{group "%g"}
+		{button "%b"}
+		{doctrine %d}
+		{level 1}
+		{squad_cost_factor %scf}
+		{round_multiple 5}
+	}
+)
+
+;1 vehicle, 3 crew types
+(define "squad_with3types_1vehicle_spearhead"
+	{"%name(%d)"
+		{charge 
+			{delay %cd}
+			{interval %ci}
+		}
+		{content "%vehicle1 ( mp/%side/%period/%crew1 mp/%side/%period/%crew2 mp/%side/%period/%crew3 )"}
+		{tags "all %side %t %period"}
+		{group "%g"}
+		{button "%b"}
+		{doctrine %d}
+		{level 1}
+		{squad_cost_factor %scf}
+		{round_multiple 5}
+	}
+)
+
+;2 vehicles, 1 crew type each (2 total)
+(define "squad_with2types_2vehicle_spearhead"
+	{"%name(%d)"
+		{charge 
+			{delay %cd}
+			{interval %ci}
+		}
+		{content "%vehicle1 ( mp/%side/%period/%crew1 ) %vehicle2 ( mp/%side/%period/%crew2 )"}
+		{tags "all %side %t %period"}
+		{group "%g"}
+		{button "%b"}
+		{doctrine %d}
+		{level 1}
+		{squad_cost_factor %scf}
+		{round_multiple 5}
+	}
+)
+
+;DP Buys
+
+(define "doctrine_t1_spearhead"
+	{charge 
+		{delay %cd}
+		{interval %ci}
+	}
+	{group "doctrine_t1"}
+	{doctrine %d}
+	{cost %cost}
+)
+
+(define "doctrine_t2_spearhead"
+	{charge 
+		{delay %cd}
+		{interval %ci}
+	}
+	{group "doctrine_t2"}
+	{doctrine %d}
+	{cost %cost}
+)
+
+(define "doctrine_t3_spearhead"
+	{charge 
+		{delay %cd}
+		{interval %ci}
+	}
+	{group "doctrine_t3"}
+	{doctrine %d}
+	{cost %cost}
+)
+
+(define "doctrine_t4_spearhead"
+	{charge 
+		{delay %cd}
+		{interval %ci}
+	}
+	{group "doctrine_t4"}
+	{doctrine %d}
+	{cost %cost}
+)
+
+; Non-doctrine sequence buy, used for Soviet ART teams
+(define "squad_with2types_i"
+	{"%name(%side)"
+		{charge 
+			{delay %cd}
+			{interval %ci}
+		}
+		{content "mp/%side/%period/%c1 mp/%side/%period/%c2"}
+		{tags "all infantry %side %t %period"}
+		{group "%g"}
+		{button "%b"}
+		{level 1}
+		{squad_cost_factor 1}
+		{round_multiple 1}
+		{icon %i}
+	}
+)
+
+; 3 identical vehicles with 1 types of crew. Used for US Mortar Troop (3x)
+(define "squad_3vehicle_doctrine"
+	("generic_d" t(%side %period))
+	{content "%vehicle ( mp/%side/%period/%crew ) %vehicle ( mp/%side/%period/%crew ) %vehicle ( mp/%side/%period/%crew )"}
+)
+
+; 2 sets of 4 vehicles, each set with 1 crew type. Used for US towed gun battery
+(define "squad_8vehicle_doctrine"
+	("generic_d" t(%side %period))
+	{content "%vehicle1 ( mp/%side/%period/%crew1 ) %vehicle2 ( mp/%side/%period/%crew2 ) %vehicle1 ( mp/%side/%period/%crew1 ) %vehicle2 ( mp/%side/%period/%crew2 ) %vehicle1 ( mp/%side/%period/%crew1 ) %vehicle2 ( mp/%side/%period/%crew2 ) %vehicle1 ( mp/%side/%period/%crew1 ) %vehicle2 ( mp/%side/%period/%crew2 )"}
+)
+
+; 2 different vehicles with 5 types of crew on both, plus an additional 3 soldier types
+(define "squad_2_vehicle5_3_doctrine"
+	("generic_d" t(%side %period)) 
+	{content "%vehicle1 ( mp/%side/%period/%c1 mp/%side/%period/%c2 mp/%side/%period/%c3 mp/%side/%period/%c4 mp/%side/%period/%c5 ) %vehicle2 ( mp/%side/%period/%c6 mp/%side/%period/%c7 mp/%side/%period/%c8 mp/%side/%period/%c9 mp/%side/%period/%c10 )  mp/%side/%period/%c11  mp/%side/%period/%c12  mp/%side/%period/%c13"}
+)
+
+; squad setup for 11 types
+(define "squad_with11types_doctrine"
+	("generic_d_inf" t(%side %period))
+	{content "mp/%side/%period/%c1 mp/%side/%period/%c2 mp/%side/%period/%c3 mp/%side/%period/%c4 mp/%side/%period/%c5 mp/%side/%period/%c6 mp/%side/%period/%c7 mp/%side/%period/%c8 mp/%side/%period/%c9 mp/%side/%period/%c10 mp/%side/%period/%c11"}
+)

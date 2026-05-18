@@ -1,0 +1,47 @@
+;_________________________________________
+; German light AA gun
+;=========================================
+
+
+{from "pattern gun"			; "flak38"
+	{filling "bulletger_20_auto" 20}
+	{fireSound "cannon/s1/d1/Shared/Autocannon_20to30mm/"}
+	{fireSoundclose "cannon/s1/3p/Shared/Autocannon_20to30mm/"}
+	{reloadSound "tank/reload_small"}
+	("range_autocannon_12-20")
+	{cursor "ironsights/aa"}
+	{calibre 20}
+	("light_aa")
+
+	("fire rate" rpm(420))
+	("reload time" seconds(2.0))
+
+	("velocity m/s" ap(760) apcr(1050) he(900) heat(1))
+	("armor health" damage(30))
+	("20_slope_multipliers")
+
+	{burst
+		{short 10 0.75}			;// short burst shots on long distance, rand (+-)shots
+		{long 20 1}				;// long burst shots on short distance, rand (+-)shots
+		{rangeKoef 0.85}		;// rangeKoef * aimRange = max long burst distance
+	}
+
+	; Pzgr.39
+	("penetration_medium" shell(ap) range(190) a(30) b(19) c(10) d(6) e(3))
+
+	; Pzgr.40
+	("penetration_medium" shell(apcr) range(190) a(55) b(27.5) c(11.6) d(5) e(2))
+	;// http://www.panzer-war.com/page59.html supported by
+	
+	; Pzgr.40
+	("penetration_short" shell(hvap) range(190) a(56.5) b(45.3) c(31.5) d(21.8) e(15.1))
+	;// more precise ballistic
+
+	("accuracy_direct_auto" r1(0.8) range_ap(190) range_he(190) range_heat(150))
+
+	{parameters "he"										; Sprgr.
+		(mod "mp" {unlimitedRangeTPC 1})	;// unrestricts range in TPC/FPC for shooting at aircraft
+		{range 230 230}
+		{FalloffStrength 0}
+	}
+}

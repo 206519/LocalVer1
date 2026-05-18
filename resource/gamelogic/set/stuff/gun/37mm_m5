@@ -1,0 +1,13 @@
+;_________________________________________
+; US light tank gun
+;=========================================
+
+
+{from "37mm_m3"			; L/49.9 "m5"
+	{fireSoundclose "cannon/s1/1p/Shared/Cannon_37to40mm/"}
+	{reloadSound "tank/1p/short/"}
+
+
+	("reload time" seconds(5)) ;manual breech
+	("accuracy_direct" r1(0.86) range_ap(190) range_he(180) range_heat(160))
+}

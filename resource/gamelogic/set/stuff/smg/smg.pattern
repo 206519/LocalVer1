@@ -1,0 +1,51 @@
+{from "pattern bullet"
+	{tag "smg smg_shell weapon bullet to_hand auto_eject shoot_walking_manual -shoot_walking"}
+
+	{inventory
+		{size 5 2}
+		{link_bone "gun_back"}
+		{weight 100}
+	}
+
+	{cursor "ironsights/smg"}
+
+	{range 70 70}
+	
+	{gravity 2.5}	;// SMG's bullets are so slow to begin with they don't drop that much
+
+	{curve "bullet_smg"}
+
+	{LockFireDistanceTime 0.5}
+	{foresight "Foresight11"}
+	{SpreadTolerance 0.5}			;// AI needs to aim 30%, was 0.3
+	{aimingTolerance 2} 			;// was within 10
+	{traceFreq 5}
+	{Automatic}
+	
+	;//	[reference] .40 S&W, 10.7 gram , or 635J
+	;// the bullet 7.62x25 seems ~5.5 gram at ~480 m/s or 655J
+	;// the bullet 9x19 seems ~6.4 gram at <= 380 m/s or 380J
+	;//		https://www.ar15.com/forums/handguns/_ARCHIVED_THREAD____Specs_on_WW2_German_9X19_/20-100221/&page=1
+	;//	the bullet .45 ACP
+	
+	;//	So it is hardly worth mentioning, that the latter two are drastically inferior.
+
+	("reload time" seconds(4))
+
+	{spreading
+		{BurstAccuracy 100 95 90 85 80 75 70 65 60}
+	}
+	;{FiringTimeout 0.5 0.2}
+
+	("human health" damage(50))
+	("penetration" args 2.5)
+	("armor health" damage(3))
+
+	("accuracy_smg")
+	("ap_slope_multiplier")
+
+	{thirdpersonparams inherit "human default"}
+	("recoil_smg_medium")
+	("sway_smg")
+	{AccuracyByMotionK 1.4}
+}

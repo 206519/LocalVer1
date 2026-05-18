@@ -1,0 +1,171 @@
+	(include "/properties/tank_assaultgun.ext")
+	
+	(include "/properties/selection/vehicle.inc" scale(1.1))
+	{props "td" "light" "vision_lev02" "muzzle_75mm_76mm_sides" "shell_eject" "tractor" "tractor_medium" "open_top"}
+	{Extension "su76.mdl"}
+	(include "su76.ext")
+	{targetclass "tank_light"}
+	{targetSelector "tank_medium"}
+	{patherId "su76"}
+	{collider "tank.light"}
+
+	{extender "enumerator"
+		{digit_folder "ru1"}
+	}
+
+	{boarder
+		{anm "driver"
+			{forward {begin "board_t34_driver"} {end "seat_gunner_stand"} {base "open_driver"}}
+			{reverse {end "emit_t34_hold"} {base "open_driver"}}
+		}
+		{anm "left"
+			{forward {begin "board_tank_left"} {end "pose_pak40_gunlayer" 10}}
+			{reverse {end "emit_tank_2_hold"}}
+		}
+		{anm "right"
+			{forward {begin "board_tank_right"} {end "pose_pak40_charger" 10}}
+			{reverse {end "emit_tank_2_hold"}}
+		}
+	}
+
+	("crew_driver" door(emit0) door2(emit1) door3(emit2))
+	("crew_human_visible_anm" place(gunner)		door(emit1) door2(emit1) visor(main)	anm_left(left)  anm_right(left))
+	("crew_human_visible_anm" place(charger)	door(emit1) door2(emit1) visor(none)	anm_left(right) anm_right(right))
+	("crew_human_visible_anm" place(commander)	door(emit2) door2(emit2) visor(around)	anm_left(right) anm_right(right))
+
+	{sensor
+		{visor "around"
+			{vision "vehicle_around"}		;// better vision than a in-closed turret 
+		}
+	}
+
+	{##extender "inventory"
+		{box
+			{item "bulletrus_76 aphebc2" 15}	;59 rounds + 1 loaded
+			{item "bulletrus_76 apcr" 8}
+			{item "bulletrus_76 he" 36}
+			{item "satchel_charge_rus" 1}
+		}
+	}
+
+	{Placer
+		{place "ammo001"
+			{entity "76mm_rus_apcr"}
+			{Linkbone "ammo001"}
+			{handlebone "body"}
+		}
+		{place "ammo002"
+			{entity "76mm_rus_apcr"}
+			{Linkbone "ammo002"}
+			{handlebone "body"}
+		}
+		{place "ammo003"
+			{entity "76mm_rus_apcr"}
+			{Linkbone "ammo003"}
+			{handlebone "body"}
+		}
+		{place "ammo004"
+			{entity "76mm_rus_apcr"}
+			{Linkbone "ammo004"}
+			{handlebone "body"}
+		}
+		{place "ammo005"
+			{entity "76mm_rus_apcr"}
+			{Linkbone "ammo005"}
+			{handlebone "body"}
+		}
+		{place "ammo006"
+			{entity "76mm_rus_apcr"}
+			{Linkbone "ammo006"}
+			{handlebone "body"}
+		}
+		{place "ammo007"
+			{entity "76mm_rus_apcr"}
+			{Linkbone "ammo007"}
+			{handlebone "body"}
+		}
+		{place "ammo008"
+			{entity "76mm_rus_he"}
+			{Linkbone "ammo008"}
+			{handlebone "body"}
+		}
+		{place "ammo009"
+			{entity "76mm_rus_he"}
+			{Linkbone "ammo009"}
+			{handlebone "body"}
+		}
+		{place "ammo010"
+			{entity "76mm_rus_he"}
+			{Linkbone "ammo010"}
+			{handlebone "body"}
+		}
+		{place "ammo011"
+			{entity "76mm_rus_he"}
+			{Linkbone "ammo011"}
+			{handlebone "body"}
+		}
+		{place "ammo012"
+			{entity "76mm_rus_he"}
+			{Linkbone "ammo012"}
+			{handlebone "body"}
+		}
+		{place "ammo013"
+			{entity "76mm_rus_he"}
+			{Linkbone "ammo013"}
+			{handlebone "body"}
+		}
+		{place "ammo014"
+			{entity "76mm_rus_he"}
+			{Linkbone "ammo014"}
+			{handlebone "body"}
+		}
+		{place "ammo015"
+			{entity "76mm_rus_he"}
+			{Linkbone "ammo015"}
+			{handlebone "body"}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "76mm_zis3_2" filling "bulletrus_76 aphebc2" 1}
+			{gunner "gunner"}
+			{charger "charger"}
+			("abm_dymamic"
+				zeroing(3.0)
+				dispersion(0.25)
+			)
+		}
+	}
+
+	{mass 10800}
+	{Chassis
+		("tank_trace" fx("tracks_sm2") step(0.15) len(0.55))
+		("mobility_spearhead"
+			speed(45)			;Max speed when fully accelerated on road, km/h.
+			reverse(5)			;Max speed in reverse on road, km/h.
+			mass(10.8)			;Mass, in metric tons.
+			power(120) 			;Engine Power
+			contact(3.3)		;Track-ground contact length, in m
+			wheelbase(2.0)		;Distance between center of left and right side roadwheels, in m
+			pressure(0.55)		;Ground pressure on road, in kg/cm^2
+			coeff_accel(5)		;Modifier for acceleration, (0,10]
+			coeff_steer_rate(5)	;Modifier for steering, (0,10]
+			coeff_steer_eff(5)	;Modifier for steering, (0,10]
+			fuel(420) 			;Fuel capacity in Litres.
+			type(fuel)			;Fuel type. (diesel OR fuel)
+			range(290) 			;Range in km, off-road.
+			maxslope(67)		;Max slope (tan(gradient in degrees) * 100)
+		)
+	}
+
+	{bone "gun_rot"
+		{limits -3 25}
+		{speed2 4}
+	}
+	{bone "turret"
+		{limits -15 15}
+		{speed2 8}
+	}

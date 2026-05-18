@@ -1,0 +1,30 @@
+;_________________________________________
+; French light AT cannon in German service
+;=========================================
+
+
+{from "pattern gun"			; L/32 "panzer35s" "panzerb2"
+	{filling "bullet_47x193"}
+	{fireSound "cannon/s2/d1/Shared/Cannon_45to47mm/"}
+	{fireSoundclose "cannon/s1/1p/Shared/Cannon/"}
+	{reloadSound "tank/1p/small_long/"}
+	("range_180")
+	{calibre 47}
+
+	("reload time" seconds(6.5))
+
+	("velocity m/s" ap(660) apcr(1) he(590) heat(1))
+	("armor health" damage(90))
+	("57_slope_multipliers")
+
+	; Pzgr.35(f)
+	("penetration" shell(apc) range(180) a(64) b(55.9) c(44.6) d(35.6) e(28.5))
+
+	{parameters "he"
+		{range 170 170}
+	}
+
+	("accuracy_direct" r1(0.81) range_ap(180) range_he(170) range_heat(180))
+	
+	;L.762 telescopic sight of the 47mm SA35 gun has a 4x magnification, a 11.81°, which solves everything
+}

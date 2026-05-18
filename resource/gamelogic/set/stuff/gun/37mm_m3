@@ -1,0 +1,39 @@
+;_________________________________________
+; US light AT gun
+;=========================================
+
+
+{from "pattern gun"			; L/53.5 "m3"
+	{filling "bulletusa_37"}
+	{fireSound "cannon/s1/d1/Shared/Cannon_37to40mm/"}
+	{fireSoundclose "cannon/s1/3p/Shared/Cannon_37to40mm/"}
+	{reloadSound "utility/"}
+	("range_180")
+	{calibre 37}
+
+	("reload time" seconds(4)) ;manual breech
+
+	("velocity m/s" ap(884) apcr(884) he(792) heat(1))
+	("armor health" damage(90))
+	("37_slope_multipliers_800ms")
+
+
+	;// pre shatter values for the service shell
+	("penetration_medium" shell(ap) range(190) a(61) b(51) c(38) d(28) e(21))	; AP M74
+	("penetration_medium" shell(apcbc) range(190) a(60) b(54) c(49) d(41.7) e(34))
+	
+	
+	;// if penetration was a flat 2050, but that isn't achievable for this shell.
+	;// ("penetration_medium" shell(apcbc) range(190) a(74) b(63) c(51) d(41.7) e(34))
+	;// ("penetration_medium" shell(ap) range(190) a(74) b(56.65) c(41) d(29) e(21))
+
+	{parameters "he"
+		{range 180 180}
+	}
+	{parameters "apcbc" ; 
+		("global velocity" gv(870))
+	}
+
+	("accuracy_direct" r1(1.10) range_ap(190) range_he(180) range_heat(160)) 
+	;// this ATG has an unmagnified sight so it shouldn't engage past ~800-900m IRL
+}

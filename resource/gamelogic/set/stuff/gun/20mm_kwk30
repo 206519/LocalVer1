@@ -1,0 +1,36 @@
+;_________________________________________
+; Early german 20mm AT gun
+;=========================================
+
+
+{from "pattern gun"			; L/55  "panzer2c", "panzer2f", "sdkfz222", "sdkfz232"
+	{filling "bulletger_20_auto" 10}
+	{fireSound "cannon/s1/d1/Shared/Autocannon_20to30mm/"}
+	{fireSoundclose "cannon/s1/1p/Shared/Autocannon_20to30mm/"}
+	{reloadSound "interior/large/small_reload_interior"}
+	("range_autocannon_12-20")
+	{cursor "ironsights/aa"}
+	{calibre 20}
+
+	("fire rate" rpm(220))
+	("reload time" seconds(6.0))	;// in vanilla, a 1 man turret has 3x the regular reload time
+
+	("velocity m/s" ap(780) apcr(1050) he(830) heat(1))
+	("armor health" damage(30))
+	("20_slope_multipliers")
+
+	; Pzgr.39
+	("penetration_short" shell(ap) range(160) a(30) b(19) c(10.5) d(5.83) e(3.24))
+
+	; Pzgr.40
+	("penetration_short" shell(apcr) range(160) a(55) b(27.5) c(11.6) d(4.9) e(2))
+	
+	; Pzgr.40
+	("penetration_short" shell(hvap) range(170) a(56.5) b(45.3) c(31.5) d(21.8) e(15.1))
+
+	{parameters "he"
+		{range 160 160}
+	}
+
+	("accuracy_direct_auto" r1(0.85) range_ap(160) range_he(160) range_heat(150)) ;// this gun is shoulder stabilized
+}

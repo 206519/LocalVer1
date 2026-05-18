@@ -1,0 +1,8 @@
+;_________________________________________
+;  USSR long-barreled Medium AT gun, Su-85 mod.
+;=========================================
+
+
+{from "85mm_d5t"			; L/52 "su85"
+	("reload time" seconds(8))
+}

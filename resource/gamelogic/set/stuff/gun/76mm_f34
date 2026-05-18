@@ -1,0 +1,60 @@
+;_________________________________________
+; USSR Medium AT gun
+;=========================================
+
+
+{from "pattern gun"			; L/41.5 "t3476_41"
+	{filling "bulletrus_76"}
+	{fireSound "cannon/s3/d1/Shared/Cannon_75to76mm/"}
+	{fireSoundclose "cannon/s2/1p/Shared/"}
+	{reloadSound "tank/1p/medium/"}
+	("range_280")
+	{calibre 76.2}
+
+	("reload time" seconds(7.0))
+
+	("velocity m/s" ap(662) apcr(955) he(680) heat(325))
+	("armor health" damage(200))
+	("armor health custom" shell(apcbche) damage(200) filler(150))
+	("armor health custom" shell(aphebc) damage(200) filler(101))
+	("armor health custom" shell(aphebc2) damage(200) filler(101))
+	("76_rus_slope_multipliers")
+
+	; BR-350A
+	("penetration_medium" shell(aphebc) range(280) a(85) b(78) c(71) d(64) e(57.5))  ;RHA
+
+	; BR-350B
+	("penetration_medium" shell(aphebc2) range(280) a(90) b(84) c(75) d(67) e(60))  ;RHA
+	
+	;// For the same 100mm target, M62 APC needs 666 m/s, and BR-350B around 655 m/s for success
+	
+	{parameters "aphebc2"	;// BR-350B
+		("BR350B")
+		("velocity" mps(655))
+	}
+
+	; BR-350P  ; only issued to ZiS-5 & F-34 guns
+	("penetration_medium" shell(apcr) range(200) a(128) b(100) c(73) d(53) e(39))	
+	
+	; issued in Oct. '43. 8 rounds per vehicle where the Germans were expected to attack. Spring '44 all vehicles had at least 4 rounds.
+
+	; BR-354N, 1950s projectile, not to be used in WW2
+	("penetration_medium" shell(hvap) range(300) a(172) b(154) c(133.5) d(115.8) e(100.4))
+
+	; BP-350A  ; only issued to ZiS-3,5 & F-34 guns
+	("penetration_medium" shell(heat) range(160) a(75) b(75) c(75) d(75) e(75))	; issued sometime in '43
+
+	; 76 psa - Vj4 (Finnish)
+	("penetration_medium" shell(apcbc) range(200) a(109) b(99) c(88) d(78) e(69)) ; issued sometime in '42
+	{parameters "apcbc" ("velocity" mps(753))}
+
+	; 76 hkr 42-18/24-38 (Finnish)
+	("penetration_medium" shell(heatb) range(160) a(87) b(87) c(87) d(87) e(87))	; issued sometime in '44
+	{parameters "heatb" ("velocity" mps(400))}
+
+	; 76 hrk Vj 42/C-18/24-38 (Finnish)
+	("penetration_medium" shell(heatc) range(160) a(105) b(105) c(105) d(105) e(105))	; issued sometime in '44
+	{parameters "heatc" ("velocity" mps(400))}
+
+	("accuracy_direct_arrowhead" r1(0.78) range_ap(280) range_he(280) range_heat(280))
+}

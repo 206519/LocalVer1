@@ -1,0 +1,37 @@
+;_________________________________________
+; USSR light long-barreled AT cannon
+;=========================================
+
+
+{from "pattern gun"			; L/66 "m1942"
+	{filling "bulletrus_45"}
+	{fireSound "cannon/s2/d1/Shared/Cannon_45to47mm/"}
+	{fireSoundclose "cannon/s2/3p/Shared/Cannon_45to47mm/"}
+	{reloadSound "utility/"}
+	("range_310")
+	{calibre 45}
+	
+	("reload time" seconds(3.4))
+
+	("velocity m/s" ap(870) apcr(1070) he(355) heat(1))	;// manual says 350
+	("armor health" damage(120))
+	("armor health custom" shell(aphebc) damage(120) filler(29))	;// 19 grams A-IX-i2
+	("45_rus_slope_multipliers")
+
+	;BR-240
+	("penetration_medium" shell(aphebc) range(310) a(70) b(65) c(54) d(45) e(37))  ;RHA
+
+	 ;//	this is the standard charge for the m-42, but older rounds have 835 m/s velocity
+
+	;BR-240P	; was available starting April 1942
+	("penetration_medium" shell(apcr) range(190) a(120) b(88) c(60) d(40.5) e(27))
+
+	{parameters "he"
+		{range 250 250}
+	}
+	{parameters "he2"
+		{range 250 250}
+	}
+
+	("accuracy_direct_arrowhead" r1(0.77) range_ap(310) range_he(250) range_heat(160)) ;
+}

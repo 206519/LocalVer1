@@ -1,0 +1,153 @@
+;SDL
+	
+	; armor notes
+	; tracks and wheels 20mm
+	; gun 25mm
+	; spare tracks 20mm
+	; schürzen 5mm
+
+	("tank_medium_tier2")
+
+	("shield_track" args "detail5" 20)
+	("shield_track" args "detail6" 20)
+	("shield_track" args "detail7" 20)
+
+	("shield" args "fenderl" 5)
+	("shield" args "shieldl2" 5)
+	("shield" args "shieldl3" 5)
+	("shield" args "shieldl4" 5)
+	("shield" args "shieldl5" 5)
+	("shield" args "shieldl6" 5)
+	("shield" args "fenderr" 5)
+	("shield" args "shieldr2" 5)
+	("shield" args "shieldr3" 5)
+	("shield" args "shieldr4" 5)
+	("shield" args "shieldr5" 5)
+	("shield" args "shieldr6" 5)
+
+	("tracks" repair(30) thickness(20))
+	("gun" repair(30) thickness(25))
+	
+	("track_wheels" args left 1 10)
+	("track_wheels" args right 1 10)
+	
+	("track_wheels" args left 2 10)
+	("track_wheels" args right 2 10)
+	
+	("track_wheels" args left 3 10)
+	("track_wheels" args right 3 10)
+	
+	("track_wheels" args left 4 10)
+	("track_wheels" args right 4 10)
+	
+	("track_wheels" args left 5 10)
+	("track_wheels" args right 5 10)
+	
+	("track_wheels" args left 6 10)
+	("track_wheels" args right 6 10)
+	
+	("track_wheels" args left 7 10)
+	("track_wheels" args right 7 10)
+	
+	("track_wheels" args left 8 10)
+	("track_wheels" args right 8 10)
+	
+	("track_wheels" args left 9 10)
+	("track_wheels" args right 9 10)
+	
+	("track_wheels" args left 10 10)
+	("track_wheels" args right 10 10)
+
+	("ammo" args "ammo1")
+	("ammo" args "ammo2")
+	("ammo" args "ammo3")
+	("ammo" args "ammo4")
+	("fuel" args "fuel1")
+	("fuel" args "fuel2")
+	("fuel" args "fuel3")
+	("fuel" args "fuel4")
+	("transmission" args "transmission")
+
+	{volume "body1"			; Hull
+		{thickness 42
+			{front 52}		; Lower Nose
+			{top 80}		; Glacis
+			{rear 16}
+			{bottom 25}
+		}
+	}
+	{volume "body2"			; Superstructure
+		{thickness 52
+			{front 80}		; Glacis
+			{top 16}
+			{rear 16}
+			{bottom 40}
+		}
+	}
+	{volume "body3"			; Hull MG
+		{thickness 80}
+		{tags "mg_port"}
+	}
+	{volume "engine1"			; Hull
+		{thickness 40
+			{front 16}
+			{top 16}
+			{bottom 16}
+		}
+	}
+	{volume "engine2"		; Superstructure
+		{thickness 50
+			{front 16}
+			{top 16}
+			{rear 40}
+			{bottom 40}
+		}
+	}
+	{volume "turret"
+		{thickness 45
+			{front 100}
+			{top 30}
+		}
+	}
+	{volume "turret2"
+		{thickness 45
+			{front 100}  ; Behind mantlet hole
+			{top 30}
+		}
+	}
+	{volume "mantlet"
+		{thickness 100}
+		{CastSteel 0.8063}
+		{component "turret"}
+		{tags "turret"}
+		{able {holed}}
+	}
+	{volume "mantlet2"
+		{thickness 50
+			{front 95}
+		}
+		{CastSteel 0.8063}
+		{component "gun"}
+		{tags "gun"}
+	}
+	{volume "cupola"
+		{thickness 80
+			{top 16}
+		}
+	}
+
+	{component "fenderl" {tags "cut_part"}}
+	{component "shieldl2" {tags "cut_part"}}
+	{component "shieldl3" {tags "cut_part"}}
+	{component "shieldl4" {tags "cut_part"}}
+	{component "shieldl5" {tags "cut_part"}}
+	{component "shieldl6" {tags "cut_part"}}
+	{component "fenderr" {tags "cut_part"}}
+	{component "shieldr2" {tags "cut_part"}}
+	{component "shieldr3" {tags "cut_part"}}
+	{component "shieldr4" {tags "cut_part"}}
+	{component "shieldr5" {tags "cut_part"}}
+	{component "shieldr6" {tags "cut_part"}}
+	{component "detail5" {tags "cut_part"}}
+	{component "detail6" {tags "cut_part"}}
+	{component "detail7" {tags "cut_part"}}

@@ -1,0 +1,24 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{Extension "hedgehog.mdl"}
+	{props "big" "steel" "parts" "construction" "no_destroyed_stamp" "antitank_hedgehog" "slow_on_crush"}	;// removed  "disable_area"
+	{obstacleID "unbreakable"}
+	("armor_hedgehog")
+	("armor_use_volume_thickness")	;// models it as steel I imagine
+	{Volume "body1"
+		{Tags "body"}
+		{thickness 10}
+		{able {visible 0}}
+	}
+	{Volume "body2"
+		{Tags "body"}
+		{thickness 10}
+		{able {visible 0}}
+	}
+	{Volume "body3"
+		{Tags "body"}
+		{thickness 10}
+		{able {visible 0}}
+	}
+	{lodclass "decor_medium"}
+}

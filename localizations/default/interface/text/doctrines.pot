@@ -1,0 +1,421 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: CtA - Gates of Hell (doctrines)\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+
+msgctxt "mp/lobby/setup/player.doctrine"
+msgid "Doctrine"
+msgstr ""
+
+msgctxt "mp/lobby/setup/player.doctrine#hint"
+msgid "Specialise your army with a doctrine."
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/random"
+msgid "Random"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/random#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_fin_allround"
+msgid "All-Round"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_fin_allround#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_fin_defensive"
+msgid "Defensive"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_fin_defensive#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_fin_irregular"
+msgid "Irregular"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_fin_irregular#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_fin_offensive"
+msgid "Offensive"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_fin_offensive#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_ger_allround"
+msgid "All-Round"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_ger_allround#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_ger_defensive"
+msgid "Defensive"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_ger_defensive#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_ger_irregular"
+msgid "Irregular"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_ger_irregular#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_ger_offensive"
+msgid "Offensive"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_ger_offensive#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_ger_support"
+msgid "Support <c(a655af)>[Scorched Earth DLC]</c>"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_ger_support#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_rus_allround"
+msgid "All-Round"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_rus_allround#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_rus_defensive"
+msgid "Defensive"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_rus_defensive#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_rus_irregular"
+msgid "Irregular"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_rus_irregular#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_rus_offensive"
+msgid "Offensive"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_rus_offensive#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_rus_support"
+msgid "Support <c(a655af)>[Scorched Earth DLC]</c>"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/early_rus_support#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_fin_allround"
+msgid "All-Round"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_fin_allround#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_fin_defensive"
+msgid "Defensive"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_fin_defensive#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_fin_lendlease"
+msgid "Lend-Lease"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_fin_lendlease#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_fin_irregular"
+msgid "Irregular"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_fin_irregular#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_fin_offensive"
+msgid "Offensive"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_fin_offensive#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_ger_allround"
+msgid "All-Round"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_ger_allround#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_ger_defensive"
+msgid "Defensive"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_ger_defensive#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_ger_irregular"
+msgid "Irregular"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_ger_irregular#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_ger_offensive"
+msgid "Offensive"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_ger_offensive#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_ger_support"
+msgid "Support <c(a655af)>[Scorched Earth DLC]</c>"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_ger_support#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_rus_allround"
+msgid "All-Round"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_rus_allround#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_rus_defensive"
+msgid "Defensive"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_rus_defensive#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_rus_lendlease"
+msgid "Lend-Lease"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_rus_lendlease#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_rus_irregular"
+msgid "Irregular"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_rus_irregular#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_rus_offensive"
+msgid "Offensive"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_rus_offensive#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_rus_support"
+msgid "Support <c(a655af)>[Scorched Earth DLC]</c>"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/mid_rus_support#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_fin_allround"
+msgid "All-Round"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_fin_allround#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_fin_defensive"
+msgid "Defensive"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_fin_defensive#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_fin_lendlease"
+msgid "Lend-Lease"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_fin_lendlease#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_fin_irregular"
+msgid "Irregular"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_fin_irregular#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_fin_offensive"
+msgid "Offensive"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_fin_offensive#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_ger_pzgren"
+msgid "Panzergrenadier (All-Round)"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_ger_pzgren#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_ger_gren"
+msgid "Grenadier (Defensive)</c>"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_ger_gren#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_ger_pz"
+msgid "Heer Panzer (Offensive)"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_ger_pz#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_ger_lw"
+msgid "Luftwaffe (Support)"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_ger_lw#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_ger_jg"
+msgid "Jaegers (Irregular)"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_ger_jg#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_ger_waf"
+msgid "Waffen [] Panzer (Offensive)"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_ger_waf#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_rus_mech"
+msgid "Mechanized Corps (All-Round)"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_rus_mech#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_rus_rifle"
+msgid "Rifle Corps (Defensive)"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_rus_rifle#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_rus_lr"
+msgid "Light Rifle Corps (Support)"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_rus_lr#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_rus_tank"
+msgid "Tank Corps (Offensive)"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_rus_tank#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_rus_cav"
+msgid "Guards Cavalry Corps (Irregular)"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_rus_cav#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_rus_mech2"
+msgid "Guards Mechanized Corps (Lend-Lease)"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_rus_mech2#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_fin_pans"
+msgid "Panssari (Offensive)"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_fin_pans#hint"
+msgid ""
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_fin_jalk"
+msgid "Jalkaväki (Defensive)"
+msgstr ""
+
+msgctxt "mp/lobby/doctrine/late_fin_jalk#hint"
+msgid ""
+msgstr ""

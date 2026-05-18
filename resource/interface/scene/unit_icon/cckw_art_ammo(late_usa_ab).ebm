@@ -1,0 +1,6 @@
+{bitmap
+    {frame "cckw_art_ammo_00.tga"}
+    {frame "cckw_art_ammo_01.tga"}
+    {frame "cckw_art_ammo_02.tga"}
+    {frame "cckw_art_ammo_03.tga"}
+}

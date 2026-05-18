@@ -1,0 +1,108 @@
+;SDL
+
+	; armor notes
+	; tracks and wheels 30mm
+	; gun 30mm
+
+	("tank_heavy_tier1")
+
+	("shield" args "shield1" 30)	; Gun Shield
+	("shield" args "shield2" 80)	; Mantlet Shield
+
+	("gun" repair(30) thickness(30))
+	("tracks" repair(30) thickness(25))
+	
+	("track_wheels" args left 1 15)
+	("track_wheels" args right 1 15)
+	
+	("track_wheels" args left 2 15)
+	("track_wheels" args right 2 15)
+	
+	("track_wheels" args left 3 15)
+	("track_wheels" args right 3 15)
+	
+	("track_wheels" args left 4 15)
+	("track_wheels" args right 4 15)
+	
+	("track_wheels" args left 5 15)
+	("track_wheels" args right 5 15)
+	
+	("track_wheels" args left 6 15)
+	("track_wheels" args right 6 15)
+	
+	("track_wheels" args left 7 15)
+	("track_wheels" args right 7 15)
+	
+	("track_wheels" args left 8 15)
+	("track_wheels" args right 8 15)
+
+	("ammo" args "ammo1")
+	("ammo" args "ammo2")
+	("ammo" args "ammo3")
+	("ammo" args "ammo4")
+	("fuel" args "fuel1")
+	("fuel" args "fuel2")
+	("transmission" args "transmission")
+
+	{volume "body1"			; Front Nose Armor
+		{thickness 200}
+		;// check to see
+	}
+	{volume "body2"			; Front Hull
+		{thickness 60
+			{front 80}
+			{rear 10}
+			{bottom 50}
+		}
+	}
+	{volume "body3"			; Front Superstructure
+		{thickness 85
+			{front 200}
+			{top 30}
+			{rear 10}
+			{bottom 25}
+		}
+	}
+	{volume "engine1"		; Hull
+		{thickness 60
+			{front 10}
+			{rear 10}
+			{bottom 20}
+		}
+	}
+	{volume "engine2"		; Superstructure
+		{thickness 85
+			{front 10}
+			{top 85}
+			{rear 10}
+			{bottom 25}
+		}
+	}
+	{volume "body4"			; Rear Hull
+		{thickness 60
+			{rear 85}
+			{bottom 20}
+		}
+	}
+	{volume "body5"			; Rear Superstructure
+		{thickness 85
+			{rear 85}
+			{bottom 25}
+		}
+	}
+	{volume "body6"			; Top Superstructure
+		{thickness 85
+			{front 200}
+			{top 30}
+		}
+	}
+	{volume "mantlet1"		; Front Mantlet
+		{thickness 40
+			{front 110}
+		}
+		{CastSteel 0.8063}
+	}
+	{volume "mantlet2"		; Ball Joint
+		{thickness 80}
+		{CastSteel 0.8063}
+	}

@@ -1,0 +1,15 @@
+{game_entity
+	(include "panzer4f1.inc")
+	
+	{extender "inventory"
+		{box
+			{item "bulletger_75_l24 apcbche" 10} 		; 80 rounds
+			{item "bulletger_75_l24 he" 40}
+			{item "bulletger_75_l24 heata" 25}
+			{item "bulletger_75_l24 sm" 4}
+			{item "ammo mgun_ger belt" 2850}		; 21 belts (150 rounds each)
+			{item "geballteladung_3kg" 1}
+		}
+	}
+	{texmod "2"}
+}

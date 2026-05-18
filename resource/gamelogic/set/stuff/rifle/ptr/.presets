@@ -1,0 +1,17 @@
+(include "\set\small_firearms_accuracy.inc")
+
+(define "penetration"
+			;// irl scale  0m	  100m	  300m new
+			;// [0/100/300/600/700] new
+	{projectileDamageTable {0 %0} {40 %1} {80 %2} {130 %3} {150 %4} {155 0}}
+)
+
+(define "145"
+	("human health" damage(250))
+	("armor health" damage(32))
+	("b32slopemulti")
+)
+
+(define "armor health"
+	{minimumDamageModifier (* 1.25 %damage)}
+)

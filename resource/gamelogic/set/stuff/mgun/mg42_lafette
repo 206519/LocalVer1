@@ -1,0 +1,13 @@
+{from "mg42_belt"
+	{filling "mgun_ger" 300}
+	{entity "mg42_belt_long"}
+	("burst_short")
+	("spreading_mounted")
+	{FiringTimeout 0.75 0.2}
+	
+	{Spreading
+		{SpreadXYRatio 0.8}
+		{BurstRecoveryTime 0.10}
+	}
+	("rangeMGext")
+}

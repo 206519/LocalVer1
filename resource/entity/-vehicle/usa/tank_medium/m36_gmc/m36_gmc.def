@@ -1,0 +1,32 @@
+{game_entity ;sept 44
+	(include "m36_gmc.inc")
+
+	{sensor
+		{visor "main"
+			{vision "tank_range_M71"}
+		}
+	}
+
+	{extender "inventory"
+		{box
+			{item "ammo bulletusa_90x600 apcbche" 32}		;47 rounds ;70% AP
+			{item "ammo bulletusa_90x600 he" 14}
+			{item "ammo hmgun_usa api" 900} ;1000 rounds
+			{item "satchel_charge_usa" 1}
+		}
+	}
+	
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "90mm_m3" filling "bulletusa_90x600 apcbche" 1}
+			{gunner "gunner"}
+			{charger "charger"}
+			("abm_dymamic"
+				zeroing(5.0)
+				dispersion(0.25)
+			)
+		}
+	}
+}

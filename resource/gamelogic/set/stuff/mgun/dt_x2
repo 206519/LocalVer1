@@ -1,0 +1,12 @@
+{from "dt"
+	{filling "mgun_rus" 126}
+	{mass 24.2}
+	("fire rate" rpm(1200))
+
+	("reload time" seconds(10))
+	("burst_aa")
+	
+	("spreading_mounted_twin")
+	
+	("tank_timeout")
+}

@@ -1,0 +1,22 @@
+;_________________________________________
+; semi-Long barreled german medium AT gun, SPG mounted (Marder)
+;=========================================
+
+
+{from "75mm_pak40"			; L/46 "pak40"
+
+	("velocity m/s" ap(792) apcr(990) he(570) heat(450))
+	; Pzgr.39
+	("penetration_medium" shell(apcbche) range(200) a(136) b(128) c(115) d(103) e(93))
+	{parameters "apcbche"; old round
+		("apc_88_ger_slope_multiplier") ; // mostly same characteristics
+	}
+	
+	("accuracy_direct" r1(0.75) range_ap(200) range_he(190) range_heat(165))
+	
+	{parameters "heat"	
+		{spreading
+			{radiusTable {0 0} {50 1.05} {100 1.75} {140 2.5} {200 5}}
+		}
+	}
+}

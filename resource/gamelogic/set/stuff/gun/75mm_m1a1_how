@@ -1,0 +1,57 @@
+;_________________________________________
+; US light howitzer
+;=========================================
+
+
+{from "pattern gun"			; L/15.9 "M1 howitzer"
+	{filling "bulletusa_75x272"}
+	{fireSound "cannon/s3/d1/Shared/Cannon_75to76mm_LV/"}
+	{fireSoundclose "cannon/s3/d1/Shared/Cannon_75to76mm_LV/"}
+	{reloadSound "utility/"}
+	("heavy_artillery")
+	{range 330 330}
+	{calibre 75}
+	("reload time" seconds(7))
+
+	("velocity m/s" ap(381) apcr(1) he(381) heat(305))
+	("armor health" damage(200))
+	("75_slope_multipliers")
+
+	; HEAT-T M66 shell
+	("penetration_medium" shell(heat) range(170) a(87) b(87) c(87) d(87) e(87))
+
+	;("accuracy_spg" r1(1.95) range_ap(170) range_he(180) range_heat(170))
+	
+	;("accuracy_dual" 			; // Applies logic for accuracy of dual direct-indirect weapons
+	;	r1(2.00) 				; // Accuracy radius for direct-fire munitions
+	;	r1i(6) 					; // Accuracy radius for indirect fire
+	;	rmax(22) 				; // Accuracy radius for indirect fire at maximum range
+	;	range_ap(170) 			; // Range after which accuracy drops to prevent farshooting.
+	;	range_heat(170) 		; // Range after which accuracy drops to prevent farshooting.
+	;	range_he(180)			; // Range after which direct-fire accuracy drops to prevent farshooting.
+	;	range_hei(330)			; // Range after which indirect-fire accuracy drops to prevent farshooting.
+	;)
+	("accuracy_indirect"		; // Applies logic for accuracy of indirect weapons over 200m
+		r1(1.05)				; // Accuracy radius for direct-fire munitions
+		r2(12)					; // Accuracy radius for indirect fire
+		rmax(25)				; // Accuracy radius for indirect fire at maximum range
+		range_ap(180)			; // Range after which accuracy drops to prevent farshooting
+		range_heat(180)			; // Range after which accuracy drops to prevent farshooting
+		range_he(330)			; // Range after which accuracy drops to prevent farshooting
+	)
+	
+	{##parameters "he"
+		{gravity 12}
+	}
+	
+	
+	{##parameters "heat"	
+		{spreading
+			{radiusTable {0 0} {50 1.05} {100 1.73} {140 2.46} {169.99 4.7}{170.0 10.0}}
+		}
+		("armor health" damage(180))
+		{gravity 3.5}
+	}
+	
+    {unlimitedRangeTPC 0}   ;// restrict range in TPC/FPC
+}

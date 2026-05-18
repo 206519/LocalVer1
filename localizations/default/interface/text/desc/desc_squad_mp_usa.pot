@@ -1,0 +1,2538 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell Squads\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgctxt "desc/squad/squad_101st_pathfinder_late_all(usa)"
+msgid "<c(A5A095)>(4)</c> 101st AB Pathfinder Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_101st_pathfinder_late_def(usa)"
+msgid "<c(A5A095)>(4)</c> 101st AB Pathfinder Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_pathfinder_late_irr(usa)"
+msgid "<c(A5A095)>(4+)</c> 82nd AB Pathfinder Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_pathfinder_late_off(usa)"
+msgid "<c(A5A095)>(4+)</c> 82nd AB Pathfinder Team"
+msgstr ""
+
+msgctxt "desc/squad/conquest_p47"
+msgid "P47 500lb Bomb"
+msgstr ""
+
+msgctxt "desc/squad/conquest_p47_light"
+msgid "P47 100lb Bomb"
+msgstr ""
+
+msgctxt "desc/squad/conquest_p47_recon"
+msgid "P47 Recon"
+msgstr ""
+
+msgctxt "desc/squad/squad_mp_mid_all(usa)"
+msgid "<c(A5A095)>(1)</c> Military Police Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_mid_all(usa)"
+msgid "<c(A5A095)>(2)</c> Cavalry Recon Section"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_rifle_mid_all_1(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> 1st.Div Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_rifle_mid_all_2(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> 1st.Div Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_rifle_mid_all_3(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> 1st.Div Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_2nd_arm_rifle_mech_mid_all_1(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> 2nd.AD Rifle Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_2nd_arm_rifle_mech_mid_all_2(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> 2nd.AD Rifle Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_2nd_arm_rifle_mech_mid_all_3(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> 2nd.AD Rifle Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_mid_all_1(usa)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>1.</c> Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_mid_all_2(usa)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>2.</c> Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_mid_all_3(usa)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>3.</c> Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_ranger_assault_mid_all_1(usa)"
+msgid "<c(A5A095)>(4)</c> <c(E56042)>1.</c> Ranger Assault Section (Substitute)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ranger_assault_mid_all_2(usa)"
+msgid "<c(A5A095)>(4)</c> <c(E56042)>2.</c> Ranger Assault Section (Substitute)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ranger_assault_mg_mid_all_1(usa)"
+msgid "<c(A5A095)>(4)</c> <c(E56042)>1.</c> Ranger Assault Section (MG)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ranger_assault_mg_mid_all_2(usa)"
+msgid "<c(A5A095)>(4)</c> <c(E56042)>2.</c> Ranger Assault Section (MG)"
+msgstr ""
+
+
+
+msgctxt "desc/squad/squad_45th_rifle_mid_def(usa)"
+msgid "<c(A5A095)>(1)</c> 45th.Div Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_eng_recon_mid_def(usa)"
+msgid "<c(A5A095)>(2)</c> Engineer Recon Section"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_def_1(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_def_2(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_def_3(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_eng_mid_def(usa)"
+msgid "<c(A5A095)>(2)</c> Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_glider_pio_mid_def(usa)"
+msgid "<c(A5A095)>(3)</c> 82nd Glider Pioneer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_glider_mid_def_1(usa)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>1.</c> 82nd Glider Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_glider_mid_def_2(usa)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>2.</c> 82nd Glider Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_glider_mid_def_3(usa)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>3.</c> 82nd Glider Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_eng_mid_def(usa)"
+msgid "<c(A5A095)>(4)</c> 82nd Airborne Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_mid_def_1(usa)"
+msgid "<c(A5A095)>(4)</c> <c(E56042)>1.</c> 82nd Airborne Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_mid_def_2(usa)"
+msgid "<c(A5A095)>(4)</c> <c(E56042)>2.</c> 82nd Airborne Squad"
+msgstr ""
+
+
+
+msgctxt "desc/squad/squad_mp_mid_irr(usa)"
+msgid "<c(A5A095)>(1)</c> Military Police Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_irr_1(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_irr_2(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_irr_3(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_glider_pio_mid_irr(usa)"
+msgid "<c(A5A095)>(3)</c> 82nd Glider Pioneer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_glider_mid_irr_1(usa)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>1.</c> 82nd Glider Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_glider_mid_irr_2(usa)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>2.</c> 82nd Glider Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_glider_mid_irr_3(usa)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>3.</c> 82nd Glider Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_recon_mid_irr(usa)"
+msgid "<c(A5A095)>(4)</c> 82nd Airborne Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_eng_mid_irr(usa)"
+msgid "<c(A5A095)>(4)</c> 82nd Airborne Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_mid_irr_1(usa)"
+msgid "<c(A5A095)>(4)</c> <c(E56042)>1.</c> 82nd Airborne Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_mid_irr_2(usa)"
+msgid "<c(A5A095)>(4)</c> <c(E56042)>2.</c> 82nd Airborne Squad"
+msgstr ""
+
+
+
+msgctxt "desc/squad/squad_mp_mid_off(usa)"
+msgid "<c(A5A095)>(1)</c> Military Police Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_arm_recon_mid_off(usa)"
+msgid "<c(A5A095)>(2)</c> 1st.AD Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_arm_rifle_mid_off_1(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> 1st.AD Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_arm_rifle_mid_off_2(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> 1st.AD Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_arm_rifle_mid_off_3(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> 1st.AD Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_arm_rifle_mech_mid_off_1(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> 1st.AD Rifle Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_arm_rifle_mech_mid_off_2(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> 1st.AD Rifle Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_arm_rifle_mech_mid_off_3(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> 1st.AD Rifle Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_mid_off_1(usa)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>1.</c> Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_mid_off_2(usa)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>2.</c> Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_mid_off_3(usa)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>3.</c> Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_ranger_assault_mid_off_1(usa)"
+msgid "<c(A5A095)>(4)</c> <c(E56042)>1.</c> Ranger Assault Section (Substitute)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ranger_assault_mid_off_2(usa)"
+msgid "<c(A5A095)>(4)</c> <c(E56042)>2.</c> Ranger Assault Section (Substitute)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ranger_assault_mg_mid_off_1(usa)"
+msgid "<c(A5A095)>(4)</c> <c(E56042)>1.</c> Ranger Assault Section (MG)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ranger_assault_mg_mid_off_2(usa)"
+msgid "<c(A5A095)>(4)</c> <c(E56042)>2.</c> Ranger Assault Section (MG)"
+msgstr ""
+
+
+
+
+
+
+
+
+msgctxt "desc/squad/squad_mp_late_all(usa)"
+msgid "<c(A5A095)>(1)</c> Military Police Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_all_1(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Cavalry Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_all_2(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Cavalry Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_all_1(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_all_2(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_all_3(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_rifle_late_all_1(usa)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>1.</c> 1st.Div Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_rifle_late_all_2(usa)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>2.</c> 1st.Div Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_rifle_late_all_3(usa)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>3.</c> 1st.Div Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_ranger_assault_sub_late_all(usa)"
+msgid "<c(A5A095)>(4)</c> Ranger Assault Section (Substitute)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ranger_assault_late_all(usa)"
+msgid "<c(A5A095)>(4)</c> Ranger Assault Section (MG)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ranger_special_late_all(usa)"
+msgid "<c(A5A095)>(4)</c> Ranger Special Weapons Section"
+msgstr ""
+
+
+
+msgctxt "desc/squad/squad_mp_late_def(usa)"
+msgid "<c(A5A095)>(1)</c> Military Police Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_def_1(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Cavalry Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_def_2(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Cavalry Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_def_1(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_def_2(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_def_3(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_eng_late_def_1(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_eng_late_def_2(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_late_def_1(usa)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>1.</c> Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_late_def_2(usa)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>2.</c> Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_late_def_3(usa)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>3.</c> Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_101st_glider_late_def_1(usa)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>1.</c> 101st Glider Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_101st_glider_late_def_2(usa)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>2.</c> 101st Glider Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_101st_glider_late_def_3(usa)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>3.</c> 101st Glider Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_101st_eng_late_def(usa)"
+msgid "<c(A5A095)>(4)</c> 101st Airborne Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_101st_late_def_1(usa)"
+msgid "<c(A5A095)>(4)</c> <c(E56042)>1.</c> 101st Airborne Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_101st_late_def_2(usa)"
+msgid "<c(A5A095)>(4)</c> <c(E56042)>2.</c> 101st Airborne Squad"
+msgstr ""
+
+
+
+
+msgctxt "desc/squad/squad_mp_late_irr(usa)"
+msgid "<c(A5A095)>(1)</c> Military Police Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_irr_1(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Cavalry Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_irr_2(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Cavalry Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_irr_1(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> 29th.Div Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_irr_2(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> 29th.Div Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_irr_3(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> 29th.Div Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_glider_pio_late_irr(usa)"
+msgid "<c(A5A095)>(3+)</c> 82nd Glider Pioneer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_glider_late_irr_1(usa)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>1.</c> 82nd Glider Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_glider_late_irr_2(usa)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>2.</c> 82nd Glider Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_glider_late_irr_3(usa)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>3.</c> 82nd Glider Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_recon_late_irr(usa)"
+msgid "<c(A5A095)>(4+)</c> 82nd Airborne Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_demo_late_irr(usa)"
+msgid "<c(A5A095)>(4+)</c> 82nd Airborne Demolitions Section"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_late_irr_1(usa)"
+msgid "<c(A5A095)>(4+)</c> <c(E56042)>1.</c> 82nd Airborne Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_late_irr_2(usa)"
+msgid "<c(A5A095)>(4+)</c> <c(E56042)>2.</c> 82nd Airborne Squad"
+msgstr ""
+
+
+
+
+msgctxt "desc/squad/squad_arm_recon_late_off(usa)"
+msgid "<c(A5A095)>(2)</c> Armored Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_arm_rifle_late_off_1(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Armored Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_arm_rifle_late_off_2(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Armored Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_arm_rifle_late_off_3(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Armored Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_arm_rifle_mech_late_off_1(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Armored Rifle Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_arm_rifle_mech_late_off_2(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Armored Rifle Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_arm_rifle_mech_late_off_3(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Armored Rifle Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_arm_recon_late_off(usa)"
+msgid "<c(A5A095)>(3+)</c> 1st.AD Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_arm_rifle_late_off_1(usa)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>1.</c> 1st.AD Rifle Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_arm_rifle_late_off_2(usa)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>2.</c> 1st.AD Rifle Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_arm_rifle_late_off_3(usa)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>3.</c> 1st.AD Rifle Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_10th_mountain_late_off_1(usa)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>1.</c> 10th Mountain Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_10th_mountain_late_off_2(usa)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>2.</c> 10th Mountain Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_10th_mountain_late_off_3(usa)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>3.</c> 10th Mountain Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_ranger_assault_sub_late_off(usa)"
+msgid "<c(A5A095)>(4)</c> Ranger Assault Section (Substitute)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ranger_assault_late_off(usa)"
+msgid "<c(A5A095)>(4)</c> Ranger Assault Section (MG)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ranger_special_late_off(usa)"
+msgid "<c(A5A095)>(4)</c> Ranger Special Weapons Section"
+msgstr ""
+
+
+
+
+
+msgctxt "desc/squad/single_rifle(usa)"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/squad/single_smg(usa)"
+msgid "SMG Inf."
+msgstr ""
+
+msgctxt "desc/squad/single_mg(usa)"
+msgid "Automatic Rifleman Team"
+msgstr ""
+
+msgctxt "desc/squad/single_at(usa)"
+msgid "AT Team"
+msgstr ""
+
+msgctxt "desc/squad/single_at_con(usa)"
+msgid "M1 Bazooka AT Team"
+msgstr ""
+
+msgctxt "desc/squad/single_at1_con(usa)"
+msgid "M1A1 Bazooka AT Team"
+msgstr ""
+
+msgctxt "desc/squad/single_at2_con(usa)"
+msgid "M9 Bazooka AT Team"
+msgstr ""
+
+msgctxt "desc/squad/single_at3_con(usa)"
+msgid "M9A1 Bazooka AT Team"
+msgstr ""
+
+msgctxt "desc/squad/single_riflegrenade(usa)"
+msgid "AT Rifle Grenadiers"
+msgstr ""
+
+msgctxt "desc/squad/single_riflegrenade_con(usa)"
+msgid "M1903 AT Rifle Grenadiers"
+msgstr ""
+
+msgctxt "desc/squad/single_riflegrenade2_con(usa)"
+msgid "M1 AT Rifle Grenadiers"
+msgstr ""
+
+msgctxt "desc/squad/single_ap_miner(usa)"
+msgid "AP Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at_miner(usa)"
+msgid "AT Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer(usa)"
+msgid "Engineers"
+msgstr ""
+
+msgctxt "desc/squad/single_flamer(usa)"
+msgid "Flamer"
+msgstr ""
+
+msgctxt "desc/squad/single_tankman(usa)"
+msgid "Tank Crew"
+msgstr ""
+
+msgctxt "desc/squad/single_medic(usa)"
+msgid "Medic"
+msgstr ""
+
+msgctxt "desc/squad/single_sniper(usa)"
+msgid "Sniper"
+msgstr ""
+
+msgctxt "desc/squad/single_officer(usa)"
+msgid "Officer"
+msgstr ""
+
+msgctxt "desc/squad/squad_officer_con(usa)"
+msgid "Infantry Platoon HQ"
+msgstr ""
+
+msgctxt "desc/squad/squad_officer_m3a1_commander_con"
+msgid "Cavalry Platoon HQ"
+msgstr ""
+
+msgctxt "desc/squad/squad_officer_m3a1_halftrack_con"
+msgid "Armored Company HQ"
+msgstr ""
+
+msgctxt "desc/squad/squad_mp_con(usa)"
+msgid "<c(A5A095)>(1)</c> Military Police Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_45th_rifle_con(usa)"
+msgid "<c(A5A095)>(1)</c> 45th Div Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_arm_recon_con(usa)"
+msgid "<c(A5A095)>(2)</c> 1st.AD Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_con1(usa)"
+msgid "<c(A5A095)>(2)</c> Cavalry Recon Team (M1919)"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_con2(usa)"
+msgid "<c(A5A095)>(2)</c> Cavalry Recon Team (M2HB)"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_recon_con(usa)"
+msgid "<c(A5A095)>(4)</c> 82nd Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_con(usa)"
+msgid "<c(A5A095)>(2)</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_arm_rifle_con(usa)"
+msgid "<c(A5A095)>(2)</c> 1st.AD Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_arm_rifle_mech_con(usa)"
+msgid "<c(A5A095)>(2)</c> 1st.AD Rifle Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_eng_con(usa)"
+msgid "<c(A5A095)>(2)</c> Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_eng_mech_con(usa)"
+msgid "<c(A5A095)>(2)</c> Engineer Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_con(usa)"
+msgid "<c(A5A095)>(2+)</c> Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_glider_con(usa)"
+msgid "<c(A5A095)>(3)</c> 82nd Glider Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_glider_pio_con(usa)"
+msgid "<c(A5A095)>(3)</c> 82nd Glider Pioneer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_ranger_assault_con(usa)"
+msgid "<c(A5A095)>(4)</c> Ranger Assault Section"
+msgstr ""
+
+msgctxt "desc/squad/squad_ranger_assault_mg_con(usa)"
+msgid "<c(A5A095)>(4)</c> Ranger Assault Section (MG)"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_con(usa)"
+msgid "<c(A5A095)>(4)</c> 82nd Airborne Squad (MG)"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_eng_con(usa)"
+msgid "<c(A5A095)>(4)</c> 82nd Airborne Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/1st_special_con(usa)"
+msgid "<c(A5A095)>(4)</c> 1st Special Combat Section"
+msgstr ""
+
+
+
+;Spearhead
+
+msgctxt "desc/squad/squad_82nd_pathfinder_late_ab(usa)"
+msgid "<c(A5A095)>(4)</c> 82nd AB Pathfinder Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_101st_pathfinder_late_ab(usa)"
+msgid "<c(A5A095)>(4)</c> 101st AB Pathfinder Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_ranger_assault_sub_late_inf(usa)"
+msgid "<c(A5A095)>(4)</c> Ranger Assault Section (Substitute)"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_inf_1(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Cavalry Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_inf_2(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Cavalry Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_inf_3(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Cavalry Recon Team (Late)"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_inf_4(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Cavalry Recon Team (Late)"
+msgstr ""
+
+msgctxt "desc/squad/squad_rep_rifle_late_inf_1(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Replacement Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rep_rifle_late_inf_2(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Replacement Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rep_rifle_late_inf_3(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Replacement Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_inf_1(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_inf_2(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_inf_3(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_inf_4(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Rifle Squad (Late)"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_inf_5(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Rifle Squad (Late)"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_inf_6(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Rifle Squad (Late)"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_29_inf_1(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> 29th.Div Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_29_inf_2(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> 29th.Div Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_29_inf_3(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> 29th.Div Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_eng_late_inf_1(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_eng_late_inf_2(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_late_inf_1(usa)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>1.</c> Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_late_inf_2(usa)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>2.</c> Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_late_inf_3(usa)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>3.</c> Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_rifle_late_inf_1(usa)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>1.</c> 1st.Div Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_rifle_late_inf_2(usa)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>2.</c> 1st.Div Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_rifle_late_inf_3(usa)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>3.</c> 1st.Div Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_ranger_assault_late_inf(usa)"
+msgid "<c(A5A095)>(4)</c> Ranger Assault Section (MG)"
+msgstr ""
+
+msgctxt "desc/squad/squad_ranger_special_late_inf(usa)"
+msgid "<c(A5A095)>(4)</c> Ranger Special Weapons Section"
+msgstr ""
+
+msgctxt "desc/squad/single_rifle_inf(usa)"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/squad/single_mg_inf(usa)"
+msgid "Automatic Rifleman Team"
+msgstr ""
+
+msgctxt "desc/squad/single_signaller_105_inf(usa)"
+msgid "Artillery Signaller (105 mm)"
+msgstr ""
+
+msgctxt "desc/squad/inf_crate_usa(late_usa_inf)"
+msgid "Ammo Crate"
+msgstr ""
+
+msgctxt "desc/squad/m1917_30cal(late_usa_inf)"
+msgid "M1917 (Tripod)"
+msgstr ""
+msgstr ""
+
+msgctxt "desc/squad/m2_30cal_tripod(late_usa_inf)"
+msgid "M1919 (Tripod)"
+msgstr ""
+
+msgctxt "desc/squad/m2_50cal_tripod(late_usa_inf)"
+msgid "M2HB (Tripod)"
+msgstr ""
+
+msgctxt "desc/squad/50cal_quad_m45(late_usa_inf)"
+msgid "M45 Quadmount"
+msgstr ""
+
+msgctxt "desc/squad/40mm_m1(late_usa_inf)"
+msgid "40 mm M1"
+msgstr ""
+
+msgctxt "desc/squad/37mm_m3a1(late_usa_inf)"
+msgid "37 mm M3A1"
+msgstr ""
+
+msgctxt "desc/squad/57mm_m1(late_usa_inf)"
+msgid "57 mm M1"
+msgstr ""
+
+msgctxt "desc/squad/76mm_m5_m6(late_usa_inf)"
+msgid "3-inch M5"
+msgstr ""
+
+msgctxt "desc/squad/90mm_m1a1(late_usa_inf)"
+msgid "90 mm M1A1"
+msgstr ""
+
+msgctxt "desc/squad/75mm_m3a3(late_usa_inf)"
+msgid "75 mm M3A3"
+msgstr ""
+
+msgctxt "desc/squad/60mm_m2_late(late_usa_inf)"
+msgid "60 mm M2"
+msgstr ""
+
+msgctxt "desc/squad/81mm_m1(late_usa_inf)"
+msgid "81 mm M1"
+msgstr ""
+
+msgctxt "desc/squad/105mm_m2a1(late_usa_inf)"
+msgid "105 mm M2A1"
+msgstr ""
+
+msgctxt "desc/squad/75mm_m1a1(late_usa_inf)"
+msgid "75 mm M1A1"
+msgstr ""
+
+msgctxt "desc/squad/107mm_m2(late_usa_inf)"
+msgid "4.2-inch Mortar M2"
+msgstr ""
+
+msgctxt "desc/squad/105mm_m3(late_usa_inf)"
+msgid "105 mm M3"
+msgstr ""
+
+msgctxt "desc/squad/114mm_m1(late_usa_inf)"
+msgid "4.5-inch M1"
+msgstr ""
+
+msgctxt "desc/squad/155mm_m1(late_usa_inf)"
+msgid "155 mm M1"
+msgstr ""
+
+msgctxt "desc/squad/155mm_m1a1_longtom(late_usa_inf)"
+msgid "155 mm M1A1"
+msgstr ""
+
+msgctxt "desc/squad/203mm_m1(late_usa_inf)"
+msgid "8-inch M1"
+msgstr ""
+
+msgctxt "desc/squad/willys_mb(late_usa_inf)"
+msgid "Willys MB"
+msgstr ""
+
+msgctxt "desc/squad/willys_mb_30cal(late_usa_inf)"
+msgid "Willys MB (.30-cal)"
+msgstr ""
+
+msgctxt "desc/squad/willys_mb_50cal(late_usa_inf)"
+msgid "Willys MB (.50-cal)"
+msgstr ""
+
+msgctxt "desc/squad/wc51(late_usa_inf)"
+msgid "WC51"
+msgstr ""
+msgstr ""
+
+msgctxt "desc/squad/wc52_50cal(late_usa_inf)"
+msgid "WC52 (.50-cal)"
+msgstr ""
+
+msgctxt "desc/squad/cckw(late_usa_inf)"
+msgid "2.5t CCKW"
+msgstr ""
+
+msgctxt "desc/squad/cckw_art_ammo(late_usa_inf)"
+msgid "2.5t CCKW (Ammo)"
+msgstr ""
+
+msgctxt "desc/squad/cckw_fuel(late_usa_inf)"
+msgid "2.5t CCKW (Fuel)"
+msgstr ""
+
+msgctxt "desc/squad/cckw_engineer_late(late_usa_inf)"
+msgid "2.5t CCKW (Engineer)"
+msgstr ""
+
+msgctxt "desc/squad/cckw_redball(late_usa_inf)"
+msgid "2.5t CCKW (Redball Express)"
+msgstr ""
+
+msgctxt "desc/squad/m5_hst(late_usa_inf)"
+msgid "M5 13t HST"
+msgstr ""
+
+msgctxt "desc/squad/m3a1_transport(late_usa_inf)"
+msgid "M3A1 (Transport)"
+msgstr ""
+
+msgctxt "desc/squad/m3a1_scout(late_usa_inf)"
+msgid "M3A1 Scout Car"
+msgstr ""
+
+msgctxt "desc/squad/M2_halftrack(late_usa_inf)"
+msgid "M2 Halftrack"
+msgstr ""
+
+msgctxt "desc/squad/m3a1_halftrack(late_usa_inf)"
+msgid "M3A1 Halftrack"
+msgstr ""
+
+msgctxt "desc/squad/m3a1_commander(late_usa_inf)"
+msgid "M3A1 (Command)"
+msgstr ""
+
+msgctxt "desc/squad/m3a1_gmc(late_usa_inf)"
+msgid "M3A1 GMC"
+msgstr ""
+
+msgctxt "desc/squad/m13_mgmc(late_usa_inf)"
+msgid "M13 MGMC"
+msgstr ""
+
+msgctxt "desc/squad/m16_mgmc(late_usa_inf)"
+msgid "M16 MGMC"
+msgstr ""
+
+msgctxt "desc/squad/m15a1_cgmc(late_usa_inf)"
+msgid "M15A1 CGMC"
+msgstr ""
+
+msgctxt "desc/squad/m4a1_mortar_carrier(late_usa_inf)"
+msgid "M4A1 Mortar Carrier"
+msgstr ""
+
+msgctxt "desc/squad/m21_mortar_carrier(late_usa_inf)"
+msgid "M21 Mortar Carrier"
+msgstr ""
+
+msgctxt "desc/squad/t19_hmc(late_usa_inf)"
+msgid "T19 HMC"
+msgstr ""
+
+msgctxt "desc/squad/m20(late_usa_inf)"
+msgid "M20 Armored Utility Car"
+msgstr ""
+
+msgctxt "desc/squad/m8_greyhound(late_usa_inf)"
+msgid "M8 Light Armored Car"
+msgstr ""
+
+msgctxt "desc/squad/lvt4(late_usa_inf)"
+msgid "LVT4"
+msgstr ""
+
+msgctxt "desc/squad/m5a1_stuart(late_usa_inf)"
+msgid "M5A1"
+msgstr ""
+
+msgctxt "desc/squad/m8_hmc(late_usa_inf)"
+msgid "M8 HMC"
+msgstr ""
+
+msgctxt "desc/squad/m24_chaffee(late_usa_inf)"
+msgid "M24 Chaffee"
+msgstr ""
+
+msgctxt "desc/squad/m4_75_late(late_usa_inf)"
+msgid "M4 (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m4a1_75_late(late_usa_inf)"
+msgid "M4A1 (Late)"
+msgstr ""
+
+msgctxt "desc/squad/t1e3_m4a1_75(late_usa_inf)"
+msgid "T1E3 Mine Roller (M4A1)"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_75_late(late_usa_inf)"
+msgid "M4A3(75) (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_75w_early(late_usa_inf)"
+msgid "M4A3(75)W (Early)"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_75w(late_usa_inf)"
+msgid "M4A3(75)W"
+msgstr ""
+
+msgctxt "desc/squad/m4a1_76w(late_usa_inf)"
+msgid "M4A1(76)W"
+msgstr ""
+
+msgctxt "desc/squad/m4a1_76w_mid(late_usa_inf)"
+msgid "M4A1(76)W"
+msgstr ""
+
+msgctxt "desc/squad/m4a1_76w_mid_2(late_usa_inf)"
+msgid "M4A1(76)W"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_76w(late_usa_inf)"
+msgid "<c(E56042)>1.</c> M4A3(76)W"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_76w_2(late_usa_inf)"
+msgid "<c(E56042)>2.</c> M4A3(76)W"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_76w_late(late_usa_inf)"
+msgid "M4A3(76)W (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_76w_hvss(late_usa_inf)"
+msgid "M4A3(76)W HVSS"
+msgstr ""
+
+msgctxt "desc/squad/m4a3e2_75(late_usa_inf)"
+msgid "M4A3E2"
+msgstr ""
+
+msgctxt "desc/squad/m4a3e2_76(late_usa_inf)"
+msgid "M4A3E2(76)"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_75w_e4_5(late_usa_inf)"
+msgid "M4A3(75)W E4-5"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_76w_field1(late_usa_inf)"
+msgid "<c(E56042)>1.</c> M4A3(76)W HVSS 'FE'"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_76w_field2(late_usa_inf)"
+msgid "<c(E56042)>2.</c> M4A3(76)W HVSS 'FE'"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_76w_field3(late_usa_inf)"
+msgid "<c(E56042)>3.</c> M4A3(76)W HVSS 'FE'"
+msgstr ""
+
+msgctxt "desc/squad/m4_105(late_usa_inf)"
+msgid "M4(105)"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_105(late_usa_inf)"
+msgid "M4A3(105)"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_105_hvss(late_usa_inf)"
+msgid "M4A3(105) HVSS"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_calliope(late_usa_inf)"
+msgid "T33 Calliope"
+msgstr ""
+
+msgctxt "desc/squad/m26_pershing(late_usa_inf)"
+msgid "M26"
+msgstr ""
+
+msgctxt "desc/squad/t26e4(late_usa_inf)"
+msgid "T26E4 (temp. pilot no.1)"
+msgstr ""
+
+msgctxt "desc/squad/m10_gmc(late_usa_inf)"
+msgid "M10 GMC (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m10_gmc_late(late_usa_inf)"
+msgid "M10 GMC (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m18_hellcat(late_usa_inf)"
+msgid "M18 GMC"
+msgstr ""
+
+msgctxt "desc/squad/m18_hellcat_late(late_usa_inf)"
+msgid "M18 GMC (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m36_gmc(late_usa_inf)"
+msgid "M36 GMC"
+msgstr ""
+
+msgctxt "desc/squad/m36_gmc_late(late_usa_inf)"
+msgid "M36 GMC"
+msgstr ""
+
+msgctxt "desc/squad/m36_gmc_t33(late_usa_inf)"
+msgid "M36 GMC (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m36b1_gmc(late_usa_inf)"
+msgid "M36B1 GMC"
+msgstr ""
+
+msgctxt "desc/squad/m36b1_gmc_late(late_usa_inf)"
+msgid "M36B1 GMC"
+msgstr ""
+
+msgctxt "desc/squad/m36b1_gmc_t33(late_usa_inf)"
+msgid "M36B1 GMC (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m7b1_hmc(late_usa_inf)"
+msgid "M7B1 HMC"
+msgstr ""
+
+msgctxt "desc/squad/m12_gmc(late_usa_inf)"
+msgid "M12 GMC"
+msgstr ""
+
+msgctxt "desc/squad/squad_arm_rep_rifle_late_ad(usa)"
+msgid "<c(A5A095)>(2)</c> Replacement Armored Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_ad_1(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Cavalry Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_ad_2(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Cavalry Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_ad_3(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Cavalry Recon Team (Late)"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_ad_4(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Cavalry Recon Team (Late)"
+msgstr ""
+
+msgctxt "desc/squad/squad_eng_late_ad_1(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_eng_late_ad_2(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_arm_recon_late_ad(usa)"
+msgid "<c(A5A095)>(2)</c> Armored Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_arm_rifle_late_ad_1(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Armored Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_arm_rifle_late_ad_2(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Armored Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_arm_rifle_late_ad_3(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Armored Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_arm_rifle_mech_late_ad_1(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Armored Rifle Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_arm_rifle_mech_late_ad_2(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Armored LMG Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_arm_rifle_mech_late_ad_3(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Armored Rifle Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_arm_rifle_mech_late_ad_4(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Late Armored Rifle Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_arm_rifle_mech_late_ad_5(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Late Armored LMG Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_arm_rifle_mech_late_ad_6(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Late Armored Rifle Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_arm_recon_late_ad(usa)"
+msgid "<c(A5A095)>(3+)</c> 1st.AD Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_arm_rifle_late_ad_1(usa)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>1.</c> 1st.AD Rifle Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_arm_rifle_late_ad_2(usa)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>2.</c> 1st.AD Rifle Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_1st_arm_rifle_late_ad_3(usa)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>3.</c> 1st.AD Rifle Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_2nd_arm_recon_late_ad(usa)"
+msgid "<c(A5A095)>(3+)</c> 2.AD Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_2nd_arm_rifle_mech_late_ad_1(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> 2.AD Rifle Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_2nd_arm_rifle_mech_late_ad_2(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> 2.AD LMG Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_2nd_arm_rifle_mech_late_ad_3(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> 2.AD Rifle Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_2nd_arm_rifle_mech_late_ad_4(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Late 2.AD Rifle Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_2nd_arm_rifle_mech_late_ad_5(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Late 2.AD LMG Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/squad_2nd_arm_rifle_mech_late_ad_6(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Late 2.AD Rifle Squad (Mounted)"
+msgstr ""
+
+msgctxt "desc/squad/single_rifle_ad(usa)"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/squad/single_mg_ad(usa)"
+msgid "Automatic Rifleman Team"
+msgstr ""
+
+msgctxt "desc/squad/single_signaller_105_ad(usa)"
+msgid "Artillery Signaller (105 mm)"
+msgstr ""
+
+msgctxt "desc/squad/inf_crate_usa(late_usa_ad)"
+msgid "Ammo Crate"
+msgstr ""
+
+msgctxt "desc/squad/m1917_30cal(late_usa_ad)"
+msgid "M1917 (Tripod)"
+msgstr ""
+msgstr ""
+
+msgctxt "desc/squad/m2_30cal_tripod(late_usa_ad)"
+msgid "M1919 (Tripod)"
+msgstr ""
+
+msgctxt "desc/squad/m2_50cal_tripod(late_usa_ad)"
+msgid "M2HB (Tripod)"
+msgstr ""
+
+msgctxt "desc/squad/50cal_quad_m45(late_usa_ad)"
+msgid "M45 Quadmount"
+msgstr ""
+
+msgctxt "desc/squad/40mm_m1(late_usa_ad)"
+msgid "40 mm M1"
+msgstr ""
+
+msgctxt "desc/squad/37mm_m3a1(late_usa_ad)"
+msgid "37 mm M3A1"
+msgstr ""
+
+msgctxt "desc/squad/57mm_m1(late_usa_ad)"
+msgid "57 mm M1"
+msgstr ""
+
+msgctxt "desc/squad/76mm_m5_m6(late_usa_ad)"
+msgid "3-inch M5"
+msgstr ""
+
+msgctxt "desc/squad/90mm_m1a1(late_usa_ad)"
+msgid "90 mm M1A1"
+msgstr ""
+
+msgctxt "desc/squad/75mm_m3a3(late_usa_ad)"
+msgid "75 mm M3A3"
+msgstr ""
+
+msgctxt "desc/squad/60mm_m2_late(late_usa_ad)"
+msgid "60 mm M2"
+msgstr ""
+
+msgctxt "desc/squad/81mm_m1(late_usa_ad)"
+msgid "81 mm M1"
+msgstr ""
+
+msgctxt "desc/squad/105mm_m2a1(late_usa_ad)"
+msgid "105 mm M2A1"
+msgstr ""
+
+msgctxt "desc/squad/75mm_m1a1(late_usa_ad)"
+msgid "75 mm M1A1"
+msgstr ""
+
+msgctxt "desc/squad/107mm_m2(late_usa_ad)"
+msgid "4.2-inch Mortar M2"
+msgstr ""
+
+msgctxt "desc/squad/105mm_m3(late_usa_ad)"
+msgid "105 mm M3"
+msgstr ""
+
+msgctxt "desc/squad/114mm_m1(late_usa_ad)"
+msgid "4.5-inch M1"
+msgstr ""
+
+msgctxt "desc/squad/155mm_m1(late_usa_ad)"
+msgid "155 mm M1"
+msgstr ""
+
+msgctxt "desc/squad/155mm_m1a1_longtom(late_usa_ad)"
+msgid "155 mm M1A1"
+msgstr ""
+
+msgctxt "desc/squad/203mm_m1(late_usa_ad)"
+msgid "8-inch M1"
+msgstr ""
+
+msgctxt "desc/squad/willys_mb(late_usa_ad)"
+msgid "Willys MB"
+msgstr ""
+
+msgctxt "desc/squad/willys_mb_30cal(late_usa_ad)"
+msgid "Willys MB (.30-cal)"
+msgstr ""
+
+msgctxt "desc/squad/willys_mb_50cal(late_usa_ad)"
+msgid "Willys MB (.50-cal)"
+msgstr ""
+
+msgctxt "desc/squad/wc51(late_usa_ad)"
+msgid "WC51"
+msgstr ""
+msgstr ""
+
+msgctxt "desc/squad/wc52_50cal(late_usa_ad)"
+msgid "WC52 (.50-cal)"
+msgstr ""
+
+msgctxt "desc/squad/cckw(late_usa_ad)"
+msgid "2.5t CCKW"
+msgstr ""
+
+msgctxt "desc/squad/cckw_art_ammo(late_usa_ad)"
+msgid "2.5t CCKW (Ammo)"
+msgstr ""
+
+msgctxt "desc/squad/cckw_fuel(late_usa_ad)"
+msgid "2.5t CCKW (Fuel)"
+msgstr ""
+
+msgctxt "desc/squad/cckw_engineer_late(late_usa_ad)"
+msgid "2.5t CCKW (Engineer)"
+msgstr ""
+
+msgctxt "desc/squad/cckw_redball(late_usa_ad)"
+msgid "2.5t CCKW (Redball Express)"
+msgstr ""
+
+msgctxt "desc/squad/m5_hst(late_usa_ad)"
+msgid "M5 13t HST"
+msgstr ""
+
+msgctxt "desc/squad/m3a1_transport(late_usa_ad)"
+msgid "M3A1 (Transport)"
+msgstr ""
+
+msgctxt "desc/squad/m3a1_scout(late_usa_ad)"
+msgid "M3A1 Scout Car"
+msgstr ""
+
+msgctxt "desc/squad/M2_halftrack(late_usa_ad)"
+msgid "M2 Halftrack"
+msgstr ""
+
+msgctxt "desc/squad/m3a1_halftrack(late_usa_ad)"
+msgid "M3A1 Halftrack"
+msgstr ""
+
+msgctxt "desc/squad/m3a1_commander(late_usa_ad)"
+msgid "M3A1 (Command)"
+msgstr ""
+
+msgctxt "desc/squad/m3a1_gmc(late_usa_ad)"
+msgid "M3A1 GMC"
+msgstr ""
+
+msgctxt "desc/squad/m13_mgmc(late_usa_ad)"
+msgid "M13 MGMC"
+msgstr ""
+
+msgctxt "desc/squad/m16_mgmc(late_usa_ad)"
+msgid "M16 MGMC"
+msgstr ""
+
+msgctxt "desc/squad/m15a1_cgmc(late_usa_ad)"
+msgid "M15A1 CGMC"
+msgstr ""
+
+msgctxt "desc/squad/m4a1_mortar_carrier(late_usa_ad)"
+msgid "M4A1 Mortar Carrier"
+msgstr ""
+
+msgctxt "desc/squad/m21_mortar_carrier(late_usa_ad)"
+msgid "M21 Mortar Carrier"
+msgstr ""
+
+msgctxt "desc/squad/t19_hmc(late_usa_ad)"
+msgid "T19 HMC"
+msgstr ""
+
+msgctxt "desc/squad/m20(late_usa_ad)"
+msgid "M20 Armored Utility Car"
+msgstr ""
+
+msgctxt "desc/squad/m8_greyhound(late_usa_ad)"
+msgid "M8 Light Armored Car"
+msgstr ""
+
+msgctxt "desc/squad/lvt4(late_usa_ad)"
+msgid "LVT4"
+msgstr ""
+
+msgctxt "desc/squad/m5a1_stuart(late_usa_ad)"
+msgid "M5A1"
+msgstr ""
+
+msgctxt "desc/squad/m8_hmc(late_usa_ad)"
+msgid "M8 HMC"
+msgstr ""
+
+msgctxt "desc/squad/m24_chaffee(late_usa_ad)"
+msgid "M24 Chaffee"
+msgstr ""
+
+msgctxt "desc/squad/m4_75_late(late_usa_ad)"
+msgid "M4 (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m4a1_75_late(late_usa_ad)"
+msgid "M4A1 (Late)"
+msgstr ""
+
+msgctxt "desc/squad/t1e3_m4a1_75(late_usa_ad)"
+msgid "T1E3 Mine Roller (M4A1)"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_75_late(late_usa_ad)"
+msgid "M4A3(75) (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_75w_early(late_usa_ad)"
+msgid "M4A3(75)W (Early)"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_75w(late_usa_ad)"
+msgid "M4A3(75)W"
+msgstr ""
+
+msgctxt "desc/squad/m4a1_76w(late_usa_ad)"
+msgid "M4A1(76)W"
+msgstr ""
+
+msgctxt "desc/squad/m4a1_76w_mid(late_usa_ad)"
+msgid "M4A1(76)W"
+msgstr ""
+
+msgctxt "desc/squad/m4a1_76w_mid_2(late_usa_ad)"
+msgid "M4A1(76)W"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_76w(late_usa_ad)"
+msgid "<c(E56042)>1.</c> M4A3(76)W"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_76w_2(late_usa_ad)"
+msgid "<c(E56042)>2.</c> M4A3(76)W"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_76w_late(late_usa_ad)"
+msgid "M4A3(76)W (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_76w_hvss(late_usa_ad)"
+msgid "M4A3(76)W HVSS"
+msgstr ""
+
+msgctxt "desc/squad/m4a3e2_75(late_usa_ad)"
+msgid "M4A3E2"
+msgstr ""
+
+msgctxt "desc/squad/m4a3e2_76(late_usa_ad)"
+msgid "M4A3E2(76)"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_75w_e4_5(late_usa_ad)"
+msgid "M4A3(75)W E4-5"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_76w_field1(late_usa_ad)"
+msgid "<c(E56042)>1.</c> M4A3(76)W HVSS 'FE'"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_76w_field2(late_usa_ad)"
+msgid "<c(E56042)>2.</c> M4A3(76)W HVSS 'FE'"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_76w_field3(late_usa_ad)"
+msgid "<c(E56042)>3.</c> M4A3(76)W HVSS 'FE'"
+msgstr ""
+
+msgctxt "desc/squad/m4_105(late_usa_ad)"
+msgid "M4(105)"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_105(late_usa_ad)"
+msgid "M4A3(105)"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_105_hvss(late_usa_ad)"
+msgid "M4A3(105) HVSS"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_calliope(late_usa_ad)"
+msgid "T33 Calliope"
+msgstr ""
+
+msgctxt "desc/squad/m26_pershing(late_usa_ad)"
+msgid "M26"
+msgstr ""
+
+msgctxt "desc/squad/t26e4(late_usa_ad)"
+msgid "T26E4 (temp. pilot no.1)"
+msgstr ""
+
+msgctxt "desc/squad/m10_gmc(late_usa_ad)"
+msgid "M10 GMC (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m10_gmc_late(late_usa_ad)"
+msgid "M10 GMC (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m18_hellcat(late_usa_ad)"
+msgid "M18 GMC"
+msgstr ""
+
+msgctxt "desc/squad/m18_hellcat_late(late_usa_ad)"
+msgid "M18 GMC (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m36_gmc(late_usa_ad)"
+msgid "M36 GMC"
+msgstr ""
+
+msgctxt "desc/squad/m36_gmc_late(late_usa_ad)"
+msgid "M36 GMC"
+msgstr ""
+
+msgctxt "desc/squad/m36_gmc_t33(late_usa_ad)"
+msgid "M36 GMC (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m36b1_gmc(late_usa_ad)"
+msgid "M36B1 GMC"
+msgstr ""
+
+msgctxt "desc/squad/m36b1_gmc_late(late_usa_ad)"
+msgid "M36B1 GMC"
+msgstr ""
+
+msgctxt "desc/squad/m36b1_gmc_t33(late_usa_ad)"
+msgid "M36B1 GMC (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m7b1_hmc(late_usa_ad)"
+msgid "M7B1 HMC"
+msgstr ""
+
+msgctxt "desc/squad/m12_gmc(late_usa_ad)"
+msgid "M12 GMC"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_ab_1(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Cavalry Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_ab_2(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Cavalry Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_ab_3(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Cavalry Recon Team (Late)"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_ab_4(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Cavalry Recon Team (Late)"
+msgstr ""
+
+msgctxt "desc/squad/squad_eng_late_ab_1(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_eng_late_ab_2(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_glider_pio_late_ab(usa)"
+msgid "<c(A5A095)>(3+)</c> 82nd Glider Pioneer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_glider_late_ab_1(usa)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>1.</c> 82nd Glider Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_glider_late_ab_2(usa)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>2.</c> 82nd Glider Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_glider_late_ab_3(usa)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>3.</c> 82nd Glider Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_recon_late_ab(usa)"
+msgid "<c(A5A095)>(4+)</c> 82nd Airborne Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_demo_late_ab(usa)"
+msgid "<c(A5A095)>(4+)</c> 82nd Airborne Demolitions Section"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_late_ab_1(usa)"
+msgid "<c(A5A095)>(4+)</c> <c(E56042)>1.</c> 82nd Airborne Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_82nd_late_ab_2(usa)"
+msgid "<c(A5A095)>(4+)</c> <c(E56042)>2.</c> 82nd Airborne Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_101st_glider_late_ab_1(usa)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>1.</c> 101st Glider Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_101st_glider_late_ab_2(usa)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>2.</c> 101st Glider Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_101st_glider_late_ab_3(usa)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>3.</c> 101st Glider Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_101st_eng_late_ab(usa)"
+msgid "<c(A5A095)>(4)</c> 101st Airborne Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_101st_late_ab_1(usa)"
+msgid "<c(A5A095)>(4)</c> <c(E56042)>1.</c> 101st Airborne Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_101st_late_ab_2(usa)"
+msgid "<c(A5A095)>(4)</c> <c(E56042)>2.</c> 101st Airborne Squad"
+msgstr ""
+
+msgctxt "desc/squad/single_rifle_ab(usa)"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/squad/single_mg_ab(usa)"
+msgid "Automatic Rifleman Team"
+msgstr ""
+
+msgctxt "desc/squad/single_signaller_105_ab(usa)"
+msgid "Artillery Signaller (105 mm)"
+msgstr ""
+
+msgctxt "desc/squad/inf_crate_usa(late_usa_ab)"
+msgid "Ammo Crate"
+msgstr ""
+
+msgctxt "desc/squad/m1917_30cal(late_usa_ab)"
+msgid "M1917 (Tripod)"
+msgstr ""
+msgstr ""
+
+msgctxt "desc/squad/m2_30cal_tripod(late_usa_ab)"
+msgid "M1919 (Tripod)"
+msgstr ""
+
+msgctxt "desc/squad/m2_50cal_tripod(late_usa_ab)"
+msgid "M2HB (Tripod)"
+msgstr ""
+
+msgctxt "desc/squad/50cal_quad_m45(late_usa_ab)"
+msgid "M45 Quadmount"
+msgstr ""
+
+msgctxt "desc/squad/40mm_m1(late_usa_ab)"
+msgid "40 mm M1"
+msgstr ""
+
+msgctxt "desc/squad/37mm_m3a1(late_usa_ab)"
+msgid "37 mm M3A1"
+msgstr ""
+
+msgctxt "desc/squad/57mm_m1(late_usa_ab)"
+msgid "57 mm M1"
+msgstr ""
+
+msgctxt "desc/squad/76mm_m5_m6(late_usa_ab)"
+msgid "3-inch M5"
+msgstr ""
+
+msgctxt "desc/squad/90mm_m1a1(late_usa_ab)"
+msgid "90 mm M1A1"
+msgstr ""
+
+msgctxt "desc/squad/75mm_m3a3(late_usa_ab)"
+msgid "75 mm M3A3"
+msgstr ""
+
+msgctxt "desc/squad/60mm_m2_late(late_usa_ab)"
+msgid "60 mm M2"
+msgstr ""
+
+msgctxt "desc/squad/81mm_m1(late_usa_ab)"
+msgid "81 mm M1"
+msgstr ""
+
+msgctxt "desc/squad/105mm_m2a1(late_usa_ab)"
+msgid "105 mm M2A1"
+msgstr ""
+
+msgctxt "desc/squad/75mm_m1a1(late_usa_ab)"
+msgid "75 mm M1A1"
+msgstr ""
+
+msgctxt "desc/squad/107mm_m2(late_usa_ab)"
+msgid "4.2-inch Mortar M2"
+msgstr ""
+
+msgctxt "desc/squad/105mm_m3(late_usa_ab)"
+msgid "105 mm M3"
+msgstr ""
+
+msgctxt "desc/squad/114mm_m1(late_usa_ab)"
+msgid "4.5-inch M1"
+msgstr ""
+
+msgctxt "desc/squad/155mm_m1(late_usa_ab)"
+msgid "155 mm M1"
+msgstr ""
+
+msgctxt "desc/squad/155mm_m1a1_longtom(late_usa_ab)"
+msgid "155 mm M1A1"
+msgstr ""
+
+msgctxt "desc/squad/203mm_m1(late_usa_ab)"
+msgid "8-inch M1"
+msgstr ""
+
+msgctxt "desc/squad/willys_mb(late_usa_ab)"
+msgid "Willys MB"
+msgstr ""
+
+msgctxt "desc/squad/willys_mb_30cal(late_usa_ab)"
+msgid "Willys MB (.30-cal)"
+msgstr ""
+
+msgctxt "desc/squad/willys_mb_50cal(late_usa_ab)"
+msgid "Willys MB (.50-cal)"
+msgstr ""
+
+msgctxt "desc/squad/wc51(late_usa_ab)"
+msgid "WC51"
+msgstr ""
+msgstr ""
+
+msgctxt "desc/squad/wc52_50cal(late_usa_ab)"
+msgid "WC52 (.50-cal)"
+msgstr ""
+
+msgctxt "desc/squad/cckw(late_usa_ab)"
+msgid "2.5t CCKW"
+msgstr ""
+
+msgctxt "desc/squad/cckw_art_ammo(late_usa_ab)"
+msgid "2.5t CCKW (Ammo)"
+msgstr ""
+
+msgctxt "desc/squad/cckw_fuel(late_usa_ab)"
+msgid "2.5t CCKW (Fuel)"
+msgstr ""
+
+msgctxt "desc/squad/cckw_engineer_late(late_usa_ab)"
+msgid "2.5t CCKW (Engineer)"
+msgstr ""
+
+msgctxt "desc/squad/cckw_redball(late_usa_ab)"
+msgid "2.5t CCKW (Redball Express)"
+msgstr ""
+
+msgctxt "desc/squad/m5_hst(late_usa_ab)"
+msgid "M5 13t HST"
+msgstr ""
+
+msgctxt "desc/squad/m3a1_transport(late_usa_ab)"
+msgid "M3A1 (Transport)"
+msgstr ""
+
+msgctxt "desc/squad/m3a1_scout(late_usa_ab)"
+msgid "M3A1 Scout Car"
+msgstr ""
+
+msgctxt "desc/squad/M2_halftrack(late_usa_ab)"
+msgid "M2 Halftrack"
+msgstr ""
+
+msgctxt "desc/squad/m3a1_halftrack(late_usa_ab)"
+msgid "M3A1 Halftrack"
+msgstr ""
+
+msgctxt "desc/squad/m3a1_commander(late_usa_ab)"
+msgid "M3A1 (Command)"
+msgstr ""
+
+msgctxt "desc/squad/m3a1_gmc(late_usa_ab)"
+msgid "M3A1 GMC"
+msgstr ""
+
+msgctxt "desc/squad/m13_mgmc(late_usa_ab)"
+msgid "M13 MGMC"
+msgstr ""
+
+msgctxt "desc/squad/m16_mgmc(late_usa_ab)"
+msgid "M16 MGMC"
+msgstr ""
+
+msgctxt "desc/squad/m15a1_cgmc(late_usa_ab)"
+msgid "M15A1 CGMC"
+msgstr ""
+
+msgctxt "desc/squad/m4a1_mortar_carrier(late_usa_ab)"
+msgid "M4A1 Mortar Carrier"
+msgstr ""
+
+msgctxt "desc/squad/m21_mortar_carrier(late_usa_ab)"
+msgid "M21 Mortar Carrier"
+msgstr ""
+
+msgctxt "desc/squad/t19_hmc(late_usa_ab)"
+msgid "T19 HMC"
+msgstr ""
+
+msgctxt "desc/squad/m20(late_usa_ab)"
+msgid "M20 Armored Utility Car"
+msgstr ""
+
+msgctxt "desc/squad/m8_greyhound(late_usa_ab)"
+msgid "M8 Light Armored Car"
+msgstr ""
+
+msgctxt "desc/squad/lvt4(late_usa_ab)"
+msgid "LVT4"
+msgstr ""
+
+msgctxt "desc/squad/m5a1_stuart(late_usa_ab)"
+msgid "M5A1"
+msgstr ""
+
+msgctxt "desc/squad/m8_hmc(late_usa_ab)"
+msgid "M8 HMC"
+msgstr ""
+
+msgctxt "desc/squad/m24_chaffee(late_usa_ab)"
+msgid "M24 Chaffee"
+msgstr ""
+
+msgctxt "desc/squad/m4_75_late(late_usa_ab)"
+msgid "M4 (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m4a1_75_late(late_usa_ab)"
+msgid "M4A1 (Late)"
+msgstr ""
+
+msgctxt "desc/squad/t1e3_m4a1_75(late_usa_ab)"
+msgid "T1E3 Mine Roller (M4A1)"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_75_late(late_usa_ab)"
+msgid "M4A3(75) (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_75w_early(late_usa_ab)"
+msgid "M4A3(75)W (Early)"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_75w(late_usa_ab)"
+msgid "M4A3(75)W"
+msgstr ""
+
+msgctxt "desc/squad/m4a1_76w(late_usa_ab)"
+msgid "M4A1(76)W"
+msgstr ""
+
+msgctxt "desc/squad/m4a1_76w_mid(late_usa_ab)"
+msgid "M4A1(76)W"
+msgstr ""
+
+msgctxt "desc/squad/m4a1_76w_mid_2(late_usa_ab)"
+msgid "M4A1(76)W"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_76w(late_usa_ab)"
+msgid "<c(E56042)>1.</c> M4A3(76)W"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_76w_2(late_usa_ab)"
+msgid "<c(E56042)>2.</c> M4A3(76)W"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_76w_late(late_usa_ab)"
+msgid "M4A3(76)W (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_76w_hvss(late_usa_ab)"
+msgid "M4A3(76)W HVSS"
+msgstr ""
+
+msgctxt "desc/squad/m4a3e2_75(late_usa_ab)"
+msgid "M4A3E2"
+msgstr ""
+
+msgctxt "desc/squad/m4a3e2_76(late_usa_ab)"
+msgid "M4A3E2(76)"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_75w_e4_5(late_usa_ab)"
+msgid "M4A3(75)W E4-5"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_76w_field1(late_usa_ab)"
+msgid "<c(E56042)>1.</c> M4A3(76)W HVSS 'FE'"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_76w_field2(late_usa_ab)"
+msgid "<c(E56042)>2.</c> M4A3(76)W HVSS 'FE'"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_76w_field3(late_usa_ab)"
+msgid "<c(E56042)>3.</c> M4A3(76)W HVSS 'FE'"
+msgstr ""
+
+msgctxt "desc/squad/m4_105(late_usa_ab)"
+msgid "M4(105)"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_105(late_usa_ab)"
+msgid "M4A3(105)"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_105_hvss(late_usa_ab)"
+msgid "M4A3(105) HVSS"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_calliope(late_usa_ab)"
+msgid "T33 Calliope"
+msgstr ""
+
+msgctxt "desc/squad/m26_pershing(late_usa_ab)"
+msgid "M26"
+msgstr ""
+
+msgctxt "desc/squad/t26e4(late_usa_ab)"
+msgid "T26E4 (temp. pilot no.1)"
+msgstr ""
+
+msgctxt "desc/squad/m10_gmc(late_usa_ab)"
+msgid "M10 GMC (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m10_gmc_late(late_usa_ab)"
+msgid "M10 GMC (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m18_hellcat(late_usa_ab)"
+msgid "M18 GMC"
+msgstr ""
+
+msgctxt "desc/squad/m18_hellcat_late(late_usa_ab)"
+msgid "M18 GMC (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m36_gmc(late_usa_ab)"
+msgid "M36 GMC"
+msgstr ""
+
+msgctxt "desc/squad/m36_gmc_late(late_usa_ab)"
+msgid "M36 GMC"
+msgstr ""
+
+msgctxt "desc/squad/m36_gmc_t33(late_usa_ab)"
+msgid "M36 GMC (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m36b1_gmc(late_usa_ab)"
+msgid "M36B1 GMC"
+msgstr ""
+
+msgctxt "desc/squad/m36b1_gmc_late(late_usa_ab)"
+msgid "M36B1 GMC"
+msgstr ""
+
+msgctxt "desc/squad/m36b1_gmc_t33(late_usa_ab)"
+msgid "M36B1 GMC (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m7b1_hmc(late_usa_ab)"
+msgid "M7B1 HMC"
+msgstr ""
+
+msgctxt "desc/squad/m12_gmc(late_usa_ab)"
+msgid "M12 GMC"
+msgstr ""
+
+msgctxt "desc/squad/squad_rep_rifle_late_mtn_1(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Replacement Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rep_rifle_late_mtn_2(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Replacement Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rep_rifle_late_mtn_3(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Replacement Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_mtn_1(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Cavalry Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_mtn_2(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Cavalry Recon Team"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_mtn_3(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Cavalry Recon Team (Late)"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_mtn_4(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Cavalry Recon Team (Late)"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_mtn_1(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_mtn_2(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_mtn_3(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_mtn_4(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Rifle Squad (Late)"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_mtn_5(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Rifle Squad (Late)"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_mtn_6(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Rifle Squad (Late)"
+msgstr ""
+
+msgctxt "desc/squad/squad_eng_late_mtn_1(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_eng_late_mtn_2(usa)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_late_mtn_1(usa)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>1.</c> Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_late_mtn_2(usa)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>2.</c> Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_rifle_late_mtn_3(usa)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>3.</c> Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_10th_mountain_late_mtn_1(usa)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>1.</c> 10th Mountain Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_10th_mountain_late_mtn_2(usa)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>2.</c> 10th Mountain Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_10th_mountain_late_mtn_3(usa)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>3.</c> 10th Mountain Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_ranger_assault_sub_late_mtn(usa)"
+msgid "<c(A5A095)>(4)</c> Ranger Assault Section (Substitute)"
+msgstr ""
+
+msgctxt "desc/squad/single_rifle_mtn(usa)"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/squad/single_mg_mtn(usa)"
+msgid "Automatic Rifleman Team"
+msgstr ""
+
+msgctxt "desc/squad/single_signaller_105_mtn(usa)"
+msgid "Artillery Signaller (105 mm)"
+msgstr ""
+
+msgctxt "desc/squad/inf_crate_usa(late_usa_mtn)"
+msgid "Ammo Crate"
+msgstr ""
+
+msgctxt "desc/squad/m1917_30cal(late_usa_mtn)"
+msgid "M1917 (Tripod)"
+msgstr ""
+msgstr ""
+
+msgctxt "desc/squad/m2_30cal_tripod(late_usa_mtn)"
+msgid "M1919 (Tripod)"
+msgstr ""
+
+msgctxt "desc/squad/m2_50cal_tripod(late_usa_mtn)"
+msgid "M2HB (Tripod)"
+msgstr ""
+
+msgctxt "desc/squad/50cal_quad_m45(late_usa_mtn)"
+msgid "M45 Quadmount"
+msgstr ""
+
+msgctxt "desc/squad/40mm_m1(late_usa_mtn)"
+msgid "40 mm M1"
+msgstr ""
+
+msgctxt "desc/squad/37mm_m3a1(late_usa_mtn)"
+msgid "37 mm M3A1"
+msgstr ""
+
+msgctxt "desc/squad/57mm_m1(late_usa_mtn)"
+msgid "57 mm M1"
+msgstr ""
+
+msgctxt "desc/squad/76mm_m5_m6(late_usa_mtn)"
+msgid "3-inch M5"
+msgstr ""
+
+msgctxt "desc/squad/90mm_m1a1(late_usa_mtn)"
+msgid "90 mm M1A1"
+msgstr ""
+
+msgctxt "desc/squad/75mm_m3a3(late_usa_mtn)"
+msgid "75 mm M3A3"
+msgstr ""
+
+msgctxt "desc/squad/60mm_m2_late(late_usa_mtn)"
+msgid "60 mm M2"
+msgstr ""
+
+msgctxt "desc/squad/81mm_m1(late_usa_mtn)"
+msgid "81 mm M1"
+msgstr ""
+
+msgctxt "desc/squad/105mm_m2a1(late_usa_mtn)"
+msgid "105 mm M2A1"
+msgstr ""
+
+msgctxt "desc/squad/75mm_m1a1(late_usa_mtn)"
+msgid "75 mm M1A1"
+msgstr ""
+
+msgctxt "desc/squad/107mm_m2(late_usa_mtn)"
+msgid "4.2-inch Mortar M2"
+msgstr ""
+
+msgctxt "desc/squad/105mm_m3(late_usa_mtn)"
+msgid "105 mm M3"
+msgstr ""
+
+msgctxt "desc/squad/114mm_m1(late_usa_mtn)"
+msgid "4.5-inch M1"
+msgstr ""
+
+msgctxt "desc/squad/155mm_m1(late_usa_mtn)"
+msgid "155 mm M1"
+msgstr ""
+
+msgctxt "desc/squad/155mm_m1a1_longtom(late_usa_mtn)"
+msgid "155 mm M1A1"
+msgstr ""
+
+msgctxt "desc/squad/203mm_m1(late_usa_mtn)"
+msgid "8-inch M1"
+msgstr ""
+
+msgctxt "desc/squad/willys_mb(late_usa_mtn)"
+msgid "Willys MB"
+msgstr ""
+
+msgctxt "desc/squad/willys_mb_30cal(late_usa_mtn)"
+msgid "Willys MB (.30-cal)"
+msgstr ""
+
+msgctxt "desc/squad/willys_mb_50cal(late_usa_mtn)"
+msgid "Willys MB (.50-cal)"
+msgstr ""
+
+msgctxt "desc/squad/wc51(late_usa_mtn)"
+msgid "WC51"
+msgstr ""
+msgstr ""
+
+msgctxt "desc/squad/wc52_50cal(late_usa_mtn)"
+msgid "WC52 (.50-cal)"
+msgstr ""
+
+msgctxt "desc/squad/cckw(late_usa_mtn)"
+msgid "2.5t CCKW"
+msgstr ""
+
+msgctxt "desc/squad/cckw_art_ammo(late_usa_mtn)"
+msgid "2.5t CCKW (Ammo)"
+msgstr ""
+
+msgctxt "desc/squad/cckw_fuel(late_usa_mtn)"
+msgid "2.5t CCKW (Fuel)"
+msgstr ""
+
+msgctxt "desc/squad/cckw_engineer_late(late_usa_mtn)"
+msgid "2.5t CCKW (Engineer)"
+msgstr ""
+
+msgctxt "desc/squad/cckw_redball(late_usa_mtn)"
+msgid "2.5t CCKW (Redball Express)"
+msgstr ""
+
+msgctxt "desc/squad/m5_hst(late_usa_mtn)"
+msgid "M5 13t HST"
+msgstr ""
+
+msgctxt "desc/squad/m3a1_transport(late_usa_mtn)"
+msgid "M3A1 (Transport)"
+msgstr ""
+
+msgctxt "desc/squad/m3a1_scout(late_usa_mtn)"
+msgid "M3A1 Scout Car"
+msgstr ""
+
+msgctxt "desc/squad/M2_halftrack(late_usa_mtn)"
+msgid "M2 Halftrack"
+msgstr ""
+
+msgctxt "desc/squad/m3a1_halftrack(late_usa_mtn)"
+msgid "M3A1 Halftrack"
+msgstr ""
+
+msgctxt "desc/squad/m3a1_commander(late_usa_mtn)"
+msgid "M3A1 (Command)"
+msgstr ""
+
+msgctxt "desc/squad/m3a1_gmc(late_usa_mtn)"
+msgid "M3A1 GMC"
+msgstr ""
+
+msgctxt "desc/squad/m13_mgmc(late_usa_mtn)"
+msgid "M13 MGMC"
+msgstr ""
+
+msgctxt "desc/squad/m16_mgmc(late_usa_mtn)"
+msgid "M16 MGMC"
+msgstr ""
+
+msgctxt "desc/squad/m15a1_cgmc(late_usa_mtn)"
+msgid "M15A1 CGMC"
+msgstr ""
+
+msgctxt "desc/squad/m4a1_mortar_carrier(late_usa_mtn)"
+msgid "M4A1 Mortar Carrier"
+msgstr ""
+
+msgctxt "desc/squad/m21_mortar_carrier(late_usa_mtn)"
+msgid "M21 Mortar Carrier"
+msgstr ""
+
+msgctxt "desc/squad/t19_hmc(late_usa_mtn)"
+msgid "T19 HMC"
+msgstr ""
+
+msgctxt "desc/squad/m20(late_usa_mtn)"
+msgid "M20 Armored Utility Car"
+msgstr ""
+
+msgctxt "desc/squad/m8_greyhound(late_usa_mtn)"
+msgid "M8 Light Armored Car"
+msgstr ""
+
+msgctxt "desc/squad/lvt4(late_usa_mtn)"
+msgid "LVT4"
+msgstr ""
+
+msgctxt "desc/squad/m5a1_stuart(late_usa_mtn)"
+msgid "M5A1"
+msgstr ""
+
+msgctxt "desc/squad/m8_hmc(late_usa_mtn)"
+msgid "M8 HMC"
+msgstr ""
+
+msgctxt "desc/squad/m24_chaffee(late_usa_mtn)"
+msgid "M24 Chaffee"
+msgstr ""
+
+msgctxt "desc/squad/m4_75_late(late_usa_mtn)"
+msgid "M4 (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m4a1_75_late(late_usa_mtn)"
+msgid "M4A1 (Late)"
+msgstr ""
+
+msgctxt "desc/squad/t1e3_m4a1_75(late_usa_mtn)"
+msgid "T1E3 Mine Roller (M4A1)"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_75_late(late_usa_mtn)"
+msgid "M4A3(75) (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_75w_early(late_usa_mtn)"
+msgid "M4A3(75)W (Early)"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_75w(late_usa_mtn)"
+msgid "M4A3(75)W"
+msgstr ""
+
+msgctxt "desc/squad/m4a1_76w(late_usa_mtn)"
+msgid "M4A1(76)W"
+msgstr ""
+
+msgctxt "desc/squad/m4a1_76w_mid(late_usa_mtn)"
+msgid "M4A1(76)W"
+msgstr ""
+
+msgctxt "desc/squad/m4a1_76w_mid_2(late_usa_mtn)"
+msgid "M4A1(76)W"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_76w(late_usa_mtn)"
+msgid "<c(E56042)>1.</c> M4A3(76)W"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_76w_2(late_usa_mtn)"
+msgid "<c(E56042)>2.</c> M4A3(76)W"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_76w_late(late_usa_mtn)"
+msgid "M4A3(76)W (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_76w_hvss(late_usa_mtn)"
+msgid "M4A3(76)W HVSS"
+msgstr ""
+
+msgctxt "desc/squad/m4a3e2_75(late_usa_mtn)"
+msgid "M4A3E2"
+msgstr ""
+
+msgctxt "desc/squad/m4a3e2_76(late_usa_mtn)"
+msgid "M4A3E2(76)"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_75w_e4_5(late_usa_mtn)"
+msgid "M4A3(75)W E4-5"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_76w_field1(late_usa_mtn)"
+msgid "<c(E56042)>1.</c> M4A3(76)W HVSS 'FE'"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_76w_field2(late_usa_mtn)"
+msgid "<c(E56042)>2.</c> M4A3(76)W HVSS 'FE'"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_76w_field3(late_usa_mtn)"
+msgid "<c(E56042)>3.</c> M4A3(76)W HVSS 'FE'"
+msgstr ""
+
+msgctxt "desc/squad/m4_105(late_usa_mtn)"
+msgid "M4(105)"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_105(late_usa_mtn)"
+msgid "M4A3(105)"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_105_hvss(late_usa_mtn)"
+msgid "M4A3(105) HVSS"
+msgstr ""
+
+msgctxt "desc/squad/m4a3_calliope(late_usa_mtn)"
+msgid "T33 Calliope"
+msgstr ""
+
+msgctxt "desc/squad/m26_pershing(late_usa_mtn)"
+msgid "M26"
+msgstr ""
+
+msgctxt "desc/squad/t26e4(late_usa_mtn)"
+msgid "T26E4 (temp. pilot no.1)"
+msgstr ""
+
+msgctxt "desc/squad/m10_gmc(late_usa_mtn)"
+msgid "M10 GMC (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m10_gmc_late(late_usa_mtn)"
+msgid "M10 GMC (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m18_hellcat(late_usa_mtn)"
+msgid "M18 GMC"
+msgstr ""
+
+msgctxt "desc/squad/m18_hellcat_late(late_usa_mtn)"
+msgid "M18 GMC (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m36_gmc(late_usa_mtn)"
+msgid "M36 GMC"
+msgstr ""
+
+msgctxt "desc/squad/m36_gmc_late(late_usa_mtn)"
+msgid "M36 GMC"
+msgstr ""
+
+msgctxt "desc/squad/m36_gmc_t33(late_usa_mtn)"
+msgid "M36 GMC (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m36b1_gmc(late_usa_mtn)"
+msgid "M36B1 GMC"
+msgstr ""
+
+msgctxt "desc/squad/m36b1_gmc_late(late_usa_mtn)"
+msgid "M36B1 GMC"
+msgstr ""
+
+msgctxt "desc/squad/m36b1_gmc_t33(late_usa_mtn)"
+msgid "M36B1 GMC (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m7b1_hmc(late_usa_mtn)"
+msgid "M7B1 HMC"
+msgstr ""
+
+msgctxt "desc/squad/m12_gmc(late_usa_mtn)"
+msgid "M12 GMC"
+msgstr ""

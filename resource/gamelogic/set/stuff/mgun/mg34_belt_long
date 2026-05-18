@@ -1,0 +1,7 @@
+{from "mg34_belt"
+	{filling "mgun_ger" 300}
+	{entity "mg34_belt_long"}
+	("burst_short")
+	{FiringTimeout 1.10 0.3}
+	("spreading_mounted")
+}

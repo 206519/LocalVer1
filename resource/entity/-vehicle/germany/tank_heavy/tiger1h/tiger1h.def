@@ -1,0 +1,15 @@
+{game_entity ;sept 44
+	(include "tiger1h.inc")
+
+	{extender "inventory"
+		{box
+			{item "bulletger_88_l56 apcbche" 33} 	; 92 rounds
+			{item "bulletger_88_l56 he" 46}
+			{item "bulletger_88_l56 hvap" 3}
+			{item "bulletger_88_l56 heat" 12}
+			{item "ammo mgun_ger belt" 4500}		; 32 belts (150 rounds each)
+			{item "geballteladung_3kg" 1}
+			{item "nbks grenade" 2}
+		}
+	}
+}

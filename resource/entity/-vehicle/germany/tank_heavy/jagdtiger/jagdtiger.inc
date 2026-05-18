@@ -1,0 +1,136 @@
+	(include "/properties/tank_assaultgun.ext")
+	
+	(include "/properties/selection/vehicle_big.inc" scale(1))
+	{props "jagdtiger" "heavy" "td" "-turret" "vision_lev05" "muzzle_122mm_128mm" "shield" "smoke" "nvw" "detect_td_heavy"}
+	{extension "jagdtiger.mdl"}
+	(include "jagdtiger.ext")
+	{targetclass "tank_heavy"}
+	{targetSelector "tank_heavy"}
+	{collider "tank.heavy"}
+	{PatherId "jagdtiger"}
+
+	{extender "enumerator"
+		{digit_folder "ger"}
+	}
+
+	{sensor
+		{visor "main"
+			{vision "tank_range_230"}
+		}
+	}
+
+	("crew_6_human_extended")
+	("charger2_visible")
+
+	{boarder
+		{anm "driver"
+			{forward {begin "board_pz4_driver"} {end "pose_jagdtiger_aa"} {base "open_driver"}}
+			{reverse {end "board_pz4_driver" -1} {base "open_driver" -1}}
+		}
+		{anm "left"
+			{forward {begin "board_Kv"} {end "pose_jagdtiger_aa"}}
+			{reverse {end "emit_tank_2_hold"}}
+		}
+		{anm "right"
+			{forward {begin "board_tank_right"} {end "pose_jagdtiger_aa"}}
+			{reverse {end "emit_tank_2_hold"}}
+		}
+		{anm "armor"
+			{forward {begin "board_HighArmor"} {end "pose_seat_armor_1"}}
+			{reverse {end "emit_tank_1"}}
+		}
+	}
+
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor))
+	("seat_human" place(seat3) bone(seat03) door(emit5)  animation(armor))
+	("seat_human" place(seat4) bone(seat04) door(emit6)  animation(armor))
+
+	{extender "shield" {on}}
+
+	{extender "smokescreen"
+		{cooldown 5}
+		{itemTags "grenade nbks"}
+	}
+
+	{##extender "inventory"
+		{weapon "mgun" {mask "mountable"}}
+		{box
+			{item "bulletger_128 apcbche" 19}	; 40 rounds
+			{item "bulletger_128 he" 20}
+			{item "ammo mgun_ger belt" 3150}		; 22 belts (150 rounds each)}
+			{item "mg42_drum" filled {user "mgun"}}
+			{item "geballteladung_3kg" 1}
+			{item "nbks grenade" 12}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "128mm_pak44" filling "bulletger_128 apcbche" 1}
+			{gunner "gunner"}
+			{charger "charger"}
+			("abm_dymamic_stabilised"
+				zeroing(5.0)
+				dispersion(0.20)
+			)
+		}
+		{place "mgun"
+			{type "aa"}
+			{gunner "charger2"}
+			{charger "charger2"}
+			{LinkBone "mgun_rot"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+			{basic}
+			{ai_in_manual}
+		}
+		{place "mgun1"
+			{type "hull"}
+			{weapon "mg34_tank" filled}
+			{foresight "foresight4"}
+			{gunner "gunner3"}
+			{charger "gunner3"}
+			("abm_mgun")
+			{basic}
+			{ai_in_manual}
+		}
+	}
+
+	{mass 75200}
+	{Chassis
+		("tank_trace" fx("tracks_big") step(0.47) len(1.19))
+		("mobility_spearhead"
+			speed(34.6)			;Max speed when fully accelerated on road, km/h.
+			reverse(9.2)			;Max speed in reverse on road, km/h.
+			mass(75.2)			;Mass, in metric tons.
+			power(600) 			;Engine Power
+			contact(4.24)		;Track-ground contact length, in m
+			wheelbase(2.79)		;Distance between center of left and right side roadwheels, in m
+			pressure(1.11)		;Ground pressure on road, in kg/cm^2
+			coeff_accel(8)		;Modifier for acceleration, (0,10]
+			coeff_steer_rate(9)	;Modifier for steering rate, (0,10]
+			coeff_steer_eff(9)	;Modifier for steering efficiency, (0,10]
+			fuel(860) 			;Fuel capacity in Litres.
+			type(fuel)			;Fuel type. (diesel OR fuel)
+			range(70) 			;Range in km, off-road.
+			maxslope(70)		;Max slope (tan(gradient in degrees) * 100)
+		)
+	}
+
+	{bone "gun_rot"
+		{limits -7 15}
+		{speed2 2}
+	}
+	{bone "turret"
+		{limits -10 10}
+		{speed2 4.5}
+	}
+	{bone "mgun_a_rot1"
+		{speed2 60}
+	}
+	{bone "mgun_a_rot2"
+		{speed2 60}
+	}

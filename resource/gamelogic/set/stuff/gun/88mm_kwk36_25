@@ -1,0 +1,17 @@
+;_________________________________________
+; German heavy AT Gun
+;=========================================
+
+
+{from "88mm_kwk36"			; 2.5x sight tzf5b
+	("range_310")
+	("accuracy_direct" r1(0.72) range_ap(310) range_he(310) range_heat(310))
+	
+	("penetration_long" shell(apcbche) range(310) a(150) b(142) c(130) d(119) e(109)) ;// early projectile "PzGr 39 FES"
+	
+	("penetration_long" shell(apcr) range(310) a(221) b(198.5) c(172) d(149) e(129))
+	("penetration_long" shell(hvap) range(310) a(221) b(198.5) c(172) d(149) e(129))
+	{parameters "he"
+		{range 310 310}
+	}
+}

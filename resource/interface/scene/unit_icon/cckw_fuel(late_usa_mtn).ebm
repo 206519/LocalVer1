@@ -1,0 +1,6 @@
+{bitmap
+    {frame "cckw_fuel_00.tga"}
+    {frame "cckw_fuel_01.tga"}
+    {frame "cckw_fuel_02.tga"}
+    {frame "cckw_fuel_03.tga"}
+}

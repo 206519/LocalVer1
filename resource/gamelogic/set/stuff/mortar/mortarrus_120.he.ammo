@@ -1,0 +1,34 @@
+{from "pattern mortar_ammo"
+	{tag "big mortar pierce he fg 122to128 all_he"}
+	{inventory
+		{size 4 1}
+	}
+	{entity "120mm_rus_mortar_he"}
+	{view "120mm_rus_mortar_he"
+		{tail "shell_tail" "tail"}
+	}
+	{mass 16}
+
+	("he_heavy")
+	
+	{detonationThickness 28}
+
+	("he_level_3" weight(16.43) filler(2.9))
+
+	{##damage add blastwave
+		{energy 2.4}
+		{area 1.87 2.94}
+		{ground_interaction_radius 0} ;// value is multiplied by 2nd value of area to deterimine is blast is close enough to ground to trigger terrain fx
+	}
+	;// large blast area for anti personnel effect
+	{damage add blastwave
+		{energy 1.65}
+		{area 7 18}
+		{ground_interaction_radius 0} ;// generally a 120mm mortar shell will pierce 15mm at a distance of 5 meters.
+	}
+	{damage add blastwave
+		{energy 1.05}
+		{area 7 18}
+		{ground_interaction_radius 0}
+	}
+}

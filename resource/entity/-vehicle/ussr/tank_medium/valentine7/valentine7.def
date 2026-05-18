@@ -1,0 +1,123 @@
+{game_entity
+	(include "/properties/tank.ext")
+	
+	(include "/properties/selection/vehicle.inc" scale(1))
+	{props "light" "vision_lev03" "muzzle_37mm_47mm" "diesel" "smoke" "2in" "detect_tank_light"}
+	{extension "valentine7.mdl"}
+	(include "valentine7.ext")
+	{PatherID "valentine"}
+	{collider "tank.light"}
+	{targetclass "tank_light"}
+	{targetSelector "tank_light"}
+
+	{extender "enumerator"
+		{digit_folder "ru1"}
+	}
+	
+	{sensor
+		{visor "main"
+			{vision "tank_range_No22"}
+		}
+		{Visor "driver"
+			{vision "tank_driver_MaVal"}
+		}
+	}
+
+	("crew_3_human_2_extended")
+
+	{boarder
+		{anm "driver"
+			{forward {begin "board_t26_driver"} {end "pose_t26_driver"} {base "open_driver"}}
+			{reverse {end "board_t26_driver" -1} {base "open_driver" -1}}
+		}
+		{anm "left"
+			{forward {begin "board_kv"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward {begin "board_tank_right"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "armor"
+			{forward {begin "board_MiddleArmor"} {end "pose_seat_armor_1"}}
+			{reverse {end "emit_tank_1"}}
+		}
+		{anm "armor1"
+			{forward {begin "board_MiddleArmor"} {end "pose_seat_armor_2"}}
+			{reverse {end "emit_body"}}
+		}
+	}
+
+	("seat_human" place(seat1) bone(seat01) door(emit3) animation(armor))
+	("seat_human" place(seat2) bone(seat02) door(emit4) animation(armor))
+	("seat_human" place(seat3) bone(seat03) door(emit5) animation(armor1))
+	("seat_human" place(seat4) bone(seat04) door(emit6) animation(armor1))
+	("seat_human" place(seat5) bone(seat05) door(emit7) animation(armor))
+	("seat_human" place(seat6) bone(seat06) door(emit8) animation(armor1))
+
+	{extender "smokescreen"
+		{cooldown 5}
+		{itemTags "mortareng_50 sm"}
+	}
+
+	{extender "inventory"
+		{box
+			{item "bulleteng_40 ap" 60}			;61 rounds
+			{item "satchel_charge_rus" 1}
+			{item "ammo mgun_usa belt" 5000}	;20 boxes
+			{item "mortareng_50 sm" 18}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "40mm_qf2_2" filling "bulleteng_40 ap" 1}  
+			{gunner "gunner"}
+			{charger "commander"}
+			("abm_dymamic"
+				zeroing(5.0)
+				dispersion(0.20)
+			)
+		}
+		{place "mgun2"
+			{type "coaxial"}
+			{weapon "browning_m19a4_tank" filling "ammo mgun_usa belt" 250}
+			{foresight "foresight5"}
+			{gunner "gunner"}
+			{charger "commander"}
+			("abm_mgun")
+			{basic}
+		}
+	}
+
+	{mass 17690}
+	{Chassis
+		("tank_trace" fx("tracks_sm2") step(0.17) len(0.61))
+		("mobility_spearhead"
+			speed(26.4)			;Max speed when fully accelerated on road, km/h.
+			reverse(2.2)		;Max speed in reverse on road, km/h.
+			mass(17.69)			;Mass, in metric tons.
+			power(149) 			;Engine Power
+			contact(3.1)		;Track-ground contact length, in m
+			wheelbase(2.21)		;Distance between center of left and right side roadwheels, in m
+			pressure(0.72)		;Ground pressure on road, in kg/cm^2
+			coeff_accel(6)		;Modifier for acceleration, (0,10]
+			coeff_steer_rate(5)	;Modifier for steering, (0,10]
+			coeff_steer_eff(5)	;Modifier for steering, (0,10]
+			fuel(164) 			;Fuel capacity in Litres.
+			type(diesel)		;Fuel type. (diesel OR fuel)
+			range(109) 			;Range in km, off-road.
+			maxslope(62)		;Max slope (tan(gradient in degrees) * 100)
+		)
+	}
+
+	{bone "gun_rot"
+		{limits -15 20}
+		{speed2 12}
+	}
+	{bone "turret"
+		("turret_light" power_traverse(14))
+	}
+}

@@ -1,0 +1,44 @@
+;_________________________________________
+; US medium tank gun
+;=========================================
+
+
+{from "pattern gun"			; L/52 (Sherman 76)
+	{filling "bulletusa_76x539"}
+	{fireSound "cannon/s3/d1/Shared/Cannon_75to76mm_HV/"}
+	{fireSoundclose "cannon/s2/1p/Shared/"}
+	{reloadSound "tank/1p/medium/"}
+	("range_200")
+	{calibre 76}
+
+	("reload time" seconds(7))	
+
+	("velocity m/s" ap(792) apcr(1036) he(820) heat(1))
+	("armor health" damage(200))
+	("armor health custom" shell(apcbche) damage(200) filler(62))
+	("76_slope_multipliers")
+
+	("penetration_medium" shell(ap) range(215) a(122) b(109) c(91) d(76) e(64))			; M79 AP
+	("penetration_medium" shell(apcbche) range(215) a(128) b(118) c(108) d(100) e(90))	; M62 APC. K2000-2150
+	("penetration_medium" shell(apcbche2) range(215) a(128) b(118) c(108) d(100) e(90))	; Special quality M62 APC
+	("penetration_medium" shell(hvap) range(220) a(238) b(218) c(196) d(176) e(158))	; T-4/M93
+
+	{parameters "apcbche"
+		("Cm62_slmod")
+	}
+	
+	{parameters "apcbche2"
+		("m82_slmod")
+	}
+	
+	{parameters "sm"
+		("velocity" mps(270))
+		{range 150 150}
+	}
+
+	{parameters "he"
+		{range 215 215}
+	}
+
+	("accuracy_direct" r1(0.71) range_ap(215) range_he(215) range_heat(215))
+}

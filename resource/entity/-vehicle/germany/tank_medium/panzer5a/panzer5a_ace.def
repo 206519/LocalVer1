@@ -1,0 +1,46 @@
+{game_entity
+	(include "panzer5a.inc")
+	{extender "enumerator"
+		{digit_folder "ger"}
+	}
+	{extender "inventory"
+		;{weapon "mgun" {mask "mountable"}}
+		{box
+			{item "bulletger_75_l70 apcbche" 38} 	; 79 rounds
+			{item "bulletger_75_l70 he" 40}
+			;{item "bulletger_75_l70 apcr" 2}
+			{item "ammo mgun_ger belt" 4800}		; 34 belts (150 rounds each)
+			;{item "mg34_drum" filled {user "mgun"}}
+			{item "geballteladung_3kg" 1}
+			{item "nbks grenade" 6}
+		}
+	}
+	{mass 45500}
+	{Chassis
+		("tank_trace" fx("tracks_big") step(0.47) len(0.94))
+		("mobility_spearhead"
+			speed(54.9)			;Max speed when fully accelerated on road, km/h.
+			reverse(4.0)		;Max speed in reverse on road, km/h.
+			mass(45.5)			;Mass, in metric tons.
+			power(700) 			;Engine Power (governed to 2500 rpm starting November 1943)
+			contact(3.92)		;Track-ground contact length, in m
+			wheelbase(2.61)		;Distance between center of left and right side roadwheels, in m
+			pressure(0.88)		;Ground pressure on road, in kg/cm^2
+			coeff_accel(3.5)		;Modifier for acceleration, (0,10]
+			coeff_steer_rate(5.5)	;Modifier for steering rate, (0,10]
+			coeff_steer_eff(5.5)	;Modifier for steering efficiency, (0,10]
+			fuel(730) 			;Fuel capacity in Litres.
+			type(fuel)			;Fuel type. (diesel OR fuel)
+			range(100) 			;Range in km, off-road.
+			maxslope(70)		;Max slope (tan(gradient in degrees) * 100)
+		)
+	}
+
+	{bone "gun_rot"
+		{limits -8 18}
+		{speed2 4}
+	}
+	{bone "turret"
+		("turret_medium" power_traverse(20))
+	}
+}

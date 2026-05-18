@@ -1,0 +1,45 @@
+;_________________________________________
+; USSR light AT cannon
+;=========================================
+
+
+{from "pattern gun"			; L/46, "ba11", "t26", "t70"
+	{filling "bulletrus_45"}
+	{fireSound "cannon/s2/d1/Shared/Cannon_45to47mm/"}
+	{fireSoundclose "cannon/s1/1p/Shared/Cannon/"}
+	{reloadSound "tank/1p/small_long/"}
+	("range_280")
+	{calibre 45}
+
+	("reload time" seconds(4.6))
+
+	("velocity m/s" ap(760) apcr(985) he(343) heat(1))
+	("armor health" damage(120))
+	("armor health custom" shell(aphebc) damage(100) filler(29))	;// 19 grams A-IX-i2
+	("45_rus_slope_multipliers")
+
+	;BR-240SP
+	("penetration_medium" shell(apbc) range(280) a(75) b(62.5) c(52) d(43) e(36))
+
+	;BR-240
+	("penetration_medium" shell(aphebc) range(280) a(60) b(53.6) c(44.6) d(37) e(31))  ;RHA
+	;// K2250 - Latewar pattern? Pens 76 Sherman turret side?
+	
+	;BR-240
+	("penetration_medium" shell(aphebc2) range(280) a(57) b(49) c(40.7) d(34) e(28)) 
+	;// K2400, pulled from 57mm performance, with shatter
+
+
+	;BR-240P	; was available starting April 1942
+	("penetration_medium" shell(apcr) range(190) a(106) b(77.6) c(52.5) d(35.6) e(24))
+
+	
+	{parameters "he"
+		{range 230 230}
+	}
+	{parameters "he2"
+		{range 230 230}
+	}
+
+	("accuracy_direct_arrowhead" r1(0.83) range_ap(280) range_he(230) range_heat(160))
+}

@@ -1,0 +1,10 @@
+;_________________________________________
+; US medium tank gun
+;=========================================
+
+
+{from "75mm_m3"			; L/40
+	("accuracy_direct" r1(0.83) range_ap(300) range_he(265) range_heat(200)) ;// wet ammo rack version with reduced ammunition supply
+	
+	("reload time" seconds(6.2))
+}

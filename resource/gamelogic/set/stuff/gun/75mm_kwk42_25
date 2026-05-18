@@ -1,0 +1,14 @@
+;_________________________________________
+; Long barreled German medium AT gun
+;=========================================
+
+
+{from "75mm_kwk42"			; 2.5x sight "panzer5d"
+	("accuracy_direct" r1(0.70) range_ap(210) range_he(210) range_heat(190))
+	
+	; Pzgr.39/42
+	("penetration_long" shell(apcbche) range(210) a(177) b(166) c(150) d(136) e(122))
+
+	; Pzgr.40/42
+	("penetration_long" shell(apcr) range(210) a(251) b(229) c(198) d(171) e(147))
+}

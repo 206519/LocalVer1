@@ -1,0 +1,17 @@
+{from "pattern anti-personnel"
+	{tag "size2"}		; Explosive filling - 0.165kg of TNT
+	{entity "m24"}
+	
+	;// 1mm steel wall, so ~150 grams casing + 165 filler
+	
+	{damage add blastwave
+		{energy 0.95}
+		{area 2.85 6}
+		{ground_interaction_radius 0} ;// value is multiplied by 2nd value of area to determine is blast is close enough to ground to trigger terrain fx
+	}
+
+	{throw
+		{range 24.7}  ;in-game 26m
+	}
+}
+

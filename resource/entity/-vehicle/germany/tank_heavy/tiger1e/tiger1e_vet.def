@@ -1,0 +1,42 @@
+{game_entity
+	(include "tiger1e.inc")
+	{extender "inventory"
+		{box
+			{item "bulletger_88_l56 apcbche" 36} 	; 92 rounds
+			{item "bulletger_88_l56 he" 46}
+			;{item "bulletger_88_l56 hvap" 2}
+			{item "bulletger_88_l56 heat" 9}
+			{item "ammo mgun_ger belt" 4500}		; 32 belts (150 rounds each)
+			{item "geballteladung_3kg" 1}
+			{item "nbks grenade" 6}
+		}
+	}
+	{mass 57250}
+	{Chassis
+		("tank_trace" fx("tracks_big") step(0.47) len(0.91))
+		("mobility_spearhead"
+			speed(38.0)			;Max speed when fully accelerated on road, km/h. 45/9 at 3000 rpm, 38/7.5 at 2500
+			reverse(10.1)		;Max speed in reverse on road, km/h.
+			mass(57.00)			;Mass, in metric tons.
+			power(600) 			;Engine Power
+			contact(3.605)		;Track-ground contact length, in m
+			wheelbase(2.822)	;Distance between center of left and right side roadwheels, in m
+			pressure(1.09)		;Ground pressure on road, in kg/cm^2
+			coeff_accel(6.5)	;Modifier for acceleration, (0,10]
+			coeff_steer_rate(7.5)	;Modifier for steering rate, (0,10]
+			coeff_steer_eff(8.5)	;Modifier for steering efficiency, (0,10]
+			fuel(540) 			;Fuel capacity in Litres.
+			type(fuel)			;Fuel type. (diesel OR fuel)
+			range(85) 			;Range in km, off-road.
+			maxslope(70)		;Max slope (tan(gradient in degrees) * 100)
+		)
+	}
+
+	{bone "gun_rot"
+		{limits -8 15}
+		{speed2 4}
+	}
+	{bone "turret"
+		("turret_heavy" power_traverse(14))
+	}
+}

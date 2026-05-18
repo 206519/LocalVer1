@@ -1,0 +1,34 @@
+;_________________________________________
+; ARTY Russian medium field gun
+;=========================================
+
+
+{from "pattern gun"			; L/38 "107mm_m1910"
+	{filling "bullet_107x442"}
+	{fireSound "cannon/s4/d1/Shared/Cannon_105to130mm_LV/"}
+	{fireSoundclose "cannon/s4/3p/Shared/Cannon_105to130mm_LV/"}
+	{reloadSound "utility/"}
+	("medium_artillery")
+	{calibre 107}
+	 ; // 16.3km
+	;{range 420 420}
+	{range 580 580} ; // 16.3km
+
+	("reload time" seconds(12.5))
+
+	("velocity m/s" ap(650) apcr(1) he(670) heat(1)) 		;// real HE 670m/s
+	("armor health" damage(330))
+	("armor health custom" shell(apcbche) damage(330) filler(440))
+	("105_slope_multipliers")
+
+	("penetration" shell(apcbche) range(220) a(132) b(127) c(117) d(109) e(102))  ; // RHA - formula gives 220-230 range
+
+	("accuracy_indirect"		; // Applies logic for accuracy of indirect weapons over 200m
+		r1(0.75) 				; // Accuracy radius for direct-fire munitions
+		r2(7) 				; // Accuracy radius for indirect fire
+		rmax(32) 				; // Accuracy radius for indirect fire at maximum range
+		range_ap(220) 			; // Range after which accuracy drops to prevent farshooting
+		range_heat(220) 		; // Range after which accuracy drops to prevent farshooting
+		range_he(580)			; // Range after which accuracy drops to prevent farshooting
+	)
+}

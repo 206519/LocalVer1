@@ -1,0 +1,8 @@
+;_________________________________________
+; British medium tank gun
+;=========================================
+
+
+{from "75mm_m3"			; L/40 "Cromwell, churhill"
+	("reload time" seconds(7))
+}

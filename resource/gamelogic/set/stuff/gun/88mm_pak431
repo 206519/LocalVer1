@@ -1,0 +1,11 @@
+;_________________________________________
+; German heavy long-barreled AT Gun
+;=========================================
+
+
+{from "88mm_kwk43"			
+	;// with 10x sight
+	
+	("penetration_long" shell(apcbche) range(350) a(232) b(219) c(204) d(190) e(176))
+	("accuracy_direct" r1(0.57) range_ap(360) range_he(320) range_heat(200))
+}

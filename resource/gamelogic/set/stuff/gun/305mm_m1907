@@ -1,0 +1,29 @@
+;_________________________________________
+; ARTY - 305mm 12-inch/52 caliber pattern M1907 Soviet naval gun
+;=========================================
+
+
+{from "pattern gun"			; L/52
+	{filling "bulletrus_305" 1}
+	{fireSound "cannon/s6/d1/Shared/Cannon_280mm+/"}
+	{fireSoundClose "cannon/s6/3p/Shared/Cannon_280mm+/"}
+	{reloadSound "utility/"}
+	("super_heavy_artillery")
+	{calibre 305}
+	 ; // 31km 
+	;{range 700 700}
+	{range 800 800}
+
+	("reload time" seconds(30))
+
+	("velocity" mps(853))
+
+	("accuracy_indirect"		; // Applies logic for accuracy of indirect weapons over 200m
+		r1(0.50) 				; // Accuracy radius for direct-fire munitions
+		r2(6.5) 				; // Accuracy radius for indirect fire
+		rmax(47) 				; // Accuracy radius for indirect fire at maximum range
+		range_ap(250) 			; // Range after which accuracy drops to prevent farshooting.
+		range_heat(250) 		; // Range after which accuracy drops to prevent farshooting.
+		range_he(800)			; // Range after which accuracy drops to prevent farshooting.
+	)
+}

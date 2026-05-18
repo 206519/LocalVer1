@@ -1,0 +1,44 @@
+(include "\set\small_firearms_accuracy.inc")
+
+(define "penetration"
+	{projectileDamageTable 	{25 %0} {150 %1}}
+)
+
+(define "armor health"
+	{minimumDamageModifier (* 1.0 %damage)}
+)
+
+(define "flare_pistol"
+	{tag "flare_gun flaregun"}
+
+	{fireSound "pistol/flare"}
+	{fireSoundclose "pistol/flare/3p/"}
+	{range 200 200}
+	;// The range, ideally, will be a percent of the gun it represents
+	{gravity 0.6}
+	{calibre 1}
+	{AimingTolerance 3}
+	{mass 0.5}
+
+	{spreading 25
+		{SpreadXYRatio	1}
+		{radiusFunction
+			0.0		0
+			1.0		1.0
+			1.2		2.5
+			2.5		5.0
+		}
+	}
+
+	{reloadAnimBonus 117}	;// was 117
+	{reloadSound "flare"}
+	("reload time" seconds(120))
+
+	("human health" damage(60))
+
+	("penetration" args 0.5 0.5)
+	("armor health" damage(5))
+
+	{DisableRicochet}
+	{speed 60}
+)

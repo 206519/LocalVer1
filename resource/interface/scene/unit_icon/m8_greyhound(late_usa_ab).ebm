@@ -1,0 +1,6 @@
+{bitmap
+    {frame "m8_greyhound_00.tga"}
+    {frame "m8_greyhound_01.tga"}
+    {frame "m8_greyhound_02.tga"}
+    {frame "m8_greyhound_03.tga"}
+}

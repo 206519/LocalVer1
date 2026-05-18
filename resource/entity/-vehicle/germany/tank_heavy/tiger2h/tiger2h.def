@@ -1,0 +1,41 @@
+{game_entity
+	(include "tiger2h.inc")
+	{extender "inventory"
+		{box
+			{item "bulletger_88_l71 apcbche" 42}	; 86 rounds
+			{item "bulletger_88_l71 he" 43}
+			{item "ammo mgun_ger belt" 4500}		; 32 belts (150 rounds each)
+			{item "geballteladung_3kg" 1}
+			{item "nbks grenade" 6}
+		}
+	}
+	{Chassis
+		("tank_trace" fx("tracks_big") step(0.47) len(1.16))
+		("mobility_spearhead"
+			speed(34.6)			;Max speed when fully accelerated on road, km/h.
+			reverse(9.20)			;Max speed in reverse on road, km/h.
+			mass(69.8)			;Mass, in metric tons.
+			power(600) 			;Engine Power
+			contact(4.12)		;Track-ground contact length, in m
+			wheelbase(2.79)		;Distance between center of left and right side roadwheels, in m
+			pressure(1.03)		;Ground pressure on road, in kg/cm^2
+			coeff_accel(8)		;Modifier for acceleration, (0,10]
+			coeff_steer_rate(9)	;Modifier for steering rate, (0,10]
+			coeff_steer_eff(9)	;Modifier for steering efficiency, (0,10]
+			fuel(860) 			;Fuel capacity in Litres.
+			type(fuel)			;Fuel type. (diesel OR fuel)
+			range(90) 			;Range in km, off-road.
+			maxslope(70)		;Max slope (tan(gradient in degrees) * 100)
+		)
+	}
+
+	{bone "gun_rot"
+		{limits -8 15}
+		{speed2 4}
+	}
+	{bone "turret"
+		("turret_spearhead" power_traverse(14))
+	}
+
+	{texmod "camo"}
+}

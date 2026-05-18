@@ -1,0 +1,235 @@
+(include "\set\small_firearms_accuracy.inc")
+
+
+(define "infai_cope"	;// this is related to burst mechanics rn
+	{FiringTimeout 0.75 0.2}
+)
+(define "tank_timeout"
+	{FiringTimeout 1.05 0.4}	;// was 1.35s
+	{range 130 130}
+)
+(define "rangeMGext"
+	{range 130 130}
+)
+(define "rangeMGext2"
+	{range 140 140}
+)
+
+
+;/*=========================*/
+
+(define "burst_short"
+	{burst
+		{short 4 1}			;// short burst shots on long distance, rand (+-)shots
+		{long 5 2}				;// long burst shots on short distance, rand (+-)shots
+		{rangeKoef 0.5}			;// rangeKoef * aimRange = max long burst distance
+	}
+)
+
+(define "burst_medium"
+	{burst
+		{short 5 1}
+		{long 7 3}
+		{rangeKoef 0.5}
+	}
+)
+
+(define "burst_long"
+	{burst
+		{short 6 1}
+		{long 9 3}
+		{rangeKoef 0.5}
+	}
+)
+
+(define "burst_stand"	;// basically for Maxims
+	{burst
+		{short 10 3}
+		{long 20 3}
+		{rangeKoef 0.75}
+	}
+)
+
+(define "burst_aa"
+	{burst
+		{short 12 0}
+		{long 25 3}
+		{rangeKoef 0.5}
+	}
+)
+
+(define "burst_aa_quad"
+	{burst
+		{short 12 1}
+		{long 16 2}
+		{rangeKoef 0.5}
+	}
+)
+
+;/*=========================*/
+
+
+(define "spreading_mounted_twin"
+	{spreading
+		;{BurstAccuracy 100 100 100 100 93 93 93 93 86 86 86 86 80 80 80 80 74 74 74 74 68 68 68 68 63 63 63 63 58 58 58 58 54 54 54 54 51 51 51 51}		;-7, -7, -6, -6, -6, -5, -5, -4, -3
+		{BurstAccuracy 100 100 98 98 96 96 94 94 92 92 90 90 88 88 86 86 84 84 82 82 80 80 78 78 76 76 74 74 72 72 70 70 68 68}
+	}
+)
+
+(define "spreading_mounted_quad"
+	{spreading
+		;{BurstAccuracy 100 100 93 93 86 86 80 80 74 74 68 68 63 63 58 58 54 54 51 51}		;-7, -7, -6, -6, -6, -5, -5, -4, -3
+		{BurstAccuracy 100 100 100 100 96 96 96 96 92 92 92 92 88 88 88 88 84 84 84 84 80 80 80 80 76 76 76 76 72 72 72 72 68 68 68 68 64 64 64 64 60 60 60 60}
+	}
+)
+
+(define "spreading_quad_maxim"
+	{spreading
+		{BurstAccuracy 100 100 100 100 98 98 98 98 96 96 96 96 94 94 94 94 92 92 92 92 90 90 90 90 88 88 88 88 86 86 86 86 84 84 84 84 82 82 82 82 80 80 80 80 78 78 78 78 76 76 76 76 72 72 72 72 70 70 70 70}
+	}
+)
+
+(define "spreading_mounted_low"
+	{spreading
+		{BurstAccuracy 100 98 96 94 92 90 88 86 84 82 80}		; no kick whatsoever
+	}
+)
+
+(define "spreading_mounted"
+	{spreading
+		{BurstAccuracy 100 98 96 94 92 90 88 86 84 82 80 78 76 74 72 70}		;-7, -7, -6, -6, -6, -5, -5, -4, -3
+	}
+)
+
+(define "spreading_mounted_m1919_bow"
+	{spreading
+		{BurstAccuracy 54 58 64 72 82 85 85 85 85 80 74 68 63 58 54}		;custom for aiming via tracers
+	}
+)
+
+
+(define "spreading_maxim"
+	{spreading
+		;{BurstAccuracy 100 94 88 82 76 70 64 59 55 52}		;-6, -6, -6, -6, -6, -6, -5, -4, -3
+		{BurstAccuracy 100 98 96 94 92 90 88 86 84 81 78 75 72 70}	; -3, -4, -4, -4, 
+	}
+)
+
+(define "spreading_low"
+	{spreading
+		;{BurstAccuracy 100 94 88 82 76 70 64 59 55 52}		;-6, -6, -6, -6, -6, -6, -5, -4, -3
+		{BurstAccuracy 100 97 93 89	85 81 76 70 64 60 55}
+		;// shamelessly stolen from DP
+	}
+)
+
+(define "spreading_medium"
+	{spreading 
+		;{BurstAccuracy 100 93 86 79 73 67 61 56 52 49}		;-7, -7, -7, -6, -6, -6, -5, -4, -3
+		{BurstAccuracy 100 95 90 85 80 75 73 67 61 56 52}
+	}
+)
+
+(define "spreading_high"
+	{spreading 
+		;{BurstAccuracy 100 92 84 77 70 64 58 53 49 46}		;-8, -8, -7, -7, -6, -6, -5, -4, -3
+		{BurstAccuracy 100 92 84 77 70 64 58 53 49 46}
+	}
+)
+
+(define "spreading_bren"	;// BREEEENNNNN
+	{spreading 
+		;{BurstAccuracy 100 92 84 77 70 64 58 53 49 46}		;-6/-3
+		{BurstAccuracy 100 94 91 88 85 82 79 76 73 70 58 53}
+	}
+)
+
+(define "spreading_dp"
+	{spreading
+		{BurstRecoveryTime 0.3}
+		{BurstAccuracy 100 98 96 94 91 88 85 82 79 76 73 70 67 64 61 58 55 52}
+	}
+)
+(define "spreading_dp3"
+	{spreading
+		{BurstRecoveryTime 0.3}
+		{BurstAccuracy 100 98 96 94 91 88 85 82 79 76 73 70 67 64 61 58 55 52}
+	}
+)
+(define "spreading_mg42"
+	{spreading 
+		{BurstRecoveryTime 0.20}
+		{BurstAccuracy 100 98 95 92 89 85 80 75 70 64 58 52 46 40}
+	}
+)
+
+;/*=========================*/
+
+(define "reload_belt"
+	("reload time" seconds(6.3)) ;// does not apply to MG34/42 drum
+)
+
+(define "penetration"
+	;{projectileDamageTable 	{40 %0} {120 %1} {190 %2} {250 %3} {305 %4} {400 0}}
+	{projectileDamageTable 	{60 %0} {155 %1} {240 %2} {315 %3} {405 %4} {500 0}} ;ER
+	;//100m, 600, 1000, 1500
+)
+
+(define "armor health"
+	{minimumDamageModifier (* 1.0 %damage)}
+)
+
+(define "ger_ap_bullets"
+	("penetration" args 11 9.6 6.3 2 0) ;// SmK L'spur / ball belts
+	{curve "bullet_mg"}
+
+	{parameters "ap"
+		("penetration" args 14 6.5 3.5 2 0) ;// SmK
+		("armor health" damage(7))
+		{cursorReloading "gun_ap"}
+		{curve "bullet_mg"}
+	}
+	{parameters "ap2"
+		("penetration" args 22 10 5 3 0) ;// SmK(H)
+		("armor health" damage(7))
+		{cursorReloading "gun_ap"}
+		{curve "bullet_mg"}
+	}
+)
+
+(define "rus_ap_bullets"
+	{parameters "ap"
+		("penetration" args 14 6.5 3.5 2 0) ;// B-30
+		("armor health" damage(7))
+		{cursorReloading "gun_ap"}
+		{curve "bullet_mg"}
+	}
+	{parameters "api"
+		("penetration" args 14 6.5 3.5 2 0) ;// B-32
+		("armor health" damage(7))
+		{cursorReloading "gun_api"}
+		("human health" damage(110))
+		{curve "bullet_mg"}
+	}
+)
+(define "a_ap_bullets"
+	("penetration" args 14 6.5 3.5 2 0) ;// AP, M2
+	{curve "bullet_mg"}
+)
+
+(define "airborne_mg"
+	{range 130 130}
+	(mod not "mp"
+		{range 300 500}
+	)
+
+	{spreading
+		{SpreadPower 1}
+		{BurstRecoveryTime 0.5}
+		{BurstAccuracy 100 95 90 85 80}
+		{SpreadXYRatio	1}
+	}
+	{AimingTolerance 20}
+
+	("accuracy_mg_plane")
+)

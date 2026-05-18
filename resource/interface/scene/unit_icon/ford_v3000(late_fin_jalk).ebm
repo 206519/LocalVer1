@@ -1,0 +1,6 @@
+{bitmap
+    {frame "ford_v3000_00.tga"}
+    {frame "ford_v3000_01.tga"}
+    {frame "ford_v3000_02.tga"}
+    {frame "ford_v3000_03.tga"}
+}

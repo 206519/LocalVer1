@@ -1,0 +1,6 @@
+{bitmap
+    {frame "m3a1_transport_00.tga"}
+    {frame "m3a1_transport_01.tga"}
+    {frame "m3a1_transport_02.tga"}
+    {frame "m3a1_transport_03.tga"}
+}

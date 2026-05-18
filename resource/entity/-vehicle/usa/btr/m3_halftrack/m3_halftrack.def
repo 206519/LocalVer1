@@ -1,0 +1,7 @@
+{game_entity
+	(include "m3_halftrack.inc")
+	
+	(include "/properties/resupply.inc")
+	
+	("supply_ammo" supply(500))
+}

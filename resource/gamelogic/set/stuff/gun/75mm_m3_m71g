@@ -1,0 +1,14 @@
+;_________________________________________
+; US medium tank gun
+;=========================================
+
+
+{from "75mm_m3"			; L/40 (Sherman Jumbo)
+	("accuracy_direct" r1(0.75) range_ap(310) range_he(300) range_heat(200)) ;// wet ammo rack version with reduced ammunition supply
+	
+	{parameters "he"
+		{range 300 300}
+	}
+	
+	("reload time" seconds(6.2))
+}

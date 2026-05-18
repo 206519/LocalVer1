@@ -1,0 +1,154 @@
+;SDL
+
+	; armor notes
+	; tracks and wheels 20mm
+	; gun 25mm
+
+	("tank_medium_tier1")
+
+	("tracks" repair(30) thickness(20))
+	("gun" repair(30) thickness(25))
+
+	("shield_track" args "shield1" 20)
+	("shield_track" args "shield2" 20)
+	("shield_track" args "shield3" 20)
+	("shield_track" args "shield4" 20)
+	("shield_track" args "shield5" 20)
+	("shield_track" args "shield6" 20)
+	("shield_track" args "shield7" 20)
+	("shield" args "detail11" 20)
+	("shield" args "detail8" 20)
+
+	("ammo" args "ammo1")
+	("ammo" args "ammo2")
+	("ammo" args "ammo3")
+	("ammo" args "ammo4")
+	("fuel" args "fuel1")
+	("fuel" args "fuel2")
+	("transmission" args "transmission")
+
+	{volume "body1"
+		{thickness 25
+			{front 57}
+			{top 30}
+			{bottom 25.4}
+			{rear 20}
+		}
+		{HighHardness}
+	}
+	{volume "body2"
+		{thickness 32
+			{front 63.5}
+			{top 20}
+			{bottom 20}
+			{rear 20}
+		}
+		{HighHardness}
+	}
+	{volume "body3"
+		{thickness 29
+			{front 63.5}
+			{top 20}
+			{bottom 10}
+			{rear 20}
+		}
+		{HighHardness}
+	}
+	{volume "body4" ;// volume for side armor as its a spaced armor array
+		{thickness 29
+			{front 63.5}
+			{top 20}
+			{bottom 10}
+			{rear 20}
+		}
+		{HighHardness}
+	}
+	{volume "body5" ;// hull mg mount
+		{thickness 76}
+		{HighHardness}	;// MG port tends to rip off and kill crew
+		{CastSteel 0.79}
+	}
+	{volume "engine1"
+		{thickness 39
+			{front 25}
+			{top 14}
+			{bottom 10}
+			{rear 38}
+		}
+	}
+	{volume "engine2"
+		{thickness 38
+			{front 25}
+			{top 14}
+			{bottom 20}
+			{rear 20}
+		}
+	}
+	{volume "engine3" ;// volume for side armor as its a spaced armor array
+		{thickness 39
+			{front 25}
+			{top 14}
+			{bottom 10}
+			{rear 38}
+		}
+		{HighHardness}
+	}
+	{volume "turret1"
+		{thickness 63.7
+			{front 76.7}
+			{top 20}
+			{bottom 19}
+			{rear 56.7}
+		}
+		{HighHardness}
+		{able {holed}}
+	}
+	{volume "turret2"
+		{thickness 44}
+	}
+	{volume "turret3" 	;\\ Mantlet
+		{thickness 88.9}
+		{CastSteel 0.79}
+	}
+	{volume "turret4" ;// volume for top turret armor as its not layered armor
+		{thickness 63.7
+			{front 76.7}
+			{top 20}
+			{bottom 19}
+			{rear 56.7}
+		}
+		{HighHardness}
+	}
+	{volume "armor1" 	;\\ Engine Extra Armor
+		{thickness 25
+			{front 14}
+			{bottom 32}
+		}
+		{able {holed}}
+	}
+	{volume "armor2"	;\\ Engine Extra Armor
+		{thickness 25
+			{front 14}
+			{bottom 32}
+		}
+		{able {holed}}
+	}
+	{volume "armor3" 	;\\ Boxes
+		{thickness 2}
+	}
+	{volume "armor4" 	;\\ Boxes
+		{thickness 2}
+	}
+	{volume "armor5" 	;\\ Engine rear intake
+		{thickness 25}
+	}
+
+	{component "detail11" {tags "cut_part"}}
+	{component "detail8" {tags "cut_part"}}
+	{component "shield1" {tags "cut_part"}}
+	{component "shield2" {tags "cut_part"}}
+	{component "shield3" {tags "cut_part"}}
+	{component "shield4" {tags "cut_part"}}
+	{component "shield5" {tags "cut_part"}}
+	{component "shield6" {tags "cut_part"}}
+	{component "shield7" {tags "cut_part"}}

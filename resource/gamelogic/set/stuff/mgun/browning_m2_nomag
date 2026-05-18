@@ -1,0 +1,5 @@
+{from "browning_m2"
+	{entity "browning_m2_nomag"}
+	{fireSound "smallarms/s4/d1/USA/M2HB/"}
+	{fireSound "smallarms/s4/d1/USA/M2HB/"}
+}

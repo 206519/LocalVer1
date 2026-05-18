@@ -1,0 +1,12 @@
+{game_entity
+	(include "su76.inc")
+	
+	{extender "inventory"
+		{box
+			{item "bulletrus_76 aphebc2" 15}	;59 rounds + 1 loaded
+			{item "bulletrus_76 apcr" 8}
+			{item "bulletrus_76 he" 36}
+			{item "satchel_charge_rus" 1}
+		}
+	}
+}

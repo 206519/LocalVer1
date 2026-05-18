@@ -1,0 +1,12 @@
+{game_entity 
+	(include "panzer3h.inc")
+
+	{extender "inventory"
+		{box
+			{item "bulletger_50_l42 apche" 48} 		; 99 rounds
+			{item "bulletger_50_l42 he" 50}
+			{item "ammo mgun_ger belt" 3450}		; 25 belts (150 rounds each)
+			{item "geballteladung_3kg" 1}
+		}
+	}
+}

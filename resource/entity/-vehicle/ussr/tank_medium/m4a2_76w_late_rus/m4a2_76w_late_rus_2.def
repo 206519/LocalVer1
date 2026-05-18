@@ -1,0 +1,95 @@
+{game_entity
+	(include "m4a2_76w_late_rus.inc")
+	{extender "inventory"
+		{box
+			{item "ammo bulletusa_76x539 apcbche" 33}	;71 rounds
+			{item "ammo bulletusa_76x539 apcbche2" 2}
+			{item "ammo bulletusa_76x539 he" 35}
+			{item "ammo mgun_usa belt" 5750}			; 25 belts (250 rounds each)
+			{item "ammo hmgun_usa api" 500}				; 6 boxes (100 rounds each)
+			{item "mortareng_50 sm" 14}
+			{item "satchel_charge_rus" 1}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "76mm_m1a2" filling "ammo bulletusa_76x539 apcbche2" 1}
+			{gunner "gunner"}
+			{charger "charger"}
+			("abm_dymamic_stabilised"
+				zeroing(5.0)
+				dispersion(0.3)
+			)
+		}
+		{place "mgun2"
+			{type "coaxial"}
+			{weapon "browning_m19a4" filled}
+			{foresight "foresight5"}
+			{gunner "gunner"}
+			{charger "charger"}
+			("abm_mgun")
+			{basic}
+		}
+		{place "mgun1"
+			{type "hull"}
+			{weapon "browning_m19a4" filled}
+			{foresight "foresight4"}
+			{gunner "gunner3"}
+			{charger "gunner3"}
+			("abm_mgun")
+			{basic}
+			{ai_in_manual}
+		}
+		{place "mgun"
+			{type "aa"}
+			{weapon "browning_m2" filling "hmgun_usa api" 100}
+			{gunner "gunner2"}
+			{charger "gunner2"}
+			{LinkBone "mgun"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+			{basic}
+			{ai_in_manual}
+		}
+	}
+
+	{mass 33294}
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.52) len(0.51))
+		("mobility_spearhead"
+			speed(48.28)		;Max speed when fully accelerated on road, km/h.
+			reverse(6.14)		;Max speed in reverse on road, km/h.
+			mass(33.294)		;Mass, in metric tons.
+			power(410) 			;Engine Power
+			contact(3.7338)		;Track-ground contact length, in m
+			wheelbase(2.11)		;Distance between center of left and right side roadwheels, in m
+			pressure(1.06)		;Ground pressure on road, in kg/cm^2
+			coeff_accel(7)		;Modifier for acceleration, (0,10]
+			coeff_steer_rate(5)	;Modifier for steering, (0,10]
+			coeff_steer_eff(7)	;Modifier for acceleration, (0,10]
+			fuel(560.241) 		;Fuel capacity in Litres.
+			type(diesel)		;Fuel type. (diesel OR fuel)
+			range(140) 			;Range in km, off-road.
+			maxslope(60)		;Max slope (tan(gradient in degrees) * 100)
+		)
+	}
+
+	{bone "gun_rot"
+		{limits -10 25}
+		{speed2 5}
+	}
+	{bone "turret"
+		("turret_medium" power_traverse(24))
+	}
+	{bone "mgun_a_rot1"
+		{limits -45 45}
+		{speed2 60}
+	}
+	{bone "mgun_a_rot2"
+		{limits -10 55}
+		{speed2 60}
+	}
+}

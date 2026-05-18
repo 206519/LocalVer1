@@ -1,0 +1,16 @@
+;_________________________________________
+; US heavy AA Gun
+;=========================================
+
+
+{from "90mm_m3"			; L/55 "90mm_m2"
+	("reload time" seconds(6))
+
+	("armor health custom" shell(apcbche) damage(240) filler(190))
+
+	; APC M82 (early) // this one liked to explode on impact
+	("penetration_long" shell(apcbche) range(220) a(133) b(123) c(112) d(102) e(93))
+	{parameters "apcbche"
+		("velocity" mps(808))
+	}
+}

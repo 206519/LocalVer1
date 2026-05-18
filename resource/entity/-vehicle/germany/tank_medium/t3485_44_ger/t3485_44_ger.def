@@ -1,0 +1,56 @@
+{game_entity
+	(include "t3485_44_ger.inc")
+	{extender "enumerator"
+		{digit_folder "ger"}
+	}
+	{extender "inventory"
+		{box
+			{item "bulletrus_85 aphe" 14}		;56 rounds historical loadout ;60 rounds for late models
+			{item "bulletrus_85 apcr" 5}
+			{item "bulletrus_85 he" 36}
+			{item "ammo mgun_rus dt" 1890}		;40 drums
+			{item "satchel_charge_rus" 1}
+		}
+	}
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "85mm_zis53" filling "bulletrus_85 aphe" 1}
+			{gunner "gunner"}
+			{charger "charger"}
+			("abm_dymamic"
+				zeroing(5.0)
+				dispersion(0.25)
+			)
+		}
+		{place "mgun2"
+			{type "coaxial"}
+			{weapon "dt" filling "ammo mgun_rus dt" 63}
+			{foresight "foresight5"}
+			{gunner "gunner"}
+			{charger "charger"}
+			("abm_mgun")
+			{basic}
+		}
+		{place "mgun1"
+			{type "hull"}
+			{weapon "dt" filling "ammo mgun_rus dt" 63}
+			{foresight "foresight4"}
+			{gunner "gunner3"}
+			{charger "gunner3"}
+			("abm_mgun")
+			{basic}
+			{ai_in_manual}
+		}
+		{##place "mgun"
+			{type "commander"}
+			{weapon "commander_vision"}
+			{foresight "vision_rot"}
+			{gunner "commander"}
+			{basic}
+			{ai_in_manual}
+		}
+	}
+	;{texmod "ger"}
+}

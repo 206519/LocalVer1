@@ -1,0 +1,4394 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell Squads\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+msgctxt "desc/squad/conquest_bf110"
+msgid "Bf-110 250kg Bomb"
+msgstr ""
+
+msgctxt "desc/squad/conquest_bf109"
+msgid "Bf-109 50kg Bomb"
+msgstr ""
+
+msgctxt "desc/squad/conquest_fi156"
+msgid "Fi-156 Recon"
+msgstr ""
+
+msgctxt "desc/squad/single_Officer(ger)"
+msgid "Officer"
+msgstr ""
+
+msgctxt "desc/squad/single_ap_miner(ger)"
+msgid "AP Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at(ger)"
+msgid "AT Detachment"
+msgstr ""
+
+msgctxt "desc/squad/single_at_miner(ger)"
+msgid "AT Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at_pzs_late_con(ger)"
+msgid "Panzerschreck Team"
+msgstr ""
+
+msgctxt "desc/squad/single_auxiliary(ger)"
+msgid "Filler Detachment"
+msgstr ""
+
+msgctxt "desc/squad/single_bazooker(ger)"
+msgid "AT Detachment"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer(ger)"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_flamer(ger)"
+msgid "Flamer"
+msgstr ""
+
+msgctxt "desc/squad/single_medic(ger)"
+msgid "Medic"
+msgstr ""
+
+msgctxt "desc/squad/single_mg(ger)"
+msgid "MG Detachment"
+msgstr ""
+
+msgctxt "desc/squad/single_riflegrenade(ger)"
+msgid "Gren. Riflemen"
+msgstr ""
+
+msgctxt "desc/squad/single_scout(ger)"
+msgid "Aufklärer"
+msgstr ""
+
+msgctxt "desc/squad/single_sniper(ger)"
+msgid "Sniper"
+msgstr ""
+
+msgctxt "desc/squad/single_tankman(ger)"
+msgid "Tank Crew"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_late_con(ger)"
+msgid "Anti-Tank Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifles_early(ger)"
+msgid "<c(A5A095)>(2)</c> Anti-tank Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_blau(ger)"
+msgid "Blau Division"
+msgstr ""
+
+msgctxt "desc/squad/squad_blau_con(ger)"
+msgid "<c(A5A095)>(4)</c> Blau division squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_brandenburger(ger)"
+msgid "Brandenburger"
+msgstr ""
+
+msgctxt "desc/squad/squad_brandenburger_con(ger)"
+msgid "<c(A5A095)>(4)</c> Brandenburger squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_brandenburger_early(ger)"
+msgid "Brandenburger"
+msgstr ""
+
+msgctxt "desc/squad/squad_brandenburger_late(ger)"
+msgid "Brandenburger"
+msgstr ""
+
+msgctxt "desc/squad/squad_brandenburger_mid(ger)"
+msgid "Brandenburger"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirmjaeger(ger)"
+msgid "Fallschirmjäger"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirmjaeger_con(ger)"
+msgid "<c(A5A095)>(4)</c> Fallschirmjäger squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirmjaeger_late(ger)"
+msgid "Fallschirmjäger"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirmjaeger_motor_con"
+msgid "<c(A5A095)>(4)</c> Motorized Fallschirmjäger squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_feldgendarmerie(ger)"
+msgid "<c(A5A095)>(2)</c> Feldgendarmerie squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fusilier_late(ger)"
+msgid "<c(A5A095)>(3)</c> Fusilier squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gd_early(ger)"
+msgid "<c(A5A095)>(3)</c> Großdeutschland Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gd_mid(ger)"
+msgid "<c(A5A095)>(4)</c> Großdeutschland Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gd_motor_con"
+msgid "<c(A5A095)>(3+)</c> Großdeutschland Motorized Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgsjaeger(ger)"
+msgid "Gebirgsjäger"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgsjaeger_con(ger)"
+msgid "<c(A5A095)>(4)</c> Gebirgsjäger squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgsjaeger_early(ger)"
+msgid "<c(A5A095)>(4)</c> Gebirgsjäger squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgsjaeger_late(ger)"
+msgid "<c(A5A095)>(4)</c> Gebirgsjäger squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_grenadiere(ger)"
+msgid "Grenadiere"
+msgstr ""
+
+msgctxt "desc/squad/squad_grenadiere_late(ger)"
+msgid "<c(A5A095)>(2)</c> Grenadier squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_heavy(ger)"
+msgid "Regular Inf."
+msgstr ""
+
+msgctxt "desc/squad/squad_jaeger_con(ger)"
+msgid "<c(A5A095)>(3)</c> Jäger squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jager_late(ger)"
+msgid "<c(A5A095)>(3)</c> Jäger squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_landwehr_early(ger)"
+msgid "<c(A5A095)>(1)</c> Landesschützen rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_light(ger)"
+msgid "Light Inf."
+msgstr ""
+
+msgctxt "desc/squad/squad_luftwaffe(ger)"
+msgid "LW. field unit"
+msgstr ""
+
+msgctxt "desc/squad/squad_luftwaffe_con(ger)"
+msgid "<c(A5A095)>(1)</c> Luftwaffe Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_luftwaffe_early(ger)"
+msgid "LW. field unit"
+msgstr ""
+
+msgctxt "desc/squad/squad_luftwaffe_late(ger)"
+msgid "LW. field unit"
+msgstr ""
+
+msgctxt "desc/squad/squad_luftwaffe_mid(ger)"
+msgid "LW. field unit"
+msgstr ""
+
+msgctxt "desc/squad/squad_lw_fusilier_late(ger)"
+msgid "<c(A5A095)>(1)</c> LW. Fusilier squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_officer_250_3_con"
+msgid "Sd.Kfz 250/3 (Command)"
+msgstr ""
+
+msgctxt "desc/squad/squad_officer_con(ger)"
+msgid "Command squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_officer_kubel_con"
+msgid "Kfz. 1 (Command)"
+msgstr ""
+
+msgctxt "desc/squad/squad_osttruppen(ger)"
+msgid "Osttruppen"
+msgstr ""
+
+msgctxt "desc/squad/squad_osttruppen_con(ger)"
+msgid "<c(A5A095)>(1)</c> Osttruppen squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pionier(ger)"
+msgid "<c(A5A095)>(2)</c> Pionier squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pionier_con(ger)"
+msgid "<c(A5A095)>(2)</c> Pionier squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pionier_early(ger)"
+msgid "<c(A5A095)>(2)</c> Pionier squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pionier_late(ger)"
+msgid "<c(A5A095)>(2)</c> Pionier squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz_pio_con"
+msgid "<c(A5A095)>(2)</c> Armored Pz-Pionier squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz_pio_302_con(ger)"
+msgid "Pz-Pionier team (Goliath)"
+msgstr "" 
+
+msgctxt "desc/squad/squad_pz_pio_303b_con(ger)"
+msgid "Pz-Pionier team (Goliath)"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgrenadiere_gd_late(ger)"
+msgid "<c(A5A095)>(4)</c> Großdeutschland Panzergrenadier squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgrenadiere_late(ger)"
+msgid "<c(A5A095)>(2)</c> Panzergrenadier squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon(ger)"
+msgid "<c(A5A095)>(2)</c> Aufklärer squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_armor_con"
+msgid "<c(A5A095)>(2)</c> Armored Aufklärer squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_con(ger)"
+msgid "<c(A5A095)>(2)</c> Aufklärer squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_early(ger)"
+msgid "<c(A5A095)>(2)</c> Aufklärer squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_late(ger)"
+msgid "<c(A5A095)>(2)</c> Aufklärer squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_motor_con"
+msgid "<c(A5A095)>(2)</c> Motorized Aufklärer squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_regular(ger)"
+msgid "<c(A5A095)>(2)</c> Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_regular_armor_con"
+msgid "<c(A5A095)>(2)</c> Armored Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_regular_armored(ger)"
+msgid "<c(A5A095)>(2)</c> Armored Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_regular_con(ger)"
+msgid "<c(A5A095)>(2)</c> Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_regular_early(ger)"
+msgid "<c(A5A095)>(2)</c> Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_regular_motor_con"
+msgid "<c(A5A095)>(2)</c> Motorized Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_regular_motorised"
+msgid "Sd.Kfz 251 + Inf."
+msgstr ""
+
+msgctxt "desc/squad/squad_regular_motorised(ger)"
+msgid "Sd.Kfz 251 + Inf."
+msgstr ""
+
+msgctxt "desc/squad/squad_regular_vet(ger)"
+msgid "<c(A5A095)>(3)</c> Veteran Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_regular_vet_con(ger)"
+msgid "<c(A5A095)>(2+)</c> Veteran Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_reserve(ger)"
+msgid "Reserves"
+msgstr ""
+
+msgctxt "desc/squad/squad_sicherung_con(ger)"
+msgid "<c(A5A095)>(2)</c> Sicherungs squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_stosstrupp"
+msgid "Stosstrupp"
+msgstr ""
+
+msgctxt "desc/squad/squad_stosstrupp(ger)"
+msgid "Stosstrupp"
+msgstr ""
+
+msgctxt "desc/squad/squad_strafbatallion(ger)"
+msgid "<c(A5A095)>(1)</c> Strafbatallion squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_strafbatallion_con(ger)"
+msgid "<c(A5A095)>(1)</c> Strafbatallion squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sturm(ger)"
+msgid "Sturmgrenadiere"
+msgstr ""
+
+msgctxt "desc/squad/squad_sturmpionier(ger)"
+msgid "Sturmpioniere"
+msgstr ""
+
+msgctxt "desc/squad/squad_volkssturm(ger)"
+msgid "Volkssturm"
+msgstr ""
+
+msgctxt "desc/squad/single_rifle(ger)"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/squad/single_smg(ger)"
+msgid "SMG Soldier"
+msgstr ""
+
+msgctxt "desc/squad/single_sa(ger)"
+msgid "Semi-Auto Rifleman"
+msgstr ""
+
+msgctxt "desc/squad/squad_ersatz_rifle_early_all(ger)"
+msgid "<c(A5A095)>(1)</c> Ersatz Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_early_all(ger)"
+msgid "<c(A5A095)>(2)</c> Aufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_early_all(ger)"
+msgid "<c(A5A095)>(2)</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle_early_all(ger)"
+msgid "<c(A5A095)>(2)</c> AT-Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_vet_early_all(ger)"
+msgid "<c(A5A095)>(2+)</c> Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_vet_early_irr(ger)"
+msgid "<c(A5A095)>(2+)</c> Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_elite_early_all(ger)"
+msgid "<c(A5A095)>(3+)</c> Elite Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_pio_early_all(ger)"
+msgid "<c(A5A095)>(4)</c> Gebirgspionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_recon_early_all(ger)"
+msgid "<c(A5A095)>(4)</c> Gebirgsaufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_early_all(ger)"
+msgid "<c(A5A095)>(4)</c> Gebirgsjäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_landwehr_early_def(ger)"
+msgid "<c(A5A095)>(1)</c> Landwehr Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_early_def(ger)"
+msgid "<c(A5A095)>(2)</c> Aufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_feldg_early_def_1(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Feldgendarmerie Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_feldg_early_def_2(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Feldgendarmerie Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_feldg_early_def_3(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Feldgendarmerie Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pio_early_def_1(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Pionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pio_early_def_2(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Pionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pio_early_def_3(ger)"
+msgid "<c(A5A095)>(2)</c> Pionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle_early_def(ger)"
+msgid "<c(A5A095)>(2)</c> AT-Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gd_early_def(ger)"
+msgid "<c(A5A095)>(3+)</c> Großdeutschland Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_early_def(ger)"
+msgid "<c(A5A095)>(4)</c> Gebirgsjäger Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_ersatz_rifle_early_irr(ger)"
+msgid "<c(A5A095)>(1)</c> Ersatz Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_luft_rifle_early_irr(ger)"
+msgid "<c(A5A095)>(2)</c> Luftwaffe Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_early_irr(ger)"
+msgid "<c(A5A095)>(2)</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle_early_irr(ger)"
+msgid "<c(A5A095)>(2)</c> AT-Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marine_stoss_irr(ger)"
+msgid "<c(A5A095)>(3)</c> Marine-Stoßtrupp Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_recon_early_irr(ger)"
+msgid "<c(A5A095)>(4)</c> Fallschirmaufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_pio_early_irr(ger)"
+msgid "<c(A5A095)>(4)</c> Fallschirmpionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_early_irr(ger)"
+msgid "<c(A5A095)>(4)</c> Fallschirmjäger Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_pz_recon_early_off(ger)"
+msgid "<c(A5A095)>(2)</c> Panzeraufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz_rifle_early_off(ger)"
+msgid "<c(A5A095)>(2)</c> Panzerschütze Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz_pio_early_off_1(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Panzerpionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz_pio_early_off_2(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Panzerpionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz_pio_early_off_3(ger)"
+msgid "<c(A5A095)>(2)</c> Panzerpionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gd_pio_early_off(ger)"
+msgid "<c(A5A095)>(3+)</c> Großdeutschland Pionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gd_early_off(ger)"
+msgid "<c(A5A095)>(3+)</c> Großdeutschland Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_early_off(ger)"
+msgid "<c(A5A095)>(4)</c> Gebirgsjäger Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_ersatz_rifle_early_sup(ger)"
+msgid "<c(A5A095)>(1)</c> Ersatz Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_km_rifle_early_sup(ger)"
+msgid "<c(A5A095)>(2)</c> Kriegsmarine Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle_early_sup(ger)"
+msgid "<c(A5A095)>(2)</c> AT-Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_vet_early_sup(ger)"
+msgid "<c(A5A095)>(2+)</c> Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marine_stoss_sup(ger)"
+msgid "<c(A5A095)>(3)</c> Marine-Stoßtrupp Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_recon_early_sup(ger)"
+msgid "<c(A5A095)>(4)</c> Gebirgsaufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_pio_early_sup(ger)"
+msgid "<c(A5A095)>(4)</c> Gebirgspionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_early_sup(ger)"
+msgid "<c(A5A095)>(4)</c> Gebirgsjäger Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_ersatz_rifle_mid_all(ger)"
+msgid "<c(A5A095)>(1)</c> Ersatz Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_mid_all(ger)"
+msgid "<c(A5A095)>(2)</c> Aufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_all(ger)"
+msgid "<c(A5A095)>(2)</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_motor_mid_all_1(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Motorized Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_motor_mid_all_2(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Motorized Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_motor_mid_all_3(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Motorized Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_vet_mid_all(ger)"
+msgid "<c(A5A095)>(2+)</c> Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_elite_mid_all(ger)"
+msgid "<c(A5A095)>(3+)</c> Elite Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_recon_mid_all(ger)"
+msgid "<c(A5A095)>(4)</c> Gebirgsaufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_mid_all(ger)"
+msgid "<c(A5A095)>(4)</c> Gebirgsjäger Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_ost_rifle_mid_def(ger)"
+msgid "<c(A5A095)>(1)</c> Osttruppen Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_mid_def(ger)"
+msgid "<c(A5A095)>(2)</c> Aufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_def(ger)"
+msgid "<c(A5A095)>(2)</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pio_mid_def_1(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Pionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pio_mid_def_2(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Pionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pio_mid_def_3(ger)"
+msgid "<c(A5A095)>(2)</c> Pionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sturm_pio_mid_def(ger)"
+msgid "<c(A5A095)>(3)</c> Sturmpionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_blau_mid_def(ger)"
+msgid "<c(A5A095)>(4)</c> Blau Div. Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_blau_late_def(ger)"
+msgid "<c(A5A095)>(4)</c> Blau Legion Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gd_mid_def(ger)"
+msgid "<c(A5A095)>(3+)</c> Großdeutschland Rifle Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_straf_mid_irr_1(ger)"
+msgid "<c(A5A095)>(1)</c> <c(E56042)>1.</c> Strafbataillon Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_straf_mid_irr_2(ger)"
+msgid "<c(A5A095)>(1)</c> <c(E56042)>2.</c> Strafbataillon Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_straf_mid_irr_3(ger)"
+msgid "<c(A5A095)>(1)</c> <c(E56042)>3.</c> Strafbataillon Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_mid_irr(ger)"
+msgid "<c(A5A095)>(2)</c> Aufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_irr(ger)"
+msgid "<c(A5A095)>(2)</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sturm_pio_mid_irr(ger)"
+msgid "<c(A5A095)>(3)</c> Sturmpionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_recon_mid_irr(ger)"
+msgid "<c(A5A095)>(4)</c> Fallschirmaufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_pio_mid_irr(ger)"
+msgid "<c(A5A095)>(4)</c> Fallschirmpionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_mid_irr(ger)"
+msgid "<c(A5A095)>(4)</c> Fallschirmjäger Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_ersatz_rifle_mid_off(ger)"
+msgid "<c(A5A095)>(1)</c> Ersatz Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz_recon_mid_off(ger)"
+msgid "<c(A5A095)>(2)</c> Panzeraufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz_rifle_mid_off(ger)"
+msgid "<c(A5A095)>(2)</c> Panzerschütze Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz_pio_mid_off(ger)"
+msgid "<c(A5A095)>(2)</c> Panzerpionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz_rifle_vet_mid_off(ger)"
+msgid "<c(A5A095)>(2+)</c> Veteran Panzerschütze Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gd_pio_mid_off(ger)"
+msgid "<c(A5A095)>(3+)</c> Großdeutschland Pionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gd_mid_off(ger)"
+msgid "<c(A5A095)>(3+)</c> Großdeutschland Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_mid_off(ger)"
+msgid "<c(A5A095)>(4)</c> Fallschirmjäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_ersatz_rifle_mid_sup(ger)"
+msgid "<c(A5A095)>(1)</c> Ersatz Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_mid_sup(ger)"
+msgid "<c(A5A095)>(2)</c> Aufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_sup(ger)"
+msgid "<c(A5A095)>(2)</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_vet_mid_sup(ger)"
+msgid "<c(A5A095)>(2+)</c> Veteran Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_pio_mid_sup(ger)"
+msgid "<c(A5A095)>(4)</c> Gebirgspionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_mid_sup(ger)"
+msgid "<c(A5A095)>(4)</c> Gebirgsjäger Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_ersatz_gren_late_all(ger)"
+msgid "<c(A5A095)>(1)</c> Ersatz-Grenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_volksg_late_all(ger)"
+msgid "<c(A5A095)>(2)</c> Volksgrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_volksg_sturm_late_all_1(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Volksg. Sturm Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_volksg_sturm_late_all_2(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Volksg. Sturm Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_volksg_sturm_late_all_3(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Volksg. Sturm Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_volksg_h_sturm_late_all_1(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Volksg. Heavy Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_volksg_h_sturm_late_all_2(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Volksg. Heavy Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_volksg_h_sturm_late_all_3(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Volksg. Heavy Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fus_smg_late_all_1(ger)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>1.</c> Füsilier SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fus_smg_late_all_2(ger)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>2.</c> Füsilier SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fus_smg_late_all_3(ger)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>3.</c> Füsilier SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jager_late_all(ger)"
+msgid "<c(A5A095)>(3)</c> Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jager_late_irr(ger)"
+msgid "<c(A5A095)>(3)</c> Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_recon_late_all_1(ger)"
+msgid "<c(A5A095)>(4)</c> <c(E56042)>1.</c> Gebirgsaufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_recon_late_all_2(ger)"
+msgid "<c(A5A095)>(4)</c> <c(E56042)>2.</c> Gebirgsaufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_recon_late_all_3(ger)"
+msgid "<c(A5A095)>(4)</c> <c(E56042)>3.</c> Gebirgsaufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_late_all(ger)"
+msgid "<c(A5A095)>(4)</c> Gebirgsjäger Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_volkssturm_late_def_1(ger)"
+msgid "<c(A5A095)>(1)</c> <c(E56042)>1.</c> Volkssturm Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_volkssturm_late_def_2(ger)"
+msgid "<c(A5A095)>(1)</c> <c(E56042)>2.</c> Volkssturm Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_volkssturm_late_def_3(ger)"
+msgid "<c(A5A095)>(1)</c> <c(E56042)>3.</c> Volkssturm Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_km_late_def_1(ger)"
+msgid "<c(A5A095)>(1)</c> <c(E56042)>1.</c> Kriegsmarine Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_km_late_def_2(ger)"
+msgid "<c(A5A095)>(1)</c> <c(E56042)>2.</c> Kriegsmarine Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_km_late_def_3(ger)"
+msgid "<c(A5A095)>(1)</c> <c(E56042)>3.</c> Kriegsmarine Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gren_late_def(ger)"
+msgid "<c(A5A095)>(2)</c> Grenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgren_late_def_1(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Panzergrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgren_late_def_2(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Panzergrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgren_late_def_3(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Panzergrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pio_late_def(ger)"
+msgid "<c(A5A095)>(2)</c> Pionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fusilier_late_def_1(ger)"
+msgid "<c(A5A095)>(3)</c> Füsilier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fusilier_late_def_2(ger)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>2.</c> Füsilier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fusilier_late_def_3(ger)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>3.</c> Füsilier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_late_def(ger)"
+msgid "<c(A5A095)>(4)</c> Gebirgsjäger Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_lw_fusilier_late_irr(ger)"
+msgid "<c(A5A095)>(1)</c> LW. Füsilier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_lw_recon_late_irr(ger)"
+msgid "<c(A5A095)>(2)</c> LW. Aufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_lw_jager_late_irr_1(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> LW. Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_lw_jager_late_irr_2(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> LW. Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_lw_jager_late_irr_3(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> LW. Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_lw_pio_late_irr_1(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> LW. Pionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_lw_pio_late_irr_2(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> LW. Pionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_recon_late_irr_1(ger)"
+msgid "<c(A5A095)>(4)</c> <c(E56042)>1.</c> Fallschirmaufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_recon_late_irr_2(ger)"
+msgid "<c(A5A095)>(4)</c> <c(E56042)>2.</c> Fallschirmaufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_recon_late_irr_3(ger)"
+msgid "<c(A5A095)>(4)</c> <c(E56042)>3.</c> Fallschirmaufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_pio_late_irr_1(ger)"
+msgid "<c(A5A095)>(4)</c> <c(E56042)>1.</c> Fallschirmpionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_pio_late_irr_2(ger)"
+msgid "<c(A5A095)>(4)</c> <c(E56042)>2.</c> Fallschirmpionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_pio_late_irr_3(ger)"
+msgid "<c(A5A095)>(4)</c> <c(E56042)>3.</c> Fallschirmpionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_late_irr_1(ger)"
+msgid "<c(A5A095)>(4)</c> <c(E56042)>1.</c> Fallschirmjäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_late_irr_2(ger)"
+msgid "<c(A5A095)>(4)</c> <c(E56042)>2.</c> Fallschirmjäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_late_irr_3(ger)"
+msgid "<c(A5A095)>(4)</c> <c(E56042)>3.</c> Fallschirmjäger Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_pz_recon_late_off(ger)"
+msgid "<c(A5A095)>(2)</c> Panzeraufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgren_late_off(ger)"
+msgid "<c(A5A095)>(2)</c> Panzergrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz_sturmgren_late_off(ger)"
+msgid "<c(A5A095)>(2)</c> Pz.Sturmgrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz_pio_late_off(ger)"
+msgid "<c(A5A095)>(2)</c> Panzerpionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_begleitgren_late_off(ger)"
+msgid "<c(A5A095)>(3)</c> Begleitgrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sturmjager_late_off(ger)"
+msgid "<c(A5A095)>(3)</c> Sturmjäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz_pio_gd_late_off(ger)"
+msgid "<c(A5A095)>(3+)</c> Großdeutschland Pz.Pionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgren_gd_late_off(ger)"
+msgid "<c(A5A095)>(3+)</c> Großdeutschland Pz.Gren Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_late_off_1(ger)"
+msgid "<c(A5A095)>(4)</c> <c(E56042)>1.</c> Fallschirmjäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_late_off_2(ger)"
+msgid "<c(A5A095)>(4)</c> <c(E56042)>2.</c> Fallschirmjäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_landes_late_sup(ger)"
+msgid "<c(A5A095)>(1)</c> Landesschütze Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_late_sup(ger)"
+msgid "<c(A5A095)>(2)</c> Aufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gren_late_sup(ger)"
+msgid "<c(A5A095)>(2)</c> Grenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sturmgren_late_sup(ger)"
+msgid "<c(A5A095)>(2)</c> Sturmgrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_h_sturmgren_late_sup(ger)"
+msgid "<c(A5A095)>(2)</c> Heavy Sturmgrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_begleit_pio_late_sup(ger)"
+msgid "<c(A5A095)>(3)</c> Begleitpionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_begleit_sturm_late_sup(ger)"
+msgid "<c(A5A095)>(3)</c> Begleitgrenadier Sturm Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_late_sup(ger)"
+msgid "<c(A5A095)>(4)</c> Gebirgsjäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_ersatz_gren_late_all2(ger)"
+msgid "<c(A5A095)>(1)</c> Ersatz-Grenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gren_late_all2(ger)"
+msgid "<c(A5A095)>(2)</c> Grenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzlehr_recon_late_all2(ger)"
+msgid "<c(A5A095)>(3+)</c> Pz-Lehr Pz.Aufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzlehr_pio_late_all2(ger)"
+msgid "<c(A5A095)>(3+)</c> Pz-Lehr Pz.Pionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzlehr_pzgren_late_all2(ger)"
+msgid "<c(A5A095)>(3+)</c> Pz-Lehr Pz.Gren Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzlehr_pzgren_late_mech_all2(ger)"
+msgid "<c(A5A095)>(3+)</c> Pz-Lehr Armored Pz.Gren Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzlehr_pz_sturmgren_late_all2(ger)"
+msgid "<c(A5A095)>(3+)</c> Pz-Lehr Pz.Sturmgrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzlehr_pz_sturmgren_late_mech_all2(ger)"
+msgid "<c(A5A095)>(3+)</c> Pz-Lehr Armored Pz.Sturmgrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz_recon_late_pzgren(ger)"
+msgid "<c(A5A095)>(2)</c> Panzeraufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz_pio_late_pzgren(ger)"
+msgid "<c(A5A095)>(2)</c> Panzerpionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgren_late_pzgren_1(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Panzergrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgren_late_pzgren_2(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Panzergrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgren_late_pzgren_3(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Panzergrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgren_late_mech_pzgren_1(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Mechanized Pz.Gren Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgren_late_mech_pzgren_2(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Mechanized Pz.Gren Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgren_late_mech_pzgren_3(ger)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>3.</c> Mechanized Pz.Gren Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_begleitgren_late_pzgren(ger)"
+msgid "<c(A5A095)>(3)</c> Begleitgrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz_pio_gd_late_pzgren(ger)"
+msgid "<c(A5A095)>(3+)</c> Großdeutschland Pz.Pionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgren_gd_late_pzgren(ger)"
+msgid "<c(A5A095)>(3+)</c> Großdeutschland Pz.Gren Squad"
+msgstr ""
+
+msgctxt "desc/squad/single_rifle_pzgren(ger)"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/squad/single_mg_pzgren(ger)"
+msgid "MG Detachment"
+msgstr ""
+
+msgctxt "desc/squad/single_officer_pzgren(ger)"
+msgid "Officer"
+msgstr ""
+
+msgctxt "desc/squad/single_tankman_pzgren(ger)"
+msgid "Tank Crew"
+msgstr ""
+
+msgctxt "desc/squad/single_flamer_pzgren(ger)"
+msgid "Flamer"
+msgstr ""
+
+msgctxt "desc/squad/single_signaller_105_pzgren(ger)"
+msgid "Artillery Signaller (105 mm)"
+msgstr ""
+
+msgctxt "desc/squad/inf_crate_ger(late_ger_pzgren)"
+msgid "Ammo Crate"
+msgstr ""
+
+msgctxt "desc/squad/mg42_lafette(late_ger_pzgren)"
+msgid "MG42 Lafette"
+msgstr ""
+
+msgctxt "desc/squad/20mm_flak38(late_ger_pzgren)"
+msgid "2 cm Flak38"
+msgstr ""
+
+msgctxt "desc/squad/20mm_flakvierling38(late_ger_pzgren)"
+msgid "2 cm Flakvierling"
+msgstr ""
+
+msgctxt "desc/squad/37mm_flak37(late_ger_pzgren)"
+msgid "3,7 cm Flak37"
+msgstr ""
+
+msgctxt "desc/squad/50mm_pak38_late(late_ger_pzgren)"
+msgid "5 cm Pak 38"
+msgstr ""
+
+msgctxt "desc/squad/75mm_pak40(late_ger_pzgren)"
+msgid "7,5 cm Pak 40 (towed)"
+msgstr ""
+
+msgctxt "desc/squad/88mm_pak4341(late_ger_pzgren)"
+msgid "8,8 cm Pak 43/41 (towed)"
+msgstr ""
+
+msgctxt "desc/squad/88mm_flak36(late_ger_pzgren)"
+msgid "8,8 cm Flak 36 (towed)"
+msgstr ""
+
+msgctxt "desc/squad/75mm_legebig18(late_ger_pzgren)"
+msgid "7,5 cm le.GebIG 18"
+msgstr ""
+
+msgctxt "desc/squad/75mm_leig18(late_ger_pzgren)"
+msgid "7,5 cm le.IG 18"
+msgstr ""
+
+msgctxt "desc/squad/150mm_sig33_late(late_ger_pzgren)"
+msgid "15 cm sIG 33"
+msgstr ""
+
+msgctxt "desc/squad/80mm_sgrw34(late_ger_pzgren)"
+msgid "8 cm s.Gr.W.34"
+msgstr ""
+
+msgctxt "desc/squad/120mm_sgrw42(late_ger_pzgren)"
+msgid "12 cm s.Gr.W.42"
+msgstr ""
+
+msgctxt "desc/squad/200mm_ldgw40(late_ger_pzgren)"
+msgid "20 cm leLdgW 40"
+msgstr ""
+
+msgctxt "desc/squad/105mm_lefh18(late_ger_pzgren)"
+msgid "10,5 cm leFH 18"
+msgstr ""
+
+msgctxt "desc/squad/105mm_sk18(late_ger_pzgren)"
+msgid "10,5 cm sK18/40"
+msgstr ""
+
+msgctxt "desc/squad/150mm_sfh18(late_ger_pzgren)"
+msgid "15 cm sFH 18"
+msgstr ""
+
+msgctxt "desc/squad/170mm_k18(late_ger_pzgren)"
+msgid "17 cm K 18"
+msgstr ""
+
+msgctxt "desc/squad/210mm_morser18(late_ger_pzgren)"
+msgid "21 cm Mrs 18"
+msgstr ""
+
+msgctxt "desc/squad/150mm_nebelwerfer41(late_ger_pzgren)"
+msgid "15 cm NbW 41"
+msgstr ""
+
+msgctxt "desc/squad/300mm_nebelwerfer42(late_ger_pzgren)"
+msgid "30 cm NbW 42"
+msgstr ""
+
+msgctxt "desc/squad/600mm_thor(late_ger_pzgren)"
+msgid "Karl-Gerät 040"
+msgstr ""
+
+msgctxt "desc/squad/bmw_r71(late_ger_pzgren)"
+msgid "BMW R71"
+msgstr ""
+
+msgctxt "desc/squad/kubelwagen(late_ger_pzgren)"
+msgid "VW Kubelwagen"
+msgstr ""
+
+msgctxt "desc/squad/kubelwagen_mg(late_ger_pzgren)"
+msgid "VW Kubelwagen (MG)"
+msgstr ""
+
+msgctxt "desc/squad/schwimmwagen(late_ger_pzgren)"
+msgid "VW Schwimmwagen"
+msgstr ""
+
+msgctxt "desc/squad/kfz13(late_ger_pzgren)"
+msgid "Kfz 13 (MG)"
+msgstr ""
+
+msgctxt "desc/squad/kfz14(late_ger_pzgren)"
+msgid "Kfz 14"
+msgstr ""
+
+msgctxt "desc/squad/kfz15(late_ger_pzgren)"
+msgid "Kfz 15 (MG)"
+msgstr ""
+
+msgctxt "desc/squad/kettenkrad(late_ger_pzgren)"
+msgid "Sd.Kfz 2"
+msgstr ""
+
+msgctxt "desc/squad/kettenkrad_eng(late_ger_pzgren)"
+msgid "Sd.Kfz 2 (engineer)"
+msgstr ""
+
+msgctxt "desc/squad/blitz3_6(late_ger_pzgren)"
+msgid "Blitz 3.6"
+msgstr ""
+
+msgctxt "desc/squad/blitz3_6_art_ammo(late_ger_pzgren)"
+msgid "Blitz 3.6 (Ammo)"
+msgstr ""
+
+msgctxt "desc/squad/blitz3_6_fuel(late_ger_pzgren)"
+msgid "Blitz 3.6 (Fuel)"
+msgstr ""
+
+msgctxt "desc/squad/blitz3_6_engineering(late_ger_pzgren)"
+msgid "Blitz 3.6 (Engineer)"
+msgstr ""
+
+msgctxt "desc/squad/opel_maultier(late_ger_pzgren)"
+msgid "Blitz 3.6 'Maultier'"
+msgstr ""
+
+msgctxt "desc/squad/blitz3_6_flak30(late_ger_pzgren)"
+msgid "Blitz 3.6 (2 cm Flak)"
+msgstr ""
+
+msgctxt "desc/squad/kfz70(late_ger_pzgren)"
+msgid "Kfz 70"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz6_ammo(late_ger_pzgren)"
+msgid "Sd.Kfz 6 (Supply)"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz6_cargo(late_ger_pzgren)"
+msgid "Sd.Kfz 6"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz7(late_ger_pzgren)"
+msgid "Sd.Kfz 7"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz7_1(late_ger_pzgren)"
+msgid "Sd.Kfz 7/1 (2 cm Flak)"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz7_2(late_ger_pzgren)"
+msgid "Sd.Kfz 7/2 (3,7 cm Flak)"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz10(late_ger_pzgren)"
+msgid "Sd.Kfz 10"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz10_4(late_ger_pzgren)"
+msgid "Sd.Kfz 10/4 (2 cm Flak)"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz10_pak38(late_ger_pzgren)"
+msgid "Sd.Kfz 10 (Pak 38)"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz250a_1(late_ger_pzgren)"
+msgid "Sd.Kfz 250/1"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz250a_3(late_ger_pzgren)"
+msgid "Sd.Kfz 250/3"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz250a_9(late_ger_pzgren)"
+msgid "Sd.Kfz 250/9"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz250a_11(late_ger_pzgren)"
+msgid "Sd.Kfz 250/11"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251d_1(late_ger_pzgren)"
+msgid "Sd.Kfz 251/1 Ausf.D"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251c_2(late_ger_pzgren)"
+msgid "Sd.Kfz 251/2 Ausf.C"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251d_16(late_ger_pzgren)"
+msgid "Sd.Kfz 251/16 Ausf.D"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251d_17(late_ger_pzgren)"
+msgid "Sd.Kfz 251/17 Ausf.D"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251d_21(late_ger_pzgren)"
+msgid "Sd.Kfz 251/21 Ausf.D"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251d_22(late_ger_pzgren)"
+msgid "Sd.Kfz 251/22 Ausf.D"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251d_1_stuka(late_ger_pzgren)"
+msgid "Sd.Kfz 251/1 'Stuka zu Fuss'"
+msgstr ""
+
+msgctxt "desc/squad/panzerwerfer42(late_ger_pzgren)"
+msgid "15 cm Panzerwerfer 42"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz221(late_ger_pzgren)"
+msgid "Sd.Kfz 221"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz222a(late_ger_pzgren)"
+msgid "Sd.Kfz 222"
+msgstr ""
+
+msgctxt "desc/squad/p204_f(late_ger_pzgren)"
+msgid "Pz.Sp.Wg 204(f)"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz231(late_ger_pzgren)"
+msgid "Sd.Kfz 231"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz234_1(late_ger_pzgren)"
+msgid "Sd.Kfz 234/1"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz234_2(late_ger_pzgren)"
+msgid "Sd.Kfz 234/2"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz234_3(late_ger_pzgren)"
+msgid "Sd.Kfz 234/3"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz234_4(late_ger_pzgren)"
+msgid "Sd.Kfz 234/4"
+msgstr ""
+
+msgctxt "desc/squad/panzer2c(late_ger_pzgren)"
+msgid "Pz.Kpfw II Ausf.C"
+msgstr ""
+
+msgctxt "desc/squad/panzer2f(late_ger_pzgren)"
+msgid "Pz.Kpfw II Ausf.F"
+msgstr ""
+
+msgctxt "desc/squad/panzer2l(late_ger_pzgren)"
+msgid "Pz.Kpfw II Ausf.L"
+msgstr ""
+
+msgctxt "desc/squad/marder2(late_ger_pzgren)"
+msgid "Marder II"
+msgstr ""
+
+msgctxt "desc/squad/marder3m(late_ger_pzgren)"
+msgid "Marder III Ausf.M"
+msgstr ""
+
+msgctxt "desc/squad/hetzer(late_ger_pzgren)"
+msgid "Jagdpanzer 38"
+msgstr ""
+
+msgctxt "desc/squad/grille_k(late_ger_pzgren)"
+msgid "'Grille' Ausf.K"
+msgstr ""
+
+msgctxt "desc/squad/wespe(late_ger_pzgren)"
+msgid "'Wespe'"
+
+msgctxt "desc/squad/panzer3h(late_ger_pzgren)"
+msgid "Pz.Kpfw III Ausf.H"
+msgstr ""
+
+msgctxt "desc/squad/panzer3j(late_ger_pzgren)"
+msgid "Pz.Kpfw III Ausf.J"
+msgstr ""
+
+msgctxt "desc/squad/panzer3j1(late_ger_pzgren)"
+msgid "Pz.Kpfw III Ausf.L (Early)"
+msgstr ""
+
+msgctxt "desc/squad/panzer3l(late_ger_pzgren)"
+msgid "Pz.Kpfw III Ausf.L"
+msgstr ""
+
+msgctxt "desc/squad/panzer3m(late_ger_pzgren)"
+msgid "Pz.Kpfw III Ausf.M"
+msgstr ""
+
+msgctxt "desc/squad/panzer3n(late_ger_pzgren)"
+msgid "Pz.Kpfw III Ausf.N"
+msgstr ""
+
+msgctxt "desc/squad/panzer3_flamm(late_ger_pzgren)"
+msgid "Flammpanzer III"
+msgstr ""
+
+msgctxt "desc/squad/stug3f(late_ger_pzgren)"
+msgid "StuG III Ausf.F8"
+msgstr ""
+
+msgctxt "desc/squad/stug3g(late_ger_pzgren)"
+msgid "StuG III Ausf.G"
+msgstr ""
+
+msgctxt "desc/squad/stug3g_late(late_ger_pzgren)"
+msgid "StuG III Ausf.G (Late)"
+msgstr ""
+
+msgctxt "desc/squad/stuh42(late_ger_pzgren)"
+msgid "StuH 42 Ausf.G"
+msgstr ""
+
+msgctxt "desc/squad/sig33b(late_ger_pzgren)"
+msgid "sIG 33 (Sf.) Ausf.B"
+msgstr ""
+
+msgctxt "desc/squad/panzer4f2(late_ger_pzgren)"
+msgid "Pz.Kpfw IV Ausf.G (Early)"
+msgstr ""
+
+msgctxt "desc/squad/panzer4g(late_ger_pzgren)"
+msgid "Pz.Kpfw IV Ausf.G"
+msgstr ""
+
+msgctxt "desc/squad/panzer4h(late_ger_pzgren)"
+msgid "Pz.Kpfw IV Ausf.H"
+msgstr ""
+
+msgctxt "desc/squad/panzer4j(late_ger_pzgren)"
+msgid "Pz.Kpfw IV Ausf.J"
+msgstr ""
+
+msgctxt "desc/squad/jagdpanzer4_l48_early(late_ger_pzgren)"
+msgid "Jagdpanzer IV (Early)"
+msgstr ""
+
+msgctxt "desc/squad/jagdpanzer4_l48(late_ger_pzgren)"
+msgid "Jagdpanzer IV"
+msgstr ""
+
+msgctxt "desc/squad/panzer4_70_v(late_ger_pzgren)"
+msgid "Panzer IV/70(V)"
+msgstr ""
+
+msgctxt "desc/squad/nashorn(late_ger_pzgren)"
+msgid "'Nashorn'"
+msgstr ""
+
+msgctxt "desc/squad/hummel(late_ger_pzgren)"
+msgid "'Hummel'"
+msgstr ""
+
+msgctxt "desc/squad/sturmpanzer4(late_ger_pzgren)"
+msgid "Sturmpanzer IV"
+msgstr ""
+
+msgctxt "desc/squad/wirbelwind(late_ger_pzgren)"
+msgid "Flakpanzer IV 'Wirbelwind'"
+msgstr ""
+
+msgctxt "desc/squad/ostwind(late_ger_pzgren)"
+msgid "Flakpanzer IV 'Ostwind'"
+msgstr ""
+
+msgctxt "desc/squad/panzerb2(late_ger_pzgren)"
+msgid "Pz.Kpfw B2(f)"
+msgstr ""
+
+msgctxt "desc/squad/m4_75_late_ger(late_ger_pzgren)"
+msgid "Pz.Kpfw Cherman"
+msgstr ""
+
+msgctxt "desc/squad/t3476_42_ger(late_ger_pzgren)"
+msgid "Pz.Kpfw T-34/76(r) (1942)"
+msgstr ""
+
+msgctxt "desc/squad/t3476_43_ger(late_ger_pzgren)"
+msgid "Pz.Kpfw T-34/76(r) (1943)"
+msgstr ""
+
+msgctxt "desc/squad/t3485_44_ger(late_ger_pzgren)"
+msgid "a"
+msgstr "Pz.Kpfw T-34/85(r) (1944)"
+
+msgctxt "desc/squad/panzer5d(late_ger_pzgren)"
+msgid "Pz.Kpfw Panther Ausf.D"
+msgstr ""
+
+msgctxt "desc/squad/panzer5a(late_ger_pzgren)"
+msgid "Pz.Kpfw Panther Ausf.A"
+msgstr ""
+
+msgctxt "desc/squad/panzer5a_1(late_ger_pzgren)"
+msgid "<c(E56042)>1.</c> Pz.Kpfw Panther Ausf.A"
+msgstr ""
+
+msgctxt "desc/squad/panzer5a_2(late_ger_pzgren)"
+msgid "<c(E56042)>2.</c> Pz.Kpfw Panther Ausf.A"
+msgstr ""
+
+msgctxt "desc/squad/panzer5g(late_ger_pzgren)"
+msgid "Pz.Kpfw Panther Ausf.G"
+msgstr ""
+
+msgctxt "desc/squad/jagdpanther(late_ger_pzgren)"
+msgid "Pz.J Panther Ausf.G1"
+msgstr ""
+
+msgctxt "desc/squad/tiger1h(late_ger_pzgren)"
+msgid "Pz.Kpfw Tiger Ausf.H1"
+msgstr ""
+
+msgctxt "desc/squad/tiger1e_mid(late_ger_pzgren)"
+msgid "Pz.Kpfw Tiger Ausf.E (Mid)"
+msgstr ""
+
+msgctxt "desc/squad/tiger1e(late_ger_pzgren)"
+msgid "Pz.Kpfw Tiger Ausf.E"
+msgstr ""
+
+msgctxt "desc/squad/sturmtiger(late_ger_pzgren)"
+msgid "'Sturmtiger'"
+msgstr ""
+
+msgctxt "desc/squad/ferdinand(late_ger_pzgren)"
+msgid "Pz.J Tiger(P)"
+msgstr ""
+
+msgctxt "desc/squad/tiger2p(late_ger_pzgren)"
+msgid "Pz.Kpfw Tiger Ausf.B (Early)"
+msgstr ""
+
+msgctxt "desc/squad/tiger2h(late_ger_pzgren)"
+msgid "Pz.Kpfw Tiger Ausf.B"
+msgstr ""
+
+msgctxt "desc/squad/jagdtiger(late_ger_pzgren)"
+msgid "Pz.J Tiger Ausf.B"
+msgstr ""
+
+msgctxt "desc/squad/squad_ersatz_late_gren(ger)"
+msgid "<c(A5A095)>(1)</c> Ersatzgrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fusilier_late_gren(ger)"
+msgid "<c(A5A095)>(2)</c> Fusilier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pio_late_gren(ger)"
+msgid "<c(A5A095)>(2)</c> Pionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gren_late_gren(ger)"
+msgid "<c(A5A095)>(2)</c> Grenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sturmgren_late_gren_1(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Sturmgrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sturmgren_late_gren_2(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Sturmgrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sturmgren_late_gren_3(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Heavy Sturmgrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_blau_late_gren(ger)"
+msgid "<c(A5A095)>(2)</c> Blau Division Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_volksgren_late_gren(ger)"
+msgid "<c(A5A095)>(2)</c> Volksgrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_volksg_sturm_late_gren_1(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Volksgrenadier Assault Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_volksg_sturm_late_gren_2(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Volksgrenadier Assault Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_volksg_sturm_late_gren_3(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Volksgrenadier Fire Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_begleitgren_late_gren(ger)"
+msgid "<c(A5A095)>(3)</c> Begleitgrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_begleit_pio_late_gren(ger)"
+msgid "<c(A5A095)>(3)</c> Begleitpionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/single_rifle_gren(ger)"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/squad/single_mg_gren(ger)"
+msgid "MG Detachment"
+msgstr ""
+
+msgctxt "desc/squad/single_officer_gren(ger)"
+msgid "Officer"
+msgstr ""
+
+msgctxt "desc/squad/single_tankman_gren(ger)"
+msgid "StuG Crew"
+msgstr ""
+
+msgctxt "desc/squad/single_flamer_gren(ger)"
+msgid "Flamer"
+msgstr ""
+
+msgctxt "desc/squad/single_signaller_105_gren(ger)"
+msgid "Artillery Signaller (105 mm)"
+msgstr ""
+
+msgctxt "desc/squad/inf_crate_ger(late_ger_gren)"
+msgid "Ammo Crate"
+msgstr ""
+
+msgctxt "desc/squad/mg42_lafette(late_ger_gren)"
+msgid "MG42 Lafette"
+msgstr ""
+
+msgctxt "desc/squad/20mm_flak38(late_ger_gren)"
+msgid "2 cm Flak38"
+msgstr ""
+
+msgctxt "desc/squad/20mm_flakvierling38(late_ger_gren)"
+msgid "2 cm Flakvierling"
+msgstr ""
+
+msgctxt "desc/squad/37mm_flak37(late_ger_gren)"
+msgid "3,7 cm Flak37"
+msgstr ""
+
+msgctxt "desc/squad/50mm_pak38_late(late_ger_gren)"
+msgid "5 cm Pak 38"
+msgstr ""
+
+msgctxt "desc/squad/75mm_pak40(late_ger_gren)"
+msgid "7,5 cm Pak 40 (towed)"
+msgstr ""
+
+msgctxt "desc/squad/88mm_pak4341(late_ger_gren)"
+msgid "8,8 cm Pak 43/41 (towed)"
+msgstr ""
+
+msgctxt "desc/squad/88mm_flak36(late_ger_gren)"
+msgid "8,8 cm Flak 36 (towed)"
+msgstr ""
+
+msgctxt "desc/squad/75mm_legebig18(late_ger_gren)"
+msgid "7,5 cm le.GebIG 18"
+msgstr ""
+
+msgctxt "desc/squad/75mm_leig18(late_ger_gren)"
+msgid "7,5 cm le.IG 18"
+msgstr ""
+
+msgctxt "desc/squad/150mm_sig33_late(late_ger_gren)"
+msgid "15 cm sIG 33"
+msgstr ""
+
+msgctxt "desc/squad/80mm_sgrw34(late_ger_gren)"
+msgid "8 cm s.Gr.W.34"
+msgstr ""
+
+msgctxt "desc/squad/120mm_sgrw42(late_ger_gren)"
+msgid "12 cm s.Gr.W.42"
+msgstr ""
+
+msgctxt "desc/squad/200mm_ldgw40(late_ger_gren)"
+msgid "20 cm leLdgW 40"
+msgstr ""
+
+msgctxt "desc/squad/105mm_lefh18(late_ger_gren)"
+msgid "10,5 cm leFH 18"
+msgstr ""
+
+msgctxt "desc/squad/105mm_sk18(late_ger_gren)"
+msgid "10,5 cm sK18/40"
+msgstr ""
+
+msgctxt "desc/squad/150mm_sfh18(late_ger_gren)"
+msgid "15 cm sFH 18"
+msgstr ""
+
+msgctxt "desc/squad/170mm_k18(late_ger_gren)"
+msgid "17 cm K 18"
+msgstr ""
+
+msgctxt "desc/squad/210mm_morser18(late_ger_gren)"
+msgid "21 cm Mrs 18"
+msgstr ""
+
+msgctxt "desc/squad/150mm_nebelwerfer41(late_ger_gren)"
+msgid "15 cm NbW 41"
+msgstr ""
+
+msgctxt "desc/squad/300mm_nebelwerfer42(late_ger_gren)"
+msgid "30 cm NbW 42"
+msgstr ""
+
+msgctxt "desc/squad/600mm_thor(late_ger_gren)"
+msgid "Karl-Gerät 040"
+msgstr ""
+
+msgctxt "desc/squad/bmw_r71(late_ger_gren)"
+msgid "BMW R71"
+msgstr ""
+
+msgctxt "desc/squad/kubelwagen(late_ger_gren)"
+msgid "VW Kubelwagen"
+msgstr ""
+
+msgctxt "desc/squad/kubelwagen_mg(late_ger_gren)"
+msgid "VW Kubelwagen (MG)"
+msgstr ""
+
+msgctxt "desc/squad/schwimmwagen(late_ger_gren)"
+msgid "VW Schwimmwagen"
+msgstr ""
+
+msgctxt "desc/squad/kfz13(late_ger_gren)"
+msgid "Kfz 13 (MG)"
+msgstr ""
+
+msgctxt "desc/squad/kfz14(late_ger_gren)"
+msgid "Kfz 14"
+msgstr ""
+
+msgctxt "desc/squad/kfz15(late_ger_gren)"
+msgid "Kfz 15 (MG)"
+msgstr ""
+
+msgctxt "desc/squad/kettenkrad(late_ger_gren)"
+msgid "Sd.Kfz 2"
+msgstr ""
+
+msgctxt "desc/squad/kettenkrad_eng(late_ger_gren)"
+msgid "Sd.Kfz 2 (engineer)"
+msgstr ""
+
+msgctxt "desc/squad/blitz3_6(late_ger_gren)"
+msgid "Blitz 3.6"
+msgstr ""
+
+msgctxt "desc/squad/blitz3_6_art_ammo(late_ger_gren)"
+msgid "Blitz 3.6 (Ammo)"
+msgstr ""
+
+msgctxt "desc/squad/blitz3_6_fuel(late_ger_gren)"
+msgid "Blitz 3.6 (Fuel)"
+msgstr ""
+
+msgctxt "desc/squad/blitz3_6_engineering(late_ger_gren)"
+msgid "Blitz 3.6 (Engineer)"
+msgstr ""
+
+msgctxt "desc/squad/opel_maultier(late_ger_gren)"
+msgid "Blitz 3.6 'Maultier'"
+msgstr ""
+
+msgctxt "desc/squad/blitz3_6_flak30(late_ger_gren)"
+msgid "Blitz 3.6 (2 cm Flak)"
+msgstr ""
+
+msgctxt "desc/squad/kfz70(late_ger_gren)"
+msgid "Kfz 70"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz6_ammo(late_ger_gren)"
+msgid "Sd.Kfz 6 (Supply)"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz6_cargo(late_ger_gren)"
+msgid "Sd.Kfz 6"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz7(late_ger_gren)"
+msgid "Sd.Kfz 7"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz7_1(late_ger_gren)"
+msgid "Sd.Kfz 7/1 (2 cm Flak)"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz7_2(late_ger_gren)"
+msgid "Sd.Kfz 7/2 (3,7 cm Flak)"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz10(late_ger_gren)"
+msgid "Sd.Kfz 10"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz10_4(late_ger_gren)"
+msgid "Sd.Kfz 10/4 (2 cm Flak)"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz10_pak38(late_ger_gren)"
+msgid "Sd.Kfz 10 (Pak 38)"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz250a_1(late_ger_gren)"
+msgid "Sd.Kfz 250/1"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz250a_3(late_ger_gren)"
+msgid "Sd.Kfz 250/3"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz250a_9(late_ger_gren)"
+msgid "Sd.Kfz 250/9"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz250a_11(late_ger_gren)"
+msgid "Sd.Kfz 250/11"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251d_1(late_ger_gren)"
+msgid "Sd.Kfz 251/1 Ausf.D"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251c_2(late_ger_gren)"
+msgid "Sd.Kfz 251/2 Ausf.C"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251d_16(late_ger_gren)"
+msgid "Sd.Kfz 251/16 Ausf.D"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251d_17(late_ger_gren)"
+msgid "Sd.Kfz 251/17 Ausf.D"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251d_21(late_ger_gren)"
+msgid "Sd.Kfz 251/21 Ausf.D"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251d_22(late_ger_gren)"
+msgid "Sd.Kfz 251/22 Ausf.D"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251d_1_stuka(late_ger_gren)"
+msgid "Sd.Kfz 251/1 'Stuka zu Fuss'"
+msgstr ""
+
+msgctxt "desc/squad/panzerwerfer42(late_ger_gren)"
+msgid "15 cm Panzerwerfer 42"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz221(late_ger_gren)"
+msgid "Sd.Kfz 221"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz222a(late_ger_gren)"
+msgid "Sd.Kfz 222"
+msgstr ""
+
+msgctxt "desc/squad/p204_f(late_ger_gren)"
+msgid "Pz.Sp.Wg 204(f)"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz231(late_ger_gren)"
+msgid "Sd.Kfz 231"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz234_1(late_ger_gren)"
+msgid "Sd.Kfz 234/1"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz234_2(late_ger_gren)"
+msgid "Sd.Kfz 234/2"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz234_3(late_ger_gren)"
+msgid "Sd.Kfz 234/3"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz234_4(late_ger_gren)"
+msgid "Sd.Kfz 234/4"
+msgstr ""
+
+msgctxt "desc/squad/panzer2c(late_ger_gren)"
+msgid "Pz.Kpfw II Ausf.C"
+msgstr ""
+
+msgctxt "desc/squad/panzer2f(late_ger_gren)"
+msgid "Pz.Kpfw II Ausf.F"
+msgstr ""
+
+msgctxt "desc/squad/panzer2l(late_ger_gren)"
+msgid "Pz.Kpfw II Ausf.L"
+msgstr ""
+
+msgctxt "desc/squad/marder2(late_ger_gren)"
+msgid "Marder II"
+msgstr ""
+
+msgctxt "desc/squad/marder3m(late_ger_gren)"
+msgid "Marder III Ausf.M"
+msgstr ""
+
+msgctxt "desc/squad/hetzer(late_ger_gren)"
+msgid "Jagdpanzer 38"
+msgstr ""
+
+msgctxt "desc/squad/grille_k(late_ger_gren)"
+msgid "'Grille' Ausf.K"
+msgstr ""
+
+msgctxt "desc/squad/wespe(late_ger_gren)"
+msgid "'Wespe'"
+
+msgctxt "desc/squad/panzer3h(late_ger_gren)"
+msgid "Pz.Kpfw III Ausf.H"
+msgstr ""
+
+msgctxt "desc/squad/panzer3j(late_ger_gren)"
+msgid "Pz.Kpfw III Ausf.J"
+msgstr ""
+
+msgctxt "desc/squad/panzer3j1(late_ger_gren)"
+msgid "Pz.Kpfw III Ausf.L (Early)"
+msgstr ""
+
+msgctxt "desc/squad/panzer3l(late_ger_gren)"
+msgid "Pz.Kpfw III Ausf.L"
+msgstr ""
+
+msgctxt "desc/squad/panzer3m(late_ger_gren)"
+msgid "Pz.Kpfw III Ausf.M"
+msgstr ""
+
+msgctxt "desc/squad/panzer3n(late_ger_gren)"
+msgid "Pz.Kpfw III Ausf.N"
+msgstr ""
+
+msgctxt "desc/squad/panzer3_flamm(late_ger_gren)"
+msgid "Flammpanzer III"
+msgstr ""
+
+msgctxt "desc/squad/stug3f(late_ger_gren)"
+msgid "StuG III Ausf.F8"
+msgstr ""
+
+msgctxt "desc/squad/stug3g(late_ger_gren)"
+msgid "StuG III Ausf.G"
+msgstr ""
+
+msgctxt "desc/squad/stug3g_late(late_ger_gren)"
+msgid "StuG III Ausf.G (Late)"
+msgstr ""
+
+msgctxt "desc/squad/stuh42(late_ger_gren)"
+msgid "StuH 42 Ausf.G"
+msgstr ""
+
+msgctxt "desc/squad/sig33b(late_ger_gren)"
+msgid "sIG 33 (Sf.) Ausf.B"
+msgstr ""
+
+msgctxt "desc/squad/panzer4f2(late_ger_gren)"
+msgid "Pz.Kpfw IV Ausf.G (Early)"
+msgstr ""
+
+msgctxt "desc/squad/panzer4g(late_ger_gren)"
+msgid "Pz.Kpfw IV Ausf.G"
+msgstr ""
+
+msgctxt "desc/squad/panzer4h(late_ger_gren)"
+msgid "Pz.Kpfw IV Ausf.H"
+msgstr ""
+
+msgctxt "desc/squad/panzer4j(late_ger_gren)"
+msgid "Pz.Kpfw IV Ausf.J"
+msgstr ""
+
+msgctxt "desc/squad/jagdpanzer4_l48_early(late_ger_gren)"
+msgid "Jagdpanzer IV (Early)"
+msgstr ""
+
+msgctxt "desc/squad/jagdpanzer4_l48(late_ger_gren)"
+msgid "Jagdpanzer IV"
+msgstr ""
+
+msgctxt "desc/squad/panzer4_70_v(late_ger_gren)"
+msgid "Panzer IV/70(V)"
+msgstr ""
+
+msgctxt "desc/squad/nashorn(late_ger_gren)"
+msgid "'Nashorn'"
+msgstr ""
+
+msgctxt "desc/squad/hummel(late_ger_gren)"
+msgid "'Hummel'"
+msgstr ""
+
+msgctxt "desc/squad/sturmpanzer4(late_ger_gren)"
+msgid "Sturmpanzer IV"
+msgstr ""
+
+msgctxt "desc/squad/wirbelwind(late_ger_gren)"
+msgid "Flakpanzer IV 'Wirbelwind'"
+msgstr ""
+
+msgctxt "desc/squad/ostwind(late_ger_gren)"
+msgid "Flakpanzer IV 'Ostwind'"
+msgstr ""
+
+msgctxt "desc/squad/panzerb2(late_ger_gren)"
+msgid "Pz.Kpfw B2(f)"
+msgstr ""
+
+msgctxt "desc/squad/m4_75_late_ger(late_ger_gren)"
+msgid "Pz.Kpfw Cherman"
+msgstr ""
+
+msgctxt "desc/squad/t3476_42_ger(late_ger_gren)"
+msgid "Pz.Kpfw T-34/76(r) (1942)"
+msgstr ""
+
+msgctxt "desc/squad/t3476_43_ger(late_ger_gren)"
+msgid "Pz.Kpfw T-34/76(r) (1943)"
+msgstr ""
+
+msgctxt "desc/squad/t3485_44_ger(late_ger_gren)"
+msgid "a"
+msgstr "Pz.Kpfw T-34/85(r) (1944)"
+
+msgctxt "desc/squad/panzer5d(late_ger_gren)"
+msgid "Pz.Kpfw Panther Ausf.D"
+msgstr ""
+
+msgctxt "desc/squad/panzer5a(late_ger_gren)"
+msgid "Pz.Kpfw Panther Ausf.A"
+msgstr ""
+
+msgctxt "desc/squad/panzer5a_1(late_ger_gren)"
+msgid "<c(E56042)>1.</c> Pz.Kpfw Panther Ausf.A"
+msgstr ""
+
+msgctxt "desc/squad/panzer5a_2(late_ger_gren)"
+msgid "<c(E56042)>2.</c> Pz.Kpfw Panther Ausf.A"
+msgstr ""
+
+msgctxt "desc/squad/panzer5g(late_ger_gren)"
+msgid "Pz.Kpfw Panther Ausf.G"
+msgstr ""
+
+msgctxt "desc/squad/jagdpanther(late_ger_gren)"
+msgid "Pz.J Panther Ausf.G1"
+msgstr ""
+
+msgctxt "desc/squad/tiger1h(late_ger_gren)"
+msgid "Pz.Kpfw Tiger Ausf.H1"
+msgstr ""
+
+msgctxt "desc/squad/tiger1e_mid(late_ger_gren)"
+msgid "Pz.Kpfw Tiger Ausf.E (Mid)"
+msgstr ""
+
+msgctxt "desc/squad/tiger1e(late_ger_gren)"
+msgid "Pz.Kpfw Tiger Ausf.E"
+msgstr ""
+
+msgctxt "desc/squad/sturmtiger(late_ger_gren)"
+msgid "'Sturmtiger'"
+msgstr ""
+
+msgctxt "desc/squad/ferdinand(late_ger_gren)"
+msgid "Pz.J Tiger(P)"
+msgstr ""
+
+msgctxt "desc/squad/tiger2p(late_ger_gren)"
+msgid "Pz.Kpfw Tiger Ausf.B (Early)"
+msgstr ""
+
+msgctxt "desc/squad/tiger2h(late_ger_gren)"
+msgid "Pz.Kpfw Tiger Ausf.B"
+msgstr ""
+
+msgctxt "desc/squad/jagdtiger(late_ger_gren)"
+msgid "Pz.J Tiger Ausf.B"
+msgstr ""
+
+msgctxt "desc/squad/squad_ersatz_late_lw(ger)"
+msgid "<c(A5A095)>(1)</c> Ersatzgrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fusilier_late_lw(ger)"
+msgid "<c(A5A095)>(1)</c> Fusilier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz_recon_late_lw(ger)"
+msgid "<c(A5A095)>(2)</c> Panzeraufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_late_lw(ger)"
+msgid "<c(A5A095)>(2)</c> Aufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_recon_late_lw_1(ger)"
+msgid "<c(A5A095)>(2)</c> Fallschirmaufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_recon_late_lw_2(ger)"
+msgid "<c(A5A095)>(2)</c> Fallschirmaufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_recon_late_lw_3(ger)"
+msgid "<c(A5A095)>(2)</c> Fallschirmaufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz_pio_late_lw(ger)"
+msgid "<c(A5A095)>(2)</c> Panzerpionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pio_late_lw_1(ger)"
+msgid "<c(A5A095)>(2)</c> Pionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pio_late_lw_2(ger)"
+msgid "<c(A5A095)>(2)</c> Pionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_pio_late_lw_1(ger)"
+msgid "<c(A5A095)>(2)</c> Fallschirmpionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_pio_late_lw_2(ger)"
+msgid "<c(A5A095)>(2)</c> Fallschirmpionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jager_late_lw_1(ger)"
+msgid "<c(A5A095)>(2)</c> Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jager_late_lw_2(ger)"
+msgid "<c(A5A095)>(2)</c> Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgren_late_lw_1(ger)"
+msgid "<c(A5A095)>(2)</c> Panzergrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgren_late_lw_2(ger)"
+msgid "<c(A5A095)>(2)</c> Panzergrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgren_late_lw_3(ger)"
+msgid "<c(A5A095)>(2)</c> Panzergrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgren_late_mech_lw_1(ger)"
+msgid "<c(A5A095)>(2)</c> Mechanized Pz.Gren Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgren_late_mech_lw_2(ger)"
+msgid "<c(A5A095)>(2)</c> Mechanized Pz.Gren Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgren_late_mech_lw_3(ger)"
+msgid "<c(A5A095)>(2)</c> Mechanized Pz.Gren Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_begleitgren_late_lw(ger)"
+msgid "<c(A5A095)>(3)</c> Begleitgrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_begleit_pio_late_lw(ger)"
+msgid "<c(A5A095)>(3)</c> Begleitpionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_late_lw_1(ger)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>1.</c> Fallschirmjäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fallschirm_late_lw_2(ger)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>2.</c> Fallschirmjäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/single_rifle_lw(ger)"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/squad/single_mg_lw(ger)"
+msgid "MG Detachment"
+msgstr ""
+
+msgctxt "desc/squad/single_officer_lw(ger)"
+msgid "Officer"
+msgstr ""
+
+msgctxt "desc/squad/single_tankman_lw(ger)"
+msgid "Tank Crew"
+msgstr ""
+
+msgctxt "desc/squad/single_flamer_lw(ger)"
+msgid "Flamer"
+msgstr ""
+
+msgctxt "desc/squad/single_signaller_105_lw(ger)"
+msgid "Artillery Signaller (105 mm)"
+msgstr ""
+
+msgctxt "desc/squad/inf_crate_ger(late_ger_lw)"
+msgid "Ammo Crate"
+msgstr ""
+
+msgctxt "desc/squad/mg42_lafette(late_ger_lw)"
+msgid "MG42 Lafette"
+msgstr ""
+
+msgctxt "desc/squad/20mm_flak38(late_ger_lw)"
+msgid "2 cm Flak38"
+msgstr ""
+
+msgctxt "desc/squad/20mm_flakvierling38(late_ger_lw)"
+msgid "2 cm Flakvierling"
+msgstr ""
+
+msgctxt "desc/squad/37mm_flak37(late_ger_lw)"
+msgid "3,7 cm Flak37"
+msgstr ""
+
+msgctxt "desc/squad/50mm_pak38_late(late_ger_lw)"
+msgid "5 cm Pak 38"
+msgstr ""
+
+msgctxt "desc/squad/75mm_pak40(late_ger_lw)"
+msgid "7,5 cm Pak 40 (towed)"
+msgstr ""
+
+msgctxt "desc/squad/88mm_pak4341(late_ger_lw)"
+msgid "8,8 cm Pak 43/41 (towed)"
+msgstr ""
+
+msgctxt "desc/squad/88mm_flak36(late_ger_lw)"
+msgid "8,8 cm Flak 36 (towed)"
+msgstr ""
+
+msgctxt "desc/squad/75mm_legebig18(late_ger_lw)"
+msgid "7,5 cm le.GebIG 18"
+msgstr ""
+
+msgctxt "desc/squad/75mm_leig18(late_ger_lw)"
+msgid "7,5 cm le.IG 18"
+msgstr ""
+
+msgctxt "desc/squad/150mm_sig33_late(late_ger_lw)"
+msgid "15 cm sIG 33"
+msgstr ""
+
+msgctxt "desc/squad/80mm_sgrw34(late_ger_lw)"
+msgid "8 cm s.Gr.W.34"
+msgstr ""
+
+msgctxt "desc/squad/120mm_sgrw42(late_ger_lw)"
+msgid "12 cm s.Gr.W.42"
+msgstr ""
+
+msgctxt "desc/squad/200mm_ldgw40(late_ger_lw)"
+msgid "20 cm leLdgW 40"
+msgstr ""
+
+msgctxt "desc/squad/105mm_lefh18(late_ger_lw)"
+msgid "10,5 cm leFH 18"
+msgstr ""
+
+msgctxt "desc/squad/105mm_sk18(late_ger_lw)"
+msgid "10,5 cm sK18/40"
+msgstr ""
+
+msgctxt "desc/squad/150mm_sfh18(late_ger_lw)"
+msgid "15 cm sFH 18"
+msgstr ""
+
+msgctxt "desc/squad/170mm_k18(late_ger_lw)"
+msgid "17 cm K 18"
+msgstr ""
+
+msgctxt "desc/squad/210mm_morser18(late_ger_lw)"
+msgid "21 cm Mrs 18"
+msgstr ""
+
+msgctxt "desc/squad/150mm_nebelwerfer41(late_ger_lw)"
+msgid "15 cm NbW 41"
+msgstr ""
+
+msgctxt "desc/squad/300mm_nebelwerfer42(late_ger_lw)"
+msgid "30 cm NbW 42"
+msgstr ""
+
+msgctxt "desc/squad/600mm_thor(late_ger_lw)"
+msgid "Karl-Gerät 040"
+msgstr ""
+
+msgctxt "desc/squad/bmw_r71(late_ger_lw)"
+msgid "BMW R71"
+msgstr ""
+
+msgctxt "desc/squad/kubelwagen(late_ger_lw)"
+msgid "VW Kubelwagen"
+msgstr ""
+
+msgctxt "desc/squad/kubelwagen_mg(late_ger_lw)"
+msgid "VW Kubelwagen (MG)"
+msgstr ""
+
+msgctxt "desc/squad/schwimmwagen(late_ger_lw)"
+msgid "VW Schwimmwagen"
+msgstr ""
+
+msgctxt "desc/squad/kfz13(late_ger_lw)"
+msgid "Kfz 13 (MG)"
+msgstr ""
+
+msgctxt "desc/squad/kfz14(late_ger_lw)"
+msgid "Kfz 14"
+msgstr ""
+
+msgctxt "desc/squad/kfz15(late_ger_lw)"
+msgid "Kfz 15 (MG)"
+msgstr ""
+
+msgctxt "desc/squad/kettenkrad(late_ger_lw)"
+msgid "Sd.Kfz 2"
+msgstr ""
+
+msgctxt "desc/squad/kettenkrad_eng(late_ger_lw)"
+msgid "Sd.Kfz 2 (engineer)"
+msgstr ""
+
+msgctxt "desc/squad/blitz3_6(late_ger_lw)"
+msgid "Blitz 3.6"
+msgstr ""
+
+msgctxt "desc/squad/blitz3_6_art_ammo(late_ger_lw)"
+msgid "Blitz 3.6 (Ammo)"
+msgstr ""
+
+msgctxt "desc/squad/blitz3_6_fuel(late_ger_lw)"
+msgid "Blitz 3.6 (Fuel)"
+msgstr ""
+
+msgctxt "desc/squad/blitz3_6_engineering(late_ger_lw)"
+msgid "Blitz 3.6 (Engineer)"
+msgstr ""
+
+msgctxt "desc/squad/opel_maultier(late_ger_lw)"
+msgid "Blitz 3.6 'Maultier'"
+msgstr ""
+
+msgctxt "desc/squad/blitz3_6_flak30(late_ger_lw)"
+msgid "Blitz 3.6 (2 cm Flak)"
+msgstr ""
+
+msgctxt "desc/squad/kfz70(late_ger_lw)"
+msgid "Kfz 70"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz6_ammo(late_ger_lw)"
+msgid "Sd.Kfz 6 (Supply)"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz6_cargo(late_ger_lw)"
+msgid "Sd.Kfz 6"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz7(late_ger_lw)"
+msgid "Sd.Kfz 7"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz7_1(late_ger_lw)"
+msgid "Sd.Kfz 7/1 (2 cm Flak)"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz7_2(late_ger_lw)"
+msgid "Sd.Kfz 7/2 (3,7 cm Flak)"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz10(late_ger_lw)"
+msgid "Sd.Kfz 10"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz10_4(late_ger_lw)"
+msgid "Sd.Kfz 10/4 (2 cm Flak)"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz10_pak38(late_ger_lw)"
+msgid "Sd.Kfz 10 (Pak 38)"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz250a_1(late_ger_lw)"
+msgid "Sd.Kfz 250/1"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz250a_3(late_ger_lw)"
+msgid "Sd.Kfz 250/3"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz250a_9(late_ger_lw)"
+msgid "Sd.Kfz 250/9"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz250a_11(late_ger_lw)"
+msgid "Sd.Kfz 250/11"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251d_1(late_ger_lw)"
+msgid "Sd.Kfz 251/1 Ausf.D"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251c_2(late_ger_lw)"
+msgid "Sd.Kfz 251/2 Ausf.C"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251d_16(late_ger_lw)"
+msgid "Sd.Kfz 251/16 Ausf.D"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251d_17(late_ger_lw)"
+msgid "Sd.Kfz 251/17 Ausf.D"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251d_21(late_ger_lw)"
+msgid "Sd.Kfz 251/21 Ausf.D"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251d_22(late_ger_lw)"
+msgid "Sd.Kfz 251/22 Ausf.D"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251d_1_stuka(late_ger_lw)"
+msgid "Sd.Kfz 251/1 'Stuka zu Fuss'"
+msgstr ""
+
+msgctxt "desc/squad/panzerwerfer42(late_ger_lw)"
+msgid "15 cm Panzerwerfer 42"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz221(late_ger_lw)"
+msgid "Sd.Kfz 221"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz222a(late_ger_lw)"
+msgid "Sd.Kfz 222"
+msgstr ""
+
+msgctxt "desc/squad/p204_f(late_ger_lw)"
+msgid "Pz.Sp.Wg 204(f)"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz231(late_ger_lw)"
+msgid "Sd.Kfz 231"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz234_1(late_ger_lw)"
+msgid "Sd.Kfz 234/1"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz234_2(late_ger_lw)"
+msgid "Sd.Kfz 234/2"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz234_3(late_ger_lw)"
+msgid "Sd.Kfz 234/3"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz234_4(late_ger_lw)"
+msgid "Sd.Kfz 234/4"
+msgstr ""
+
+msgctxt "desc/squad/panzer2c(late_ger_lw)"
+msgid "Pz.Kpfw II Ausf.C"
+msgstr ""
+
+msgctxt "desc/squad/panzer2f(late_ger_lw)"
+msgid "Pz.Kpfw II Ausf.F"
+msgstr ""
+
+msgctxt "desc/squad/panzer2l(late_ger_lw)"
+msgid "Pz.Kpfw II Ausf.L"
+msgstr ""
+
+msgctxt "desc/squad/marder2(late_ger_lw)"
+msgid "Marder II"
+msgstr ""
+
+msgctxt "desc/squad/marder3m(late_ger_lw)"
+msgid "Marder III Ausf.M"
+msgstr ""
+
+msgctxt "desc/squad/hetzer(late_ger_lw)"
+msgid "Jagdpanzer 38"
+msgstr ""
+
+msgctxt "desc/squad/grille_k(late_ger_lw)"
+msgid "'Grille' Ausf.K"
+msgstr ""
+
+msgctxt "desc/squad/wespe(late_ger_lw)"
+msgid "'Wespe'"
+
+msgctxt "desc/squad/panzer3h(late_ger_lw)"
+msgid "Pz.Kpfw III Ausf.H"
+msgstr ""
+
+msgctxt "desc/squad/panzer3j(late_ger_lw)"
+msgid "Pz.Kpfw III Ausf.J"
+msgstr ""
+
+msgctxt "desc/squad/panzer3j1(late_ger_lw)"
+msgid "Pz.Kpfw III Ausf.L (Early)"
+msgstr ""
+
+msgctxt "desc/squad/panzer3l(late_ger_lw)"
+msgid "Pz.Kpfw III Ausf.L"
+msgstr ""
+
+msgctxt "desc/squad/panzer3m(late_ger_lw)"
+msgid "Pz.Kpfw III Ausf.M"
+msgstr ""
+
+msgctxt "desc/squad/panzer3n(late_ger_lw)"
+msgid "Pz.Kpfw III Ausf.N"
+msgstr ""
+
+msgctxt "desc/squad/panzer3_flamm(late_ger_lw)"
+msgid "Flammpanzer III"
+msgstr ""
+
+msgctxt "desc/squad/stug3f(late_ger_lw)"
+msgid "StuG III Ausf.F8"
+msgstr ""
+
+msgctxt "desc/squad/stug3g(late_ger_lw)"
+msgid "StuG III Ausf.G"
+msgstr ""
+
+msgctxt "desc/squad/stug3g_late(late_ger_lw)"
+msgid "StuG III Ausf.G (Late)"
+msgstr ""
+
+msgctxt "desc/squad/stuh42(late_ger_lw)"
+msgid "StuH 42 Ausf.G"
+msgstr ""
+
+msgctxt "desc/squad/sig33b(late_ger_lw)"
+msgid "sIG 33 (Sf.) Ausf.B"
+msgstr ""
+
+msgctxt "desc/squad/panzer4f2(late_ger_lw)"
+msgid "Pz.Kpfw IV Ausf.G (Early)"
+msgstr ""
+
+msgctxt "desc/squad/panzer4g(late_ger_lw)"
+msgid "Pz.Kpfw IV Ausf.G"
+msgstr ""
+
+msgctxt "desc/squad/panzer4h(late_ger_lw)"
+msgid "Pz.Kpfw IV Ausf.H"
+msgstr ""
+
+msgctxt "desc/squad/panzer4j(late_ger_lw)"
+msgid "Pz.Kpfw IV Ausf.J"
+msgstr ""
+
+msgctxt "desc/squad/jagdpanzer4_l48_early(late_ger_lw)"
+msgid "Jagdpanzer IV (Early)"
+msgstr ""
+
+msgctxt "desc/squad/jagdpanzer4_l48(late_ger_lw)"
+msgid "Jagdpanzer IV"
+msgstr ""
+
+msgctxt "desc/squad/panzer4_70_v(late_ger_lw)"
+msgid "Panzer IV/70(V)"
+msgstr ""
+
+msgctxt "desc/squad/nashorn(late_ger_lw)"
+msgid "'Nashorn'"
+msgstr ""
+
+msgctxt "desc/squad/hummel(late_ger_lw)"
+msgid "'Hummel'"
+msgstr ""
+
+msgctxt "desc/squad/sturmpanzer4(late_ger_lw)"
+msgid "Sturmpanzer IV"
+msgstr ""
+
+msgctxt "desc/squad/wirbelwind(late_ger_lw)"
+msgid "Flakpanzer IV 'Wirbelwind'"
+msgstr ""
+
+msgctxt "desc/squad/ostwind(late_ger_lw)"
+msgid "Flakpanzer IV 'Ostwind'"
+msgstr ""
+
+msgctxt "desc/squad/panzerb2(late_ger_lw)"
+msgid "Pz.Kpfw B2(f)"
+msgstr ""
+
+msgctxt "desc/squad/m4_75_late_ger(late_ger_lw)"
+msgid "Pz.Kpfw Cherman"
+msgstr ""
+
+msgctxt "desc/squad/t3476_42_ger(late_ger_lw)"
+msgid "Pz.Kpfw T-34/76(r) (1942)"
+msgstr ""
+
+msgctxt "desc/squad/t3476_43_ger(late_ger_lw)"
+msgid "Pz.Kpfw T-34/76(r) (1943)"
+msgstr ""
+
+msgctxt "desc/squad/t3485_44_ger(late_ger_lw)"
+msgid "a"
+msgstr "Pz.Kpfw T-34/85(r) (1944)"
+
+msgctxt "desc/squad/panzer5d(late_ger_lw)"
+msgid "Pz.Kpfw Panther Ausf.D"
+msgstr ""
+
+msgctxt "desc/squad/panzer5a(late_ger_lw)"
+msgid "Pz.Kpfw Panther Ausf.A"
+msgstr ""
+
+msgctxt "desc/squad/panzer5a_1(late_ger_lw)"
+msgid "Pz.Kpfw Panther Ausf.A"
+msgstr ""
+
+msgctxt "desc/squad/panzer5a_2(late_ger_lw)"
+msgid "Pz.Kpfw Panther Ausf.A"
+msgstr ""
+
+msgctxt "desc/squad/panzer5g(late_ger_lw)"
+msgid "Pz.Kpfw Panther Ausf.G"
+msgstr ""
+
+msgctxt "desc/squad/jagdpanther(late_ger_lw)"
+msgid "Pz.J Panther Ausf.G1"
+msgstr ""
+
+msgctxt "desc/squad/tiger1h(late_ger_lw)"
+msgid "Pz.Kpfw Tiger Ausf.H1"
+msgstr ""
+
+msgctxt "desc/squad/tiger1e_mid(late_ger_lw)"
+msgid "Pz.Kpfw Tiger Ausf.E (Mid)"
+msgstr ""
+
+msgctxt "desc/squad/tiger1e(late_ger_lw)"
+msgid "Pz.Kpfw Tiger Ausf.E"
+msgstr ""
+
+msgctxt "desc/squad/sturmtiger(late_ger_lw)"
+msgid "'Sturmtiger'"
+msgstr ""
+
+msgctxt "desc/squad/ferdinand(late_ger_lw)"
+msgid "Pz.J Tiger(P)"
+msgstr ""
+
+msgctxt "desc/squad/tiger2p(late_ger_lw)"
+msgid "Pz.Kpfw Tiger Ausf.B (Early)"
+msgstr ""
+
+msgctxt "desc/squad/tiger2h(late_ger_lw)"
+msgid "Pz.Kpfw Tiger Ausf.B"
+msgstr ""
+
+msgctxt "desc/squad/jagdtiger(late_ger_lw)"
+msgid "Pz.J Tiger Ausf.B"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz_recon_late_pz(ger)"
+msgid "<c(A5A095)>(2)</c> Panzeraufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz_pio_late_pz(ger)"
+msgid "<c(A5A095)>(2)</c> Panzerpionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgren_late_pz_1(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Panzergrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgren_late_pz_2(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Panzergrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgren_late_pz_3(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Panzergrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgren_late_mech_pz_1(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Mechanized Pz.Gren Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgren_late_mech_pz_2(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Mechanized Pz.Gren Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgren_late_mech_pz_3(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Mechanized Pz.Gren Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_begleitgren_late_pz(ger)"
+msgid "<c(A5A095)>(3)</c> Begleitgrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_begleit_pio_late_pz(ger)"
+msgid "<c(A5A095)>(3)</c> Begleitpionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzlehr_recon_late_pz(ger)"
+msgid "<c(A5A095)>(3+)</c> Pz-Lehr Pz.Aufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzlehr_recon_late_mech_pz(ger)"
+msgid "<c(A5A095)>(3+)</c> Pz-Lehr Pz.Aufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzlehr_pio_late_pz(ger)"
+msgid "<c(A5A095)>(3+)</c> Pz-Lehr Pz.Pionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzlehr_pio_late_mech_pz(ger)"
+msgid "<c(A5A095)>(3+)</c> Pz-Lehr Pz.Pionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzlehr_pzgren_late_mech_pz_1(ger)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>1.</c> Pz-Lehr Mechanized Pz.Gren Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzlehr_pzgren_late_mech_pz_2(ger)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>2.</c> Pz-Lehr Mechanized Pz.Gren Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzlehr_pzgren_late_mech_pz_3(ger)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>3.</c> Pz-Lehr Mechanized Pz.Gren Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzlehr_pz_sturmgren_late_pz(ger)"
+msgid "<c(A5A095)>(3+)</c> Pz-Lehr Pz.Gren Sturm Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzlehr_pz_sturmgren_late_mech_pz(ger)"
+msgid "<c(A5A095)>(3+)</c> Pz-Lehr Pz.Gren Sturm Squad"
+msgstr ""
+
+msgctxt "desc/squad/single_rifle_pz(ger)"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/squad/single_mg_pz(ger)"
+msgid "MG Detachment"
+msgstr ""
+
+msgctxt "desc/squad/single_officer_pz(ger)"
+msgid "Officer"
+msgstr ""
+
+msgctxt "desc/squad/single_tankman_pz(ger)"
+msgid "Tank Crew"
+msgstr ""
+
+msgctxt "desc/squad/single_flamer_pz(ger)"
+msgid "Flamer"
+msgstr ""
+
+msgctxt "desc/squad/single_signaller_105_pz(ger)"
+msgid "Artillery Signaller (105 mm)"
+msgstr ""
+
+msgctxt "desc/squad/inf_crate_ger(late_ger_pz)"
+msgid "Ammo Crate"
+msgstr ""
+
+msgctxt "desc/squad/mg42_lafette(late_ger_pz)"
+msgid "MG42 Lafette"
+msgstr ""
+
+msgctxt "desc/squad/20mm_flak38(late_ger_pz)"
+msgid "2 cm Flak38"
+msgstr ""
+
+msgctxt "desc/squad/20mm_flakvierling38(late_ger_pz)"
+msgid "2 cm Flakvierling"
+msgstr ""
+
+msgctxt "desc/squad/37mm_flak37(late_ger_pz)"
+msgid "3,7 cm Flak37"
+msgstr ""
+
+msgctxt "desc/squad/50mm_pak38_late(late_ger_pz)"
+msgid "5 cm Pak 38"
+msgstr ""
+
+msgctxt "desc/squad/75mm_pak40(late_ger_pz)"
+msgid "7,5 cm Pak 40 (towed)"
+msgstr ""
+
+msgctxt "desc/squad/88mm_pak4341(late_ger_pz)"
+msgid "8,8 cm Pak 43/41 (towed)"
+msgstr ""
+
+msgctxt "desc/squad/88mm_flak36(late_ger_pz)"
+msgid "8,8 cm Flak 36 (towed)"
+msgstr ""
+
+msgctxt "desc/squad/75mm_legebig18(late_ger_pz)"
+msgid "7,5 cm le.GebIG 18"
+msgstr ""
+
+msgctxt "desc/squad/75mm_leig18(late_ger_pz)"
+msgid "7,5 cm le.IG 18"
+msgstr ""
+
+msgctxt "desc/squad/150mm_sig33_late(late_ger_pz)"
+msgid "15 cm sIG 33"
+msgstr ""
+
+msgctxt "desc/squad/80mm_sgrw34(late_ger_pz)"
+msgid "8 cm s.Gr.W.34"
+msgstr ""
+
+msgctxt "desc/squad/120mm_sgrw42(late_ger_pz)"
+msgid "12 cm s.Gr.W.42"
+msgstr ""
+
+msgctxt "desc/squad/200mm_ldgw40(late_ger_pz)"
+msgid "20 cm leLdgW 40"
+msgstr ""
+
+msgctxt "desc/squad/105mm_lefh18(late_ger_pz)"
+msgid "10,5 cm leFH 18"
+msgstr ""
+
+msgctxt "desc/squad/105mm_sk18(late_ger_pz)"
+msgid "10,5 cm sK18/40"
+msgstr ""
+
+msgctxt "desc/squad/150mm_sfh18(late_ger_pz)"
+msgid "15 cm sFH 18"
+msgstr ""
+
+msgctxt "desc/squad/170mm_k18(late_ger_pz)"
+msgid "17 cm K 18"
+msgstr ""
+
+msgctxt "desc/squad/210mm_morser18(late_ger_pz)"
+msgid "21 cm Mrs 18"
+msgstr ""
+
+msgctxt "desc/squad/150mm_nebelwerfer41(late_ger_pz)"
+msgid "15 cm NbW 41"
+msgstr ""
+
+msgctxt "desc/squad/300mm_nebelwerfer42(late_ger_pz)"
+msgid "30 cm NbW 42"
+msgstr ""
+
+msgctxt "desc/squad/600mm_thor(late_ger_pz)"
+msgid "Karl-Gerät 040"
+msgstr ""
+
+msgctxt "desc/squad/bmw_r71(late_ger_pz)"
+msgid "BMW R71"
+msgstr ""
+
+msgctxt "desc/squad/kubelwagen(late_ger_pz)"
+msgid "VW Kubelwagen"
+msgstr ""
+
+msgctxt "desc/squad/kubelwagen_mg(late_ger_pz)"
+msgid "VW Kubelwagen (MG)"
+msgstr ""
+
+msgctxt "desc/squad/schwimmwagen(late_ger_pz)"
+msgid "VW Schwimmwagen"
+msgstr ""
+
+msgctxt "desc/squad/kfz13(late_ger_pz)"
+msgid "Kfz 13 (MG)"
+msgstr ""
+
+msgctxt "desc/squad/kfz14(late_ger_pz)"
+msgid "Kfz 14"
+msgstr ""
+
+msgctxt "desc/squad/kfz15(late_ger_pz)"
+msgid "Kfz 15 (MG)"
+msgstr ""
+
+msgctxt "desc/squad/kettenkrad(late_ger_pz)"
+msgid "Sd.Kfz 2"
+msgstr ""
+
+msgctxt "desc/squad/kettenkrad_eng(late_ger_pz)"
+msgid "Sd.Kfz 2 (engineer)"
+msgstr ""
+
+msgctxt "desc/squad/blitz3_6(late_ger_pz)"
+msgid "Blitz 3.6"
+msgstr ""
+
+msgctxt "desc/squad/blitz3_6_art_ammo(late_ger_pz)"
+msgid "Blitz 3.6 (Ammo)"
+msgstr ""
+
+msgctxt "desc/squad/blitz3_6_fuel(late_ger_pz)"
+msgid "Blitz 3.6 (Fuel)"
+msgstr ""
+
+msgctxt "desc/squad/blitz3_6_engineering(late_ger_pz)"
+msgid "Blitz 3.6 (Engineer)"
+msgstr ""
+
+msgctxt "desc/squad/opel_maultier(late_ger_pz)"
+msgid "Blitz 3.6 'Maultier'"
+msgstr ""
+
+msgctxt "desc/squad/blitz3_6_flak30(late_ger_pz)"
+msgid "Blitz 3.6 (2 cm Flak)"
+msgstr ""
+
+msgctxt "desc/squad/kfz70(late_ger_pz)"
+msgid "Kfz 70"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz6_ammo(late_ger_pz)"
+msgid "Sd.Kfz 6 (Supply)"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz6_cargo(late_ger_pz)"
+msgid "Sd.Kfz 6"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz7(late_ger_pz)"
+msgid "Sd.Kfz 7"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz7_1(late_ger_pz)"
+msgid "Sd.Kfz 7/1 (2 cm Flak)"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz7_2(late_ger_pz)"
+msgid "Sd.Kfz 7/2 (3,7 cm Flak)"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz10(late_ger_pz)"
+msgid "Sd.Kfz 10"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz10_4(late_ger_pz)"
+msgid "Sd.Kfz 10/4 (2 cm Flak)"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz10_pak38(late_ger_pz)"
+msgid "Sd.Kfz 10 (Pak 38)"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz250a_1(late_ger_pz)"
+msgid "Sd.Kfz 250/1"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz250a_3(late_ger_pz)"
+msgid "Sd.Kfz 250/3"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz250a_9(late_ger_pz)"
+msgid "Sd.Kfz 250/9"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz250a_11(late_ger_pz)"
+msgid "Sd.Kfz 250/11"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251d_1(late_ger_pz)"
+msgid "Sd.Kfz 251/1 Ausf.D"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251c_2(late_ger_pz)"
+msgid "Sd.Kfz 251/2 Ausf.C"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251d_16(late_ger_pz)"
+msgid "Sd.Kfz 251/16 Ausf.D"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251d_17(late_ger_pz)"
+msgid "Sd.Kfz 251/17 Ausf.D"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251d_21(late_ger_pz)"
+msgid "Sd.Kfz 251/21 Ausf.D"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251d_22(late_ger_pz)"
+msgid "Sd.Kfz 251/22 Ausf.D"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251d_1_stuka(late_ger_pz)"
+msgid "Sd.Kfz 251/1 'Stuka zu Fuss'"
+msgstr ""
+
+msgctxt "desc/squad/panzerwerfer42(late_ger_pz)"
+msgid "15 cm Panzerwerfer 42"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz221(late_ger_pz)"
+msgid "Sd.Kfz 221"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz222a(late_ger_pz)"
+msgid "Sd.Kfz 222"
+msgstr ""
+
+msgctxt "desc/squad/p204_f(late_ger_pz)"
+msgid "Pz.Sp.Wg 204(f)"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz231(late_ger_pz)"
+msgid "Sd.Kfz 231"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz234_1(late_ger_pz)"
+msgid "Sd.Kfz 234/1"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz234_2(late_ger_pz)"
+msgid "Sd.Kfz 234/2"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz234_3(late_ger_pz)"
+msgid "Sd.Kfz 234/3"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz234_4(late_ger_pz)"
+msgid "Sd.Kfz 234/4"
+msgstr ""
+
+msgctxt "desc/squad/panzer2c(late_ger_pz)"
+msgid "Pz.Kpfw II Ausf.C"
+msgstr ""
+
+msgctxt "desc/squad/panzer2f(late_ger_pz)"
+msgid "Pz.Kpfw II Ausf.F"
+msgstr ""
+
+msgctxt "desc/squad/panzer2l(late_ger_pz)"
+msgid "Pz.Kpfw II Ausf.L"
+msgstr ""
+
+msgctxt "desc/squad/marder2(late_ger_pz)"
+msgid "Marder II"
+msgstr ""
+
+msgctxt "desc/squad/marder3m(late_ger_pz)"
+msgid "Marder III Ausf.M"
+msgstr ""
+
+msgctxt "desc/squad/hetzer(late_ger_pz)"
+msgid "Jagdpanzer 38"
+msgstr ""
+
+msgctxt "desc/squad/grille_k(late_ger_pz)"
+msgid "'Grille' Ausf.K"
+msgstr ""
+
+msgctxt "desc/squad/wespe(late_ger_pz)"
+msgid "'Wespe'"
+
+msgctxt "desc/squad/panzer3h(late_ger_pz)"
+msgid "Pz.Kpfw III Ausf.H"
+msgstr ""
+
+msgctxt "desc/squad/panzer3j(late_ger_pz)"
+msgid "Pz.Kpfw III Ausf.J"
+msgstr ""
+
+msgctxt "desc/squad/panzer3j1(late_ger_pz)"
+msgid "Pz.Kpfw III Ausf.L (Early)"
+msgstr ""
+
+msgctxt "desc/squad/panzer3l(late_ger_pz)"
+msgid "Pz.Kpfw III Ausf.L"
+msgstr ""
+
+msgctxt "desc/squad/panzer3m(late_ger_pz)"
+msgid "Pz.Kpfw III Ausf.M"
+msgstr ""
+
+msgctxt "desc/squad/panzer3n(late_ger_pz)"
+msgid "Pz.Kpfw III Ausf.N"
+msgstr ""
+
+msgctxt "desc/squad/panzer3_flamm(late_ger_pz)"
+msgid "Flammpanzer III"
+msgstr ""
+
+msgctxt "desc/squad/stug3f(late_ger_pz)"
+msgid "StuG III Ausf.F8"
+msgstr ""
+
+msgctxt "desc/squad/stug3g(late_ger_pz)"
+msgid "StuG III Ausf.G"
+msgstr ""
+
+msgctxt "desc/squad/stug3g_late(late_ger_pz)"
+msgid "StuG III Ausf.G (Late)"
+msgstr ""
+
+msgctxt "desc/squad/stuh42(late_ger_pz)"
+msgid "StuH 42 Ausf.G"
+msgstr ""
+
+msgctxt "desc/squad/sig33b(late_ger_pz)"
+msgid "sIG 33 (Sf.) Ausf.B"
+msgstr ""
+
+msgctxt "desc/squad/panzer4f1(late_ger_pz)"
+msgid "Pz.Kpfw IV Ausf.F"
+msgstr ""
+
+msgctxt "desc/squad/panzer4f2(late_ger_pz)"
+msgid "Pz.Kpfw IV Ausf.G (Early)"
+msgstr ""
+
+msgctxt "desc/squad/panzer4g(late_ger_pz)"
+msgid "Pz.Kpfw IV Ausf.G"
+msgstr ""
+
+msgctxt "desc/squad/panzer4h(late_ger_pz)"
+msgid "Pz.Kpfw IV Ausf.H"
+msgstr ""
+
+msgctxt "desc/squad/panzer4j(late_ger_pz)"
+msgid "Pz.Kpfw IV Ausf.J"
+msgstr ""
+
+msgctxt "desc/squad/jagdpanzer4_l48_early(late_ger_pz)"
+msgid "Jagdpanzer IV (Early)"
+msgstr ""
+
+msgctxt "desc/squad/jagdpanzer4_l48(late_ger_pz)"
+msgid "Jagdpanzer IV"
+msgstr ""
+
+msgctxt "desc/squad/panzer4_70_v(late_ger_pz)"
+msgid "Panzer IV/70(V)"
+msgstr ""
+
+msgctxt "desc/squad/nashorn(late_ger_pz)"
+msgid "'Nashorn'"
+msgstr ""
+
+msgctxt "desc/squad/hummel(late_ger_pz)"
+msgid "'Hummel'"
+msgstr ""
+
+msgctxt "desc/squad/sturmpanzer4(late_ger_pz)"
+msgid "Sturmpanzer IV"
+msgstr ""
+
+msgctxt "desc/squad/wirbelwind(late_ger_pz)"
+msgid "Flakpanzer IV 'Wirbelwind'"
+msgstr ""
+
+msgctxt "desc/squad/ostwind(late_ger_pz)"
+msgid "Flakpanzer IV 'Ostwind'"
+msgstr ""
+
+msgctxt "desc/squad/panzerb2(late_ger_pz)"
+msgid "Pz.Kpfw B2(f)"
+msgstr ""
+
+msgctxt "desc/squad/m4_75_late_ger(late_ger_pz)"
+msgid "Pz.Kpfw Cherman"
+msgstr ""
+
+msgctxt "desc/squad/t3476_42_ger(late_ger_pz)"
+msgid "Pz.Kpfw T-34/76(r) (1942)"
+msgstr ""
+
+msgctxt "desc/squad/t3476_43_ger(late_ger_pz)"
+msgid "Pz.Kpfw T-34/76(r) (1943)"
+msgstr ""
+
+msgctxt "desc/squad/t3485_44_ger(late_ger_pz)"
+msgid "a"
+msgstr "Pz.Kpfw T-34/85(r) (1944)"
+
+msgctxt "desc/squad/panzer5d(late_ger_pz)"
+msgid "Pz.Kpfw Panther Ausf.D"
+msgstr ""
+
+msgctxt "desc/squad/panzer5a(late_ger_pz)"
+msgid "Pz.Kpfw Panther Ausf.A"
+msgstr ""
+
+msgctxt "desc/squad/panzer5a_1(late_ger_pz)"
+msgid "<c(E56042)>1.</c> Pz.Kpfw Panther Ausf.A"
+msgstr ""
+
+msgctxt "desc/squad/panzer5a_2(late_ger_pz)"
+msgid "<c(E56042)>2.</c> Pz.Kpfw Panther Ausf.A"
+msgstr ""
+
+msgctxt "desc/squad/panzer5g(late_ger_pz)"
+msgid "Pz.Kpfw Panther Ausf.G"
+msgstr ""
+
+msgctxt "desc/squad/jagdpanther(late_ger_pz)"
+msgid "Pz.J Panther Ausf.G1"
+msgstr ""
+
+msgctxt "desc/squad/tiger1h(late_ger_pz)"
+msgid "Pz.Kpfw Tiger Ausf.H1"
+msgstr ""
+
+msgctxt "desc/squad/tiger1e_mid(late_ger_pz)"
+msgid "Pz.Kpfw Tiger Ausf.E (Mid)"
+msgstr ""
+
+msgctxt "desc/squad/tiger1e(late_ger_pz)"
+msgid "Pz.Kpfw Tiger Ausf.E"
+msgstr ""
+
+msgctxt "desc/squad/tiger1hunt(late_ger_pz)"
+msgid "Pz.Kpfw Tiger Ausf.E (Camo)"
+msgstr ""
+
+msgctxt "desc/squad/sturmtiger(late_ger_pz)"
+msgid "'Sturmtiger'"
+msgstr ""
+
+msgctxt "desc/squad/ferdinand(late_ger_pz)"
+msgid "Pz.J Tiger(P)"
+msgstr ""
+
+msgctxt "desc/squad/tiger2p(late_ger_pz)"
+msgid "Pz.Kpfw Tiger Ausf.B (Early)"
+msgstr ""
+
+msgctxt "desc/squad/tiger2h(late_ger_pz)"
+msgid "Pz.Kpfw Tiger Ausf.B"
+msgstr ""
+
+msgctxt "desc/squad/jagdtiger(late_ger_pz)"
+msgid "Pz.J Tiger Ausf.B"
+msgstr ""
+
+msgctxt "desc/squad/squad_ersatz_late_waf(ger)"
+msgid "<c(A5A095)>(1)</c> Ersatz-Grenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_landes_late_waf(ger)"
+msgid "<c(A5A095)>(1)</c> Landesschützen Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz_pio_late_waf(ger)"
+msgid "<c(A5A095)>(2)</c> Panzerpionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pz_recon_late_waf(ger)"
+msgid "<c(A5A095)>(2)</c> Panzeraufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgren_late_waf_1(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Panzergrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgren_late_waf_2(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Panzergrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgren_late_waf_3(ger)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Panzergrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgren_late_mech_waf_1(ger)"
+msgid "<c(A5A095)>(2)</c> Mechanized Pz.Gren Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgren_late_mech_waf_2(ger)"
+msgid "<c(A5A095)>(2)</c> Mechanized Pz.Gren Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pzgren_late_mech_waf_3(ger)"
+msgid "<c(A5A095)>(2)</c> Mechanized Pz.Gren Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_begleitgren_late_waf(ger)"
+msgid "<c(A5A095)>(3)</c> Begleitgrenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_begleit_pio_late_waf(ger)"
+msgid "<c(A5A095)>(3)</c> Begleitpionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/single_rifle_waf(ger)"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/squad/single_mg_waf(ger)"
+msgid "MG Detachment"
+msgstr ""
+
+msgctxt "desc/squad/single_officer_waf(ger)"
+msgid "Officer"
+msgstr ""
+
+msgctxt "desc/squad/single_tankman_waf(ger)"
+msgid "Tank Crew"
+msgstr ""
+
+msgctxt "desc/squad/single_flamer_waf(ger)"
+msgid "Flamer"
+msgstr ""
+
+msgctxt "desc/squad/single_signaller_105_waf(ger)"
+msgid "Artillery Signaller (105 mm)"
+msgstr ""
+
+msgctxt "desc/squad/inf_crate_ger(late_ger_waf)"
+msgid "Ammo Crate"
+msgstr ""
+
+msgctxt "desc/squad/mg42_lafette(late_ger_waf)"
+msgid "MG42 Lafette"
+msgstr ""
+
+msgctxt "desc/squad/20mm_flak38(late_ger_waf)"
+msgid "2 cm Flak38"
+msgstr ""
+
+msgctxt "desc/squad/20mm_flakvierling38(late_ger_waf)"
+msgid "2 cm Flakvierling"
+msgstr ""
+
+msgctxt "desc/squad/37mm_flak37(late_ger_waf)"
+msgid "3,7 cm Flak37"
+msgstr ""
+
+msgctxt "desc/squad/50mm_pak38_late(late_ger_waf)"
+msgid "5 cm Pak 38"
+msgstr ""
+
+msgctxt "desc/squad/75mm_pak40(late_ger_waf)"
+msgid "7,5 cm Pak 40 (towed)"
+msgstr ""
+
+msgctxt "desc/squad/88mm_pak4341(late_ger_waf)"
+msgid "8,8 cm Pak 43/41 (towed)"
+msgstr ""
+
+msgctxt "desc/squad/88mm_flak36(late_ger_waf)"
+msgid "8,8 cm Flak 36 (towed)"
+msgstr ""
+
+msgctxt "desc/squad/75mm_legebig18(late_ger_waf)"
+msgid "7,5 cm le.GebIG 18"
+msgstr ""
+
+msgctxt "desc/squad/75mm_leig18(late_ger_waf)"
+msgid "7,5 cm le.IG 18"
+msgstr ""
+
+msgctxt "desc/squad/150mm_sig33_late(late_ger_waf)"
+msgid "15 cm sIG 33"
+msgstr ""
+
+msgctxt "desc/squad/80mm_sgrw34(late_ger_waf)"
+msgid "8 cm s.Gr.W.34"
+msgstr ""
+
+msgctxt "desc/squad/120mm_sgrw42(late_ger_waf)"
+msgid "12 cm s.Gr.W.42"
+msgstr ""
+
+msgctxt "desc/squad/200mm_ldgw40(late_ger_waf)"
+msgid "20 cm leLdgW 40"
+msgstr ""
+
+msgctxt "desc/squad/105mm_lefh18(late_ger_waf)"
+msgid "10,5 cm leFH 18"
+msgstr ""
+
+msgctxt "desc/squad/105mm_sk18(late_ger_waf)"
+msgid "10,5 cm sK18/40"
+msgstr ""
+
+msgctxt "desc/squad/150mm_sfh18(late_ger_waf)"
+msgid "15 cm sFH 18"
+msgstr ""
+
+msgctxt "desc/squad/170mm_k18(late_ger_waf)"
+msgid "17 cm K 18"
+msgstr ""
+
+msgctxt "desc/squad/210mm_morser18(late_ger_waf)"
+msgid "21 cm Mrs 18"
+msgstr ""
+
+msgctxt "desc/squad/150mm_nebelwerfer41(late_ger_waf)"
+msgid "15 cm NbW 41"
+msgstr ""
+
+msgctxt "desc/squad/300mm_nebelwerfer42(late_ger_waf)"
+msgid "30 cm NbW 42"
+msgstr ""
+
+msgctxt "desc/squad/600mm_thor(late_ger_waf)"
+msgid "Karl-Gerät 040"
+msgstr ""
+
+msgctxt "desc/squad/bmw_r71(late_ger_waf)"
+msgid "BMW R71"
+msgstr ""
+
+msgctxt "desc/squad/kubelwagen(late_ger_waf)"
+msgid "VW Kubelwagen"
+msgstr ""
+
+msgctxt "desc/squad/kubelwagen_mg(late_ger_waf)"
+msgid "VW Kubelwagen (MG)"
+msgstr ""
+
+msgctxt "desc/squad/schwimmwagen(late_ger_waf)"
+msgid "VW Schwimmwagen"
+msgstr ""
+
+msgctxt "desc/squad/kfz13(late_ger_waf)"
+msgid "Kfz 13 (MG)"
+msgstr ""
+
+msgctxt "desc/squad/kfz14(late_ger_waf)"
+msgid "Kfz 14"
+msgstr ""
+
+msgctxt "desc/squad/kfz15(late_ger_waf)"
+msgid "Kfz 15 (MG)"
+msgstr ""
+
+msgctxt "desc/squad/kettenkrad(late_ger_waf)"
+msgid "Sd.Kfz 2"
+msgstr ""
+
+msgctxt "desc/squad/kettenkrad_eng(late_ger_waf)"
+msgid "Sd.Kfz 2 (engineer)"
+msgstr ""
+
+msgctxt "desc/squad/blitz3_6(late_ger_waf)"
+msgid "Blitz 3.6"
+msgstr ""
+
+msgctxt "desc/squad/blitz3_6_art_ammo(late_ger_waf)"
+msgid "Blitz 3.6 (Ammo)"
+msgstr ""
+
+msgctxt "desc/squad/blitz3_6_fuel(late_ger_waf)"
+msgid "Blitz 3.6 (Fuel)"
+msgstr ""
+
+msgctxt "desc/squad/blitz3_6_engineering(late_ger_waf)"
+msgid "Blitz 3.6 (Engineer)"
+msgstr ""
+
+msgctxt "desc/squad/opel_maultier(late_ger_waf)"
+msgid "Blitz 3.6 'Maultier'"
+msgstr ""
+
+msgctxt "desc/squad/blitz3_6_flak30(late_ger_waf)"
+msgid "Blitz 3.6 (2 cm Flak)"
+msgstr ""
+
+msgctxt "desc/squad/kfz70(late_ger_waf)"
+msgid "Kfz 70"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz6_ammo(late_ger_waf)"
+msgid "Sd.Kfz 6 (Supply)"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz6_cargo(late_ger_waf)"
+msgid "Sd.Kfz 6"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz7(late_ger_waf)"
+msgid "Sd.Kfz 7"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz7_1(late_ger_waf)"
+msgid "Sd.Kfz 7/1 (2 cm Flak)"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz7_2(late_ger_waf)"
+msgid "Sd.Kfz 7/2 (3,7 cm Flak)"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz10(late_ger_waf)"
+msgid "Sd.Kfz 10"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz10_4(late_ger_waf)"
+msgid "Sd.Kfz 10/4 (2 cm Flak)"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz10_pak38(late_ger_waf)"
+msgid "Sd.Kfz 10 (Pak 38)"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz250a_1(late_ger_waf)"
+msgid "Sd.Kfz 250/1"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz250a_3(late_ger_waf)"
+msgid "Sd.Kfz 250/3"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz250a_9(late_ger_waf)"
+msgid "Sd.Kfz 250/9"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz250a_11(late_ger_waf)"
+msgid "Sd.Kfz 250/11"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251d_1(late_ger_waf)"
+msgid "Sd.Kfz 251/1 Ausf.D"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251c_2(late_ger_waf)"
+msgid "Sd.Kfz 251/2 Ausf.C"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251d_16(late_ger_waf)"
+msgid "Sd.Kfz 251/16 Ausf.D"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251d_17(late_ger_waf)"
+msgid "Sd.Kfz 251/17 Ausf.D"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251d_21(late_ger_waf)"
+msgid "Sd.Kfz 251/21 Ausf.D"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251d_22(late_ger_waf)"
+msgid "Sd.Kfz 251/22 Ausf.D"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251d_1_stuka(late_ger_waf)"
+msgid "Sd.Kfz 251/1 'Stuka zu Fuss'"
+msgstr ""
+
+msgctxt "desc/squad/panzerwerfer42(late_ger_waf)"
+msgid "15 cm Panzerwerfer 42"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz221(late_ger_waf)"
+msgid "Sd.Kfz 221"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz222a(late_ger_waf)"
+msgid "Sd.Kfz 222"
+msgstr ""
+
+msgctxt "desc/squad/p204_f(late_ger_waf)"
+msgid "Pz.Sp.Wg 204(f)"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz231(late_ger_waf)"
+msgid "Sd.Kfz 231"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz234_1(late_ger_waf)"
+msgid "Sd.Kfz 234/1"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz234_2(late_ger_waf)"
+msgid "Sd.Kfz 234/2"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz234_3(late_ger_waf)"
+msgid "Sd.Kfz 234/3"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz234_4(late_ger_waf)"
+msgid "Sd.Kfz 234/4"
+msgstr ""
+
+msgctxt "desc/squad/panzer2c(late_ger_waf)"
+msgid "Pz.Kpfw II Ausf.C"
+msgstr ""
+
+msgctxt "desc/squad/panzer2f(late_ger_waf)"
+msgid "Pz.Kpfw II Ausf.F"
+msgstr ""
+
+msgctxt "desc/squad/panzer2l(late_ger_waf)"
+msgid "Pz.Kpfw II Ausf.L"
+msgstr ""
+
+msgctxt "desc/squad/marder2(late_ger_waf)"
+msgid "Marder II"
+msgstr ""
+
+msgctxt "desc/squad/marder3m(late_ger_waf)"
+msgid "Marder III Ausf.M"
+msgstr ""
+
+msgctxt "desc/squad/hetzer(late_ger_waf)"
+msgid "Jagdpanzer 38"
+msgstr ""
+
+msgctxt "desc/squad/grille_k(late_ger_waf)"
+msgid "'Grille' Ausf.K"
+msgstr ""
+
+msgctxt "desc/squad/wespe(late_ger_waf)"
+msgid "'Wespe'"
+
+msgctxt "desc/squad/panzer3h(late_ger_waf)"
+msgid "Pz.Kpfw III Ausf.H"
+msgstr ""
+
+msgctxt "desc/squad/panzer3j(late_ger_waf)"
+msgid "Pz.Kpfw III Ausf.J"
+msgstr ""
+
+msgctxt "desc/squad/panzer3j1(late_ger_waf)"
+msgid "Pz.Kpfw III Ausf.L (Early)"
+msgstr ""
+
+msgctxt "desc/squad/panzer3l(late_ger_waf)"
+msgid "Pz.Kpfw III Ausf.L"
+msgstr ""
+
+msgctxt "desc/squad/panzer3m(late_ger_waf)"
+msgid "Pz.Kpfw III Ausf.M"
+msgstr ""
+
+msgctxt "desc/squad/panzer3n(late_ger_waf)"
+msgid "Pz.Kpfw III Ausf.N"
+msgstr ""
+
+msgctxt "desc/squad/panzer3_flamm(late_ger_waf)"
+msgid "Flammpanzer III"
+msgstr ""
+
+msgctxt "desc/squad/stug3f(late_ger_waf)"
+msgid "StuG III Ausf.F8"
+msgstr ""
+
+msgctxt "desc/squad/stug3g(late_ger_waf)"
+msgid "StuG III Ausf.G"
+msgstr ""
+
+msgctxt "desc/squad/stug3g_late(late_ger_waf)"
+msgid "StuG III Ausf.G (Late)"
+msgstr ""
+
+msgctxt "desc/squad/stuh42(late_ger_waf)"
+msgid "StuH 42 Ausf.G"
+msgstr ""
+
+msgctxt "desc/squad/sig33b(late_ger_waf)"
+msgid "sIG 33 (Sf.) Ausf.B"
+msgstr ""
+
+msgctxt "desc/squad/panzer4f2(late_ger_waf)"
+msgid "Pz.Kpfw IV Ausf.G (Early)"
+msgstr ""
+
+msgctxt "desc/squad/panzer4g(late_ger_waf)"
+msgid "Pz.Kpfw IV Ausf.G"
+msgstr ""
+
+msgctxt "desc/squad/panzer4h(late_ger_waf)"
+msgid "Pz.Kpfw IV Ausf.H"
+msgstr ""
+
+msgctxt "desc/squad/panzer4j(late_ger_waf)"
+msgid "Pz.Kpfw IV Ausf.J"
+msgstr ""
+
+msgctxt "desc/squad/jagdpanzer4_l48_early(late_ger_waf)"
+msgid "Jagdpanzer IV (Early)"
+msgstr ""
+
+msgctxt "desc/squad/jagdpanzer4_l48(late_ger_waf)"
+msgid "Jagdpanzer IV"
+msgstr ""
+
+msgctxt "desc/squad/panzer4_70_v(late_ger_waf)"
+msgid "Panzer IV/70(V)"
+msgstr ""
+
+msgctxt "desc/squad/nashorn(late_ger_waf)"
+msgid "'Nashorn'"
+msgstr ""
+
+msgctxt "desc/squad/hummel(late_ger_waf)"
+msgid "'Hummel'"
+msgstr ""
+
+msgctxt "desc/squad/sturmpanzer4(late_ger_waf)"
+msgid "Sturmpanzer IV"
+msgstr ""
+
+msgctxt "desc/squad/wirbelwind(late_ger_waf)"
+msgid "Flakpanzer IV 'Wirbelwind'"
+msgstr ""
+
+msgctxt "desc/squad/ostwind(late_ger_waf)"
+msgid "Flakpanzer IV 'Ostwind'"
+msgstr ""
+
+msgctxt "desc/squad/panzerb2(late_ger_waf)"
+msgid "Pz.Kpfw B2(f)"
+msgstr ""
+
+msgctxt "desc/squad/m4_75_late_ger(late_ger_waf)"
+msgid "Pz.Kpfw Cherman"
+msgstr ""
+
+msgctxt "desc/squad/t3476_42_ger(late_ger_waf)"
+msgid "Pz.Kpfw T-34/76(r) (1942)"
+msgstr ""
+
+msgctxt "desc/squad/t3476_43_ger(late_ger_waf)"
+msgid "Pz.Kpfw T-34/76(r) (1943)"
+msgstr ""
+
+msgctxt "desc/squad/t3485_44_ger(late_ger_waf)"
+msgid "a"
+msgstr "Pz.Kpfw T-34/85(r) (1944)"
+
+msgctxt "desc/squad/panzer5d(late_ger_waf)"
+msgid "Pz.Kpfw Panther Ausf.D"
+msgstr ""
+
+msgctxt "desc/squad/panzer5a(late_ger_waf)"
+msgid "Pz.Kpfw Panther Ausf.A"
+msgstr ""
+
+msgctxt "desc/squad/panzer5a_1(late_ger_waf)"
+msgid "<c(E56042)>1.</c> Pz.Kpfw Panther Ausf.A"
+msgstr ""
+
+msgctxt "desc/squad/panzer5a_2(late_ger_waf)"
+msgid "<c(E56042)>2.</c> Pz.Kpfw Panther Ausf.A"
+msgstr ""
+
+msgctxt "desc/squad/panzer5g(late_ger_waf)"
+msgid "Pz.Kpfw Panther Ausf.G"
+msgstr ""
+
+msgctxt "desc/squad/jagdpanther(late_ger_waf)"
+msgid "Pz.J Panther Ausf.G1"
+msgstr ""
+
+msgctxt "desc/squad/tiger1h(late_ger_waf)"
+msgid "Pz.Kpfw Tiger Ausf.H1"
+msgstr ""
+
+msgctxt "desc/squad/tiger1e_mid(late_ger_waf)"
+msgid "Pz.Kpfw Tiger Ausf.E (Mid)"
+msgstr ""
+
+msgctxt "desc/squad/tiger1e(late_ger_waf)"
+msgid "Pz.Kpfw Tiger Ausf.E"
+msgstr ""
+
+msgctxt "desc/squad/tiger1hunt(late_ger_waf)"
+msgid "Pz.Kpfw Tiger Ausf.E (Camo)"
+msgstr ""
+
+msgctxt "desc/squad/sturmtiger(late_ger_waf)"
+msgid "'Sturmtiger'"
+msgstr ""
+
+msgctxt "desc/squad/ferdinand(late_ger_waf)"
+msgid "Pz.J Tiger(P)"
+msgstr ""
+
+msgctxt "desc/squad/tiger2p(late_ger_waf)"
+msgid "Pz.Kpfw Tiger Ausf.B (Early)"
+msgstr ""
+
+msgctxt "desc/squad/tiger2h(late_ger_waf)"
+msgid "Pz.Kpfw Tiger Ausf.B"
+msgstr ""
+
+msgctxt "desc/squad/jagdtiger(late_ger_waf)"
+msgid "Pz.J Tiger Ausf.B"
+msgstr ""
+
+msgctxt "desc/squad/squad_ersatz_late_jg(ger)"
+msgid "<c(A5A095)>(1)</c> Ersatz-Grenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_fusilier_late_jg(ger)"
+msgid "<c(A5A095)>(2)</c> Füsilier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_pio_late_jg(ger)"
+msgid "<c(A5A095)>(2)</c> Pionier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gren_late_jg(ger)"
+msgid "<c(A5A095)>(2)</c> Grenadier Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jager_late_jg_1(ger)"
+msgid "<c(A5A095)>(3)</c> Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_jager_late_jg_2(ger)"
+msgid "<c(A5A095)>(3)</c> Jäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_recon_late_jg_1(ger)"
+msgid "<c(A5A095)>(3+)</c> Gebirgsaufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_recon_late_jg_2(ger)"
+msgid "<c(A5A095)>(3+)</c> Gebirgsaufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_recon_late_jg_3(ger)"
+msgid "<c(A5A095)>(3+)</c> Gebirgsaufklärer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_gebirgs_late_jg(ger)"
+msgid "<c(A5A095)>(3+)</c> Gebirgsjäger Squad"
+msgstr ""
+
+msgctxt "desc/squad/single_rifle_jg(ger)"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/squad/single_mg_jg(ger)"
+msgid "MG Detachment"
+msgstr ""
+
+msgctxt "desc/squad/single_officer_jg(ger)"
+msgid "Officer"
+msgstr ""
+
+msgctxt "desc/squad/single_tankman_jg(ger)"
+msgid "Tank Crew"
+msgstr ""
+
+msgctxt "desc/squad/single_flamer_jg(ger)"
+msgid "Flamer"
+msgstr ""
+
+msgctxt "desc/squad/single_signaller_105_jg(ger)"
+msgid "Artillery Signaller (105 mm)"
+msgstr ""
+
+msgctxt "desc/squad/inf_crate_ger(late_ger_jg)"
+msgid "Ammo Crate"
+msgstr ""
+
+msgctxt "desc/squad/mg42_lafette(late_ger_jg)"
+msgid "MG42 Lafette"
+msgstr ""
+
+msgctxt "desc/squad/20mm_flak38(late_ger_jg)"
+msgid "2 cm Flak38"
+msgstr ""
+
+msgctxt "desc/squad/20mm_flakvierling38(late_ger_jg)"
+msgid "2 cm Flakvierling"
+msgstr ""
+
+msgctxt "desc/squad/37mm_flak37(late_ger_jg)"
+msgid "3,7 cm Flak37"
+msgstr ""
+
+msgctxt "desc/squad/50mm_pak38_late(late_ger_jg)"
+msgid "5 cm Pak 38"
+msgstr ""
+
+msgctxt "desc/squad/75mm_pak40(late_ger_jg)"
+msgid "7,5 cm Pak 40 (towed)"
+msgstr ""
+
+msgctxt "desc/squad/88mm_pak4341(late_ger_jg)"
+msgid "8,8 cm Pak 43/41 (towed)"
+msgstr ""
+
+msgctxt "desc/squad/88mm_flak36(late_ger_jg)"
+msgid "8,8 cm Flak 36 (towed)"
+msgstr ""
+
+msgctxt "desc/squad/75mm_legebig18(late_ger_jg)"
+msgid "7,5 cm le.GebIG 18"
+msgstr ""
+
+msgctxt "desc/squad/75mm_leig18(late_ger_jg)"
+msgid "7,5 cm le.IG 18"
+msgstr ""
+
+msgctxt "desc/squad/150mm_sig33_late(late_ger_jg)"
+msgid "15 cm sIG 33"
+msgstr ""
+
+msgctxt "desc/squad/80mm_sgrw34(late_ger_jg)"
+msgid "8 cm s.Gr.W.34"
+msgstr ""
+
+msgctxt "desc/squad/120mm_sgrw42(late_ger_jg)"
+msgid "12 cm s.Gr.W.42"
+msgstr ""
+
+msgctxt "desc/squad/200mm_ldgw40(late_ger_jg)"
+msgid "20 cm leLdgW 40"
+msgstr ""
+
+msgctxt "desc/squad/105mm_lefh18(late_ger_jg)"
+msgid "10,5 cm leFH 18"
+msgstr ""
+
+msgctxt "desc/squad/105mm_sk18(late_ger_jg)"
+msgid "10,5 cm sK18/40"
+msgstr ""
+
+msgctxt "desc/squad/150mm_sfh18(late_ger_jg)"
+msgid "15 cm sFH 18"
+msgstr ""
+
+msgctxt "desc/squad/170mm_k18(late_ger_jg)"
+msgid "17 cm K 18"
+msgstr ""
+
+msgctxt "desc/squad/210mm_morser18(late_ger_jg)"
+msgid "21 cm Mrs 18"
+msgstr ""
+
+msgctxt "desc/squad/150mm_nebelwerfer41(late_ger_jg)"
+msgid "15 cm NbW 41"
+msgstr ""
+
+msgctxt "desc/squad/300mm_nebelwerfer42(late_ger_jg)"
+msgid "30 cm NbW 42"
+msgstr ""
+
+msgctxt "desc/squad/600mm_thor(late_ger_jg)"
+msgid "Karl-Gerät 040"
+msgstr ""
+
+msgctxt "desc/squad/bmw_r71(late_ger_jg)"
+msgid "BMW R71"
+msgstr ""
+
+msgctxt "desc/squad/kubelwagen(late_ger_jg)"
+msgid "VW Kubelwagen"
+msgstr ""
+
+msgctxt "desc/squad/kubelwagen_mg(late_ger_jg)"
+msgid "VW Kubelwagen (MG)"
+msgstr ""
+
+msgctxt "desc/squad/schwimmwagen(late_ger_jg)"
+msgid "VW Schwimmwagen"
+msgstr ""
+
+msgctxt "desc/squad/kfz13(late_ger_jg)"
+msgid "Kfz 13 (MG)"
+msgstr ""
+
+msgctxt "desc/squad/kfz14(late_ger_jg)"
+msgid "Kfz 14"
+msgstr ""
+
+msgctxt "desc/squad/kfz15(late_ger_jg)"
+msgid "Kfz 15 (MG)"
+msgstr ""
+
+msgctxt "desc/squad/kettenkrad(late_ger_jg)"
+msgid "Sd.Kfz 2"
+msgstr ""
+
+msgctxt "desc/squad/kettenkrad_eng(late_ger_jg)"
+msgid "Sd.Kfz 2 (engineer)"
+msgstr ""
+
+msgctxt "desc/squad/blitz3_6(late_ger_jg)"
+msgid "Blitz 3.6"
+msgstr ""
+
+msgctxt "desc/squad/blitz3_6_art_ammo(late_ger_jg)"
+msgid "Blitz 3.6 (Ammo)"
+msgstr ""
+
+msgctxt "desc/squad/blitz3_6_fuel(late_ger_jg)"
+msgid "Blitz 3.6 (Fuel)"
+msgstr ""
+
+msgctxt "desc/squad/blitz3_6_engineering(late_ger_jg)"
+msgid "Blitz 3.6 (Engineer)"
+msgstr ""
+
+msgctxt "desc/squad/opel_maultier(late_ger_jg)"
+msgid "Blitz 3.6 'Maultier'"
+msgstr ""
+
+msgctxt "desc/squad/blitz3_6_flak30(late_ger_jg)"
+msgid "Blitz 3.6 (2 cm Flak)"
+msgstr ""
+
+msgctxt "desc/squad/kfz70(late_ger_jg)"
+msgid "Kfz 70"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz6_ammo(late_ger_jg)"
+msgid "Sd.Kfz 6 (Supply)"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz6_cargo(late_ger_jg)"
+msgid "Sd.Kfz 6"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz7(late_ger_jg)"
+msgid "Sd.Kfz 7"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz7_1(late_ger_jg)"
+msgid "Sd.Kfz 7/1 (2 cm Flak)"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz7_2(late_ger_jg)"
+msgid "Sd.Kfz 7/2 (3,7 cm Flak)"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz10(late_ger_jg)"
+msgid "Sd.Kfz 10"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz10_4(late_ger_jg)"
+msgid "Sd.Kfz 10/4 (2 cm Flak)"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz10_pak38(late_ger_jg)"
+msgid "Sd.Kfz 10 (Pak 38)"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz250a_1(late_ger_jg)"
+msgid "Sd.Kfz 250/1"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz250a_3(late_ger_jg)"
+msgid "Sd.Kfz 250/3"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz250a_9(late_ger_jg)"
+msgid "Sd.Kfz 250/9"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz250a_11(late_ger_jg)"
+msgid "Sd.Kfz 250/11"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251d_1(late_ger_jg)"
+msgid "Sd.Kfz 251/1 Ausf.D"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251c_2(late_ger_jg)"
+msgid "Sd.Kfz 251/2 Ausf.C"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251d_16(late_ger_jg)"
+msgid "Sd.Kfz 251/16 Ausf.D"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251d_17(late_ger_jg)"
+msgid "Sd.Kfz 251/17 Ausf.D"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251d_21(late_ger_jg)"
+msgid "Sd.Kfz 251/21 Ausf.D"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251d_22(late_ger_jg)"
+msgid "Sd.Kfz 251/22 Ausf.D"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz251d_1_stuka(late_ger_jg)"
+msgid "Sd.Kfz 251/1 'Stuka zu Fuss'"
+msgstr ""
+
+msgctxt "desc/squad/panzerwerfer42(late_ger_jg)"
+msgid "15 cm Panzerwerfer 42"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz221(late_ger_jg)"
+msgid "Sd.Kfz 221"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz222a(late_ger_jg)"
+msgid "Sd.Kfz 222"
+msgstr ""
+
+msgctxt "desc/squad/p204_f(late_ger_jg)"
+msgid "Pz.Sp.Wg 204(f)"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz231(late_ger_jg)"
+msgid "Sd.Kfz 231"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz234_1(late_ger_jg)"
+msgid "Sd.Kfz 234/1"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz234_2(late_ger_jg)"
+msgid "Sd.Kfz 234/2"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz234_3(late_ger_jg)"
+msgid "Sd.Kfz 234/3"
+msgstr ""
+
+msgctxt "desc/squad/sdkfz234_4(late_ger_jg)"
+msgid "Sd.Kfz 234/4"
+msgstr ""
+
+msgctxt "desc/squad/panzer2c(late_ger_jg)"
+msgid "Pz.Kpfw II Ausf.C"
+msgstr ""
+
+msgctxt "desc/squad/panzer2f(late_ger_jg)"
+msgid "Pz.Kpfw II Ausf.F"
+msgstr ""
+
+msgctxt "desc/squad/panzer2l(late_ger_jg)"
+msgid "Pz.Kpfw II Ausf.L"
+msgstr ""
+
+msgctxt "desc/squad/marder2(late_ger_jg)"
+msgid "Marder II"
+msgstr ""
+
+msgctxt "desc/squad/marder3m(late_ger_jg)"
+msgid "Marder III Ausf.M"
+msgstr ""
+
+msgctxt "desc/squad/hetzer(late_ger_jg)"
+msgid "Jagdpanzer 38"
+msgstr ""
+
+msgctxt "desc/squad/grille_k(late_ger_jg)"
+msgid "'Grille' Ausf.K"
+msgstr ""
+
+msgctxt "desc/squad/wespe(late_ger_jg)"
+msgid "'Wespe'"
+
+msgctxt "desc/squad/panzer3h(late_ger_jg)"
+msgid "Pz.Kpfw III Ausf.H"
+msgstr ""
+
+msgctxt "desc/squad/panzer3j(late_ger_jg)"
+msgid "Pz.Kpfw III Ausf.J"
+msgstr ""
+
+msgctxt "desc/squad/panzer3j1(late_ger_jg)"
+msgid "Pz.Kpfw III Ausf.L (Early)"
+msgstr ""
+
+msgctxt "desc/squad/panzer3l(late_ger_jg)"
+msgid "Pz.Kpfw III Ausf.L"
+msgstr ""
+
+msgctxt "desc/squad/panzer3m(late_ger_jg)"
+msgid "Pz.Kpfw III Ausf.M"
+msgstr ""
+
+msgctxt "desc/squad/panzer3n(late_ger_jg)"
+msgid "Pz.Kpfw III Ausf.N"
+msgstr ""
+
+msgctxt "desc/squad/panzer3_flamm(late_ger_jg)"
+msgid "Flammpanzer III"
+msgstr ""
+
+msgctxt "desc/squad/stug3f(late_ger_jg)"
+msgid "StuG III Ausf.F8"
+msgstr ""
+
+msgctxt "desc/squad/stug3g(late_ger_jg)"
+msgid "StuG III Ausf.G"
+msgstr ""
+
+msgctxt "desc/squad/stug3g_late(late_ger_jg)"
+msgid "StuG III Ausf.G (Late)"
+msgstr ""
+
+msgctxt "desc/squad/stuh42(late_ger_jg)"
+msgid "StuH 42 Ausf.G"
+msgstr ""
+
+msgctxt "desc/squad/sig33b(late_ger_jg)"
+msgid "sIG 33 (Sf.) Ausf.B"
+msgstr ""
+
+msgctxt "desc/squad/panzer4f2(late_ger_jg)"
+msgid "Pz.Kpfw IV Ausf.G (Early)"
+msgstr ""
+
+msgctxt "desc/squad/panzer4g(late_ger_jg)"
+msgid "Pz.Kpfw IV Ausf.G"
+msgstr ""
+
+msgctxt "desc/squad/panzer4h(late_ger_jg)"
+msgid "Pz.Kpfw IV Ausf.H"
+msgstr ""
+
+msgctxt "desc/squad/panzer4j(late_ger_jg)"
+msgid "Pz.Kpfw IV Ausf.J"
+msgstr ""
+
+msgctxt "desc/squad/jagdpanzer4_l48_early(late_ger_jg)"
+msgid "Jagdpanzer IV (Early)"
+msgstr ""
+
+msgctxt "desc/squad/jagdpanzer4_l48(late_ger_jg)"
+msgid "Jagdpanzer IV"
+msgstr ""
+
+msgctxt "desc/squad/panzer4_70_v(late_ger_jg)"
+msgid "Panzer IV/70(V)"
+msgstr ""
+
+msgctxt "desc/squad/nashorn(late_ger_jg)"
+msgid "'Nashorn'"
+msgstr ""
+
+msgctxt "desc/squad/hummel(late_ger_jg)"
+msgid "'Hummel'"
+msgstr ""
+
+msgctxt "desc/squad/sturmpanzer4(late_ger_jg)"
+msgid "Sturmpanzer IV"
+msgstr ""
+
+msgctxt "desc/squad/wirbelwind(late_ger_jg)"
+msgid "Flakpanzer IV 'Wirbelwind'"
+msgstr ""
+
+msgctxt "desc/squad/ostwind(late_ger_jg)"
+msgid "Flakpanzer IV 'Ostwind'"
+msgstr ""
+
+msgctxt "desc/squad/panzerb2(late_ger_jg)"
+msgid "Pz.Kpfw B2(f)"
+msgstr ""
+
+msgctxt "desc/squad/m4_75_late_ger(late_ger_jg)"
+msgid "Pz.Kpfw Cherman"
+msgstr ""
+
+msgctxt "desc/squad/t3476_42_ger(late_ger_jg)"
+msgid "Pz.Kpfw T-34/76(r) (1942)"
+msgstr ""
+
+msgctxt "desc/squad/t3476_43_ger(late_ger_jg)"
+msgid "Pz.Kpfw T-34/76(r) (1943)"
+msgstr ""
+
+msgctxt "desc/squad/t3485_44_ger(late_ger_jg)"
+msgid "a"
+msgstr "Pz.Kpfw T-34/85(r) (1944)"
+
+msgctxt "desc/squad/panzer5d(late_ger_jg)"
+msgid "Pz.Kpfw Panther Ausf.D"
+msgstr ""
+
+msgctxt "desc/squad/panzer5a(late_ger_jg)"
+msgid "Pz.Kpfw Panther Ausf.A"
+msgstr ""
+
+msgctxt "desc/squad/panzer5a_1(late_ger_jg)"
+msgid "Pz.Kpfw Panther Ausf.A"
+msgstr ""
+
+msgctxt "desc/squad/panzer5a_2(late_ger_jg)"
+msgid "Pz.Kpfw Panther Ausf.A"
+msgstr ""
+
+msgctxt "desc/squad/panzer5g(late_ger_jg)"
+msgid "Pz.Kpfw Panther Ausf.G"
+msgstr ""
+
+msgctxt "desc/squad/jagdpanther(late_ger_jg)"
+msgid "Pz.J Panther Ausf.G1"
+msgstr ""
+
+msgctxt "desc/squad/tiger1h(late_ger_jg)"
+msgid "Pz.Kpfw Tiger Ausf.H1"
+msgstr ""
+
+msgctxt "desc/squad/tiger1e_mid(late_ger_jg)"
+msgid "Pz.Kpfw Tiger Ausf.E (Mid)"
+msgstr ""
+
+msgctxt "desc/squad/tiger1e(late_ger_jg)"
+msgid "Pz.Kpfw Tiger Ausf.E"
+msgstr ""
+
+msgctxt "desc/squad/sturmtiger(late_ger_jg)"
+msgid "'Sturmtiger'"
+msgstr ""
+
+msgctxt "desc/squad/ferdinand(late_ger_jg)"
+msgid "Pz.J Tiger(P)"
+msgstr ""
+
+msgctxt "desc/squad/tiger2p(late_ger_jg)"
+msgid "Pz.Kpfw Tiger Ausf.B (Early)"
+msgstr ""
+
+msgctxt "desc/squad/tiger2h(late_ger_jg)"
+msgid "Pz.Kpfw Tiger Ausf.B"
+msgstr ""
+
+msgctxt "desc/squad/jagdtiger(late_ger_jg)"
+msgid "Pz.J Tiger Ausf.B"
+msgstr ""

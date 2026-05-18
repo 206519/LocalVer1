@@ -1,0 +1,60 @@
+;_________________________________________
+; short barreled USSR infantry support gun
+;=========================================
+
+
+{from "76mm_kt26"			; L/16.5 "M1927"
+	{filling "bulletrus_76"}
+	{fireSound "cannon/s3/d1/Shared/Cannon_75to76mm_LV/"}
+	{fireSoundclose "cannon/s3/3p/Shared/Cannon_75to76mm_LV/"}
+	{reloadSound "utility/"}
+	("reload time" seconds(6))
+	("range_160_howitzer")
+	("velocity m/s" ap(387) apcr(1) he(262) heat(311))
+	("armor health" damage(200))
+	("armor health custom" shell(aphebc) damage(200) filler(155))
+
+	; BR-350A
+	("penetration_medium" shell(aphebc) range(160) a(44) b(40) c(36) d(33) e(30))
+
+	; BP-350M
+	("penetration_medium" shell(heat) range(160) a(75) b(75) c(75) d(75) e(75))	; issued sometime in '43
+
+	; 76 psa - Vj4 (Finnish)
+	("penetration_medium" shell(apcbc) range(170) a(42) b(38) c(34) d(30) e(26))	; issued sometime in '42
+	{parameters "apcbc" ("velocity" mps(332))}
+
+	; 76 hkr 42-18/24-38 (Finnish)
+	("penetration_medium" shell(heatb) range(160) a(87) b(87) c(87) d(87) e(87))	; issued sometime in '44
+	{parameters "heatc" ("velocity" mps(335))}
+
+	; 76 hrk Vj 42/C-18/24-38 (Finnish)
+	("penetration_medium" shell(heatc) range(160) a(105) b(105) c(105) d(105) e(105))	; issued sometime in '44
+	{parameters "heatc" ("velocity" mps(335))}
+	
+	;("accuracy_spg" r1(2.20) range_ap(170) range_he(170) range_heat(160))
+	
+	;// because the HE shell flies +52 m/s it is more accurate, same thing for the US 75 only that even features additional range
+	
+	;// so now it's a true multirole gun... technically!
+	
+	("accuracy_dual" ; // Applies logic for accuracy of dual direct-indirect weapons
+		r1(2.00) 				; // Accuracy radius for direct-fire munitions
+		r1i(6) 					; // Accuracy radius for indirect fire
+		rmax(10) 				; // Accuracy radius for indirect fire at maximum range
+		range_ap(170) 			; // Range after which accuracy drops to prevent farshooting.
+		range_heat(160) 		; // Range after which accuracy drops to prevent farshooting.
+		range_he(160)			; // Range after which direct-fire accuracy drops to prevent farshooting.
+		range_hei(210)			; // Range after which indirect-fire accuracy drops to prevent farshooting.
+		
+		;// although by formula its 215 I decided to arbitrarily cut short the ranges for now
+	)
+	
+	{unlimitedRangeTPC 0}   ;// restrict range in TPC/FPC
+	
+	{parameters "aphebc"	
+		{spreading
+			{radiusTable {0 0} {50 0.8} {100 1.3} {140 1.85} {169.99 3.5} {170 10}}
+		}
+	}
+}

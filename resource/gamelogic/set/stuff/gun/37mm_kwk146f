@@ -1,0 +1,29 @@
+;_________________________________________
+; French light AT cannon in German service
+;=========================================
+
+
+{from "pattern gun"			; L/33 "panzer38H"
+	{filling "bullet_37x149"}
+	{fireSound "cannon/s1/d1/Shared/Cannon_37to40mm/"}
+	{fireSoundclose "cannon/s1/1p/Shared/Cannon/"}
+	{reloadSound "tank/1p/small_long/"}
+	("range_170")
+	{calibre 37}
+
+	("reload time" seconds(7.2))
+
+	("velocity m/s" ap(705) apcr(1) he(600) heat(1))
+	("armor health" damage(70))
+	("37_slope_multipliers")
+
+	; Pzgr 146(f)
+	("penetration_medium" shell(apc) range(170) a(48) b(40.5) c(30) d(23) e(17))
+
+	; Sprgr 145(f)
+	{parameters "he"
+		{range 160 160}
+	}
+
+	("accuracy_direct" r1(0.90) range_ap(170) range_he(160) range_heat(160))
+}

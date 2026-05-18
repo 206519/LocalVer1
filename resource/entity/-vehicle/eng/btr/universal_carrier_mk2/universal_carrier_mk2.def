@@ -1,0 +1,134 @@
+{game_entity
+	(include "/properties/tank_unarmed.ext")
+	(include "/properties/selection/vehicle.inc" scale(0.9))
+	{props "armored_car" "smoke" "4in" "-turret" "explosion_throw_crew" "vision_lev02" "tractor" "tractor_medium" "detect_tank_mg"}
+	{extension "universal_carrier_mk2.mdl"}
+	(include "universal_carrier_mk2.ext")
+	{targetclass "armoredcar" "bullet"}
+	{targetSelector "tank_bullet"}
+	{patherId "universal"}
+	{collider "tank.light"}
+
+	{extender "enumerator"
+		{digit_folder "us2"}
+	}
+
+	{extender "shield" {on}}
+
+	{boarder
+		{anm "left"
+			{forward {begin "board_tank_left"} {end "pose_univ_carrier_gunner"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward {begin "board_tank_right"} {end "pose_univ_carrier_driver"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "gunner2"
+			{forward {begin "board_tank_right"} {end "pose_univ_carrier_gunner2b"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "armor1"
+			{forward {begin "board_tank_left"} {end "pose_univ_carrier_pass_seat01b"}}
+			{reverse {end "emit_tank_1"}}
+		}
+		{anm "armor3"
+			{forward {begin "board_tank_left"} {end "pose_univ_carrier_pass_seat03"}}
+			{reverse {end "emit_tank_1"}}
+		}
+		{anm "armor4"
+			{forward {begin "board_tank_right"} {end "pose_univ_carrier_pass_seat04"}}
+			{reverse {end "emit_tank_1"}}
+		}
+	}
+
+	("crew_human_visible_anm2" place(driver) door(emit2) door2(emit2) anm_left(right) anm_right(right))
+	("crew_human_visible_anm2" place(gunner) door(emit1) door2(emit1) anm_left(left) anm_right(left))
+	("crew_human_visible_anm2" place(gunner2) door(emit4) door2(emit4) anm_left(gunner2) anm_right(gunner2))
+
+	("seat_human" place(seat1) bone(seat01) door(emit3) animation(armor1))
+	("seat_human" place(seat3) bone(seat03) door(emit5) animation(armor3))
+	("seat_human" place(seat4) bone(seat04) door(emit6) animation(armor4))
+
+	{extender "smokescreen"
+		{cooldown 5}
+		{itemTags "grenade no8_smoke"}
+	}
+	
+	;{Placer
+	;	{place "weapon1"
+	;		{entity "enfield_m1917"}
+	;		{Linkbone "weapon1"}
+	;		{handlebone "body"}
+	;	}
+	;	{place "weapon2"
+	;		{entity "enfield_m1917"}
+	;		{Linkbone "weapon2"}
+	;		{handlebone "body"}
+	;	}
+	;	{place "weapon3"
+	;		{entity "enfield_m1917"}
+	;		{Linkbone "weapon3"}
+	;		{handlebone "body"}
+	;	}
+	;	{place "weapon4"
+	;		{entity "enfield_m1917"}
+	;		{Linkbone "weapon4"}
+	;		{handlebone "body"}
+	;	}
+	;}
+
+	{extender "inventory"
+		{weapon "mgun2" {mask "mountable"}}
+		{box
+			{item "bren_mk2" filled {user "mgun2"}}
+			{item "bren_mag ammo" 900}
+			{item "no8_smoke grenade" 8}
+		}
+	}
+
+	{Weaponry
+		{place "mgun"
+			{type "hull"}
+			{weapon "bren_mk2" filling "ammo bren_mag ammo" 30}
+			{LinkBone "mgun"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			("abm_mgun")
+			{rotate}
+			{basic}
+		}
+		{place "mgun2"
+			{type "aa"}
+			{LinkBone "mgun2"}
+			{LinkAnimation "off"}
+			{gunner "gunner2"}
+			{charger "gunner2"}
+			("abm_mgun")
+			{rotate}
+			{basic}
+			{ai_in_manual}
+		}
+	}
+
+	{mass 3750}
+	{Chassis "track"
+		("tank_trace" fx("tracks_mid") step(0.32) len(0.5))
+		("mobility_spearhead"
+			speed(48)			;Max speed when fully accelerated on road, km/h.
+			reverse(20)		;Max speed in reverse on road, km/h.
+			mass(3.75)			;Mass, in metric tons.
+			power(85) 			;Engine Power
+			contact(1.8)		;Track-ground contact length, in m
+			wheelbase(1.5)		;Distance between center of left and right side roadwheels, in m
+			pressure(0.52)		;Ground pressure on road, in kg/cm^2
+			coeff_accel(5)		;Modifier for acceleration, (0,10]
+			coeff_steer_rate(5)		;Modifier for steering, (0,10]
+			coeff_steer_eff(4)		;Modifier for steering, (0,10]
+			fuel(89.3) 			;Fuel capacity in Litres.
+			type(fuel)			;Fuel type. (diesel OR fuel)
+			range(160) 			;Range in km, off-road.
+			maxslope(60)		;Max slope (tan(gradient in degrees) * 100)
+		)
+	}
+}

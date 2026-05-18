@@ -1,0 +1,18 @@
+;_________________________________________
+; US medium tank gun
+;=========================================
+
+
+{from "76mm_m1a1"
+	("reload time" seconds(7))
+	
+	("penetration_medium" shell(ap) range(205) a(122) b(109) c(91) d(76) e(64))			; M79 AP
+	("penetration_medium" shell(apcbche) range(205) a(128) b(118) c(108) d(100) e(90))	; M62 APC. K2000-2150
+	("penetration_medium" shell(apcbche2) range(205) a(128) b(118) c(108) d(100) e(90))	; Special quality M62 APC
+	("penetration_medium" shell(hvap) range(210) a(238) b(218) c(196) d(176) e(158))	; T-4/M93
+	
+	{parameters "he"
+		{range 205 205}
+	}
+	("accuracy_direct" r1(0.74) range_ap(205) range_he(205) range_heat(205))	; M51 Telescope (3x magnification)
+}

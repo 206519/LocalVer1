@@ -1,0 +1,36 @@
+;_________________________________________
+; USSR heavy long-barreled AT Gun
+;=========================================
+
+
+{from "pattern gun"			; L/52 "SU100"
+	{filling "bulletrus_100"}
+	{fireSound "cannon/s4/d1/Shared/Cannon_85to100mm_HV/"}
+	{fireSoundclose "cannon/s3/1p/Shared/"}
+	{reloadSound "tank/1p/large/"}
+	("range_220")
+	{calibre 100}
+
+	("reload time" seconds(10.0))
+
+	("velocity m/s" ap(895) apcr(1) he(915) heat(1))
+	("armor health" damage(360))
+	("armor health custom" shell(aphe) damage(360) filler(88))	;// 65 grams A-IX-2
+	("armor health custom" shell(aphebc) damage(360) filler(88))
+	("100_rus_slope_multipliers")
+
+	; BR–412
+	("penetration_long" shell(aphe) range(340) a(222) b(204) c(179) d(156) e(136))  ;RHA
+
+	; BR–412B ;issued sometime before 1945
+	("penetration_long" shell(aphebc) range(350) a(219) b(209) c(194) d(180) e(168))  ;RHA
+
+	{parameters "aphebc" ; BR–412B
+		("global velocity" gv(887))
+	}
+	{parameters "he"										
+		{range 350 350}
+	}
+
+	("accuracy_direct" r1(0.6) range_ap(350) range_he(350) range_heat(230))
+}

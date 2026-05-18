@@ -1,0 +1,4 @@
+increased rifleman ammo loads from 60 to 70 rounds per:
+https://www.battleorder.org/ussr-rifle-co-1944
+
+Except where AVT-40 [150 rds]

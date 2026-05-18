@@ -1,0 +1,12 @@
+{game_entity 
+	(include "75mm_leig18.inc")
+
+	{extender "inventory"
+		{box
+			{item "bulletger_75_l24 he" 45}
+			;{item "bulletger_75_l24 heat" 5}
+			{item "bulletger_75_l24 heata" 5}
+			{item "sandbag_vehicle" 1}
+		}
+	}
+}

@@ -1,0 +1,11 @@
+;_________________________________________
+; USSR light AT cannon
+;=========================================
+
+
+{from "45mm_20k"			; old model 45mm gun, semi automatic breech does not work with HE shells
+
+	{parameters "he"
+		("reload time" seconds(5.2))
+	}
+}

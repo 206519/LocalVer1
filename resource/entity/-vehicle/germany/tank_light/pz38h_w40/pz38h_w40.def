@@ -1,0 +1,142 @@
+{game_entity
+	(include "/properties/tank.ext")
+	(include "/properties/selection/vehicle.inc" scale(1.0))
+	{props "light" "vision_lev03" "muzzle_37mm_47mm" "artillery_minimap_medium_2"}
+	{extension "pz38h_w40.mdl"}
+	(include "pz38h_w40.ext")
+	{targetclass "tank_light"}
+	{targetSelector "tank_light"}
+	{patherId "panzer2l"}
+	{collider "tank.light"}
+
+	{extender "enumerator"
+		{digit_folder "ger"}
+	}
+
+	("crew_2_human_extended")
+
+	{boarder
+		{anm "driver"
+			{forward {begin "board_t26_driver"} {end "pose_t26_driver"} {base "open_driver"}}
+			{reverse {end "board_t26_driver" -1} {base "open_driver" -1}}
+		}
+		{anm "left"
+			{forward {begin "board_kv"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "right"
+			{forward {begin "board_tank_right"}}
+			{reverse {end "emit_tank_1_hold"}}
+		}
+		{anm "armor"
+			{forward {begin "board_MiddleArmor"} {end "pose_seat_armor_1"}}
+			{reverse {end "emit_tank_1"}}
+		}
+		{anm "armor1"
+			{forward {begin "board_MiddleArmor"} {end "pose_seat_armor_2"}}
+			{reverse {end "emit_body"}}
+		}
+	}
+
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor))
+	("seat_human" place(seat3) bone(seat03) door(emit5)  animation(armor))
+	("seat_human" place(seat4) bone(seat04) door(emit6)  animation(armor))
+
+	{extender "inventory"
+		{box
+			{item "bullet_37x149 ger apc" 49}	; 100 rounds
+			{item "bullet_37x149 ger he" 50}
+			{item "ammo 300mm_nebelwerfer" 4}
+			{item "ammo mgun_ger belt" 1200}	; 9 belts (150 rounds each)
+			{item "geballteladung_3kg" 1}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "37mm_kwk146f" filling "bullet_37x149 ger apc" 1}
+			{gunner "gunner"}
+			{charger "gunner"}
+			("abm_dymamic_td"
+				zeroing(1.5)
+				dispersion(0.25)
+			)
+		}
+		{place "rocket"
+			{RestoreIKAfterAim}
+			{weapon "300mm_w40_x4" filled}
+			{barrels 4}
+			{foresight "foresight"}
+			{shooter "shooter"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			("abm_dymamic_rocket"
+				zeroing(10.0)	; // time it takes to aim until the reticle shrinks. Bigger values, more control.
+				dispersion(1)   ; // time it takes to distort the reticle when you move the gun (how abrupt it loses zeroing). Bigger values, more control.
+			)
+			{StationaryFiring}
+			{rotate}
+			{basic}
+		}
+		{place "mgun2"
+			{type "coaxial"}
+			{weapon "mg31f" filled}
+			{foresight "foresight5"}
+			{gunner "gunner"}
+			{charger "gunner"}
+			("abm_mgun")
+			{basic}
+		}
+	}
+
+	{mass 12724} ;12100 + 624kg of rockets
+	{Chassis
+		("tank_trace" fx("tracks_mid") step(0.42) len(0.60))
+		("mobility_spearhead"
+			speed(36.5)			;Max speed when fully accelerated on road, km/h.
+			reverse(8)			;Max speed in reverse on road, km/h.
+			mass(12.724)		;Mass, in metric tons.
+			power(120) 			;Engine Power
+			contact(2.45)		;Track-ground contact length, in m
+			wheelbase(1.53)		;Distance between center of left and right side roadwheels, in m
+			pressure(0.88)		;Ground pressure on road, in kg/cm^2
+			coeff_accel(5)		;Modifier for acceleration, (0,10]
+			coeff_steer_rate(5)		;Modifier for steering, (0,10]
+			coeff_steer_eff(5)		;Modifier for steering, (0,10]
+			fuel(210) 			;Fuel capacity in Litres.
+			type(fuel)			;Fuel type. (diesel OR fuel)
+			range(90) 			;Range in km, off-road.
+			maxslope(58)		;Max slope (tan(gradient in degrees) * 100)
+		)
+	}
+
+	{bone "rocket_rot1"
+		{limits -5 5}
+		{speed2 10}
+	}
+	{bone "rocket_rot2"
+		{limits -0 52}
+		{speed2 10}
+	}
+	{bone "gun_rot1"
+		{limits -5 5}
+		{speed2 10}
+	}
+	{bone "gun_rot"
+		{limits -13 20}
+		{speed2 6}
+	}
+	{bone "turret"
+		("turret_light" power_traverse(0)) ;// manual
+	}
+	(mod "mp"
+		{brain
+			{properties
+				{fire_mode hold}
+			}
+		}
+	)
+}

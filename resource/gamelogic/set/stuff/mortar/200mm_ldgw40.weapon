@@ -1,0 +1,32 @@
+;_________________________________________
+; German Heavy Mortar - 20cm Ldg.W.40
+;=========================================
+
+
+{from "pattern mortar"
+	{filling "mortarger_200"}
+	{fillingVisible "rocket00"}
+	{fireSound "cannon/s3/d1/Shared/Mortar/"}
+	{fireSoundClose "cannon/s3/d1/Shared/Mortar/"}
+	{calibre 200}
+
+	{aimRange 100}
+	{minRange 20}
+	{maxRange 100}
+	
+	{speed 88}	;// https://www.lexikon-der-wehrmacht.de/Waffen/granatwerfer.htm
+	
+	
+	("reload time" seconds(10))
+
+	{spreading
+		{radiusTable {0 5} {80 20} {99.99 30} {100 100}}
+	}
+	
+	{parameters "he"
+		{projectileDamageTable {0 30}}
+	}
+	{parameters "sm"
+		("reload time" seconds(8.0))
+	}
+}

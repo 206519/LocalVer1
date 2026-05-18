@@ -1,0 +1,4463 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gates of Hell Soviet Squads\n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 2.4.2\n"
+
+msgctxt "desc/squad/conquest_il2"
+msgid "IL-2 250kg Bomb"
+msgstr ""
+
+msgctxt "desc/squad/conquest_po2"
+msgid "U-2 Recon"
+msgstr ""
+
+msgctxt "desc/squad/conquest_yak1"
+msgid "Yak-1 50kg Bomb"
+msgstr ""
+
+msgctxt "desc/squad/single_Officer(rus)"
+msgid "Commissar"
+msgstr ""
+
+msgctxt "desc/squad/single_ap_miner(rus)"
+msgid "AP Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at2(rus)"
+msgid "AT Detachment (PTRS)"
+msgstr ""
+
+msgctxt "desc/squad/single_at(rus)"
+msgid "AT Detachment"
+msgstr ""
+
+msgctxt "desc/squad/single_atgrenade(rus)"
+msgid "AT Detachment"
+msgstr ""
+
+msgctxt "desc/squad/single_at_late_con(rus)"
+msgid "Anti-Tank Team"
+msgstr ""
+
+msgctxt "desc/squad/single_at_miner(rus)"
+msgid "AT Miners"
+msgstr ""
+
+msgctxt "desc/squad/single_at_pzs_late_con(rus)"
+msgid "Panzerschreck Team"
+msgstr ""
+
+msgctxt "desc/squad/single_auxiliary(rus)"
+msgid "Auxiliary Detachment"
+msgstr ""
+
+msgctxt "desc/squad/single_battlerifle(rus)"
+msgid "Battle Rifles"
+msgstr ""
+
+msgctxt "desc/squad/single_bazooker(rus)"
+msgid "AT Detachment"
+msgstr ""
+
+msgctxt "desc/squad/single_engineer(rus)"
+msgid "Field Engineer"
+msgstr ""
+
+msgctxt "desc/squad/single_flamer(rus)"
+msgid "Flamer"
+msgstr ""
+
+msgctxt "desc/squad/single_medic(rus)"
+msgid "Medic"
+msgstr ""
+
+msgctxt "desc/squad/single_mg(rus)"
+msgid "MG Detachment"
+msgstr ""
+
+msgctxt "desc/squad/single_riflegrenade(rus)"
+msgid "Gren. Riflemen"
+msgstr ""
+
+msgctxt "desc/squad/single_sniper(rus)"
+msgid "Sniper"
+msgstr ""
+
+msgctxt "desc/squad/single_tankman(rus)"
+msgid "Tank Crew"
+msgstr ""
+
+msgctxt "desc/squad/squad_assaultsappers(rus)"
+msgid "Assault Sappers"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle(rus)"
+msgid "<c(A5A095)>(2)</c> Anti-tank rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle_con(rus)"
+msgid "<c(A5A095)>(2)</c> AT rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_basic(rus)"
+msgid "Light Inf."
+msgstr ""
+
+msgctxt "desc/squad/squad_border(rus)"
+msgid "<c(A5A095)>(1)</c> Border Guards squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_border_early(rus)"
+msgid "<c(A5A095)>(1)</c> Border Guards squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_conscripts(rus)"
+msgid "<c(A5A095)>(1)</c> Conscript rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_conscripts_con(rus)"
+msgid "<c(A5A095)>(1)</c> Conscript Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_conscripts_late(rus)"
+msgid "<c(A5A095)>(1)</c> Conscript rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guards(rus)"
+msgid "Guards Inf."
+msgstr ""
+
+msgctxt "desc/squad/squad_guards_heavy(rus)"
+msgid "Heavy Guards Inf."
+msgstr ""
+
+msgctxt "desc/squad/squad_guards_smg_heavy(rus)"
+msgid "<c(A5A095)>(3)</c> Guards SMG squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guardsrifle(rus)"
+msgid "<c(A5A095)>(3)</c> Guards Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_heavy(rus)"
+msgid "Heavy Inf."
+msgstr ""
+
+msgctxt "desc/squad/squad_marines(rus)"
+msgid "<c(A5A095)>(4)</c> Black sea Marine squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marines_con(rus)"
+msgid "<c(A5A095)>(4)</c> Black sea marine squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marines_late(rus)"
+msgid "<c(A5A095)>(4)</c> Guards Marine squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_mountain_rifle_early(rus)"
+msgid "<c(A5A095)>(3)</c> Mountain Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_mountainrifles(rus)"
+msgid "Mountain Rifles"
+msgstr ""
+
+msgctxt "desc/squad/squad_mountainrifles_con(rus)"
+msgid "<c(A5A095)>(3)</c> Mountain Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_nkvd(rus)"
+msgid "Penal Unit"
+msgstr ""
+
+msgctxt "desc/squad/squad_officer_con(rus)"
+msgid "Command squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_officer_gaz_con"
+msgid "GAZ-67 (Command)"
+msgstr ""
+
+msgctxt "desc/squad/squad_paras(rus)"
+msgid "<c(A5A095)>(3)</c> Paratrooper squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_paras_early(rus)"
+msgid "<c(A5A095)>(3)</c> Paratrooper squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_paratrooper(rus)"
+msgid "Paratroopers"
+msgstr ""
+
+msgctxt "desc/squad/squad_paratrooper_early(rus)"
+msgid "Paratroopers"
+msgstr ""
+
+msgctxt "desc/squad/squad_partisan(rus)"
+msgid "<c(A5A095)>(1)</c> Partisans"
+msgstr ""
+
+msgctxt "desc/squad/squad_partisan_con(rus)"
+msgid "<c(A5A095)>(1)</c> Partisan squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_penal(rus)"
+msgid "Penal Battalion"
+msgstr ""
+
+msgctxt "desc/squad/squad_penal_con(rus)"
+msgid "<c(A5A095)>(1)</c> Penal batallion squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon(rus)"
+msgid "<c(A5A095)>(2)</c> Recon squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_con(rus)"
+msgid "<c(A5A095)>(2)</c> Recon squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_early(rus)"
+msgid "<c(A5A095)>(2)</c> Recon squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_late(rus)"
+msgid "<c(A5A095)>(2)</c> Recon squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_heavy_early(rus)"
+msgid "<c(A5A095)>(2)</c> Heavy Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_motorised"
+msgid "Motorised rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_motorised_con"
+msgid "<c(A5A095)>(2)</c> Motorized Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifleunit(rus)"
+msgid "<c(A5A095)>(2)</c> Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifleunit_42(rus)"
+msgid "<c(A5A095)>(2)</c> Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifleunit_44(rus)"
+msgid "<c(A5A095)>(2)</c> Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifleunit_alt(rus)"
+msgid "<c(A5A095)>(2)</c> Rifle squad (No LMG)"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifleunit_alt_con(rus)"
+msgid "<c(A5A095)>(2)</c> Rifle squad (No LMG)"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifleunit_con(rus)"
+msgid "<c(A5A095)>(2)</c> Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifleunit_early(rus)"
+msgid "<c(A5A095)>(2)</c> Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifleunit_heavy(rus)"
+msgid "<c(A5A095)>(2)</c> Rifle squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sappers(rus)"
+msgid "Assault Sappers"
+msgstr ""
+
+msgctxt "desc/squad/squad_shock(rus)"
+msgid "Shock Inf."
+msgstr ""
+
+msgctxt "desc/squad/squad_smg(rus)"
+msgid "<c(A5A095)>(2)</c> SMG squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_con(rus)"
+msgid "<c(A5A095)>(2)</c> SMG squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_heavy(rus)"
+msgid "<c(A5A095)>(2)</c> SMG squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_spetsnaz(rus)"
+msgid "<c(A5A095)>(4)</c> Osnaz Unit"
+msgstr ""
+
+msgctxt "desc/squad/squad_spetsnaz_early(rus)"
+msgid "Osnaz Unit"
+msgstr ""
+
+msgctxt "desc/squad/squad_spetsnaz_late(rus)"
+msgid "Osnaz Unit"
+msgstr ""
+
+msgctxt "desc/squad/squad_spetsnaz_mid(rus)"
+msgid "Osnaz Unit"
+msgstr ""
+
+msgctxt "desc/squad/squad_suppression(rus)"
+msgid "Suppression Inf."
+msgstr ""
+
+msgctxt "desc/squad/single_rifle(rus)"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/squad/single_smg(rus)"
+msgid "SMG Soldier"
+msgstr ""
+
+msgctxt "desc/squad/single_sa(rus)"
+msgid "Semi-Auto Rifleman"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_early_all(rus)"
+msgid "<c(A5A095)>(2)</c> Recon Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_early_all(rus)"
+msgid "<c(A5A095)>(2)</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_sap_recon_early_all(rus)"
+msgid "<c(A5A095)>(3)</c> Cavalry Recon Sapper Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_early_all(rus)"
+msgid "<c(A5A095)>(3)</c> Cavalry Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_para_early_all(rus)"
+msgid "<c(A5A095)>(4)</c> Paratrooper Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_recon_early_def(rus)"
+msgid "<c(A5A095)>(2)</c> Recon Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_early_def(rus)"
+msgid "<c(A5A095)>(2)</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sapper_early_def(rus)"
+msgid "<c(A5A095)>(2)</c> Sapper Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_mountain_early_def(rus)"
+msgid "<c(A5A095)>(3)</c> Mountain Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_mountain_sapper_early_def(rus)"
+msgid "<c(A5A095)>(3)</c> Mountain Sapper Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_para_glider_early_def(rus)"
+msgid "<c(A5A095)>(4)</c> Glider Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_rifle_early_irr(rus)"
+msgid "<c(A5A095)>(2)</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_heavy_early_irr_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Heavy Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_heavy_early_irr_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Heavy Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_heavy_early_irr_3(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Heavy Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_mountain_recon_early_irr(rus)"
+msgid "<c(A5A095)>(3)</c> Mountain Recon Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_mountain_early_irr(rus)"
+msgid "<c(A5A095)>(3)</c> Mountain Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_para_recon_early_irr(rus)"
+msgid "<c(A5A095)>(4)</c> Paratrooper Recon Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_para_early_irr(rus)"
+msgid "<c(A5A095)>(4)</c> Paratrooper Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_recon_early_off(rus)"
+msgid "<c(A5A095)>(2)</c> Recon Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_early_off(rus)"
+msgid "<c(A5A095)>(2)</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_early_off(rus)"
+msgid "<c(A5A095)>(3)</c> Cavalry Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_sapper_early_off(rus)"
+msgid "<c(A5A095)>(3)</c> Cavalry Sapper Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_para_early_off(rus)"
+msgid "<c(A5A095)>(4)</c> Paratrooper Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_cossack_recon_early_sup(rus)"
+msgid "<c(A5A095)>(2)</c> Cossack Recon Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cossack_early_sup(rus)"
+msgid "<c(A5A095)>(2)</c> Cossack Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_mountain_early_sup(rus)"
+msgid "<c(A5A095)>(3)</c> Mountain Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_mountain_sapper_early_sup(rus)"
+msgid "<c(A5A095)>(3)</c> Mountain Sapper Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_para_glider_recon_early_sup(rus)"
+msgid "<c(A5A095)>(4)</c> Glider Recon Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_para_glider_early_sup(rus)"
+msgid "<c(A5A095)>(4)</c> Glider Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_conscript_mid_all(rus)"
+msgid "<c(A5A095)>(1)</c> Conscript Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_mid_all(rus)"
+msgid "<c(A5A095)>(2)</c> Recon Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_all(rus)"
+msgid "<c(A5A095)>(2)</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle_mid_all(rus)"
+msgid "<c(A5A095)>(2)</c> AT-Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guards_rifle_mid_all(rus)"
+msgid "<c(A5A095)>(2+)</c> Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guards_rifle_mid_all(rus)"
+msgid "<c(A5A095)>(3+)</c> Elite Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guards_rifle_mid_off(rus)"
+msgid "<c(A5A095)>(3+)</c> Elite Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_penal_mid_def(rus)"
+msgid "<c(A5A095)>(1)</c> Penal Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_nkvd_recon_mid_def(rus)"
+msgid "<c(A5A095)>(2)</c> NKVD Recon Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_nkvd_rifle_mid_def(rus)"
+msgid "<c(A5A095)>(2)</c> NKVD Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_nkvd_sapper_mid_def(rus)"
+msgid "<c(A5A095)>(2)</c> NKVD Sapper Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_nkvd_at_rifle_mid_def(rus)"
+msgid "<c(A5A095)>(2)</c> NKVD AT-Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_nkvd_mountain_mid_def(rus)"
+msgid "<c(A5A095)>(3)</c> NKVD Mountain Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_nkvd_mountain_cav_mid_def(rus)"
+msgid "<c(A5A095)>(4)</c> NKVD Mountain Cavalry Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_partisan_mid_irr(rus)"
+msgid "<c(A5A095)>(1)</c> Partisan Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_mid_irr(rus)"
+msgid "<c(A5A095)>(2)</c> Recon Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_irr(rus)"
+msgid "<c(A5A095)>(2)</c> Rifle Squad (SMG)"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_irr_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Rifle Squad (MG)"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_irr_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Rifle Squad (MG)"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_irr_3(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Rifle Squad (MG)"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle_mid_irr(rus)"
+msgid "<c(A5A095)>(2)</c> AT-Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_mountain_mid_irr(rus)"
+msgid "<c(A5A095)>(3)</c> Mountain Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_mountain_cav_mid_irr(rus)"
+msgid "<c(A5A095)>(4)</c> Mountain Cavalry Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_mountain_cav_mid_all(rus)"
+msgid "<c(A5A095)>(4)</c> Mountain Cavalry Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_mountain_cav_late_def(rus)"
+msgid "<c(A5A095)>(4)</c> Mountain Cavalry Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_mountain_cav_late_len(rus)"
+msgid "<c(A5A095)>(4)</c> Mountain Cavalry Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_conscript_mid_off(rus)"
+msgid "<c(A5A095)>(1)</c> Conscript Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_mid_off(rus)"
+msgid "<c(A5A095)>(2)</c> Recon Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_off(rus)"
+msgid "<c(A5A095)>(2)</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_mid_off(rus)"
+msgid "<c(A5A095)>(2)</c> SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle_mid_off(rus)"
+msgid "<c(A5A095)>(2)</c> AT-Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guards_rifle_mid_off(rus)"
+msgid "<c(A5A095)>(2+)</c> Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guards_para_mid_off_1(rus)"
+msgid "<c(A5A095)>(4+)</c> <c(E56042)>1.</c> Guards Paratrooper Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guards_para_mid_off_2(rus)"
+msgid "<c(A5A095)>(4+)</c> <c(E56042)>2.</c> Guards Paratrooper Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guards_para_mid_off_3(rus)"
+msgid "<c(A5A095)>(4+)</c> <c(E56042)>3.</c> Guards Paratrooper Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guards_para_mid_all_1(rus)"
+msgid "<c(A5A095)>(4+)</c> <c(E56042)>1.</c> Guards Paratrooper Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guards_para_mid_all_2(rus)"
+msgid "<c(A5A095)>(4+)</c> <c(E56042)>2.</c> Guards Paratrooper Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guards_para_mid_all_3(rus)"
+msgid "<c(A5A095)>(4+)</c> <c(E56042)>3.</c> Guards Paratrooper Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_conscript_mid_sup(rus)"
+msgid "<c(A5A095)>(1)</c> Conscript Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_scout_mid_sup(rus)"
+msgid "<c(A5A095)>(2)</c> Scout Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_sup(rus)"
+msgid "<c(A5A095)>(2)</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sapper_mid_sup(rus)"
+msgid "<c(A5A095)>(2)</c> Sapper Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle_mid_sup(rus)"
+msgid "<c(A5A095)>(2)</c> AT-Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marine_mid_sup(rus)"
+msgid "<c(A5A095)>(3)</c> Marine Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_bsf_marine_mid_sup(rus)"
+msgid "<c(A5A095)>(4)</c> BSF Marine Rifle Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_conscript_mid_len(rus)"
+msgid "<c(A5A095)>(1)</c> Conscript Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_mid_len(rus)"
+msgid "<c(A5A095)>(2)</c> Recon Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_mid_len(rus)"
+msgid "<c(A5A095)>(2)</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle_mid_len(rus)"
+msgid "<c(A5A095)>(2)</c> AT-Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marine_mid_len(rus)"
+msgid "<c(A5A095)>(3)</c> Marine Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_bsf_marine_mid_len(rus)"
+msgid "<c(A5A095)>(4)</c> BSF Marine Rifle Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_rifle_late_all_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_all_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_all_3(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_late_all_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_late_all_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_late_all_3(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sap_late_all(rus)"
+msgid "<c(A5A095)>(2)</c> Sapper Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_rifle_late_all_1(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>1.</c> Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_rifle_late_all_2(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>2.</c> Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_rifle_late_all_3(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>3.</c> Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_assault_eng_late_all(rus)"
+msgid "<c(A5A095)>(4)</c> Assault Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_assault_eng_late_irr(rus)"
+msgid "<c(A5A095)>(4)</c> Assault Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_assault_eng_late_sup(rus)"
+msgid "<c(A5A095)>(4)</c> Assault Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_assault_eng_flame_at_late_all(rus)"
+msgid "<c(A5A095)>(4)</c> AT/Flamer Assault Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_rifle_late_all_1(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>1.</c>  Elite Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_rifle_late_all_2(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>2.</c>  Elite Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_rifle_late_all_3(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>3.</c>  Elite Guards Rifle Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_conscript_late_def(rus)"
+msgid "<c(A5A095)>(1)</c> Conscript Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_late_def(rus)"
+msgid "<c(A5A095)>(2)</c> Recon Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_def_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_def_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_def_3(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sap_late_def(rus)"
+msgid "<c(A5A095)>(2)</c> Sapper Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle_late_def(rus)"
+msgid "<c(A5A095)>(2)</c> AT-Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marine_late_def_1(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>1.</c> Marine Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marine_late_def_2(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>2.</c> Marine Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marine_late_def_3(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>3.</c> Marine Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_marine_late_def(rus)"
+msgid "<c(A5A095)>(3+)</c> Guards Marine Rifle Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_partisan_late_irr_1(rus)"
+msgid "<c(A5A095)>(1)</c> <c(E56042)>1.</c> Partisan Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_partisan_late_irr_2(rus)"
+msgid "<c(A5A095)>(1)</c> <c(E56042)>2.</c> Partisan Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_partisan_late_irr_3(rus)"
+msgid "<c(A5A095)>(1)</c> <c(E56042)>3.</c> Partisan Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_late_irr(rus)"
+msgid "<c(A5A095)>(2)</c> Recon Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_irr_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_irr_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_irr_3(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_partisan_rifle_late_irr_1(rus)"
+msgid "<c(A5A095)>(1+)</c> <c(E56042)>1.</c> Vet Partisan Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_partisan_rifle_late_irr_2(rus)"
+msgid "<c(A5A095)>(1+)</c> <c(E56042)>2.</c> Vet Partisan Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_partisan_rifle_late_irr_3(rus)"
+msgid "<c(A5A095)>(1+)</c> <c(E56042)>3.</c> Vet Partisan Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_partisan_smg_late_irr_1(rus)"
+msgid "<c(A5A095)>(1+)</c> <c(E56042)>1.</c> Vet Partisan SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_partisan_smg_late_irr_2(rus)"
+msgid "<c(A5A095)>(1+)</c> <c(E56042)>2.</c> Vet Partisan SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_vet_partisan_smg_late_irr_3(rus)"
+msgid "<c(A5A095)>(1+)</c> <c(E56042)>3.</c> Vet Partisan SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle_late_irr(rus)"
+msgid "<c(A5A095)>(2)</c> AT-Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_rifle_late_irr_1(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>1.</c> Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_rifle_late_irr_2(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>2.</c> Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_rifle_late_irr(rus)"
+msgid "<c(A5A095)>(2+)</c> Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_rifle_late_irr_1(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>1.</c> Elite Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_rifle_late_irr_2(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>2.</c> Elite Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_rifle_late_irr(rus)"
+msgid "<c(A5A095)>(3+)</c> Elite Guards Rifle Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_conscript_late_len(rus)"
+msgid "<c(A5A095)>(1)</c> Conscript Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_late_len(rus)"
+msgid "<c(A5A095)>(2)</c> Recon Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_len_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_len_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_len_3(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_late_len_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_late_len_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_late_len_3(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle_late_len(rus)"
+msgid "<c(A5A095)>(2)</c> AT-Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_len_1(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>1.</c> Cavalry Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_len_2(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>2.</c> Cavalry Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_late_len_3(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>2.</c> Cavalry Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_cav_late_len_1(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>1.</c> Guards Cavalry Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_cav_late_len_2(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>2.</c> Guards Cavalry Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_cav_late_len_3(rus)"
+msgid "<c(A5A095)>(3+)</c> Guards Cavalry Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_recon_late_sup(rus)"
+msgid "<c(A5A095)>(2)</c> Recon Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_sup_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_sup_3(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Rifle Squad"
+msgstr ""
+
+
+msgctxt "desc/squad/squad_rifle_late_sup_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Heavy Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_sup_4(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Heavy Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_late_sup_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_late_sup_3(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_late_sup_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Heavy SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_late_sup_4(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Heavy SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_rifle_late_sup_1(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>1.</c> Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_rifle_late_sup_2(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>2.</c> Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_rifle_late_sup(rus)"
+msgid "<c(A5A095)>(2+)</c> Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_smg_late_sup_1(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>1.</c> Guards SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_smg_late_sup_2(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>2.</c> Guards SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_smg_late_sup(rus)"
+msgid "<c(A5A095)>(2+)</c> Guards SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_rifle_late_sup_1(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>1.</c> Elite Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_rifle_late_sup_2(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>2.</c> Elite Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_rifle_late_sup(rus)"
+msgid "<c(A5A095)>(3+)</c> Elite Guards Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_smg_late_sup_1(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>1.</c> Elite Guards SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_smg_late_sup(rus)"
+msgid "<c(A5A095)>(3+)</c> Elite Guards SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_smg_late_sup_3(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>3.</c> Elite Guards SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_conscript_late_mech_1(rus)"
+msgid "<c(A5A095)>(1)</c> <c(E56042)>1.</c> Conscript Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_conscript_late_mech_2(rus)"
+msgid "<c(A5A095)>(1)</c> <c(E56042)>2.</c> Conscript MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_conscript_late_mech_3(rus)"
+msgid "<c(A5A095)>(1)</c> <c(E56042)>3.</c> Conscript Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_late_mech_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Recon Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_late_mech_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Recon Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_late_mech_3(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Recon SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_mech_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_mech_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Heavy Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_mech_3(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_late_mech_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_late_mech_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Heavy SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_late_mech_3(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle_late_mech_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> AT Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle_late_mech_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> AT Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sap_late_mech_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sap_late_mech_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_rifle_late_mech_1(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>1.</c> Guards Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_rifle_late_mech_2(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>2.</c> Guards Heavy Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_rifle_late_mech_3(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>3.</c> Guards Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_smg_late_mech_1(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>1.</c> Guards SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_smg_late_mech_2(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>2.</c> Guards Heavy SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_smg_late_mech_3(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>3.</c> Guards SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_at_rifle_late_mech_1(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>1.</c> Guards AT Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_at_rifle_late_mech_2(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>2.</c> Guards AT Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marine_rifle_late_mech_1(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>1.</c> Marine Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marine_rifle_late_mech_2(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>2.</c> Marine Heavy Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marine_rifle_late_mech_3(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>3.</c> Marine Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_rifle_late_mech_1(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>1.</c> Cavalry Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_rifle_late_mech_2(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>2.</c> Cavalry Heavy Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_rifle_late_mech_3(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>3.</c> Cavalry Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_smg_late_mech_1(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>1.</c> Cavalry SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_smg_late_mech_2(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>2.</c> Cavalry Heavy SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_smg_late_mech_3(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>3.</c> Cavalry SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_rifle_late_mech_1(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>1.</c> Elite Guards Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_rifle_late_mech_2(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>2.</c> Elite Guards Heavy Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_rifle_late_mech_3(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>3.</c> Elite Guards Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_smg_late_mech_1(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>1.</c> Elite Guards SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_smg_late_mech_2(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>2.</c> Elite Guards Heavy SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_smg_late_mech_3(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>3.</c> Elite Guards SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_marine_late_mech(rus)"
+msgid "<c(A5A095)>(3+)</c> Guards Marine Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_assault_eng_late_mech(rus)"
+msgid "<c(A5A095)>(3+)</c> Guards Assault Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_assault_eng_flame_at_late_mech(rus)"
+msgid "<c(A5A095)>(3+)</c> Guards Assault Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_mountain_cav_late_mech(rus)"
+msgid "Mountain Cavalry Squad"
+msgstr ""
+
+msgctxt "desc/squad/single_rifle_mech(rus)"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/squad/single_mg_mech(rus)"
+msgid "MG Team"
+msgstr ""
+
+msgctxt "desc/squad/single_flamer_mech(rus)"
+msgid "Flamethrower"
+msgstr ""
+
+msgctxt "desc/squad/single_officer_mech(rus)"
+msgid "Officer"
+msgstr ""
+
+msgctxt "desc/squad/single_signaller_76_mech(rus)"
+msgid "Artillery Signaller (76 mm)"
+msgstr ""
+
+msgctxt "desc/squad/inf_crate_rus(late_rus_mech)"
+msgid "Ammo Crate"
+msgstr ""
+
+msgctxt "desc/squad/maxim(late_rus_mech)"
+msgid "Maxim"
+msgstr ""
+
+msgctxt "desc/squad/sg43_stand(late_rus_mech)"
+msgid "SG-43"
+msgstr ""
+
+msgctxt "desc/squad/dshk_stan(late_rus_mech)"
+msgid "DShK"
+msgstr ""
+
+msgctxt "desc/squad/dshk_aa(late_rus_mech)"
+msgid "DShK (AA)"
+msgstr ""
+
+msgctxt "desc/squad/25mm_72k(late_rus_mech)"
+msgid "25 mm 72-K"
+msgstr ""
+
+msgctxt "desc/squad/37mm_61k(late_rus_mech)"
+msgid "37 mm 61-K"
+msgstr ""
+
+msgctxt "desc/squad/85mm_52k(late_rus_mech)"
+msgid "85 mm 52-K"
+msgstr ""
+
+msgctxt "desc/squad/82mm_bm37(late_rus_mech)"
+msgid "82 mm BM-37"
+msgstr ""
+
+msgctxt "desc/squad/120mm_pm38(late_rus_mech)"
+msgid "120 mm PM-38"
+msgstr ""
+
+msgctxt "desc/squad/76mm_m1902(late_rus_mech)"
+msgid "76 mm M1902"
+msgstr ""
+
+msgctxt "desc/squad/76mm_m1927_late(late_rus_mech)"
+msgid "76 mm M1927"
+msgstr ""
+
+msgctxt "desc/squad/76mm_m43(late_rus_mech)"
+msgid "76 mm M43"
+msgstr ""
+
+msgctxt "desc/squad/45mm_m37(late_rus_mech)"
+msgid "45 mm 53-K"
+msgstr ""
+
+msgctxt "desc/squad/45mm_m42(late_rus_mech)"
+msgid "45 mm M-42"
+msgstr ""
+
+msgctxt "desc/squad/57mm_zis2_late(late_rus_mech)"
+msgid "57 mm ZiS-2"
+msgstr ""
+
+msgctxt "desc/squad/76mm_zis3(late_rus_mech)"
+msgid "76 mm ZiS-3"
+msgstr ""
+
+msgctxt "desc/squad/100mm_bs3(late_rus_mech)"
+msgid "100 mm BS-3"
+msgstr ""
+
+msgctxt "desc/squad/107mm_m1910_30(late_rus_mech)"
+msgid "107 mm M1910/30"
+msgstr ""
+
+msgctxt "desc/squad/122mm_m30(late_rus_mech)"
+msgid "122 mm M-30"
+msgstr ""
+
+msgctxt "desc/squad/122mm_m1910(late_rus_mech)"
+msgid "122 mm M1910"
+msgstr ""
+
+msgctxt "desc/squad/122mm_a19(late_rus_mech)"
+msgid "122 mm A-19"
+msgstr ""
+
+msgctxt "desc/squad/152mm_ml20(late_rus_mech)"
+msgid "152 mm ML-20"
+msgstr ""
+
+msgctxt "desc/squad/152mm_br2(late_rus_mech)"
+msgid "152 mm BR-2"
+msgstr ""
+
+msgctxt "desc/squad/203mm_b4(late_rus_mech)"
+msgid "203 mm B-4"
+msgstr ""
+
+msgctxt "desc/squad/280mm_br5(late_rus_mech)"
+msgid "280 mm BR-5"
+msgstr ""
+
+msgctxt "desc/squad/300mm_m31(late_rus_mech)"
+msgid "300 mm M-31"
+msgstr ""
+
+msgctxt "desc/squad/m72(late_rus_mech)"
+msgid "M-72"
+msgstr ""
+
+msgctxt "desc/squad/gaz67b(late_rus_mech)"
+msgid "GAZ-7B"
+msgstr ""
+
+msgctxt "desc/squad/t20(late_rus_mech)"
+msgid "T-20"
+msgstr ""
+
+msgctxt "desc/squad/zis5(late_rus_mech)"
+msgid "ZIS-5"
+msgstr ""
+
+msgctxt "desc/squad/gaz_aaa(late_rus_mech)"
+msgid "GAZ-AAA"
+msgstr ""
+
+msgctxt "desc/squad/cckw_rus(late_rus_mech)"
+msgid "CCKW"
+msgstr ""
+
+msgctxt "desc/squad/gaz_aaa_supply(late_rus_mech)"
+msgid "GAZ-AAA (Ammo)"
+msgstr ""
+
+msgctxt "desc/squad/cckw_art_ammo_rus(late_rus_mech)"
+msgid "CCKW (Ammo)"
+msgstr ""
+
+msgctxt "desc/squad/gaz_fuel(late_rus_mech)"
+msgid "GAZ-AAA (Fuel)"
+msgstr ""
+
+msgctxt "desc/squad/zis5eng(late_rus_mech)"
+msgid "ZIS-5 (Engineer)"
+msgstr ""
+
+msgctxt "desc/squad/gaz_aaa_maximx4(late_rus_mech)"
+msgid "GAZ-AAA (Maxim Quad)"
+msgstr ""
+
+msgctxt "desc/squad/zis5_dshk(late_rus_mech)"
+msgid "ZIS-5 (DShK)"
+msgstr ""
+
+msgctxt "desc/squad/gaz_aaa_72k(late_rus_mech)"
+msgid "GAZ-AAA (25 mm 72K)"
+msgstr ""
+
+msgctxt "desc/squad/m3a1e1_scout(late_rus_mech)"
+msgid "M3A1E1 (Scout)"
+msgstr ""
+
+msgctxt "desc/squad/m3a1e1_scout_mgun(late_rus_mech)"
+msgid "M3A1E1 (MG)"
+msgstr ""
+
+msgctxt "desc/squad/m2_halftrack(late_rus_mech)"
+msgid "M2 Halftrack"
+msgstr ""
+
+msgctxt "desc/squad/m3a1_halftrack(late_rus_mech)"
+msgid "M3A1 Halftrack"
+msgstr ""
+
+msgctxt "desc/squad/universal_carrier_rus(late_rus_mech)"
+msgid "Universal Carrier"
+msgstr ""
+
+msgctxt "desc/squad/mmg_carrier_rus(late_rus_mech)"
+msgid "Universal Carrier (MG)"
+msgstr ""
+
+msgctxt "desc/squad/ba64(late_rus_mech)"
+msgid "BA-64"
+msgstr ""
+
+msgctxt "desc/squad/ba10(late_rus_mech)"
+msgid "BA-10"
+msgstr ""
+
+msgctxt "desc/squad/zis6_bm8_48(late_rus_mech)"
+msgid "ZIS-6 BM-8-48"
+msgstr ""
+
+msgctxt "desc/squad/zis6_bm13_16(late_rus_mech)"
+msgid "ZIS-6 BM-13-16"
+msgstr ""
+
+msgctxt "desc/squad/bm13_studebaker(late_rus_mech)"
+msgid "Studebaker BM-13"
+msgstr ""
+
+msgctxt "desc/squad/bm31_12(late_rus_mech)"
+msgid "BM-31-12"
+msgstr ""
+
+msgctxt "desc/squad/t26_39(late_rus_mech)"
+msgid "T-26 (1939)"
+msgstr ""
+
+msgctxt "desc/squad/bt7(late_rus_mech)"
+msgid "BT-7"
+msgstr ""
+
+msgctxt "desc/squad/bt7a(late_rus_mech)"
+msgid "BT-7A"
+msgstr ""
+
+msgctxt "desc/squad/t60(late_rus_mech)"
+msgid "T-60"
+msgstr ""
+
+msgctxt "desc/squad/t60_bm8_24(late_rus_mech)"
+msgid "T-60 BM-8-24"
+msgstr ""
+
+msgctxt "desc/squad/t70(late_rus_mech)"
+msgid "T-70"
+msgstr ""
+
+msgctxt "desc/squad/t70m(late_rus_mech)"
+msgid "T-70M"
+msgstr ""
+
+msgctxt "desc/squad/su76(late_rus_mech)"
+msgid "SU-76M"
+msgstr ""
+
+msgctxt "desc/squad/m3_stuart_late_rus(late_rus_mech)"
+msgid "M3 Stuart (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m3a1_stuart_rus(late_rus_mech)"
+msgid "M3A1 Stuart"
+msgstr ""
+
+msgctxt "desc/squad/m3_lee_rus(late_rus_mech)"
+msgid "M3 Lee"
+msgstr ""
+
+msgctxt "desc/squad/m4a2_75_early_rus(late_rus_mech)"
+msgid "M4A2 Sherman (Early)"
+msgstr ""
+
+msgctxt "desc/squad/m4a2_75_late_rus(late_rus_mech)"
+msgid "M4A2 Sherman (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m4a2_76w_early_rus(late_rus_mech)"
+msgid "M4A2(76)W Sherman"
+msgstr ""
+
+msgctxt "desc/squad/m4a2_76w_late_rus(late_rus_mech)"
+msgid "<c(E56042)>1.</c> M4A2(76)W Sherman (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m4a2_76w_late_rus_2(late_rus_mech)"
+msgid "<c(E56042)>2.</c> M4A2(76)W Sherman (Late)"
+msgstr ""
+
+msgctxt "desc/squad/valentine7(late_rus_mech)"
+msgid "Valentine VII"
+msgstr ""
+
+msgctxt "desc/squad/valentine9(late_rus_mech)"
+msgid "Valentine IX"
+msgstr ""
+
+msgctxt "desc/squad/churchill3(late_rus_mech)"
+msgid "Churchill III"
+msgstr ""
+
+msgctxt "desc/squad/stug3g_sov(late_rus_mech)"
+msgid "SU-75"
+msgstr ""
+
+msgctxt "desc/squad/panzer5a_sov(late_rus_mech)"
+msgid "T-V"
+msgstr ""
+
+msgctxt "desc/squad/t3476_42(late_rus_mech)"
+msgid "T-34-76 (1942)"
+msgstr ""
+
+msgctxt "desc/squad/t3476_43(late_rus_mech)"
+msgid "T-34-76 (1943)"
+msgstr ""
+
+msgctxt "desc/squad/t3476_43_flame(late_rus_mech)"
+msgid "T-34-76 (Flame)"
+msgstr ""
+
+msgctxt "desc/squad/t3485_44(late_rus_mech)"
+msgid "T-34-85"
+msgstr ""
+
+msgctxt "desc/squad/t3485_44_2(late_rus_mech)"
+msgid "T-34-85"
+msgstr ""
+
+msgctxt "desc/squad/t3485_44a(late_rus_mech)"
+msgid "T-34-85"
+msgstr ""
+
+msgctxt "desc/squad/t3485_44b(late_rus_mech)"
+msgid "T-34-85"
+msgstr ""
+
+msgctxt "desc/squad/t3485_44a_flame(late_rus_mech)"
+msgid "T-34-85 (Flame)"
+msgstr ""
+
+msgctxt "desc/squad/su85(late_rus_mech)"
+msgid "SU-85"
+msgstr ""
+
+msgctxt "desc/squad/su85m(late_rus_mech)"
+msgid "SU-85M"
+msgstr ""
+
+msgctxt "desc/squad/su122(late_rus_mech)"
+msgid "SU-122"
+msgstr ""
+
+msgctxt "desc/squad/su100(late_rus_mech)"
+msgid "SU-100"
+msgstr ""
+
+msgctxt "desc/squad/kv1_42(late_rus_mech)"
+msgid "KV-1 (1942)"
+msgstr ""
+
+msgctxt "desc/squad/kv1s(late_rus_mech)"
+msgid "KV-1S"
+msgstr ""
+
+msgctxt "desc/squad/kv85(late_rus_mech)"
+msgid "KV-85"
+msgstr ""
+
+msgctxt "desc/squad/su152_late(late_rus_mech)"
+msgid "SU-152 (Late)"
+msgstr ""
+
+msgctxt "desc/squad/is1_43(late_rus_mech)"
+msgid "IS (1943)"
+msgstr ""
+
+msgctxt "desc/squad/is2_43(late_rus_mech)"
+msgid "IS-2 (Early)"
+msgstr ""
+
+msgctxt "desc/squad/is2_44(late_rus_mech)"
+msgid "IS-2"
+msgstr ""
+
+msgctxt "desc/squad/is2_45(late_rus_mech)"
+msgid "IS-2 (Late)"
+msgstr ""
+
+msgctxt "desc/squad/isu122s(late_rus_mech)"
+msgid "ISU-122S"
+msgstr ""
+
+msgctxt "desc/squad/squad_conscript_late_tank_1(rus)"
+msgid "<c(A5A095)>(1)</c> <c(E56042)>1.</c> Conscript Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_conscript_late_tank_2(rus)"
+msgid "<c(A5A095)>(1)</c> <c(E56042)>2.</c> Conscript MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_conscript_late_tank_3(rus)"
+msgid "<c(A5A095)>(1)</c> <c(E56042)>3.</c> Conscript Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_late_tank_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Recon Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_late_tank_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Recon Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_late_tank_3(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Recon SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_tank_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_tank_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Heavy Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_tank_3(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_late_tank_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_late_tank_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Heavy SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_late_tank_3(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle_late_tank_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> AT Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle_late_tank_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> AT Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sap_late_tank_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sap_late_tank_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_rifle_late_tank_1(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>1.</c> Guards Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_rifle_late_tank_2(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>2.</c> Guards Heavy Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_rifle_late_tank_3(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>3.</c> Guards Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_smg_late_tank_1(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>1.</c> Guards SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_smg_late_tank_2(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>2.</c> Guards Heavy SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_smg_late_tank_3(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>3.</c> Guards SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_at_rifle_late_tank_1(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>1.</c> Guards AT Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_at_rifle_late_tank_2(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>2.</c> Guards AT Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marine_rifle_late_tank_1(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>1.</c> Marine Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marine_rifle_late_tank_2(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>2.</c> Marine Heavy Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marine_rifle_late_tank_3(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>3.</c> Marine Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_rifle_late_tank_1(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>1.</c> Cavalry Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_rifle_late_tank_2(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>2.</c> Cavalry Heavy Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_rifle_late_tank_3(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>3.</c> Cavalry Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_smg_late_tank_1(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>1.</c> Cavalry SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_smg_late_tank_2(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>2.</c> Cavalry Heavy SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_smg_late_tank_3(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>3.</c> Cavalry SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_rifle_late_tank_1(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>1.</c> Elite Guards Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_rifle_late_tank_2(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>2.</c> Elite Guards Heavy Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_rifle_late_tank_3(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>3.</c> Elite Guards Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_smg_late_tank_1(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>1.</c> Elite Guards SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_smg_late_tank_2(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>2.</c> Elite Guards Heavy SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_smg_late_tank_3(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>3.</c> Elite Guards SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_marine_late_tank(rus)"
+msgid "<c(A5A095)>(3+)</c> Guards Marine Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_assault_eng_late_tank(rus)"
+msgid "<c(A5A095)>(3+)</c> Guards Assault Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_assault_eng_flame_at_late_tank(rus)"
+msgid "<c(A5A095)>(3+)</c> Guards Assault Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_mountain_cav_late_tank(rus)"
+msgid "Mountain Cavalry Squad"
+msgstr ""
+
+msgctxt "desc/squad/single_rifle_tank(rus)"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/squad/single_mg_tank(rus)"
+msgid "MG Team"
+msgstr ""
+
+msgctxt "desc/squad/single_flamer_tank(rus)"
+msgid "Flamethrower"
+msgstr ""
+
+msgctxt "desc/squad/single_officer_tank(rus)"
+msgid "Officer"
+msgstr ""
+
+msgctxt "desc/squad/single_signaller_76_tank(rus)"
+msgid "Artillery Signaller (76 mm)"
+msgstr ""
+
+msgctxt "desc/squad/inf_crate_rus(late_rus_tank)"
+msgid "Ammo Crate"
+msgstr ""
+
+msgctxt "desc/squad/maxim(late_rus_tank)"
+msgid "Maxim"
+msgstr ""
+
+msgctxt "desc/squad/sg43_stand(late_rus_tank)"
+msgid "SG-43"
+msgstr ""
+
+msgctxt "desc/squad/dshk_stan(late_rus_tank)"
+msgid "DShK"
+msgstr ""
+
+msgctxt "desc/squad/dshk_aa(late_rus_tank)"
+msgid "DShK (AA)"
+msgstr ""
+
+msgctxt "desc/squad/25mm_72k(late_rus_tank)"
+msgid "25 mm 72-K"
+msgstr ""
+
+msgctxt "desc/squad/37mm_61k(late_rus_tank)"
+msgid "37 mm 61-K"
+msgstr ""
+
+msgctxt "desc/squad/85mm_52k(late_rus_tank)"
+msgid "85 mm 52-K"
+msgstr ""
+
+msgctxt "desc/squad/82mm_bm37(late_rus_tank)"
+msgid "82 mm BM-37"
+msgstr ""
+
+msgctxt "desc/squad/120mm_pm38(late_rus_tank)"
+msgid "120 mm PM-38"
+msgstr ""
+
+msgctxt "desc/squad/76mm_m1902(late_rus_tank)"
+msgid "76 mm M1902"
+msgstr ""
+
+msgctxt "desc/squad/76mm_m1927_late(late_rus_tank)"
+msgid "76 mm M1927"
+msgstr ""
+
+msgctxt "desc/squad/76mm_m43(late_rus_tank)"
+msgid "76 mm M43"
+msgstr ""
+
+msgctxt "desc/squad/45mm_m37(late_rus_tank)"
+msgid "45 mm 53-K"
+msgstr ""
+
+msgctxt "desc/squad/45mm_m42(late_rus_tank)"
+msgid "45 mm M-42"
+msgstr ""
+
+msgctxt "desc/squad/57mm_zis2_late(late_rus_tank)"
+msgid "57 mm ZiS-2"
+msgstr ""
+
+msgctxt "desc/squad/76mm_zis3(late_rus_tank)"
+msgid "76 mm ZiS-3"
+msgstr ""
+
+msgctxt "desc/squad/100mm_bs3(late_rus_tank)"
+msgid "100 mm BS-3"
+msgstr ""
+
+msgctxt "desc/squad/107mm_m1910_30(late_rus_tank)"
+msgid "107 mm M1910/30"
+msgstr ""
+
+msgctxt "desc/squad/122mm_m30(late_rus_tank)"
+msgid "122 mm M-30"
+msgstr ""
+
+msgctxt "desc/squad/122mm_m1910(late_rus_tank)"
+msgid "122 mm M1910"
+msgstr ""
+
+msgctxt "desc/squad/122mm_a19(late_rus_tank)"
+msgid "122 mm A-19"
+msgstr ""
+
+msgctxt "desc/squad/152mm_ml20(late_rus_tank)"
+msgid "152 mm ML-20"
+msgstr ""
+
+msgctxt "desc/squad/152mm_br2(late_rus_tank)"
+msgid "152 mm BR-2"
+msgstr ""
+
+msgctxt "desc/squad/203mm_b4(late_rus_tank)"
+msgid "203 mm B-4"
+msgstr ""
+
+msgctxt "desc/squad/280mm_br5(late_rus_tank)"
+msgid "280 mm BR-5"
+msgstr ""
+
+msgctxt "desc/squad/300mm_m31(late_rus_tank)"
+msgid "300 mm M-31"
+msgstr ""
+
+msgctxt "desc/squad/m72(late_rus_tank)"
+msgid "M-72"
+msgstr ""
+
+msgctxt "desc/squad/gaz67b(late_rus_tank)"
+msgid "GAZ-7B"
+msgstr ""
+
+msgctxt "desc/squad/t20(late_rus_tank)"
+msgid "T-20"
+msgstr ""
+
+msgctxt "desc/squad/zis5(late_rus_tank)"
+msgid "ZIS-5"
+msgstr ""
+
+msgctxt "desc/squad/gaz_aaa(late_rus_tank)"
+msgid "GAZ-AAA"
+msgstr ""
+
+msgctxt "desc/squad/cckw_rus(late_rus_tank)"
+msgid "CCKW"
+msgstr ""
+
+msgctxt "desc/squad/gaz_aaa_supply(late_rus_tank)"
+msgid "GAZ-AAA (Ammo)"
+msgstr ""
+
+msgctxt "desc/squad/cckw_art_ammo_rus(late_rus_tank)"
+msgid "CCKW (Ammo)"
+msgstr ""
+
+msgctxt "desc/squad/gaz_fuel(late_rus_tank)"
+msgid "GAZ-AAA (Fuel)"
+msgstr ""
+
+msgctxt "desc/squad/zis5eng(late_rus_tank)"
+msgid "ZIS-5 (Engineer)"
+msgstr ""
+
+msgctxt "desc/squad/gaz_aaa_maximx4(late_rus_tank)"
+msgid "GAZ-AAA (Maxim Quad)"
+msgstr ""
+
+msgctxt "desc/squad/zis5_dshk(late_rus_tank)"
+msgid "ZIS-5 (DShK)"
+msgstr ""
+
+msgctxt "desc/squad/gaz_aaa_72k(late_rus_tank)"
+msgid "GAZ-AAA (25 mm 72K)"
+msgstr ""
+
+msgctxt "desc/squad/m3a1e1_scout(late_rus_tank)"
+msgid "M3A1E1 (Scout)"
+msgstr ""
+
+msgctxt "desc/squad/m3a1e1_scout_mgun(late_rus_tank)"
+msgid "M3A1E1 (MG)"
+msgstr ""
+
+msgctxt "desc/squad/m2_halftrack(late_rus_tank)"
+msgid "M2 Halftrack"
+msgstr ""
+
+msgctxt "desc/squad/m3a1_halftrack(late_rus_tank)"
+msgid "M3A1 Halftrack"
+msgstr ""
+
+msgctxt "desc/squad/universal_carrier_rus(late_rus_tank)"
+msgid "Universal Carrier"
+msgstr ""
+
+msgctxt "desc/squad/mmg_carrier_rus(late_rus_tank)"
+msgid "Universal Carrier (MG)"
+msgstr ""
+
+msgctxt "desc/squad/ba64(late_rus_tank)"
+msgid "BA-64"
+msgstr ""
+
+msgctxt "desc/squad/ba10(late_rus_tank)"
+msgid "BA-10"
+msgstr ""
+
+msgctxt "desc/squad/zis6_bm8_48(late_rus_tank)"
+msgid "ZIS-6 BM-8-48"
+msgstr ""
+
+msgctxt "desc/squad/zis6_bm13_16(late_rus_tank)"
+msgid "ZIS-6 BM-13-16"
+msgstr ""
+
+msgctxt "desc/squad/bm13_studebaker(late_rus_tank)"
+msgid "Studebaker BM-13"
+msgstr ""
+
+msgctxt "desc/squad/bm31_12(late_rus_tank)"
+msgid "BM-31-12"
+msgstr ""
+
+msgctxt "desc/squad/t26_39(late_rus_tank)"
+msgid "T-26 (1939)"
+msgstr ""
+
+msgctxt "desc/squad/t26_39_late(late_rus_tank)"
+msgid "T-26 (1939)"
+msgstr ""
+
+msgctxt "desc/squad/bt7(late_rus_tank)"
+msgid "BT-7"
+msgstr ""
+
+msgctxt "desc/squad/bt7a(late_rus_tank)"
+msgid "BT-7A"
+msgstr ""
+
+msgctxt "desc/squad/t60(late_rus_tank)"
+msgid "T-60"
+msgstr ""
+
+msgctxt "desc/squad/t60_bm8_24(late_rus_tank)"
+msgid "T-60 BM-8-24"
+msgstr ""
+
+msgctxt "desc/squad/t70(late_rus_tank)"
+msgid "T-70"
+msgstr ""
+
+msgctxt "desc/squad/t70m(late_rus_tank)"
+msgid "T-70M"
+msgstr ""
+
+msgctxt "desc/squad/su76(late_rus_tank)"
+msgid "SU-76M"
+msgstr ""
+
+msgctxt "desc/squad/m3_stuart_late_rus(late_rus_tank)"
+msgid "M3 Stuart (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m3a1_stuart_rus(late_rus_tank)"
+msgid "M3A1 Stuart"
+msgstr ""
+
+msgctxt "desc/squad/m3_lee_rus(late_rus_tank)"
+msgid "M3 Lee"
+msgstr ""
+
+msgctxt "desc/squad/m4a2_75_early_rus(late_rus_tank)"
+msgid "M4A2 Sherman (Early)"
+msgstr ""
+
+msgctxt "desc/squad/m4a2_75_late_rus(late_rus_tank)"
+msgid "M4A2 Sherman (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m4a2_76w_early_rus(late_rus_tank)"
+msgid "M4A2(76)W Sherman"
+msgstr ""
+
+msgctxt "desc/squad/m4a2_76w_late_rus(late_rus_tank)"
+msgid "<c(E56042)>1.</c> M4A2(76)W Sherman (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m4a2_76w_late_rus_2(late_rus_tank)"
+msgid "<c(E56042)>2.</c> M4A2(76)W Sherman (Late)"
+msgstr ""
+
+msgctxt "desc/squad/valentine7(late_rus_tank)"
+msgid "Valentine VII"
+msgstr ""
+
+msgctxt "desc/squad/valentine9(late_rus_tank)"
+msgid "Valentine IX"
+msgstr ""
+
+msgctxt "desc/squad/churchill3(late_rus_tank)"
+msgid "Churchill III"
+msgstr ""
+
+msgctxt "desc/squad/stug3g_sov(late_rus_tank)"
+msgid "SU-75"
+msgstr ""
+
+msgctxt "desc/squad/panzer5a_sov(late_rus_tank)"
+msgid "T-V"
+msgstr ""
+
+msgctxt "desc/squad/t3476_42(late_rus_tank)"
+msgid "T-34-76 (1942)"
+msgstr ""
+
+msgctxt "desc/squad/t3476_43(late_rus_tank)"
+msgid "T-34-76 (1943)"
+msgstr ""
+
+msgctxt "desc/squad/t3476_43_flame(late_rus_tank)"
+msgid "T-34-76 (Flame)"
+msgstr ""
+
+msgctxt "desc/squad/t3485_44(late_rus_tank)"
+msgid "T-34-85"
+msgstr ""
+
+msgctxt "desc/squad/t3485_44_2(late_rus_tank)"
+msgid "T-34-85"
+msgstr ""
+
+msgctxt "desc/squad/t3485_44a(late_rus_tank)"
+msgid "T-34-85"
+msgstr ""
+
+msgctxt "desc/squad/t3485_44b(late_rus_tank)"
+msgid "T-34-85"
+msgstr ""
+
+msgctxt "desc/squad/t3485_44a_flame(late_rus_tank)"
+msgid "T-34-85 (Flame)"
+msgstr ""
+
+msgctxt "desc/squad/su85(late_rus_tank)"
+msgid "SU-85"
+msgstr ""
+
+msgctxt "desc/squad/su85m(late_rus_tank)"
+msgid "SU-85M"
+msgstr ""
+
+msgctxt "desc/squad/su122(late_rus_tank)"
+msgid "SU-122"
+msgstr ""
+
+msgctxt "desc/squad/su100(late_rus_tank)"
+msgid "SU-100"
+msgstr ""
+
+msgctxt "desc/squad/kv1_42(late_rus_tank)"
+msgid "KV-1 (1942)"
+msgstr ""
+
+msgctxt "desc/squad/kv1s(late_rus_tank)"
+msgid "KV-1S"
+msgstr ""
+
+msgctxt "desc/squad/kv85(late_rus_tank)"
+msgid "KV-85"
+msgstr ""
+
+msgctxt "desc/squad/su152_late(late_rus_tank)"
+msgid "SU-152 (Late)"
+msgstr ""
+
+msgctxt "desc/squad/is1_43(late_rus_tank)"
+msgid "IS (1943)"
+msgstr ""
+
+msgctxt "desc/squad/is2_43(late_rus_tank)"
+msgid "IS-2 (Early)"
+msgstr ""
+
+msgctxt "desc/squad/is2_44(late_rus_tank)"
+msgid "IS-2"
+msgstr ""
+
+msgctxt "desc/squad/is2_45(late_rus_tank)"
+msgid "IS-2 (Late)"
+msgstr ""
+
+msgctxt "desc/squad/isu122s(late_rus_tank)"
+msgid "ISU-122S"
+msgstr ""
+
+msgctxt "desc/squad/isu152(late_rus_tank)"
+msgid "ISU-152"
+msgstr ""
+
+msgctxt "desc/squad/isu152(late_rus_mech)"
+msgid "ISU-152"
+msgstr ""
+
+msgctxt "desc/squad/squad_conscript_late_mech2_1(rus)"
+msgid "<c(A5A095)>(1)</c> <c(E56042)>1.</c> Conscript Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_conscript_late_mech2_2(rus)"
+msgid "<c(A5A095)>(1)</c> <c(E56042)>2.</c> Conscript MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_conscript_late_mech2_3(rus)"
+msgid "<c(A5A095)>(1)</c> <c(E56042)>3.</c> Conscript Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_late_mech2_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Recon Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_late_mech2_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Recon Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_late_mech2_3(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Recon SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_mech2_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_mech2_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Heavy Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_mech2_3(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_late_mech2_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_late_mech2_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Heavy SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_late_mech2_3(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle_late_mech2_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> AT Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle_late_mech2_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> AT Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sap_late_mech2_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sap_late_mech2_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_rifle_late_mech2_1(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>1.</c> Guards Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_rifle_late_mech2_2(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>2.</c> Guards Heavy Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_rifle_late_mech2_3(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>3.</c> Guards Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_smg_late_mech2_1(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>1.</c> Guards SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_smg_late_mech2_2(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>2.</c> Guards Heavy SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_smg_late_mech2_3(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>3.</c> Guards SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_at_rifle_late_mech2_1(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>1.</c> Guards AT Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_at_rifle_late_mech2_2(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>2.</c> Guards AT Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marine_rifle_late_mech2_1(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>1.</c> Marine Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marine_rifle_late_mech2_2(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>2.</c> Marine Heavy Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marine_rifle_late_mech2_3(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>3.</c> Marine Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_rifle_late_mech2_1(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>1.</c> Cavalry Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_rifle_late_mech2_2(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>2.</c> Cavalry Heavy Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_rifle_late_mech2_3(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>3.</c> Cavalry Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_smg_late_mech2_1(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>1.</c> Cavalry SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_smg_late_mech2_2(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>2.</c> Cavalry Heavy SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_smg_late_mech2_3(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>3.</c> Cavalry SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_rifle_late_mech2_1(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>1.</c> Elite Guards Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_rifle_late_mech2_2(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>2.</c> Elite Guards Heavy Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_rifle_late_mech2_3(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>3.</c> Elite Guards Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_smg_late_mech2_1(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>1.</c> Elite Guards SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_smg_late_mech2_2(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>2.</c> Elite Guards Heavy SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_smg_late_mech2_3(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>3.</c> Elite Guards SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_marine_late_mech2(rus)"
+msgid "<c(A5A095)>(3+)</c> Guards Marine Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_assault_eng_late_mech2(rus)"
+msgid "<c(A5A095)>(3+)</c> Guards Assault Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_assault_eng_flame_at_late_mech2(rus)"
+msgid "<c(A5A095)>(3+)</c> Guards Assault Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_mountain_cav_late_mech2(rus)"
+msgid "Mountain Cavalry Squad"
+msgstr ""
+
+msgctxt "desc/squad/single_rifle_mech2(rus)"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/squad/single_mg_mech2(rus)"
+msgid "MG Team"
+msgstr ""
+
+msgctxt "desc/squad/single_flamer_mech2(rus)"
+msgid "Flamethrower"
+msgstr ""
+
+msgctxt "desc/squad/single_officer_mech2(rus)"
+msgid "Officer"
+msgstr ""
+
+msgctxt "desc/squad/single_signaller_76_mech2(rus)"
+msgid "Artillery Signaller (76 mm)"
+msgstr ""
+
+msgctxt "desc/squad/inf_crate_rus(late_rus_mech2)"
+msgid "Ammo Crate"
+msgstr ""
+
+msgctxt "desc/squad/maxim(late_rus_mech2)"
+msgid "Maxim"
+msgstr ""
+
+msgctxt "desc/squad/sg43_stand(late_rus_mech2)"
+msgid "SG-43"
+msgstr ""
+
+msgctxt "desc/squad/dshk_stan(late_rus_mech2)"
+msgid "DShK"
+msgstr ""
+
+msgctxt "desc/squad/dshk_aa(late_rus_mech2)"
+msgid "DShK (AA)"
+msgstr ""
+
+msgctxt "desc/squad/25mm_72k(late_rus_mech2)"
+msgid "25 mm 72-K"
+msgstr ""
+
+msgctxt "desc/squad/37mm_61k(late_rus_mech2)"
+msgid "37 mm 61-K"
+msgstr ""
+
+msgctxt "desc/squad/85mm_52k(late_rus_mech2)"
+msgid "85 mm 52-K"
+msgstr ""
+
+msgctxt "desc/squad/82mm_bm37(late_rus_mech2)"
+msgid "82 mm BM-37"
+msgstr ""
+
+msgctxt "desc/squad/120mm_pm38(late_rus_mech2)"
+msgid "120 mm PM-38"
+msgstr ""
+
+msgctxt "desc/squad/76mm_m1902(late_rus_mech2)"
+msgid "76 mm M1902"
+msgstr ""
+
+msgctxt "desc/squad/76mm_m1927_late(late_rus_mech2)"
+msgid "76 mm M1927"
+msgstr ""
+
+msgctxt "desc/squad/76mm_m43(late_rus_mech2)"
+msgid "76 mm M43"
+msgstr ""
+
+msgctxt "desc/squad/45mm_m37(late_rus_mech2)"
+msgid "45 mm 53-K"
+msgstr ""
+
+msgctxt "desc/squad/45mm_m42(late_rus_mech2)"
+msgid "45 mm M-42"
+msgstr ""
+
+msgctxt "desc/squad/57mm_zis2_late(late_rus_mech2)"
+msgid "57 mm ZiS-2"
+msgstr ""
+
+msgctxt "desc/squad/76mm_zis3(late_rus_mech2)"
+msgid "76 mm ZiS-3"
+msgstr ""
+
+msgctxt "desc/squad/100mm_bs3(late_rus_mech2)"
+msgid "100 mm BS-3"
+msgstr ""
+
+msgctxt "desc/squad/107mm_m1910_30(late_rus_mech2)"
+msgid "107 mm M1910/30"
+msgstr ""
+
+msgctxt "desc/squad/122mm_m30(late_rus_mech2)"
+msgid "122 mm M-30"
+msgstr ""
+
+msgctxt "desc/squad/122mm_m1910(late_rus_mech2)"
+msgid "122 mm M1910"
+msgstr ""
+
+msgctxt "desc/squad/122mm_a19(late_rus_mech2)"
+msgid "122 mm A-19"
+msgstr ""
+
+msgctxt "desc/squad/152mm_ml20(late_rus_mech2)"
+msgid "152 mm ML-20"
+msgstr ""
+
+msgctxt "desc/squad/152mm_br2(late_rus_mech2)"
+msgid "152 mm BR-2"
+msgstr ""
+
+msgctxt "desc/squad/203mm_b4(late_rus_mech2)"
+msgid "203 mm B-4"
+msgstr ""
+
+msgctxt "desc/squad/280mm_br5(late_rus_mech2)"
+msgid "280 mm BR-5"
+msgstr ""
+
+msgctxt "desc/squad/300mm_m31(late_rus_mech2)"
+msgid "300 mm M-31"
+msgstr ""
+
+msgctxt "desc/squad/m72(late_rus_mech2)"
+msgid "M-72"
+msgstr ""
+
+msgctxt "desc/squad/gaz67b(late_rus_mech2)"
+msgid "GAZ-7B"
+msgstr ""
+
+msgctxt "desc/squad/t20(late_rus_mech2)"
+msgid "T-20"
+msgstr ""
+
+msgctxt "desc/squad/zis5(late_rus_mech2)"
+msgid "ZIS-5"
+msgstr ""
+
+msgctxt "desc/squad/gaz_aaa(late_rus_mech2)"
+msgid "GAZ-AAA"
+msgstr ""
+
+msgctxt "desc/squad/cckw_rus(late_rus_mech2)"
+msgid "CCKW"
+msgstr ""
+
+msgctxt "desc/squad/gaz_aaa_supply(late_rus_mech2)"
+msgid "GAZ-AAA (Ammo)"
+msgstr ""
+
+msgctxt "desc/squad/cckw_art_ammo_rus(late_rus_mech2)"
+msgid "CCKW (Ammo)"
+msgstr ""
+
+msgctxt "desc/squad/gaz_fuel(late_rus_mech2)"
+msgid "GAZ-AAA (Fuel)"
+msgstr ""
+
+msgctxt "desc/squad/zis5eng(late_rus_mech2)"
+msgid "ZIS-5 (Engineer)"
+msgstr ""
+
+msgctxt "desc/squad/gaz_aaa_maximx4(late_rus_mech2)"
+msgid "GAZ-AAA (Maxim Quad)"
+msgstr ""
+
+msgctxt "desc/squad/zis5_dshk(late_rus_mech2)"
+msgid "ZIS-5 (DShK)"
+msgstr ""
+
+msgctxt "desc/squad/gaz_aaa_72k(late_rus_mech2)"
+msgid "GAZ-AAA (25 mm 72K)"
+msgstr ""
+
+msgctxt "desc/squad/m3a1e1_scout(late_rus_mech2)"
+msgid "M3A1E1 (Scout)"
+msgstr ""
+
+msgctxt "desc/squad/m3a1e1_scout_mgun(late_rus_mech2)"
+msgid "M3A1E1 (MG)"
+msgstr ""
+
+msgctxt "desc/squad/m2_halftrack(late_rus_mech2)"
+msgid "M2 Halftrack"
+msgstr ""
+
+msgctxt "desc/squad/m3a1_halftrack(late_rus_mech2)"
+msgid "M3A1 Halftrack"
+msgstr ""
+
+msgctxt "desc/squad/universal_carrier_rus(late_rus_mech2)"
+msgid "Universal Carrier"
+msgstr ""
+
+msgctxt "desc/squad/mmg_carrier_rus(late_rus_mech2)"
+msgid "Universal Carrier (MG)"
+msgstr ""
+
+msgctxt "desc/squad/ba64(late_rus_mech2)"
+msgid "BA-64"
+msgstr ""
+
+msgctxt "desc/squad/ba10(late_rus_mech2)"
+msgid "BA-10"
+msgstr ""
+
+msgctxt "desc/squad/zis6_bm8_48(late_rus_mech2)"
+msgid "ZIS-6 BM-8-48"
+msgstr ""
+
+msgctxt "desc/squad/zis6_bm13_16(late_rus_mech2)"
+msgid "ZIS-6 BM-13-16"
+msgstr ""
+
+msgctxt "desc/squad/bm13_studebaker(late_rus_mech2)"
+msgid "Studebaker BM-13"
+msgstr ""
+
+msgctxt "desc/squad/bm31_12(late_rus_mech2)"
+msgid "BM-31-12"
+msgstr ""
+
+msgctxt "desc/squad/t26_39(late_rus_mech2)"
+msgid "T-26 (1939)"
+msgstr ""
+
+msgctxt "desc/squad/bt7(late_rus_mech2)"
+msgid "BT-7"
+msgstr ""
+
+msgctxt "desc/squad/bt7a(late_rus_mech2)"
+msgid "BT-7A"
+msgstr ""
+
+msgctxt "desc/squad/t60(late_rus_mech2)"
+msgid "T-60"
+msgstr ""
+
+msgctxt "desc/squad/t60_bm8_24(late_rus_mech2)"
+msgid "T-60 BM-8-24"
+msgstr ""
+
+msgctxt "desc/squad/t70(late_rus_mech2)"
+msgid "T-70"
+msgstr ""
+
+msgctxt "desc/squad/t70m(late_rus_mech2)"
+msgid "T-70M"
+msgstr ""
+
+msgctxt "desc/squad/su76(late_rus_mech2)"
+msgid "SU-76M"
+msgstr ""
+
+msgctxt "desc/squad/m3_stuart_late_rus(late_rus_mech2)"
+msgid "M3 Stuart (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m3a1_stuart_rus(late_rus_mech2)"
+msgid "M3A1 Stuart"
+msgstr ""
+
+msgctxt "desc/squad/m3_lee_rus(late_rus_mech2)"
+msgid "M3 Lee"
+msgstr ""
+
+msgctxt "desc/squad/m4a2_75_early_rus(late_rus_mech2)"
+msgid "M4A2 Sherman (Early)"
+msgstr ""
+
+msgctxt "desc/squad/m4a2_75_late_rus(late_rus_mech2)"
+msgid "M4A2 Sherman (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m4a2_76w_early_rus(late_rus_mech2)"
+msgid "M4A2(76)W Sherman"
+msgstr ""
+
+msgctxt "desc/squad/m4a2_76w_late_rus(late_rus_mech2)"
+msgid "<c(E56042)>1.</c> M4A2(76)W Sherman (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m4a2_76w_late_rus_2(late_rus_mech2)"
+msgid "<c(E56042)>2.</c> M4A2(76)W Sherman (Late)"
+msgstr ""
+
+msgctxt "desc/squad/valentine7(late_rus_mech2)"
+msgid "Valentine VII"
+msgstr ""
+
+msgctxt "desc/squad/valentine9(late_rus_mech2)"
+msgid "Valentine IX"
+msgstr ""
+
+msgctxt "desc/squad/churchill3(late_rus_mech2)"
+msgid "Churchill III"
+msgstr ""
+
+msgctxt "desc/squad/stug3g_sov(late_rus_mech2)"
+msgid "SU-75"
+msgstr ""
+
+msgctxt "desc/squad/panzer5a_sov(late_rus_mech2)"
+msgid "T-V"
+msgstr ""
+
+msgctxt "desc/squad/t3476_42(late_rus_mech2)"
+msgid "T-34-76 (1942)"
+msgstr ""
+
+msgctxt "desc/squad/t3476_43(late_rus_mech2)"
+msgid "T-34-76 (1943)"
+msgstr ""
+
+msgctxt "desc/squad/t3476_43_flame(late_rus_mech2)"
+msgid "T-34-76 (Flame)"
+msgstr ""
+
+msgctxt "desc/squad/t3485_44(late_rus_mech2)"
+msgid "T-34-85"
+msgstr ""
+
+msgctxt "desc/squad/t3485_44_2(late_rus_mech2)"
+msgid "T-34-85"
+msgstr ""
+
+msgctxt "desc/squad/t3485_44a(late_rus_mech2)"
+msgid "T-34-85"
+msgstr ""
+
+msgctxt "desc/squad/t3485_44b(late_rus_mech2)"
+msgid "T-34-85"
+msgstr ""
+
+msgctxt "desc/squad/t3485_44a_flame(late_rus_mech2)"
+msgid "T-34-85 (Flame)"
+msgstr ""
+
+msgctxt "desc/squad/su85(late_rus_mech2)"
+msgid "SU-85"
+msgstr ""
+
+msgctxt "desc/squad/su85m(late_rus_mech2)"
+msgid "SU-85M"
+msgstr ""
+
+msgctxt "desc/squad/su122(late_rus_mech2)"
+msgid "SU-122"
+msgstr ""
+
+msgctxt "desc/squad/su100(late_rus_mech2)"
+msgid "SU-100"
+msgstr ""
+
+msgctxt "desc/squad/kv1_42(late_rus_mech2)"
+msgid "KV-1 (1942)"
+msgstr ""
+
+msgctxt "desc/squad/kv1s(late_rus_mech2)"
+msgid "KV-1S"
+msgstr ""
+
+msgctxt "desc/squad/kv85(late_rus_mech2)"
+msgid "KV-85"
+msgstr ""
+
+msgctxt "desc/squad/su152_late(late_rus_mech2)"
+msgid "SU-152 (Late)"
+msgstr ""
+
+msgctxt "desc/squad/is1_43(late_rus_mech2)"
+msgid "IS (1943)"
+msgstr ""
+
+msgctxt "desc/squad/is2_43(late_rus_mech2)"
+msgid "IS-2 (Early)"
+msgstr ""
+
+msgctxt "desc/squad/is2_44(late_rus_mech2)"
+msgid "IS-2"
+msgstr ""
+
+msgctxt "desc/squad/is2_45(late_rus_mech2)"
+msgid "IS-2 (Late)"
+msgstr ""
+
+msgctxt "desc/squad/isu122s(late_rus_mech2)"
+msgid "ISU-122S"
+msgstr ""
+
+msgctxt "desc/squad/isu152(late_rus_mech2)"
+msgid "ISU-152"
+msgstr ""
+
+msgctxt "desc/squad/squad_conscript_late_cav_1(rus)"
+msgid "<c(A5A095)>(1)</c> <c(E56042)>1.</c> Conscript Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_conscript_late_cav_2(rus)"
+msgid "<c(A5A095)>(1)</c> <c(E56042)>2.</c> Conscript MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_conscript_late_cav_3(rus)"
+msgid "<c(A5A095)>(1)</c> <c(E56042)>3.</c> Conscript Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_late_cav_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Recon Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_late_cav_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Recon Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_late_cav_3(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Recon SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_cav_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_cav_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Heavy Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_cav_3(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_late_cav_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_late_cav_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Heavy SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_late_cav_3(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle_late_cav_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> AT Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle_late_cav_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> AT Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sap_late_cav_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sap_late_cav_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_rifle_late_cav_1(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>1.</c> Guards Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_rifle_late_cav_2(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>2.</c> Guards Heavy Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_rifle_late_cav_3(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>3.</c> Guards Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_smg_late_cav_1(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>1.</c> Guards SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_smg_late_cav_2(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>2.</c> Guards Heavy SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_smg_late_cav_3(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>3.</c> Guards SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_at_rifle_late_cav_1(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>1.</c> Guards AT Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_at_rifle_late_cav_2(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>2.</c> Guards AT Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marine_rifle_late_cav_1(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>1.</c> Marine Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marine_rifle_late_cav_2(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>2.</c> Marine Heavy Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marine_rifle_late_cav_3(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>3.</c> Marine Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_rifle_late_cav_1(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>1.</c> Cavalry Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_rifle_late_cav_2(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>2.</c> Cavalry Heavy Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_rifle_late_cav_3(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>3.</c> Cavalry Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_smg_late_cav_1(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>1.</c> Cavalry SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_smg_late_cav_2(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>2.</c> Cavalry Heavy SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_smg_late_cav_3(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>3.</c> Cavalry SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_rifle_late_cav_1(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>1.</c> Elite Guards Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_rifle_late_cav_2(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>2.</c> Elite Guards Heavy Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_rifle_late_cav_3(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>3.</c> Elite Guards Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_smg_late_cav_1(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>1.</c> Elite Guards SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_smg_late_cav_2(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>2.</c> Elite Guards Heavy SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_smg_late_cav_3(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>3.</c> Elite Guards SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_marine_late_cav(rus)"
+msgid "<c(A5A095)>(3+)</c> Guards Marine Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_assault_eng_late_cav(rus)"
+msgid "<c(A5A095)>(3+)</c> Guards Assault Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_assault_eng_flame_at_late_cav(rus)"
+msgid "<c(A5A095)>(3+)</c> Guards Assault Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_mountain_cav_late_cav(rus)"
+msgid "Mountain Cavalry Squad"
+msgstr ""
+
+msgctxt "desc/squad/single_rifle_cav(rus)"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/squad/single_mg_cav(rus)"
+msgid "MG Team"
+msgstr ""
+
+msgctxt "desc/squad/single_flamer_cav(rus)"
+msgid "Flamethrower"
+msgstr ""
+
+msgctxt "desc/squad/single_officer_cav(rus)"
+msgid "Officer"
+msgstr ""
+
+msgctxt "desc/squad/single_signaller_76_cav(rus)"
+msgid "Artillery Signaller (76 mm)"
+msgstr ""
+
+msgctxt "desc/squad/inf_crate_rus(late_rus_cav)"
+msgid "Ammo Crate"
+msgstr ""
+
+msgctxt "desc/squad/maxim(late_rus_cav)"
+msgid "Maxim"
+msgstr ""
+
+msgctxt "desc/squad/sg43_stand(late_rus_cav)"
+msgid "SG-43"
+msgstr ""
+
+msgctxt "desc/squad/dshk_stan(late_rus_cav)"
+msgid "DShK"
+msgstr ""
+
+msgctxt "desc/squad/dshk_aa(late_rus_cav)"
+msgid "DShK (AA)"
+msgstr ""
+
+msgctxt "desc/squad/25mm_72k(late_rus_cav)"
+msgid "25 mm 72-K"
+msgstr ""
+
+msgctxt "desc/squad/37mm_61k(late_rus_cav)"
+msgid "37 mm 61-K"
+msgstr ""
+
+msgctxt "desc/squad/85mm_52k(late_rus_cav)"
+msgid "85 mm 52-K"
+msgstr ""
+
+msgctxt "desc/squad/50mm_rm38(late_rus_cav)"
+msgid "50 mm RM-38"
+msgstr ""
+
+msgctxt "desc/squad/82mm_bm37(late_rus_cav)"
+msgid "82 mm BM-37"
+msgstr ""
+
+msgctxt "desc/squad/120mm_pm38(late_rus_cav)"
+msgid "120 mm PM-38"
+msgstr ""
+
+msgctxt "desc/squad/76mm_m1902(late_rus_cav)"
+msgid "76 mm M1902"
+msgstr ""
+
+msgctxt "desc/squad/76mm_m1927_late(late_rus_cav)"
+msgid "76 mm M1927"
+msgstr ""
+
+msgctxt "desc/squad/76mm_m43(late_rus_cav)"
+msgid "76 mm M43"
+msgstr ""
+
+msgctxt "desc/squad/45mm_m37(late_rus_cav)"
+msgid "45 mm 53-K"
+msgstr ""
+
+msgctxt "desc/squad/45mm_m42(late_rus_cav)"
+msgid "45 mm M-42"
+msgstr ""
+
+msgctxt "desc/squad/57mm_zis2_late(late_rus_cav)"
+msgid "57 mm ZiS-2"
+msgstr ""
+
+msgctxt "desc/squad/76mm_zis3(late_rus_cav)"
+msgid "76 mm ZiS-3"
+msgstr ""
+
+msgctxt "desc/squad/100mm_bs3(late_rus_cav)"
+msgid "100 mm BS-3"
+msgstr ""
+
+msgctxt "desc/squad/107mm_m1910_30(late_rus_cav)"
+msgid "107 mm M1910/30"
+msgstr ""
+
+msgctxt "desc/squad/122mm_m30(late_rus_cav)"
+msgid "122 mm M-30"
+msgstr ""
+
+msgctxt "desc/squad/122mm_m1910(late_rus_cav)"
+msgid "122 mm M1910"
+msgstr ""
+
+msgctxt "desc/squad/122mm_a19(late_rus_cav)"
+msgid "122 mm A-19"
+msgstr ""
+
+msgctxt "desc/squad/152mm_ml20(late_rus_cav)"
+msgid "152 mm ML-20"
+msgstr ""
+
+msgctxt "desc/squad/152mm_br2(late_rus_cav)"
+msgid "152 mm BR-2"
+msgstr ""
+
+msgctxt "desc/squad/203mm_b4(late_rus_cav)"
+msgid "203 mm B-4"
+msgstr ""
+
+msgctxt "desc/squad/280mm_br5(late_rus_cav)"
+msgid "280 mm BR-5"
+msgstr ""
+
+msgctxt "desc/squad/300mm_m31(late_rus_cav)"
+msgid "300 mm M-31"
+msgstr ""
+
+msgctxt "desc/squad/m72(late_rus_cav)"
+msgid "M-72"
+msgstr ""
+
+msgctxt "desc/squad/gaz67b(late_rus_cav)"
+msgid "GAZ-7B"
+msgstr ""
+
+msgctxt "desc/squad/t20(late_rus_cav)"
+msgid "T-20"
+msgstr ""
+
+msgctxt "desc/squad/zis5(late_rus_cav)"
+msgid "ZIS-5"
+msgstr ""
+
+msgctxt "desc/squad/gaz_aaa(late_rus_cav)"
+msgid "GAZ-AAA"
+msgstr ""
+
+msgctxt "desc/squad/cckw_rus(late_rus_cav)"
+msgid "CCKW"
+msgstr ""
+
+msgctxt "desc/squad/gaz_aaa_supply(late_rus_cav)"
+msgid "GAZ-AAA (Ammo)"
+msgstr ""
+
+msgctxt "desc/squad/cckw_art_ammo_rus(late_rus_cav)"
+msgid "CCKW (Ammo)"
+msgstr ""
+
+msgctxt "desc/squad/gaz_fuel(late_rus_cav)"
+msgid "GAZ-AAA (Fuel)"
+msgstr ""
+
+msgctxt "desc/squad/zis5eng(late_rus_cav)"
+msgid "ZIS-5 (Engineer)"
+msgstr ""
+
+msgctxt "desc/squad/gaz_aaa_maximx4(late_rus_cav)"
+msgid "GAZ-AAA (Maxim Quad)"
+msgstr ""
+
+msgctxt "desc/squad/zis5_dshk(late_rus_cav)"
+msgid "ZIS-5 (DShK)"
+msgstr ""
+
+msgctxt "desc/squad/gaz_aaa_72k(late_rus_cav)"
+msgid "GAZ-AAA (25 mm 72K)"
+msgstr ""
+
+msgctxt "desc/squad/m3a1e1_scout(late_rus_cav)"
+msgid "M3A1E1 (Scout)"
+msgstr ""
+
+msgctxt "desc/squad/m3a1e1_scout_mgun(late_rus_cav)"
+msgid "M3A1E1 (MG)"
+msgstr ""
+
+msgctxt "desc/squad/m2_halftrack(late_rus_cav)"
+msgid "M2 Halftrack"
+msgstr ""
+
+msgctxt "desc/squad/m3a1_halftrack(late_rus_cav)"
+msgid "M3A1 Halftrack"
+msgstr ""
+
+msgctxt "desc/squad/universal_carrier_rus(late_rus_cav)"
+msgid "Universal Carrier"
+msgstr ""
+
+msgctxt "desc/squad/mmg_carrier_rus(late_rus_cav)"
+msgid "Universal Carrier (MG)"
+msgstr ""
+
+msgctxt "desc/squad/ba64(late_rus_cav)"
+msgid "BA-64"
+msgstr ""
+
+msgctxt "desc/squad/ba10(late_rus_cav)"
+msgid "BA-10"
+msgstr ""
+
+msgctxt "desc/squad/zis6_bm8_48(late_rus_cav)"
+msgid "ZIS-6 BM-8-48"
+msgstr ""
+
+msgctxt "desc/squad/zis6_bm13_16(late_rus_cav)"
+msgid "ZIS-6 BM-13-16"
+msgstr ""
+
+msgctxt "desc/squad/bm13_studebaker(late_rus_cav)"
+msgid "Studebaker BM-13"
+msgstr ""
+
+msgctxt "desc/squad/bm31_12(late_rus_cav)"
+msgid "BM-31-12"
+msgstr ""
+
+msgctxt "desc/squad/t26_39(late_rus_cav)"
+msgid "T-26 (1939)"
+msgstr ""
+
+msgctxt "desc/squad/bt7(late_rus_cav)"
+msgid "BT-7"
+msgstr ""
+
+msgctxt "desc/squad/bt7a(late_rus_cav)"
+msgid "BT-7A"
+msgstr ""
+
+msgctxt "desc/squad/t60(late_rus_cav)"
+msgid "T-60"
+msgstr ""
+
+msgctxt "desc/squad/t60_bm8_24(late_rus_cav)"
+msgid "T-60 BM-8-24"
+msgstr ""
+
+msgctxt "desc/squad/t70(late_rus_cav)"
+msgid "T-70"
+msgstr ""
+
+msgctxt "desc/squad/t70m(late_rus_cav)"
+msgid "T-70M"
+msgstr ""
+
+msgctxt "desc/squad/su76(late_rus_cav)"
+msgid "SU-76M"
+msgstr ""
+
+msgctxt "desc/squad/m3_stuart_late_rus(late_rus_cav)"
+msgid "M3 Stuart (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m3a1_stuart_rus(late_rus_cav)"
+msgid "M3A1 Stuart"
+msgstr ""
+
+msgctxt "desc/squad/m3_lee_rus(late_rus_cav)"
+msgid "M3 Lee"
+msgstr ""
+
+msgctxt "desc/squad/m4a2_75_early_rus(late_rus_cav)"
+msgid "M4A2 Sherman (Early)"
+msgstr ""
+
+msgctxt "desc/squad/m4a2_75_late_rus(late_rus_cav)"
+msgid "M4A2 Sherman (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m4a2_76w_early_rus(late_rus_cav)"
+msgid "M4A2(76)W Sherman"
+msgstr ""
+
+msgctxt "desc/squad/m4a2_76w_late_rus(late_rus_cav)"
+msgid "<c(E56042)>1.</c> M4A2(76)W Sherman (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m4a2_76w_late_rus_2(late_rus_cav)"
+msgid "<c(E56042)>2.</c> M4A2(76)W Sherman (Late)"
+msgstr ""
+
+msgctxt "desc/squad/valentine7(late_rus_cav)"
+msgid "Valentine VII"
+msgstr ""
+
+msgctxt "desc/squad/valentine9(late_rus_cav)"
+msgid "Valentine IX"
+msgstr ""
+
+msgctxt "desc/squad/churchill3(late_rus_cav)"
+msgid "Churchill III"
+msgstr ""
+
+msgctxt "desc/squad/stug3g_sov(late_rus_cav)"
+msgid "SU-75"
+msgstr ""
+
+msgctxt "desc/squad/panzer5a_sov(late_rus_cav)"
+msgid "T-V"
+msgstr ""
+
+msgctxt "desc/squad/t3476_42(late_rus_cav)"
+msgid "T-34-76 (1942)"
+msgstr ""
+
+msgctxt "desc/squad/t3476_43(late_rus_cav)"
+msgid "T-34-76 (1943)"
+msgstr ""
+
+msgctxt "desc/squad/t3476_43_flame(late_rus_cav)"
+msgid "T-34-76 (Flame)"
+msgstr ""
+
+msgctxt "desc/squad/t3485_44(late_rus_cav)"
+msgid "T-34-85"
+msgstr ""
+
+msgctxt "desc/squad/t3485_44_2(late_rus_cav)"
+msgid "T-34-85"
+msgstr ""
+
+msgctxt "desc/squad/t3485_44a(late_rus_cav)"
+msgid "T-34-85"
+msgstr ""
+
+msgctxt "desc/squad/t3485_44b(late_rus_cav)"
+msgid "T-34-85"
+msgstr ""
+
+msgctxt "desc/squad/t3485_44a_flame(late_rus_cav)"
+msgid "T-34-85 (Flame)"
+msgstr ""
+
+msgctxt "desc/squad/su85(late_rus_cav)"
+msgid "SU-85"
+msgstr ""
+
+msgctxt "desc/squad/su85m(late_rus_cav)"
+msgid "SU-85M"
+msgstr ""
+
+msgctxt "desc/squad/su122(late_rus_cav)"
+msgid "SU-122"
+msgstr ""
+
+msgctxt "desc/squad/su100(late_rus_cav)"
+msgid "SU-100"
+msgstr ""
+
+msgctxt "desc/squad/kv1_42(late_rus_cav)"
+msgid "KV-1 (1942)"
+msgstr ""
+
+msgctxt "desc/squad/kv1s(late_rus_cav)"
+msgid "KV-1S"
+msgstr ""
+
+msgctxt "desc/squad/kv85(late_rus_cav)"
+msgid "KV-85"
+msgstr ""
+
+msgctxt "desc/squad/su152_late(late_rus_cav)"
+msgid "SU-152 (Late)"
+msgstr ""
+
+msgctxt "desc/squad/is1_43(late_rus_cav)"
+msgid "IS (1943)"
+msgstr ""
+
+msgctxt "desc/squad/is2_43(late_rus_cav)"
+msgid "IS-2 (Early)"
+msgstr ""
+
+msgctxt "desc/squad/is2_44(late_rus_cav)"
+msgid "IS-2"
+msgstr ""
+
+msgctxt "desc/squad/is2_45(late_rus_cav)"
+msgid "IS-2 (Late)"
+msgstr ""
+
+msgctxt "desc/squad/isu122s(late_rus_cav)"
+msgid "ISU-122S"
+msgstr ""
+
+msgctxt "desc/squad/isu152(late_rus_cav)"
+msgid "ISU-152"
+msgstr ""
+
+msgctxt "desc/squad/squad_conscript_late_rifle_1(rus)"
+msgid "<c(A5A095)>(1)</c> <c(E56042)>1.</c> Conscript Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_conscript_late_rifle_2(rus)"
+msgid "<c(A5A095)>(1)</c> <c(E56042)>2.</c> Conscript MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_conscript_late_rifle_3(rus)"
+msgid "<c(A5A095)>(1)</c> <c(E56042)>3.</c> Conscript Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_late_rifle_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Recon Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_late_rifle_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Recon Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_late_rifle_3(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Recon SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_rifle_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_rifle_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Heavy Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_rifle_3(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_late_rifle_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_late_rifle_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Heavy SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_late_rifle_3(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle_late_rifle_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> AT Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle_late_rifle_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> AT Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sap_late_rifle_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sap_late_rifle_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_rifle_late_rifle_1(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>1.</c> Guards Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_rifle_late_rifle_2(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>2.</c> Guards Heavy Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_rifle_late_rifle_3(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>3.</c> Guards Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_smg_late_rifle_1(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>1.</c> Guards SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_smg_late_rifle_2(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>2.</c> Guards Heavy SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_smg_late_rifle_3(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>3.</c> Guards SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_at_rifle_late_rifle_1(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>1.</c> Guards AT Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_at_rifle_late_rifle_2(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>2.</c> Guards AT Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marine_rifle_late_rifle_1(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>1.</c> Marine Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marine_rifle_late_rifle_2(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>2.</c> Marine Heavy Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marine_rifle_late_rifle_3(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>3.</c> Marine Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_rifle_late_rifle_1(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>1.</c> Cavalry Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_rifle_late_rifle_2(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>2.</c> Cavalry Heavy Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_rifle_late_rifle_3(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>3.</c> Cavalry Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_smg_late_rifle_1(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>1.</c> Cavalry SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_smg_late_rifle_2(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>2.</c> Cavalry Heavy SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_smg_late_rifle_3(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>3.</c> Cavalry SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_rifle_late_rifle_1(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>1.</c> Elite Guards Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_rifle_late_rifle_2(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>2.</c> Elite Guards Heavy Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_rifle_late_rifle_3(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>3.</c> Elite Guards Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_smg_late_rifle_1(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>1.</c> Elite Guards SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_smg_late_rifle_2(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>2.</c> Elite Guards Heavy SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_smg_late_rifle_3(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>3.</c> Elite Guards SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_marine_late_rifle(rus)"
+msgid "<c(A5A095)>(3+)</c> Guards Marine Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_assault_eng_late_rifle(rus)"
+msgid "<c(A5A095)>(3+)</c> Guards Assault Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_assault_eng_flame_at_late_rifle(rus)"
+msgid "<c(A5A095)>(3+)</c> Guards Assault Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_mountain_cav_late_rifle(rus)"
+msgid "Mountain Cavalry Squad"
+msgstr ""
+
+msgctxt "desc/squad/single_rifle_rifle(rus)"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/squad/single_mg_rifle(rus)"
+msgid "MG Team"
+msgstr ""
+
+msgctxt "desc/squad/single_flamer_rifle(rus)"
+msgid "Flamethrower"
+msgstr ""
+
+msgctxt "desc/squad/single_officer_rifle(rus)"
+msgid "Officer"
+msgstr ""
+
+msgctxt "desc/squad/single_signaller_76_rifle(rus)"
+msgid "Artillery Signaller (76 mm)"
+msgstr ""
+
+msgctxt "desc/squad/inf_crate_rus(late_rus_rifle)"
+msgid "Ammo Crate"
+msgstr ""
+
+msgctxt "desc/squad/maxim(late_rus_rifle)"
+msgid "Maxim"
+msgstr ""
+
+msgctxt "desc/squad/sg43_stand(late_rus_rifle)"
+msgid "SG-43"
+msgstr ""
+
+msgctxt "desc/squad/dshk_stan(late_rus_rifle)"
+msgid "DShK"
+msgstr ""
+
+msgctxt "desc/squad/dshk_aa(late_rus_rifle)"
+msgid "DShK (AA)"
+msgstr ""
+
+msgctxt "desc/squad/25mm_72k(late_rus_rifle)"
+msgid "25 mm 72-K"
+msgstr ""
+
+msgctxt "desc/squad/37mm_61k(late_rus_rifle)"
+msgid "37 mm 61-K"
+msgstr ""
+
+msgctxt "desc/squad/85mm_52k(late_rus_rifle)"
+msgid "85 mm 52-K"
+msgstr ""
+
+msgctxt "desc/squad/50mm_rm38(late_rus_rifle)"
+msgid "50 mm RM-38"
+msgstr ""
+
+msgctxt "desc/squad/82mm_bm37(late_rus_rifle)"
+msgid "82 mm BM-37"
+msgstr ""
+
+msgctxt "desc/squad/120mm_pm38(late_rus_rifle)"
+msgid "120 mm PM-38"
+msgstr ""
+
+msgctxt "desc/squad/76mm_m1902(late_rus_rifle)"
+msgid "76 mm M1902"
+msgstr ""
+
+msgctxt "desc/squad/76mm_m1927_late(late_rus_rifle)"
+msgid "76 mm M1927"
+msgstr ""
+
+msgctxt "desc/squad/76mm_m43(late_rus_rifle)"
+msgid "76 mm M43"
+msgstr ""
+
+msgctxt "desc/squad/45mm_m37(late_rus_rifle)"
+msgid "45 mm 53-K"
+msgstr ""
+
+msgctxt "desc/squad/45mm_m42(late_rus_rifle)"
+msgid "45 mm M-42"
+msgstr ""
+
+msgctxt "desc/squad/57mm_zis2_late(late_rus_rifle)"
+msgid "57 mm ZiS-2"
+msgstr ""
+
+msgctxt "desc/squad/76mm_zis3(late_rus_rifle)"
+msgid "76 mm ZiS-3"
+msgstr ""
+
+msgctxt "desc/squad/100mm_bs3(late_rus_rifle)"
+msgid "100 mm BS-3"
+msgstr ""
+
+msgctxt "desc/squad/107mm_m1910_30(late_rus_rifle)"
+msgid "107 mm M1910/30"
+msgstr ""
+
+msgctxt "desc/squad/122mm_m30(late_rus_rifle)"
+msgid "122 mm M-30"
+msgstr ""
+
+msgctxt "desc/squad/122mm_m1910(late_rus_rifle)"
+msgid "122 mm M1910"
+msgstr ""
+
+msgctxt "desc/squad/122mm_a19(late_rus_rifle)"
+msgid "122 mm A-19"
+msgstr ""
+
+msgctxt "desc/squad/152mm_ml20(late_rus_rifle)"
+msgid "152 mm ML-20"
+msgstr ""
+
+msgctxt "desc/squad/152mm_br2(late_rus_rifle)"
+msgid "152 mm BR-2"
+msgstr ""
+
+msgctxt "desc/squad/203mm_b4(late_rus_rifle)"
+msgid "203 mm B-4"
+msgstr ""
+
+msgctxt "desc/squad/280mm_br5(late_rus_rifle)"
+msgid "280 mm BR-5"
+msgstr ""
+
+msgctxt "desc/squad/300mm_m31(late_rus_rifle)"
+msgid "300 mm M-31"
+msgstr ""
+
+msgctxt "desc/squad/m72(late_rus_rifle)"
+msgid "M-72"
+msgstr ""
+
+msgctxt "desc/squad/gaz67b(late_rus_rifle)"
+msgid "GAZ-7B"
+msgstr ""
+
+msgctxt "desc/squad/t20(late_rus_rifle)"
+msgid "T-20"
+msgstr ""
+
+msgctxt "desc/squad/zis5(late_rus_rifle)"
+msgid "ZIS-5"
+msgstr ""
+
+msgctxt "desc/squad/gaz_aaa(late_rus_rifle)"
+msgid "GAZ-AAA"
+msgstr ""
+
+msgctxt "desc/squad/cckw_rus(late_rus_rifle)"
+msgid "CCKW"
+msgstr ""
+
+msgctxt "desc/squad/gaz_aaa_supply(late_rus_rifle)"
+msgid "GAZ-AAA (Ammo)"
+msgstr ""
+
+msgctxt "desc/squad/cckw_art_ammo_rus(late_rus_rifle)"
+msgid "CCKW (Ammo)"
+msgstr ""
+
+msgctxt "desc/squad/gaz_fuel(late_rus_rifle)"
+msgid "GAZ-AAA (Fuel)"
+msgstr ""
+
+msgctxt "desc/squad/zis5eng(late_rus_rifle)"
+msgid "ZIS-5 (Engineer)"
+msgstr ""
+
+msgctxt "desc/squad/gaz_aaa_maximx4(late_rus_rifle)"
+msgid "GAZ-AAA (Maxim Quad)"
+msgstr ""
+
+msgctxt "desc/squad/zis5_dshk(late_rus_rifle)"
+msgid "ZIS-5 (DShK)"
+msgstr ""
+
+msgctxt "desc/squad/gaz_aaa_72k(late_rus_rifle)"
+msgid "GAZ-AAA (25 mm 72K)"
+msgstr ""
+
+msgctxt "desc/squad/m3a1e1_scout(late_rus_rifle)"
+msgid "M3A1E1 (Scout)"
+msgstr ""
+
+msgctxt "desc/squad/m3a1e1_scout_mgun(late_rus_rifle)"
+msgid "M3A1E1 (MG)"
+msgstr ""
+
+msgctxt "desc/squad/m2_halftrack(late_rus_rifle)"
+msgid "M2 Halftrack"
+msgstr ""
+
+msgctxt "desc/squad/m3a1_halftrack(late_rus_rifle)"
+msgid "M3A1 Halftrack"
+msgstr ""
+
+msgctxt "desc/squad/universal_carrier_rus(late_rus_rifle)"
+msgid "Universal Carrier"
+msgstr ""
+
+msgctxt "desc/squad/mmg_carrier_rus(late_rus_rifle)"
+msgid "Universal Carrier (MG)"
+msgstr ""
+
+msgctxt "desc/squad/ba64(late_rus_rifle)"
+msgid "BA-64"
+msgstr ""
+
+msgctxt "desc/squad/ba10(late_rus_rifle)"
+msgid "BA-10"
+msgstr ""
+
+msgctxt "desc/squad/zis6_bm8_48(late_rus_rifle)"
+msgid "ZIS-6 BM-8-48"
+msgstr ""
+
+msgctxt "desc/squad/zis6_bm13_16(late_rus_rifle)"
+msgid "ZIS-6 BM-13-16"
+msgstr ""
+
+msgctxt "desc/squad/bm13_studebaker(late_rus_rifle)"
+msgid "Studebaker BM-13"
+msgstr ""
+
+msgctxt "desc/squad/bm31_12(late_rus_rifle)"
+msgid "BM-31-12"
+msgstr ""
+
+msgctxt "desc/squad/t26_39(late_rus_rifle)"
+msgid "T-26 (1939)"
+msgstr ""
+
+msgctxt "desc/squad/bt7(late_rus_rifle)"
+msgid "BT-7"
+msgstr ""
+
+msgctxt "desc/squad/bt7a(late_rus_rifle)"
+msgid "BT-7A"
+msgstr ""
+
+msgctxt "desc/squad/t60(late_rus_rifle)"
+msgid "T-60"
+msgstr ""
+
+msgctxt "desc/squad/t60_bm8_24(late_rus_rifle)"
+msgid "T-60 BM-8-24"
+msgstr ""
+
+msgctxt "desc/squad/t70(late_rus_rifle)"
+msgid "T-70"
+msgstr ""
+
+msgctxt "desc/squad/t70m(late_rus_rifle)"
+msgid "T-70M"
+msgstr ""
+
+msgctxt "desc/squad/su76(late_rus_rifle)"
+msgid "SU-76M"
+msgstr ""
+
+msgctxt "desc/squad/m3_stuart_late_rus(late_rus_rifle)"
+msgid "M3 Stuart (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m3a1_stuart_rus(late_rus_rifle)"
+msgid "M3A1 Stuart"
+msgstr ""
+
+msgctxt "desc/squad/m3_lee_rus(late_rus_rifle)"
+msgid "M3 Lee"
+msgstr ""
+
+msgctxt "desc/squad/m4a2_75_early_rus(late_rus_rifle)"
+msgid "M4A2 Sherman (Early)"
+msgstr ""
+
+msgctxt "desc/squad/m4a2_75_late_rus(late_rus_rifle)"
+msgid "M4A2 Sherman (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m4a2_76w_early_rus(late_rus_rifle)"
+msgid "M4A2(76)W Sherman"
+msgstr ""
+
+msgctxt "desc/squad/m4a2_76w_late_rus(late_rus_rifle)"
+msgid "<c(E56042)>1.</c> M4A2(76)W Sherman (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m4a2_76w_late_rus_2(late_rus_rifle)"
+msgid "<c(E56042)>2.</c> M4A2(76)W Sherman (Late)"
+msgstr ""
+
+msgctxt "desc/squad/valentine7(late_rus_rifle)"
+msgid "Valentine VII"
+msgstr ""
+
+msgctxt "desc/squad/valentine9(late_rus_rifle)"
+msgid "Valentine IX"
+msgstr ""
+
+msgctxt "desc/squad/churchill3(late_rus_rifle)"
+msgid "Churchill III"
+msgstr ""
+
+msgctxt "desc/squad/stug3g_sov(late_rus_rifle)"
+msgid "SU-75"
+msgstr ""
+
+msgctxt "desc/squad/panzer5a_sov(late_rus_rifle)"
+msgid "T-V"
+msgstr ""
+
+msgctxt "desc/squad/t3476_42(late_rus_rifle)"
+msgid "T-34-76 (1942)"
+msgstr ""
+
+msgctxt "desc/squad/t3476_43(late_rus_rifle)"
+msgid "T-34-76 (1943)"
+msgstr ""
+
+msgctxt "desc/squad/t3476_43_flame(late_rus_rifle)"
+msgid "T-34-76 (Flame)"
+msgstr ""
+
+msgctxt "desc/squad/t3485_44(late_rus_rifle)"
+msgid "T-34-85"
+msgstr ""
+
+msgctxt "desc/squad/t3485_44_2(late_rus_rifle)"
+msgid "T-34-85"
+msgstr ""
+
+msgctxt "desc/squad/t3485_44a(late_rus_rifle)"
+msgid "T-34-85"
+msgstr ""
+
+msgctxt "desc/squad/t3485_44b(late_rus_rifle)"
+msgid "T-34-85"
+msgstr ""
+
+msgctxt "desc/squad/t3485_44a_flame(late_rus_rifle)"
+msgid "T-34-85 (Flame)"
+msgstr ""
+
+msgctxt "desc/squad/su85(late_rus_rifle)"
+msgid "SU-85"
+msgstr ""
+
+msgctxt "desc/squad/su85m(late_rus_rifle)"
+msgid "SU-85M"
+msgstr ""
+
+msgctxt "desc/squad/su122(late_rus_rifle)"
+msgid "SU-122"
+msgstr ""
+
+msgctxt "desc/squad/su100(late_rus_rifle)"
+msgid "SU-100"
+msgstr ""
+
+msgctxt "desc/squad/kv1_42(late_rus_rifle)"
+msgid "KV-1 (1942)"
+msgstr ""
+
+msgctxt "desc/squad/kv1s(late_rus_rifle)"
+msgid "KV-1S"
+msgstr ""
+
+msgctxt "desc/squad/kv85(late_rus_rifle)"
+msgid "KV-85"
+msgstr ""
+
+msgctxt "desc/squad/su152_late(late_rus_rifle)"
+msgid "SU-152 (Late)"
+msgstr ""
+
+msgctxt "desc/squad/is1_43(late_rus_rifle)"
+msgid "IS (1943)"
+msgstr ""
+
+msgctxt "desc/squad/is2_43(late_rus_rifle)"
+msgid "IS-2 (Early)"
+msgstr ""
+
+msgctxt "desc/squad/is2_44(late_rus_rifle)"
+msgid "IS-2"
+msgstr ""
+
+msgctxt "desc/squad/is2_45(late_rus_rifle)"
+msgid "IS-2 (Late)"
+msgstr ""
+
+msgctxt "desc/squad/isu122s(late_rus_rifle)"
+msgid "ISU-122S"
+msgstr ""
+
+msgctxt "desc/squad/isu152(late_rus_rifle)"
+msgid "ISU-152"
+msgstr ""
+
+msgctxt "desc/squad/squad_conscript_late_lr_1(rus)"
+msgid "<c(A5A095)>(1)</c> <c(E56042)>1.</c> Conscript Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_conscript_late_lr_2(rus)"
+msgid "<c(A5A095)>(1)</c> <c(E56042)>2.</c> Conscript MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_conscript_late_lr_3(rus)"
+msgid "<c(A5A095)>(1)</c> <c(E56042)>3.</c> Conscript Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_late_lr_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Recon Rifle Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_late_lr_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Recon Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_recon_late_lr_3(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Recon SMG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_lr_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_lr_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Heavy Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_rifle_late_lr_3(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_late_lr_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_late_lr_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Heavy SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_smg_late_lr_3(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>3.</c> SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle_late_lr_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> AT Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_at_rifle_late_lr_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> AT Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sap_late_lr_1(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>1.</c> Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_sap_late_lr_2(rus)"
+msgid "<c(A5A095)>(2)</c> <c(E56042)>2.</c> Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_rifle_late_lr_1(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>1.</c> Guards Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_rifle_late_lr_2(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>2.</c> Guards Heavy Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_rifle_late_lr_3(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>3.</c> Guards Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_smg_late_lr_1(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>1.</c> Guards SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_smg_late_lr_2(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>2.</c> Guards Heavy SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_smg_late_lr_3(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>3.</c> Guards SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_at_rifle_late_lr_1(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>1.</c> Guards AT Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_at_rifle_late_lr_2(rus)"
+msgid "<c(A5A095)>(2+)</c> <c(E56042)>2.</c> Guards AT Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marine_rifle_late_lr_1(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>1.</c> Marine Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marine_rifle_late_lr_2(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>2.</c> Marine Heavy Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_marine_rifle_late_lr_3(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>3.</c> Marine Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_rifle_late_lr_1(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>1.</c> Cavalry Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_rifle_late_lr_2(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>2.</c> Cavalry Heavy Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_rifle_late_lr_3(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>3.</c> Cavalry Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_smg_late_lr_1(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>1.</c> Cavalry SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_smg_late_lr_2(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>2.</c> Cavalry Heavy SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_cav_smg_late_lr_3(rus)"
+msgid "<c(A5A095)>(3)</c> <c(E56042)>3.</c> Cavalry SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_rifle_late_lr_1(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>1.</c> Elite Guards Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_rifle_late_lr_2(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>2.</c> Elite Guards Heavy Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_rifle_late_lr_3(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>3.</c> Elite Guards Rifle/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_smg_late_lr_1(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>1.</c> Elite Guards SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_smg_late_lr_2(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>2.</c> Elite Guards Heavy SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_elite_guard_smg_late_lr_3(rus)"
+msgid "<c(A5A095)>(3+)</c> <c(E56042)>3.</c> Elite Guards SMG/MG Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_guard_marine_late_lr(rus)"
+msgid "<c(A5A095)>(3+)</c> Guards Marine Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_assault_eng_late_lr(rus)"
+msgid "<c(A5A095)>(3+)</c> Guards Assault Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_assault_eng_flame_at_late_lr(rus)"
+msgid "<c(A5A095)>(3+)</c> Guards Assault Engineer Squad"
+msgstr ""
+
+msgctxt "desc/squad/squad_mountain_cav_late_lr(rus)"
+msgid "Mountain Cavalry Squad"
+msgstr ""
+
+msgctxt "desc/squad/single_rifle_lr(rus)"
+msgid "Rifleman"
+msgstr ""
+
+msgctxt "desc/squad/single_mg_lr(rus)"
+msgid "MG Team"
+msgstr ""
+
+msgctxt "desc/squad/single_flamer_lr(rus)"
+msgid "Flamethrower"
+msgstr ""
+
+msgctxt "desc/squad/single_officer_lr(rus)"
+msgid "Officer"
+msgstr ""
+
+msgctxt "desc/squad/single_signaller_76_lr(rus)"
+msgid "Artillery Signaller (76 mm)"
+msgstr ""
+
+msgctxt "desc/squad/inf_crate_rus(late_rus_lr)"
+msgid "Ammo Crate"
+msgstr ""
+
+msgctxt "desc/squad/maxim(late_rus_lr)"
+msgid "Maxim"
+msgstr ""
+
+msgctxt "desc/squad/sg43_stand(late_rus_lr)"
+msgid "SG-43"
+msgstr ""
+
+msgctxt "desc/squad/dshk_stan(late_rus_lr)"
+msgid "DShK"
+msgstr ""
+
+msgctxt "desc/squad/dshk_aa(late_rus_lr)"
+msgid "DShK (AA)"
+msgstr ""
+
+msgctxt "desc/squad/25mm_72k(late_rus_lr)"
+msgid "25 mm 72-K"
+msgstr ""
+
+msgctxt "desc/squad/37mm_61k(late_rus_lr)"
+msgid "37 mm 61-K"
+msgstr ""
+
+msgctxt "desc/squad/85mm_52k(late_rus_lr)"
+msgid "85 mm 52-K"
+msgstr ""
+
+msgctxt "desc/squad/50mm_rm38(late_rus_lr)"
+msgid "50 mm RM-38"
+msgstr ""
+
+msgctxt "desc/squad/82mm_bm37(late_rus_lr)"
+msgid "82 mm BM-37"
+msgstr ""
+
+msgctxt "desc/squad/120mm_pm38(late_rus_lr)"
+msgid "120 mm PM-38"
+msgstr ""
+
+msgctxt "desc/squad/76mm_m1902(late_rus_lr)"
+msgid "76 mm M1902"
+msgstr ""
+
+msgctxt "desc/squad/76mm_m1927_late(late_rus_lr)"
+msgid "76 mm M1927"
+msgstr ""
+
+msgctxt "desc/squad/76mm_m43(late_rus_lr)"
+msgid "76 mm M43"
+msgstr ""
+
+msgctxt "desc/squad/45mm_m37(late_rus_lr)"
+msgid "45 mm 53-K"
+msgstr ""
+
+msgctxt "desc/squad/45mm_m42(late_rus_lr)"
+msgid "45 mm M-42"
+msgstr ""
+
+msgctxt "desc/squad/57mm_zis2_late(late_rus_lr)"
+msgid "57 mm ZiS-2"
+msgstr ""
+
+msgctxt "desc/squad/76mm_zis3(late_rus_lr)"
+msgid "76 mm ZiS-3"
+msgstr ""
+
+msgctxt "desc/squad/100mm_bs3(late_rus_lr)"
+msgid "100 mm BS-3"
+msgstr ""
+
+msgctxt "desc/squad/107mm_m1910_30(late_rus_lr)"
+msgid "107 mm M1910/30"
+msgstr ""
+
+msgctxt "desc/squad/122mm_m30(late_rus_lr)"
+msgid "122 mm M-30"
+msgstr ""
+
+msgctxt "desc/squad/122mm_m1910(late_rus_lr)"
+msgid "122 mm M1910"
+msgstr ""
+
+msgctxt "desc/squad/122mm_a19(late_rus_lr)"
+msgid "122 mm A-19"
+msgstr ""
+
+msgctxt "desc/squad/152mm_ml20(late_rus_lr)"
+msgid "152 mm ML-20"
+msgstr ""
+
+msgctxt "desc/squad/152mm_br2(late_rus_lr)"
+msgid "152 mm BR-2"
+msgstr ""
+
+msgctxt "desc/squad/203mm_b4(late_rus_lr)"
+msgid "203 mm B-4"
+msgstr ""
+
+msgctxt "desc/squad/280mm_br5(late_rus_lr)"
+msgid "280 mm BR-5"
+msgstr ""
+
+msgctxt "desc/squad/300mm_m31(late_rus_lr)"
+msgid "300 mm M-31"
+msgstr ""
+
+msgctxt "desc/squad/m72(late_rus_lr)"
+msgid "M-72"
+msgstr ""
+
+msgctxt "desc/squad/gaz67b(late_rus_lr)"
+msgid "GAZ-7B"
+msgstr ""
+
+msgctxt "desc/squad/t20(late_rus_lr)"
+msgid "T-20"
+msgstr ""
+
+msgctxt "desc/squad/zis5(late_rus_lr)"
+msgid "ZIS-5"
+msgstr ""
+
+msgctxt "desc/squad/gaz_aaa(late_rus_lr)"
+msgid "GAZ-AAA"
+msgstr ""
+
+msgctxt "desc/squad/cckw_rus(late_rus_lr)"
+msgid "CCKW"
+msgstr ""
+
+msgctxt "desc/squad/gaz_aaa_supply(late_rus_lr)"
+msgid "GAZ-AAA (Ammo)"
+msgstr ""
+
+msgctxt "desc/squad/cckw_art_ammo_rus(late_rus_lr)"
+msgid "CCKW (Ammo)"
+msgstr ""
+
+msgctxt "desc/squad/gaz_fuel(late_rus_lr)"
+msgid "GAZ-AAA (Fuel)"
+msgstr ""
+
+msgctxt "desc/squad/zis5eng(late_rus_lr)"
+msgid "ZIS-5 (Engineer)"
+msgstr ""
+
+msgctxt "desc/squad/gaz_aaa_maximx4(late_rus_lr)"
+msgid "GAZ-AAA (Maxim Quad)"
+msgstr ""
+
+msgctxt "desc/squad/zis5_dshk(late_rus_lr)"
+msgid "ZIS-5 (DShK)"
+msgstr ""
+
+msgctxt "desc/squad/gaz_aaa_72k(late_rus_lr)"
+msgid "GAZ-AAA (25 mm 72K)"
+msgstr ""
+
+msgctxt "desc/squad/m3a1e1_scout(late_rus_lr)"
+msgid "M3A1E1 (Scout)"
+msgstr ""
+
+msgctxt "desc/squad/m3a1e1_scout_mgun(late_rus_lr)"
+msgid "M3A1E1 (MG)"
+msgstr ""
+
+msgctxt "desc/squad/m2_halftrack(late_rus_lr)"
+msgid "M2 Halftrack"
+msgstr ""
+
+msgctxt "desc/squad/m3a1_halftrack(late_rus_lr)"
+msgid "M3A1 Halftrack"
+msgstr ""
+
+msgctxt "desc/squad/universal_carrier_rus(late_rus_lr)"
+msgid "Universal Carrier"
+msgstr ""
+
+msgctxt "desc/squad/mmg_carrier_rus(late_rus_lr)"
+msgid "Universal Carrier (MG)"
+msgstr ""
+
+msgctxt "desc/squad/ba64(late_rus_lr)"
+msgid "BA-64"
+msgstr ""
+
+msgctxt "desc/squad/ba10(late_rus_lr)"
+msgid "BA-10"
+msgstr ""
+
+msgctxt "desc/squad/zis6_bm8_48(late_rus_lr)"
+msgid "ZIS-6 BM-8-48"
+msgstr ""
+
+msgctxt "desc/squad/zis6_bm13_16(late_rus_lr)"
+msgid "ZIS-6 BM-13-16"
+msgstr ""
+
+msgctxt "desc/squad/bm13_studebaker(late_rus_lr)"
+msgid "Studebaker BM-13"
+msgstr ""
+
+msgctxt "desc/squad/bm31_12(late_rus_lr)"
+msgid "BM-31-12"
+msgstr ""
+
+msgctxt "desc/squad/t26_39(late_rus_lr)"
+msgid "T-26 (1939)"
+msgstr ""
+
+msgctxt "desc/squad/bt7(late_rus_lr)"
+msgid "BT-7"
+msgstr ""
+
+msgctxt "desc/squad/bt7a(late_rus_lr)"
+msgid "BT-7A"
+msgstr ""
+
+msgctxt "desc/squad/t60(late_rus_lr)"
+msgid "T-60"
+msgstr ""
+
+msgctxt "desc/squad/t60_bm8_24(late_rus_lr)"
+msgid "T-60 BM-8-24"
+msgstr ""
+
+msgctxt "desc/squad/t70(late_rus_lr)"
+msgid "T-70"
+msgstr ""
+
+msgctxt "desc/squad/t70m(late_rus_lr)"
+msgid "T-70M"
+msgstr ""
+
+msgctxt "desc/squad/su76(late_rus_lr)"
+msgid "SU-76M"
+msgstr ""
+
+msgctxt "desc/squad/m3_stuart_late_rus(late_rus_lr)"
+msgid "M3 Stuart (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m3a1_stuart_rus(late_rus_lr)"
+msgid "M3A1 Stuart"
+msgstr ""
+
+msgctxt "desc/squad/m3_lee_rus(late_rus_lr)"
+msgid "M3 Lee"
+msgstr ""
+
+msgctxt "desc/squad/m4a2_75_early_rus(late_rus_lr)"
+msgid "M4A2 Sherman (Early)"
+msgstr ""
+
+msgctxt "desc/squad/m4a2_75_late_rus(late_rus_lr)"
+msgid "M4A2 Sherman (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m4a2_76w_early_rus(late_rus_lr)"
+msgid "M4A2(76)W Sherman"
+msgstr ""
+
+msgctxt "desc/squad/m4a2_76w_late_rus(late_rus_lr)"
+msgid "<c(E56042)>1.</c> M4A2(76)W Sherman (Late)"
+msgstr ""
+
+msgctxt "desc/squad/m4a2_76w_late_rus_2(late_rus_lr)"
+msgid "<c(E56042)>2.</c> M4A2(76)W Sherman (Late)"
+msgstr ""
+
+msgctxt "desc/squad/valentine7(late_rus_lr)"
+msgid "Valentine VII"
+msgstr ""
+
+msgctxt "desc/squad/valentine9(late_rus_lr)"
+msgid "Valentine IX"
+msgstr ""
+
+msgctxt "desc/squad/churchill3(late_rus_lr)"
+msgid "Churchill III"
+msgstr ""
+
+msgctxt "desc/squad/stug3g_sov(late_rus_lr)"
+msgid "SU-75"
+msgstr ""
+
+msgctxt "desc/squad/panzer5a_sov(late_rus_lr)"
+msgid "T-V"
+msgstr ""
+
+msgctxt "desc/squad/t3476_42(late_rus_lr)"
+msgid "T-34-76 (1942)"
+msgstr ""
+
+msgctxt "desc/squad/t3476_43(late_rus_lr)"
+msgid "T-34-76 (1943)"
+msgstr ""
+
+msgctxt "desc/squad/t3476_43_flame(late_rus_lr)"
+msgid "T-34-76 (Flame)"
+msgstr ""
+
+msgctxt "desc/squad/t3485_44(late_rus_lr)"
+msgid "T-34-85"
+msgstr ""
+
+msgctxt "desc/squad/t3485_44_2(late_rus_lr)"
+msgid "T-34-85"
+msgstr ""
+
+msgctxt "desc/squad/t3485_44a(late_rus_lr)"
+msgid "T-34-85"
+msgstr ""
+
+msgctxt "desc/squad/t3485_44b(late_rus_lr)"
+msgid "T-34-85"
+msgstr ""
+
+msgctxt "desc/squad/t3485_44a_flame(late_rus_lr)"
+msgid "T-34-85 (Flame)"
+msgstr ""
+
+msgctxt "desc/squad/su85(late_rus_lr)"
+msgid "SU-85"
+msgstr ""
+
+msgctxt "desc/squad/su85m(late_rus_lr)"
+msgid "SU-85M"
+msgstr ""
+
+msgctxt "desc/squad/su122(late_rus_lr)"
+msgid "SU-122"
+msgstr ""
+
+msgctxt "desc/squad/su100(late_rus_lr)"
+msgid "SU-100"
+msgstr ""
+
+msgctxt "desc/squad/kv1_42(late_rus_lr)"
+msgid "KV-1 (1942)"
+msgstr ""
+
+msgctxt "desc/squad/kv1s(late_rus_lr)"
+msgid "KV-1S"
+msgstr ""
+
+msgctxt "desc/squad/kv85(late_rus_lr)"
+msgid "KV-85"
+msgstr ""
+
+msgctxt "desc/squad/su152_late(late_rus_lr)"
+msgid "SU-152 (Late)"
+msgstr ""
+
+msgctxt "desc/squad/is1_43(late_rus_lr)"
+msgid "IS (1943)"
+msgstr ""
+
+msgctxt "desc/squad/is2_43(late_rus_lr)"
+msgid "IS-2 (Early)"
+msgstr ""
+
+msgctxt "desc/squad/is2_44(late_rus_lr)"
+msgid "IS-2"
+msgstr ""
+
+msgctxt "desc/squad/is2_45(late_rus_lr)"
+msgid "IS-2 (Late)"
+msgstr ""
+
+msgctxt "desc/squad/isu122s(late_rus_lr)"
+msgid "ISU-122S"
+msgstr ""
+
+msgctxt "desc/squad/isu152(late_rus_lr)"
+msgid "ISU-152"
+msgstr ""
+
+msgctxt "desc/squad/single_at_1(rus)"
+msgid "<c(E56042)>1.</c>AT Detachment (PTRD)"
+msgstr ""
+
+msgctxt "desc/squad/single_at_2(rus)"
+msgid "<c(E56042)>2.</c>AT Detachment (PTRS)"
+msgstr ""

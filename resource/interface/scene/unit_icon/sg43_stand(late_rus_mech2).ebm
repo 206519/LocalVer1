@@ -1,0 +1,6 @@
+{bitmap
+    {frame "sg43_stand_00.tga"}
+    {frame "sg43_stand_01.tga"}
+    {frame "sg43_stand_02.tga"}
+    {frame "sg43_stand_03.tga"}
+}

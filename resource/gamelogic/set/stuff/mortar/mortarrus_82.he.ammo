@@ -1,0 +1,22 @@
+{from "pattern mortar_ammo"
+	{tag "mortar pierce he fg 75to76 all_he"}
+	{inventory
+		{size 3 1}
+	}
+	{entity "82mm_rus_mortar_he"}
+	{view "82mm_rus_mortar_he"
+		{tail "shell_tail" "tail"}
+	}
+	{mass 3.15}
+
+	("he_medium")
+
+	("he_level_1" weight(3.15) filler(0.41))
+	
+	;// frag wave
+	{damage add blastwave
+		{energy 1.07}
+		{area 5.01 10.33}
+		{ground_interaction_radius 0}
+	}
+}

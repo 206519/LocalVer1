@@ -1,0 +1,27 @@
+{game_entity
+	(include "/properties/construction.inc")
+	{extension "hedgehog_czech.mdl"}
+	{props "big" "steel" "parts" "construction" "no_destroyed_stamp" "antitank_hedgehog" "slow_on_crush"}	;// removed  "disable_area"
+	{obstacleID "unbreakable"}
+	{extender "detail" {random}}
+
+	("armor_hedgehog")
+	("armor_use_volume_thickness")
+
+	{volume "body01"
+		{Tags "body"}
+		{thickness 10}
+		{able {visible 0}}
+	}
+	{volume "body02"
+		{Tags "body"}
+		{thickness 10}
+		{able {visible 0}}
+	}
+	{volume "body03"
+		{Tags "body"}
+		{thickness 10}
+		{able {visible 0}}
+	}
+	{lodclass "decor_medium"}
+}

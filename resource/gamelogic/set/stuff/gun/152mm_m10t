@@ -1,0 +1,29 @@
+;_________________________________________
+; ARTY - Russian heavy SPG gun
+;=========================================
+
+
+{from "pattern gun"			; L/20 "kv2"
+	{filling "bulletrus_152"}
+	{fireSound "cannon/s5/d1/Shared/Cannon_150to210mm/"}
+	{fireSoundClose "cannon/s3/1p/Shared/"}
+	{reloadSound "tank/1p/large/"}
+	;("range_190_howitzer")
+	("range_200")
+	{calibre 152}
+
+	("reload time" seconds(16))
+
+	("velocity m/s" ap(436) apcr(1) he(530) heat(1))
+	("armor health" damage(450))
+	("armor health custom" shell(aphe) damage(450) filler(5100))
+	("152_rus_slope_multipliers")
+
+	; G-530 (Anti-Concrete)
+	("penetration_medium" shell(aphe) range(200) a(123) b(119.5) c(113.7) d(108) e(103))
+	
+	; PB-35
+	("penetration_medium" shell(apcbche) range(200) a(123) b(119.5) c(113.7) d(108) e(103))
+
+	("accuracy_direct" r1(0.85) range_ap(200) range_he(200) range_heat(200))
+}

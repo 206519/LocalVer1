@@ -1,0 +1,9 @@
+;_________________________________________
+; US medium tank gun
+;=========================================
+
+
+{from "76mm_m1a1"			; L/52 (M1A1 with new twist rate and threading on muzzle for cap/brake)
+	("reload time" seconds(7))	
+	("accuracy_direct" r1(0.70) range_ap(215) range_he(215) range_heat(215))
+}

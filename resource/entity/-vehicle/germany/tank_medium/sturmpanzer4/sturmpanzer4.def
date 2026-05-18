@@ -1,0 +1,119 @@
+{game_entity
+	(include "/properties/tank_assaultgun.ext")
+	
+	(include "/properties/selection/vehicle.inc"  scale(1.2))
+	{props "spg" "medium" "-turret" "mantlet" "vision_lev05" "muzzle_122mm_128mm" "shield" "detect_spg"}
+	{extension "sturmpanzer4.mdl"}
+	(include "sturmpanzer4.ext")
+	{collider "tank.heavy"}
+	{PatherId "sturmpz4"}
+	{targetclass "tank_medium"}
+	{targetSelector "supergun"}
+
+	{extender "enumerator"
+		{digit_folder "ger"}
+	}
+	("crew_5_human_2")
+	("charger_visible")
+
+	{boarder
+		{anm "left"
+			{forward	{begin	"board_tank_right"} {end "pose_mgun_pz6"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "right"
+			{forward	{begin	"board_tank_left"} {end "pose_mgun_pz6"}}
+			{reverse 	{end	"emit_tank_2_hold"}}
+		}
+		{anm "armor"
+			{forward	{begin	"board_HighArmor"} 	{end "pose_seat_armor_1"}}
+			{reverse 	{end	"emit_tank_1"}}
+		}
+	}
+
+	("seat_human" place(seat1) bone(seat01) door(emit3)  animation(armor))
+	("seat_human" place(seat2) bone(seat02) door(emit4)  animation(armor))
+	("seat_human" place(seat3) bone(seat03) door(emit5)  animation(armor))
+	("seat_human" place(seat4) bone(seat04) door(emit6)  animation(armor))
+
+	{sensor
+		{visor "main"
+			{vision "tank_range_Zfl3x8"}
+			{bone "visor1"}
+		}
+		{Visor "driver"
+			{vision "tank_driver_PzII"}
+		}
+		{visor "around"
+			{vision "Varound_poor"}
+			{bone "visor"}
+		}
+	}
+
+	{extender "shield" {on}}
+
+	{extender "inventory"
+		{weapon "mgun" {mask "mountable"}}
+		{box
+			{item "bulletger_150_l11 he" 31}			; 32 rounds
+			{item "ammo mgun_ger drum" 550}			; 12 drums (50 rounds each)
+			{item "mg34_drum" filling "ammo mgun_ger drum" 50 {user "mgun"}}
+			{item "geballteladung_3kg" 1}
+		}
+	}
+
+	{Weaponry
+		("restore_ik_time")
+		{place "gun"
+			{RestoreIKAfterAim}
+			{weapon "150mm_stuh43" filling "bulletger_150_l11 he" 1}
+			{gunner "gunner"}
+			{charger "charger2"}
+			("abm_dymamic"
+				zeroing(4.0)
+				dispersion(0.25)
+			)
+		}
+		{place "mgun"
+			{type "aa"}
+			{gunner "charger"}
+			{charger "charger"}
+			{LinkBone "mgun_rot"}
+			{LinkAnimation "off"}
+			("abm_mgun")
+			{rotate}
+			{basic}
+			{ai_in_manual}
+		}
+	}
+
+	{mass 28200}
+	{Chassis
+		("tank_trace" fx("tracks_big") step(0.47) len(0.82))
+		("mobility_spearhead"
+			speed(38)			;Max speed when fully accelerated on road, km/h.
+			reverse(5.2)		;Max speed in reverse on road, km/h.
+			mass(28.2)			;Mass, in metric tons.
+			power(272) 			;Engine Power
+			contact(3.52)		;Track-ground contact length, in m
+			wheelbase(2.46)		;Distance between center of left and right side roadwheels, in m
+			pressure(0.98)		;Ground pressure on road, in kg/cm^2
+			coeff_accel(5)		;Modifier for acceleration, (0,10]
+			coeff_steer_rate(5)	;Modifier for steering, (0,10]
+			coeff_steer_eff(3)	;Modifier for steering, (0,10]
+			fuel(470) 			;Fuel capacity in Litres.
+			type(fuel)			;Fuel type. (diesel OR fuel)
+			range(130) 			;Range in km, off-road.
+			maxslope(58)		;Max slope (tan(gradient in degrees) * 100)
+		)
+	}
+
+	{bone "gun_rot"
+		{limits -8 30}
+		{speed2 6}
+	}
+	{bone "turret"
+		{limits -15 15}
+		{speed2 8}
+	}
+}

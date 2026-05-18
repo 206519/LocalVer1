@@ -1,0 +1,133 @@
+; Profiles for various weapon classes. Defines how the damage to human health is adjusted over distance.
+; 1st value is distance (weapon range multiplied by value)(example: weapon range 100m & value 0.5 = 50m)
+; 2nd value is damage (weapon damage multiplied by value)(example: weapon damage 50 & value 0.5 = -25 health)
+;	{curve "example"
+;		{0.75	0.5}		at 75% of weapons max range, it does 50% of defined damage from weapon file
+
+
+;// ------------------------- //
+	; these values no longer match the tables specified in SA2.
+;// ------------------------- //
+{ballistics
+	{curve "bullet"			;// bolt action rifles (n100), mr 120
+		{0.05	1.50}		
+		{0.20	1.40}		
+		{0.4	1.20}		
+		{0.6	1.00}		
+		{0.8	0.85}
+		{1.0	0.70}
+		{1.5	0.50}
+		{2.0	0.15}		
+	}
+
+	{curve "bullet_sniper"	;// sniper rifles
+		{0.05	1.50}		
+		{0.20	1.45}		
+		{0.4	1.15}		
+		{0.6	0.90}		
+		{0.8	0.70}
+		{1.0	0.55}
+		{1.5	0.30}
+		{2.0	0.15}
+	}
+
+	{curve "autorifle"		;// semi/full auto rifles (n100)
+		{0.05	1.50}		
+		{0.20	1.45}		
+		{0.4	1.15}		
+		{0.6	0.90}		
+		{0.8	0.70}
+		{1.0	0.55}
+		{1.5	0.30}
+		{2.0	0.15}
+	}
+
+	{curve "assaultrifle"	;// assault rifles (stg) (n80) mr100
+		{0.20	1.40}		
+		{0.4	1.20}		
+		{0.6	1.00}		
+		{0.8	0.85}
+		{1.0	0.70}
+		{1.5	0.50}	
+	}
+
+	{curve "bullet_mg"		;// machine guns with AP ammo
+		{0.05	1.50}		
+		{0.20	1.40}		
+		{0.4	1.20}		
+		{0.6	1.00}		
+		{0.8	0.85}
+		{1.0	0.70}
+		{1.5	0.50}
+		{2.0	0.15}
+	}
+
+	{curve "bullet_hmg"		;// heavy machine guns, damage 160 (n150, r150)
+		{0.05	1.10}		;// 10m  
+		{0.2	1.10}		;// 25m
+		{0.4	1.00}		;// 70m   
+		{0.6	0.87}
+		{0.8	0.74}
+		{1.0	0.647}		;// 140m
+		{1.5	0.40}
+		{2.0	0.20}		;// 280m  
+	}	;// this curve is very flat
+
+	{curve "bullet_smg"		;// sub-machine guns, damage 55 (n60)
+		{0.0	1.30}		;// 0m   83d
+		{0.3	1.20}		;// 16m  55d
+		{0.6	0.90}		;// 40m  27d
+		{1.0	0.70}		;// 80m  20d
+		{1.5	0.30}		;// 120m 8d - new curve reflect SMG bullets don't lose much damage over range
+	}	;// this version is legacy
+	
+	{curve "bullet_tokarev"
+		{0.0	1.40}
+		{0.5	1.40}	;// subsonic over ~100m
+		{0.6	0.90}
+		{1.0	0.60}
+		{1.5	0.30}
+	}
+
+	{curve "bullet_pistol"	;// pistols
+		{0.05	1.2}
+		{0.2	1.0}
+		{1.0	0.6}
+		{2.0	0.12}
+	}
+
+	{curve "shotgun"
+		{0.1	3.25}
+		{0.4	1.0}
+		{0.5	0.4}
+		{1.0	0.3}
+		{2.0	0.05}
+	}
+
+	{curve "gun_autocannon"	;// 20-25mm auto cannons
+		{0		1.5}
+		{0.1	1.0}
+		{1		0.6}
+		{2		0.25}
+	}
+
+	{curve "gun_std"		;// all other weapons / cannons
+		{0		1.0}
+		{1		1.0}
+	}
+	
+	
+	{curve "sS_Pat"
+		{0.05	1.20}		
+		{0.20	1.11}
+		{0.4	0.98}		
+		{0.6	0.85}
+		{0.8	0.70}
+		{1.0	0.55}
+		{1.5	0.30}
+		{2.0	0.15}
+	}
+	{curve "3LLBall"
+		{1.0	1.0}
+	}
+}
