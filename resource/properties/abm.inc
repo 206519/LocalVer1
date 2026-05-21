@@ -105,7 +105,7 @@
 	("accuracy_by_motion"
 		max_linear(8) accuracy_by_linear(0.3)
 		max_angular(7) accuracy_by_angular(0.5)
-		disorder_time(0.1) order_time(3.0)
+		disorder_time(0.2) order_time(2.0)
 	)
 )
 (define "abm_mgun_boat"
